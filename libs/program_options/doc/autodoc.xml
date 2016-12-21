@@ -162,7 +162,7 @@
 </class><class name="invalid_bool_value"><inherit access="public">boost::program_options::validation_error</inherit><description><para>Class thrown if there is an invalid bool value given </para></description><method-group name="public member functions">
 </method-group>
 <constructor><parameter name="value"><paramtype>const std::string &amp;</paramtype></parameter></constructor>
-</class>
+</class><function name="strip_prefixes"><type>std::string</type><parameter name="text"><paramtype>const std::string &amp;</paramtype></parameter></function>
 
 
 
@@ -177,7 +177,7 @@
 
 
 
-<function name="strip_prefixes"><type>std::string</type><parameter name="text"><paramtype>const std::string &amp;</paramtype></parameter></function>
+
 
 
 
@@ -336,11 +336,6 @@
 <typedef name="command_line_parser"><type><classname>basic_command_line_parser</classname>&lt; char &gt;</type></typedef>
 <typedef name="wcommand_line_parser"><type><classname>basic_command_line_parser</classname>&lt; wchar_t &gt;</type></typedef>
 
-
-
-
-
-
 <function name="parse_command_line"><type><classname>basic_parsed_options</classname>&lt; charT &gt;</type><template>
           <template-type-parameter name="charT"/>
         </template><parameter name="argc"><paramtype>int</paramtype></parameter><parameter name="argv"><paramtype>const charT *const</paramtype></parameter><parameter name=""><paramtype>const <classname>options_description</classname> &amp;</paramtype></parameter><parameter name="style"><paramtype>int</paramtype><default>0</default></parameter><parameter name="ext"><paramtype>function1&lt; std::pair&lt; std::string, std::string &gt;, const std::string &amp; &gt;</paramtype><default>ext_parser()</default></parameter><description><para>Creates instance of 'command_line_parser', passes parameters to it, and returns the result of calling the 'run' method. </para></description></function>
@@ -357,6 +352,11 @@
 <function name="parse_environment"><type>BOOST_PROGRAM_OPTIONS_DECL <classname>parsed_options</classname></type><parameter name=""><paramtype>const <classname>options_description</classname> &amp;</paramtype></parameter><parameter name="prefix"><paramtype>const std::string &amp;</paramtype></parameter><description><para>Parse environment.</para><para>Takes all environment variables which start with 'prefix'. The option name is obtained from variable name by removing the prefix and converting the remaining string into lower case. </para></description></function>
 <function name="parse_environment"><type>BOOST_PROGRAM_OPTIONS_DECL <classname>parsed_options</classname></type><parameter name=""><paramtype>const <classname>options_description</classname> &amp;</paramtype></parameter><parameter name="prefix"><paramtype>const char *</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. This function exists to resolve ambiguity between the two above functions when second argument is of 'char*' type. There's implicit conversion to both function1 and string. </para></description></function>
 <overloaded-function name="split_unix"><signature><type>BOOST_PROGRAM_OPTIONS_DECL std::vector&lt; std::string &gt;</type><parameter name="cmdline"><paramtype>const std::string &amp;</paramtype></parameter><parameter name="seperator"><paramtype>const std::string &amp;</paramtype><default>" \t"</default></parameter><parameter name="quote"><paramtype>const std::string &amp;</paramtype><default>"'\""</default></parameter><parameter name="escape"><paramtype>const std::string &amp;</paramtype><default>"\\"</default></parameter></signature><signature><type>BOOST_PROGRAM_OPTIONS_DECL std::vector&lt; std::wstring &gt;</type><parameter name="cmdline"><paramtype>const std::wstring &amp;</paramtype></parameter><parameter name="seperator"><paramtype>const std::wstring &amp;</paramtype><default>L" \t"</default></parameter><parameter name="quote"><paramtype>const std::wstring &amp;</paramtype><default>L"'\""</default></parameter><parameter name="escape"><paramtype>const std::wstring &amp;</paramtype><default>L"\\"</default></parameter></signature><description><para>Splits a given string to a collection of single strings which can be passed to command_line_parser. The second parameter is used to specify a collection of possible seperator chars used for splitting. The seperator is defaulted to space " ". Splitting is done in a unix style way, with respect to quotes '"' and escape characters '\' </para></description></overloaded-function>
+
+
+
+
+
 
 
 
@@ -469,7 +469,17 @@
 <method name="value_type" cv="const" specifiers="virtual"><type>const std::type_info &amp;</type></method>
 </method-group>
 <constructor><parameter name="store_to"><paramtype>T *</paramtype></parameter><description><para>Ctor. The 'store_to' parameter tells where to store the value when it's known. The parameter can be NULL. </para></description></constructor>
-</class><overloaded-function name="value"><signature><type><classname>typed_value</classname>&lt; T &gt; *</type><template>
+</class>
+
+
+
+
+
+
+
+
+
+<overloaded-function name="value"><signature><type><classname>typed_value</classname>&lt; T &gt; *</type><template>
           <template-type-parameter name="T"/>
         </template></signature><signature><type><classname>typed_value</classname>&lt; T &gt; *</type><template>
           <template-type-parameter name="T"/>
@@ -482,16 +492,6 @@
         </template><parameter name="v"><paramtype>T *</paramtype></parameter></signature><description><para>Creates a typed_value&lt;T&gt; instance. This function is the primary method to create <classname alt="boost::program_options::value_semantic">value_semantic</classname> instance for a specific type, which can later be passed to '<classname alt="boost::program_options::option_description">option_description</classname>' constructor. </para></description></overloaded-function>
 
 <overloaded-function name="bool_switch"><signature><type>BOOST_PROGRAM_OPTIONS_DECL <classname>typed_value</classname>&lt; bool &gt; *</type></signature><signature><type>BOOST_PROGRAM_OPTIONS_DECL <classname>typed_value</classname>&lt; bool &gt; *</type><parameter name="v"><paramtype>bool *</paramtype></parameter></signature><description><para>Works the same way as the 'value&lt;bool&gt;' function, but the created <classname alt="boost::program_options::value_semantic">value_semantic</classname> won't accept any explicit value. So, if the option is present on the command line, the value will be 'true'. </para></description></overloaded-function>
-
-
-
-
-
-
-
-
-
-
 
 
 

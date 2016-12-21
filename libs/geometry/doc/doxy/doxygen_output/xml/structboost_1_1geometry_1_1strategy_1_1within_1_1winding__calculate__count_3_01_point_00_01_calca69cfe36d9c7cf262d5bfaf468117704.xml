@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="296" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="296" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="296" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="296" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -58,14 +58,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="298" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="298" bodyend="308"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="298" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="298" bodyend="308"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="295" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="294" bodyend="309"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="295" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="294" bodyend="309"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__calculate__count_3_01_point_00_01_calca69cfe36d9c7cf262d5bfaf468117704_1a0a5e5f98d6675fed84a8a2ada420deb1" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding_calculate_count&lt; Point, CalculationType, cartesian_tag &gt;</scope><name>apply</name></member>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__calculate__count_3_01_point_00_01_calca69cfe36d9c7cf262d5bfaf468117704_1a5ef4cb9bcfbb60411b2f301b93081033" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding_calculate_count&lt; Point, CalculationType, cartesian_tag &gt;</scope><name>calc_t</name></member>

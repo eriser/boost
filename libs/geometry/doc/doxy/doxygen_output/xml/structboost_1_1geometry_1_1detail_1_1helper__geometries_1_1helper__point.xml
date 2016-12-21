@@ -30,14 +30,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="92" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="92" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="92" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="92" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="86" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="85" bodyend="93"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="86" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="85" bodyend="93"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1detail_1_1helper__geometries_1_1helper__point_1a3313af628a4943ef1f22bca6e359f39e" prot="public" virt="non-virtual"><scope>boost::geometry::detail::helper_geometries::helper_point</scope><name>type</name></member>
     </listofallmembers>

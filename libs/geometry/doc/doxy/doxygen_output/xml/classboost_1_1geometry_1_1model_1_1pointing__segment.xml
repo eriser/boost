@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="52" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="52" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="52" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="52" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="55" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="55" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="55" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1model_1_1pointing__segment_1a8bc1050731083acc4e2716d12f147d91" prot="public" static="no" mutable="no">
         <type>point_type *</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="56" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="56" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="56" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="56" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="43" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="43" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="58" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="58" bodyend="61"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="58" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="58" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1model_1_1pointing__segment_1afe26ebf6994c53b12bc328b129e2f01b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -102,14 +102,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="63" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="63" bodyend="66"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="63" bodyend="66"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" line="42" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="41" bodyend="67"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" line="42" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/pointing_segment.hpp" bodystart="41" bodyend="67"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1model_1_1pointing__segment_1af1320761e3d826d2d11e87ff5d08953f" prot="private" virt="non-virtual"><scope>boost::geometry::model::pointing_segment</scope><name>BOOST_CONCEPT_ASSERT</name></member>
       <member refid="classboost_1_1geometry_1_1model_1_1pointing__segment_1a1f9454874be628c97599476c70b4ace7" prot="public" virt="non-virtual"><scope>boost::geometry::model::pointing_segment</scope><name>first</name></member>

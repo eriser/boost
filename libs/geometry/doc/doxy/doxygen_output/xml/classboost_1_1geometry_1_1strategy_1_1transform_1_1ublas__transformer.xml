@@ -41,24 +41,24 @@
 </parameterlist>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1582">
+      <node id="1568">
         <label>boost::geometry::strategy::transform::ublas_transformer&lt; CalculationType, Dimension1, Dimension2 &gt;</label>
         <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1ublas__transformer"/>
       </node>
-      <node id="1584">
+      <node id="1570">
         <label>boost::geometry::strategy::transform::map_transformer&lt; CalculationType, Dimension1, Dimension2 &gt;</label>
         <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1map__transformer"/>
-        <childnode refid="1582" relation="public-inheritance">
+        <childnode refid="1568" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1583">
+      <node id="1569">
         <label>boost::geometry::strategy::transform::inverse_transformer&lt; CalculationType, Dimension1, Dimension2 &gt;</label>
         <link refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1inverse__transformer"/>
-        <childnode refid="1582" relation="public-inheritance">
+        <childnode refid="1568" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" line="79" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" bodystart="78" bodyend="80"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" line="79" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/transform/matrix_transformers.hpp" bodystart="78" bodyend="80"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

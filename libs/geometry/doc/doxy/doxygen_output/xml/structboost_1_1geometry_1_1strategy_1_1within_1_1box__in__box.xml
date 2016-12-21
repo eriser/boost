@@ -37,14 +37,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" line="201" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" bodystart="201" bodyend="208"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" line="218" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" bodystart="218" bodyend="225"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" line="200" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" bodystart="199" bodyend="209"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" line="217" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/box_in_box.hpp" bodystart="216" bodyend="226"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__in__box_1ac6b97f4596fe2ac856a06aa6191d0ea3" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::box_in_box</scope><name>apply</name></member>
     </listofallmembers>

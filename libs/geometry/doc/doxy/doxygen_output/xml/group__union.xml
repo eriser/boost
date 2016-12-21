@@ -83,7 +83,7 @@
  <qbk>[include reference/algorithms/union.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/union.hpp" line="263" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/union.hpp" bodystart="263" bodyend="275"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" line="263" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" bodystart="263" bodyend="275"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

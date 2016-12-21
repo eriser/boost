@@ -670,6 +670,8 @@ The header contains implementation of a text file sink backend. </para><namespac
 
 </para></description></method>
 <method name="auto_flush"><type>void</type><parameter name="f"><paramtype>bool</paramtype><default>true</default></parameter><description><para>Sets the flag to automatically flush buffers of all attached streams after each log record </para></description></method>
+<method name="get_current_file_name" cv="const"><type>filesystem::path</type><description><para>
+</para></description><returns><para>The name of the currently open log file. If no file is open, returns an empty path. </para></returns></method>
 <method name="scan_for_files"><type>uintmax_t</type><parameter name="method"><paramtype>file::scan_method</paramtype><default>file::scan_matching</default><description><para>File scanning method </para></description></parameter><parameter name="update_counter"><paramtype>bool</paramtype><default>true</default><description><para>If <computeroutput>true</computeroutput> and <emphasis>method</emphasis> is <computeroutput>scan_matching</computeroutput>, the method attempts to update the internal file counter according to the found files. The counter is unaffected otherwise. </para></description></parameter><description><para>Performs scanning of the target directory for log files that may have been left from previous runs of the application. The found files are considered by the file collector as if they were rotated.</para><para>The file scan can be performed in two ways: either all files in the target directory will be considered as log files, or only those files that satisfy the file name pattern. See documentation on <computeroutput>sinks::file::collector::scan_for_files</computeroutput> for more information.</para><para>
 
 

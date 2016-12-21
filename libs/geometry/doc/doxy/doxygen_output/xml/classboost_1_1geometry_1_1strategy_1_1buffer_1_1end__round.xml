@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="56" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="56" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="56" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="56" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="65" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="65" bodyend="87"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="65" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="65" bodyend="87"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="90" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="90" bodyend="96"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="90" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="90" bodyend="96"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -122,7 +122,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="103" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="103" bodyend="105"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="103" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="103" bodyend="105"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -137,7 +137,7 @@
 \* [link geometry.reference.algorithms.buffer.buffer_7_with_strategies buffer (with strategies)]
 \* [link geometry.reference.strategies.strategy_buffer_end_flat end_flat]
 </qbk>  </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="54" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="53" bodyend="171"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" line="54" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_round.hpp" bodystart="53" bodyend="171"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1strategy_1_1buffer_1_1end__round_1a140a625a522807b6f987ee7c033ad260" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::buffer::end_round</scope><name>calculate_angle</name></member>
       <member refid="classboost_1_1geometry_1_1strategy_1_1buffer_1_1end__round_1ac4bdea9b9b174ac7d556a5574ee45744" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::buffer::end_round</scope><name>end_round</name></member>

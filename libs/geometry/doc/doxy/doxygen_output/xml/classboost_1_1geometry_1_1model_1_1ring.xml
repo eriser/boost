@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" line="68" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" bodystart="68" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" line="68" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" bodystart="68" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" line="66" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" line="66" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" line="72" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" bodystart="72" bodyend="74"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" line="72" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" bodystart="72" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1model_1_1ring_1a514bb0991233b1663ac64c4c3cab940b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" line="78" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" bodystart="78" bodyend="80"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" line="78" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" bodystart="78" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1model_1_1ring_1a2511ffcecb9c6f89f91eb34ec2d74f9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" line="85" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" bodystart="85" bodyend="87"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" line="85" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" bodystart="85" bodyend="87"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -170,28 +170,28 @@
 [link geometry.reference.concepts.concept_ring Ring Concept]
 </qbk.before.synopsis>  </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="531">
+      <node id="517">
         <label>Container&lt; Point, Allocator&lt; Point &gt; &gt;</label>
       </node>
-      <node id="530">
+      <node id="516">
         <label>boost::geometry::model::ring&lt; Point, ClockWise, Closed, Container, Allocator &gt;</label>
         <link refid="classboost_1_1geometry_1_1model_1_1ring"/>
-        <childnode refid="531" relation="public-inheritance">
+        <childnode refid="517" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="533">
+      <node id="519">
         <label>Container&lt; Point, Allocator&lt; Point &gt; &gt;</label>
       </node>
-      <node id="532">
+      <node id="518">
         <label>boost::geometry::model::ring&lt; Point, ClockWise, Closed, Container, Allocator &gt;</label>
         <link refid="classboost_1_1geometry_1_1model_1_1ring"/>
-        <childnode refid="533" relation="public-inheritance">
+        <childnode refid="519" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" line="65" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/ring.hpp" bodystart="64" bodyend="103"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" line="65" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/ring.hpp" bodystart="64" bodyend="103"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1model_1_1ring_1a5c956a692c473c18ed09f8b7e6c991f8" prot="private" virt="non-virtual"><scope>boost::geometry::model::ring</scope><name>base_type</name></member>
       <member refid="classboost_1_1geometry_1_1model_1_1ring_1a1f5a179d33e86c1570870eba668f72a7" prot="private" virt="non-virtual"><scope>boost::geometry::model::ring</scope><name>BOOST_CONCEPT_ASSERT</name></member>

@@ -40,14 +40,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="232" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="232" bodyend="236"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="232" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="232" bodyend="236"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="230" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="223" bodyend="237"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="230" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="223" bodyend="237"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1dispatch_1_1within_3_01_point_00_01_multi_geometry_00_01point__tag_00ae9ce608c120e8deb4dc22620a60eb84_1a2a10f5c0976d406507cf7b9069a52ab8" prot="public" virt="non-virtual"><scope>boost::geometry::dispatch::within&lt; Point, MultiGeometry, point_tag, detail::buffer::buffered_ring_collection_tag &gt;</scope><name>apply</name></member>
     </listofallmembers>

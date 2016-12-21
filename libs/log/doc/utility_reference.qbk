@@ -209,16 +209,12 @@
 
 [template class_log_type_dispatcher_callback[][classref boost::log::type_dispatcher::callback callback]]
 
-[template boost_log_utility_type_info_wrapper_hpp[][headerref boost/log/utility/type_info_wrapper.hpp]]
-
-[template class_log_type_info_wrapper[][classref boost::log::type_info_wrapper type_info_wrapper]]
-
 [template boost_log_utility_unique_identifier_name_hpp[][headerref boost/log/utility/unique_identifier_name.hpp]]
 
 [template boost_log_utility_unused_variable_hpp[][headerref boost/log/utility/unused_variable.hpp]]
 
 [template boost_log_utility_value_ref_hpp[][headerref boost/log/utility/value_ref.hpp]]
 
-[template boost_log_utility_value_ref_fwd_hpp[][headerref boost/log/utility/value_ref_fwd.hpp]]
-
 [template class_log_value_ref[][classref boost::log::value_ref value_ref]]
+
+[template boost_log_utility_value_ref_fwd_hpp[][headerref boost/log/utility/value_ref_fwd.hpp]]

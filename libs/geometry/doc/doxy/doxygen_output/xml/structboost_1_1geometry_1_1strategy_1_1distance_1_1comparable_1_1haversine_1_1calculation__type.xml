@@ -17,30 +17,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1419">
+      <node id="1405">
         <label>boost::geometry::promote_floating_point&lt; select_calculation_type&lt; Point1, Point2, CalculationType &gt;::type &gt;</label>
         <link refid="structboost_1_1geometry_1_1promote__floating__point"/>
       </node>
-      <node id="1418">
+      <node id="1404">
         <label>boost::geometry::strategy::distance::comparable::haversine&lt; RadiusType, CalculationType &gt;::calculation_type&lt; Point1, Point2 &gt;</label>
         <link refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1comparable_1_1haversine_1_1calculation__type"/>
-        <childnode refid="1419" relation="public-inheritance">
+        <childnode refid="1405" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1421">
+      <node id="1407">
         <label>boost::geometry::promote_floating_point&lt; select_calculation_type&lt; Point1, Point2, CalculationType &gt;::type &gt;</label>
         <link refid="structboost_1_1geometry_1_1promote__floating__point"/>
       </node>
-      <node id="1420">
+      <node id="1406">
         <label>boost::geometry::strategy::distance::comparable::haversine&lt; RadiusType, CalculationType &gt;::calculation_type&lt; Point1, Point2 &gt;</label>
         <link refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1comparable_1_1haversine_1_1calculation__type"/>
-        <childnode refid="1421" relation="public-inheritance">
+        <childnode refid="1407" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="60" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="50" bodyend="60"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="60" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="50" bodyend="60"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1promote__floating__point_1a732c9e3e88ac0957f4cae668f186a212" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::comparable::haversine::calculation_type</scope><name>type</name></member>
     </listofallmembers>

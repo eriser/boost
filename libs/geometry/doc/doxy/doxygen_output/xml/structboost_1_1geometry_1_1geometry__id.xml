@@ -15,28 +15,28 @@
 <para>The meta-function <ref refid="structboost_1_1geometry_1_1geometry__id" kindref="compound">geometry_id</ref> defines a numerical ID (based on boost::mpl::int_&lt;...&gt; ) for each geometry concept. A numerical ID is sometimes useful, and within Boost.Geometry it is used for the <ref refid="structboost_1_1geometry_1_1reverse__dispatch" kindref="compound">reverse_dispatch</ref> metafuntion. <simplesect kind="note"><para>Used for e.g. reverse meta-function </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="412">
+      <node id="398">
         <label>boost::geometry::geometry_id&lt; Geometry &gt;</label>
         <link refid="structboost_1_1geometry_1_1geometry__id"/>
-        <childnode refid="413" relation="public-inheritance">
+        <childnode refid="399" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="413">
+      <node id="399">
         <label>core_dispatch::geometry_id&lt; tag&lt; Geometry &gt;::type &gt;</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="414">
+      <node id="400">
         <label>boost::geometry::geometry_id&lt; Geometry &gt;</label>
         <link refid="structboost_1_1geometry_1_1geometry__id"/>
-        <childnode refid="415" relation="public-inheritance">
+        <childnode refid="401" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="415">
+      <node id="401">
         <label>core_dispatch::geometry_id&lt; tag&lt; Geometry &gt;::type &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/geometry_id.hpp" line="97" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/geometry_id.hpp" bodystart="96" bodyend="97"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/geometry_id.hpp" line="97" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/geometry_id.hpp" bodystart="96" bodyend="97"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

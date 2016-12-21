@@ -10,54 +10,54 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1252">
+      <node id="1238">
         <label>boost::geometry::ring_tag</label>
         <link refid="structboost_1_1geometry_1_1ring__tag"/>
-        <childnode refid="1253" relation="public-inheritance">
+        <childnode refid="1239" relation="public-inheritance">
         </childnode>
-        <childnode refid="1254" relation="public-inheritance">
+        <childnode refid="1240" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1255">
+      <node id="1241">
         <label>boost::geometry::areal_tag</label>
         <link refid="structboost_1_1geometry_1_1areal__tag"/>
       </node>
-      <node id="1253">
+      <node id="1239">
         <label>boost::geometry::single_tag</label>
         <link refid="structboost_1_1geometry_1_1single__tag"/>
       </node>
-      <node id="1254">
+      <node id="1240">
         <label>boost::geometry::polygonal_tag</label>
         <link refid="structboost_1_1geometry_1_1polygonal__tag"/>
-        <childnode refid="1255" relation="public-inheritance">
+        <childnode refid="1241" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1256">
+      <node id="1242">
         <label>boost::geometry::ring_tag</label>
         <link refid="structboost_1_1geometry_1_1ring__tag"/>
-        <childnode refid="1257" relation="public-inheritance">
+        <childnode refid="1243" relation="public-inheritance">
         </childnode>
-        <childnode refid="1258" relation="public-inheritance">
+        <childnode refid="1244" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1259">
+      <node id="1245">
         <label>boost::geometry::areal_tag</label>
         <link refid="structboost_1_1geometry_1_1areal__tag"/>
       </node>
-      <node id="1257">
+      <node id="1243">
         <label>boost::geometry::single_tag</label>
         <link refid="structboost_1_1geometry_1_1single__tag"/>
       </node>
-      <node id="1258">
+      <node id="1244">
         <label>boost::geometry::polygonal_tag</label>
         <link refid="structboost_1_1geometry_1_1polygonal__tag"/>
-        <childnode refid="1259" relation="public-inheritance">
+        <childnode refid="1245" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="95" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="95" bodyend="95"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="95" bodyend="95"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

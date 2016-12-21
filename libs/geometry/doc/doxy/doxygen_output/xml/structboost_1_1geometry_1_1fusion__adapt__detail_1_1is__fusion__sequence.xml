@@ -14,28 +14,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="400">
+      <node id="386">
         <label>boost::geometry::fusion_adapt_detail::is_fusion_sequence&lt; Sequence &gt;</label>
         <link refid="structboost_1_1geometry_1_1fusion__adapt__detail_1_1is__fusion__sequence"/>
-        <childnode refid="401" relation="public-inheritance">
+        <childnode refid="387" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="401">
+      <node id="387">
         <label>boost::mpl::and_&lt; boost::fusion::traits::is_sequence&lt; Sequence &gt;, fusion_adapt_detail::is_coordinate_size&lt; Sequence &gt;, fusion_adapt_detail::all_same&lt; Sequence &gt; &gt;</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="402">
+      <node id="388">
         <label>boost::geometry::fusion_adapt_detail::is_fusion_sequence&lt; Sequence &gt;</label>
         <link refid="structboost_1_1geometry_1_1fusion__adapt__detail_1_1is__fusion__sequence"/>
-        <childnode refid="403" relation="public-inheritance">
+        <childnode refid="389" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="403">
+      <node id="389">
         <label>boost::mpl::and_&lt; boost::fusion::traits::is_sequence&lt; Sequence &gt;, fusion_adapt_detail::is_coordinate_size&lt; Sequence &gt;, fusion_adapt_detail::all_same&lt; Sequence &gt; &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/adapted/boost_fusion.hpp" line="77" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/adapted/boost_fusion.hpp" bodystart="73" bodyend="77"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/adapted/boost_fusion.hpp" line="77" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/adapted/boost_fusion.hpp" bodystart="73" bodyend="77"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

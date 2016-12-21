@@ -17,30 +17,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1451">
+      <node id="1437">
         <label>boost::geometry::strategy::distance::services::return_type&lt; comparable_type, Point1, Point2 &gt;</label>
         <link refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1services_1_1return__type"/>
       </node>
-      <node id="1450">
+      <node id="1436">
         <label>boost::geometry::strategy::distance::haversine&lt; RadiusType, CalculationType &gt;::calculation_type&lt; Point1, Point2 &gt;</label>
         <link refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1haversine_1_1calculation__type"/>
-        <childnode refid="1451" relation="public-inheritance">
+        <childnode refid="1437" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1453">
+      <node id="1439">
         <label>boost::geometry::strategy::distance::services::return_type&lt; comparable_type, Point1, Point2 &gt;</label>
         <link refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1services_1_1return__type"/>
       </node>
-      <node id="1452">
+      <node id="1438">
         <label>boost::geometry::strategy::distance::haversine&lt; RadiusType, CalculationType &gt;::calculation_type&lt; Point1, Point2 &gt;</label>
         <link refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1haversine_1_1calculation__type"/>
-        <childnode refid="1453" relation="public-inheritance">
+        <childnode refid="1439" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="136" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="134" bodyend="136"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="136" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="134" bodyend="136"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1services_1_1return__type_1aaa63d9f53da472aa093e480ae634b79c" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::haversine::calculation_type</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
     </listofallmembers>

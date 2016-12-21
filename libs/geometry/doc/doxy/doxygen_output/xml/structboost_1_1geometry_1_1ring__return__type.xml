@@ -22,14 +22,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" line="219" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" bodystart="219" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" line="219" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" bodystart="219" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" line="214" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" bodystart="213" bodyend="220"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" line="214" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" bodystart="213" bodyend="220"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1ring__return__type_1abe79e397ec9c6ee265ec47179c0c126f" prot="public" virt="non-virtual"><scope>boost::geometry::ring_return_type</scope><name>type</name></member>
     </listofallmembers>

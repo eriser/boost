@@ -5,8 +5,8 @@
     <includes local="no">boost/mpl/assert.hpp</includes>
     <includes local="no">boost/geometry/index/detail/is_indexable.hpp</includes>
     <includes local="no">tuple</includes>
-    <includedby refid="equal__to_8hpp" local="no">/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp</includedby>
-    <includedby refid="rtree_8hpp" local="no">/home/travis/build/boostorg/boost/boost/geometry/index/rtree.hpp</includedby>
+    <includedby refid="equal__to_8hpp" local="no">/home/ubuntu/boost/boost/geometry/index/equal_to.hpp</includedby>
+    <includedby refid="rtree_8hpp" local="no">/home/ubuntu/boost/boost/geometry/index/rtree.hpp</includedby>
     <incdepgraph>
       <node id="15">
         <label>boost/mpl/assert.hpp</label>
@@ -18,7 +18,7 @@
         <label>tuple</label>
       </node>
       <node id="14">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/index/indexable.hpp</label>
+        <label>/home/ubuntu/boost/boost/geometry/index/indexable.hpp</label>
         <link refid="indexable.hpp"/>
         <childnode refid="15" relation="include">
         </childnode>
@@ -30,22 +30,22 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="19">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp</label>
+        <label>/home/ubuntu/boost/boost/geometry/index/equal_to.hpp</label>
         <link refid="equal__to_8hpp_source"/>
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="20">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/index/rtree.hpp</label>
-        <link refid="rtree_8hpp_source"/>
-      </node>
       <node id="18">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/index/indexable.hpp</label>
+        <label>/home/ubuntu/boost/boost/geometry/index/indexable.hpp</label>
         <link refid="indexable.hpp"/>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
+      </node>
+      <node id="20">
+        <label>/home/ubuntu/boost/boost/geometry/index/rtree.hpp</label>
+        <link refid="rtree_8hpp_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structboost_1_1geometry_1_1index_1_1detail_1_1indexable" prot="public">boost::geometry::index::detail::indexable</innerclass>
@@ -61,6 +61,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/indexable.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/indexable.hpp"/>
   </compounddef>
 </doxygen>

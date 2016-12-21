@@ -15,28 +15,28 @@
 <para>The topological dimension defines a point as 0-dimensional, a linestring as 1-dimensional, and a ring or polygon as 2-dimensional. <simplesect kind="see"><para><ulink url="http://www.math.okstate.edu/mathdept/dynamics/lecnotes/node36.html">http://www.math.okstate.edu/mathdept/dynamics/lecnotes/node36.html</ulink> </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1710">
+      <node id="1716">
         <label>core_dispatch::top_dim&lt; tag&lt; Geometry &gt;::type &gt;</label>
       </node>
-      <node id="1709">
+      <node id="1715">
         <label>boost::geometry::topological_dimension&lt; Geometry &gt;</label>
         <link refid="structboost_1_1geometry_1_1topological__dimension"/>
-        <childnode refid="1710" relation="public-inheritance">
+        <childnode refid="1716" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1712">
+      <node id="1718">
         <label>core_dispatch::top_dim&lt; tag&lt; Geometry &gt;::type &gt;</label>
       </node>
-      <node id="1711">
+      <node id="1717">
         <label>boost::geometry::topological_dimension&lt; Geometry &gt;</label>
         <link refid="structboost_1_1geometry_1_1topological__dimension"/>
-        <childnode refid="1712" relation="public-inheritance">
+        <childnode refid="1718" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/topological_dimension.hpp" line="95" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/topological_dimension.hpp" bodystart="94" bodyend="95"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/topological_dimension.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/topological_dimension.hpp" bodystart="94" bodyend="95"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

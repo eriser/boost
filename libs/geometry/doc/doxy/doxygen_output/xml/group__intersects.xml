@@ -42,7 +42,7 @@
  <qbk.distinguish>one geometry</qbk.distinguish>   <qbk>[def __one_parameter__]</qbk>   <qbk>[include reference/algorithms/intersects.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" line="50" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" bodystart="50" bodyend="78"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" line="50" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" bodystart="50" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="group__intersects_1ga3d8bd9a2b73bb493d66cbcb37426a7be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -102,7 +102,7 @@
  <qbk.distinguish>two geometries</qbk.distinguish>   <qbk>[include reference/algorithms/intersects.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" line="94" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" bodystart="94" bodyend="100"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" line="94" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" bodystart="94" bodyend="100"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

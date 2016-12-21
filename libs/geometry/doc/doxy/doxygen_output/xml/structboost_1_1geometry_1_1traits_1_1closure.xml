@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/closure.hpp" line="77" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/closure.hpp" bodystart="77" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/closure.hpp" line="77" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/closure.hpp" bodystart="77" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -39,7 +39,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/closure.hpp" line="76" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/closure.hpp" bodystart="75" bodyend="78"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/closure.hpp" line="76" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/closure.hpp" bodystart="75" bodyend="78"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1traits_1_1closure_1a31b7458c9557c07ac35bedd7ab65a300" prot="public" virt="non-virtual"><scope>boost::geometry::traits::closure</scope><name>value</name></member>
     </listofallmembers>

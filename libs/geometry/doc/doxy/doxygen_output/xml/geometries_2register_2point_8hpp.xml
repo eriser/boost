@@ -4,14 +4,14 @@
     <compoundname>point.hpp</compoundname>
     <includes local="no">cstddef</includes>
     <incdepgraph>
-      <node id="20650">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp</label>
-        <link refid="geometries/register/point.hpp"/>
-        <childnode refid="20651" relation="include">
-        </childnode>
-      </node>
-      <node id="20651">
+      <node id="20598">
         <label>cstddef</label>
+      </node>
+      <node id="20597">
+        <label>/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp</label>
+        <link refid="geometries/register/point.hpp"/>
+        <childnode refid="20598" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
       <sectiondef kind="define">
@@ -69,7 +69,7 @@
  <qbk>[include reference/geometries/register/point.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" line="70" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" bodystart="70" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" line="70" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__register_1ga3a3e97175ef92eed648707933c3fbeaa" prot="public" static="no">
         <name>BOOST_GEOMETRY_REGISTER_POINT_2D_CONST</name>
@@ -125,7 +125,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" line="106" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" bodystart="106" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" line="106" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" bodystart="106" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__register_1gaf174f265da534d30be10c2f5a4a2c75e" prot="public" static="no">
         <name>BOOST_GEOMETRY_REGISTER_POINT_2D_GET_SET</name>
@@ -197,7 +197,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" line="144" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" bodystart="144" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" line="144" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__register_1ga98e9781be9019c6d92029507e49ef9a5" prot="public" static="no">
         <name>BOOST_GEOMETRY_REGISTER_POINT_3D</name>
@@ -262,7 +262,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" line="88" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" bodystart="88" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" line="88" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__register_1ga86cf81c9036010faf69dfbd9b3c4d9a8" prot="public" static="no">
         <name>BOOST_GEOMETRY_REGISTER_POINT_3D_CONST</name>
@@ -327,7 +327,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" line="124" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" bodystart="124" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" line="124" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" bodystart="124" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__register_1ga6550bf4438d3b63ad83f5508900690cf" prot="public" static="no">
         <name>BOOST_GEOMETRY_REGISTER_POINT_3D_GET_SET</name>
@@ -416,13 +416,13 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" line="165" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp" bodystart="165" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" line="165" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp" bodystart="165" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/point.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/register/point.hpp"/>
   </compounddef>
 </doxygen>

@@ -3,28 +3,6 @@
 <para>Misc Algorithms. </para><para><para>Marshall Clow </para>
 </para><namespace name="boost">
 <namespace name="algorithm">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="identity_operation"><type>T</type><template>
           <template-type-parameter name="T"/>
         </template><parameter name=""><paramtype>std::multiplies&lt; T &gt;</paramtype></parameter></function>
@@ -44,6 +22,28 @@
         </template><parameter name="x"><paramtype>T</paramtype><description><para>The value to be exponentiated </para></description></parameter><parameter name="n"><paramtype>Integer</paramtype><description><para>The exponent (must be &gt;= 0) </para></description></parameter><parameter name="op"><paramtype>Operation</paramtype><description><para>The operation used </para></description></parameter><description><para>
 
 </para></description><returns><para>the value "x" raised to the power "n" using the operation "op".</para></returns></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -161,18 +161,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="clamp"><type>T const &amp;</type><template>
           <template-type-parameter name="T"/>
           <template-type-parameter name="Pred"/>
@@ -206,6 +194,18 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The range of values to be clamped </para></description></parameter><parameter name="out"><paramtype>OutputIterator</paramtype><description><para>An output iterator to write the clamped values into </para></description></parameter><parameter name="lo"><paramtype>typename std::iterator_traits&lt; typename boost::range_iterator&lt; const Range &gt;::type &gt;::value_type const &amp;</paramtype><description><para>The lower bound of the range to be clamped to </para></description></parameter><parameter name="hi"><paramtype>typename std::iterator_traits&lt; typename boost::range_iterator&lt; const Range &gt;::type &gt;::value_type const &amp;</paramtype><description><para>The upper bound of the range to be clamped to </para></description></parameter><parameter name="p"><paramtype>Pred</paramtype><description><para>A predicate to use to compare the values. p ( a, b ) returns a boolean. </para></description></parameter><description><para>
 
 </para></description><returns><para>clamp the sequence of values [first, last) into [ lo, hi ] using the comparison predicate p.</para></returns></function>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -375,50 +375,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="all_of"><type>bool</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="Predicate"/>
@@ -448,6 +404,50 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <note><para>returns true on an empty range</para></note>
 
 </para></description><returns><para>true if all elements in the range are equal to 'val' </para></returns></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -543,21 +543,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="any_of"><type>bool</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="Predicate"/>
@@ -586,6 +571,21 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <note><para>returns false on an empty range</para></note>
 
 </para></description><returns><para>true if any of the elements in the range are equal to 'val' </para></returns></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -710,46 +710,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="copy_if"><type>OutputIterator</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="OutputIterator"/>
@@ -793,6 +753,46 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="result"><paramtype>OutputIterator</paramtype><description><para>An output iterator to write the results into </para></description></parameter><parameter name="p"><paramtype>Predicate</paramtype><description><para>A predicate for testing the elements of the range </para></description></parameter><purpose>Copies all the elements at the start of the input range that do not satisfy the predicate to the output range. </purpose><description><para>
 
 </para></description><returns><para>The updated output iterator</para></returns></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -892,19 +892,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="copy_n"><type>OutputIterator</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="Size"/>
@@ -913,6 +900,19 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 <note><para>This function is part of the C++2011 standard library. </para></note>
 </para></description><returns><para>The updated output iterator</para></returns></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1032,6 +1032,13 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
+
+
 <function name="find_if_not"><type>InputIterator</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="Predicate"/>
@@ -1045,13 +1052,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="p"><paramtype>Predicate</paramtype><description><para>A predicate for testing the elements of the range </para></description></parameter><purpose>Finds the first element in the sequence that does not satisfy the predicate. </purpose><description><para>
 
 </para></description><returns><para>The iterator pointing to the desired element.</para></returns></function>
-
-
-
-
-
-
-
 
 
 
@@ -1186,6 +1186,11 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
 <function name="iota"><type>void</type><template>
           <template-type-parameter name="ForwardIterator"/>
           <template-type-parameter name="T"/>
@@ -1202,11 +1207,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="T"/>
         </template><parameter name="out"><paramtype>OutputIterator</paramtype><description><para>An output iterator to write the results into </para></description></parameter><parameter name="value"><paramtype>T</paramtype><description><para>The initial value of the sequence to be generated </para></description></parameter><parameter name="n"><paramtype>std::size_t</paramtype><description><para>The number of items to write </para></description></parameter><purpose>Generates an increasing sequence of values, and stores them in the input Range. </purpose><description><para>
 </para></description></function>
-
-
-
-
-
 
 
 
@@ -1341,6 +1341,11 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
 <function name="is_partitioned"><type>bool</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="UnaryPredicate"/>
@@ -1352,11 +1357,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="UnaryPredicate"/>
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="p"><paramtype>UnaryPredicate</paramtype><description><para>The predicate to test the values with </para></description></parameter><purpose>Generates an increasing sequence of values, and stores them in the input Range. </purpose><description><para>
 </para></description></function>
-
-
-
-
-
 
 
 
@@ -1495,7 +1495,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
 <function name="is_permutation"><type>bool</type><template>
           <template-type-parameter name="ForwardIterator1"/>
           <template-type-parameter name="ForwardIterator2"/>
@@ -1520,6 +1519,7 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="BinaryPredicate"/>
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="first2"><paramtype>ForwardIterator</paramtype><description><para>The start of the second sequence </para></description></parameter><parameter name="pred"><paramtype>BinaryPredicate</paramtype><description><para>The predicate to compare elements with </para></description></parameter><purpose>Tests to see if the sequence [first,last) is a permutation of the sequence starting at first2. </purpose><description><para>
 </para></description></function>
+
 
 
 
@@ -1685,6 +1685,8 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
 <function name="is_permutation"><type>bool</type><template>
           <template-type-parameter name="ForwardIterator1"/>
           <template-type-parameter name="ForwardIterator2"/>
@@ -1698,8 +1700,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
         </template><parameter name="first1"><paramtype>ForwardIterator1</paramtype><description><para>The start of the input sequence </para></description></parameter><parameter name="last1"><paramtype>ForwardIterator1</paramtype><description><para>One past the end of the input sequence </para></description></parameter><parameter name="first2"><paramtype>ForwardIterator2</paramtype><description><para>The start of the second sequence </para></description></parameter><parameter name="last2"><paramtype>ForwardIterator2</paramtype><description><para>One past the end of the second sequence </para></description></parameter><parameter name="pred"><paramtype>BinaryPredicate</paramtype><description><para>The predicate to compare elements with</para></description></parameter><purpose>Tests to see if the sequence [first,last) is a permutation of the sequence starting at first2. </purpose><description><para>
 <note><para>This function is part of the C++2014 standard library. </para></note>
 </para></description></function>
-
-
 
 
 </namespace>
@@ -1728,8 +1728,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <header name="boost/algorithm/cxx11/is_sorted.hpp">
 <namespace name="boost">
 <namespace name="algorithm">
-
-
 
 
 
@@ -1916,6 +1914,8 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
 </namespace>
 
 
@@ -1943,6 +1943,48 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <para>Test ranges to see if no elements match a value or predicate. </para><para><para>Marshall Clow </para>
 </para><namespace name="boost">
 <namespace name="algorithm">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2023,48 +2065,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <note><para>returns true on an empty range</para></note>
 
 </para></description><returns><para>true if none of the elements in the range are equal to 'val' </para></returns></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2162,6 +2162,48 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="one_of"><type>bool</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="Predicate"/>
@@ -2186,48 +2228,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="val"><paramtype>const V &amp;</paramtype><description><para>A value to compare against </para></description></parameter><description><para>
 
 </para></description><returns><para>true if the value 'val' exists only once in the range.</para></returns></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2327,6 +2327,46 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="partition_copy"><type>std::pair&lt; OutputIterator1, OutputIterator2 &gt;</type><template>
           <template-type-parameter name="InputIterator"/>
           <template-type-parameter name="OutputIterator1"/>
@@ -2342,46 +2382,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="UnaryPredicate"/>
         </template><parameter name="r"><paramtype>const Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="out_true"><paramtype>OutputIterator1</paramtype><description><para>An output iterator to write the elements that satisfy the predicate into </para></description></parameter><parameter name="out_false"><paramtype>OutputIterator2</paramtype><description><para>An output iterator to write the elements that do not satisfy the predicate into </para></description></parameter><parameter name="p"><paramtype>UnaryPredicate</paramtype><description><para>A predicate for dividing the elements of the input sequence. </para></description></parameter><description><para>
 </para></description></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2486,6 +2486,41 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="partition_point"><type>ForwardIterator</type><template>
           <template-type-parameter name="ForwardIterator"/>
           <template-type-parameter name="Predicate"/>
@@ -2497,41 +2532,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="Predicate"/>
         </template><parameter name="r"><paramtype>Range &amp;</paramtype><description><para>The input range </para></description></parameter><parameter name="p"><paramtype>Predicate</paramtype><description><para>The predicate to test the values with </para></description></parameter><purpose>Given a partitioned range, returns the partition point. </purpose><description><para>
 </para></description></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2671,8 +2671,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
 <function name="equal"><type>bool</type><template>
           <template-type-parameter name="InputIterator1"/>
           <template-type-parameter name="InputIterator2"/>
@@ -2686,6 +2684,8 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
         </template><parameter name="first1"><paramtype>InputIterator1</paramtype><description><para>The start of the first range. </para></description></parameter><parameter name="last1"><paramtype>InputIterator1</paramtype><description><para>One past the end of the first range. </para></description></parameter><parameter name="first2"><paramtype>InputIterator2</paramtype><description><para>The start of the second range. </para></description></parameter><parameter name="last2"><paramtype>InputIterator2</paramtype><description><para>One past the end of the second range. </para></description></parameter><description><para>
 
 </para></description><returns><para>true if all elements in the two ranges are equal</para></returns></function>
+
+
 
 
 </namespace>
@@ -2874,28 +2874,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="gather"><type>std::pair&lt; BidirectionalIterator, BidirectionalIterator &gt;</type><template>
           <template-type-parameter name="BidirectionalIterator"/>
           <template-type-parameter name="Pred"/>
@@ -2904,6 +2882,28 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="BidirectionalRange"/>
           <template-type-parameter name="Pred"/>
         </template><parameter name="range"><paramtype>const BidirectionalRange &amp;</paramtype></parameter><parameter name="pivot"><paramtype>typename boost::range_iterator&lt; const BidirectionalRange &gt;::type</paramtype></parameter><parameter name="pred"><paramtype>Pred</paramtype></parameter><purpose>range-based gather implementation </purpose></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3010,6 +3010,14 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 </para><namespace name="boost">
 <namespace name="algorithm">
 <struct name="hex_decode_error"><inherit access="public">exception</inherit><inherit access="public">exception</inherit><purpose>Base exception class for all hex decoding errors. </purpose></struct><struct name="not_enough_input"><inherit access="public">boost::algorithm::hex_decode_error</inherit><purpose>Thrown when the input sequence unexpectedly ends. </purpose></struct><struct name="non_hex_input"><inherit access="public">boost::algorithm::hex_decode_error</inherit><purpose>Thrown when a non-hex value (0-9, A-F) encountered when decoding. Contains the offending character. </purpose></struct><typedef name="bad_char"><type>boost::error_info&lt; struct bad_char_, char &gt;</type></typedef>
+
+
+
+
+
+
+
+
 
 
 
@@ -3180,14 +3188,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
-
-
-
-
-
-
-
-
 </namespace>
 
 
@@ -3215,8 +3215,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <para>Checks the input sequence on palindrome. </para><para><para>Alexander Zaitsev </para>
 </para><namespace name="boost">
 <namespace name="algorithm">
-
-
 
 
 
@@ -3357,6 +3355,8 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
 </namespace>
 
 
@@ -3382,24 +3382,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 </header>
 <header name="boost/algorithm/minmax.hpp">
 <namespace name="boost">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="minmax"><type>tuple&lt; T const &amp;, T const &amp; &gt;</type><template>
           <template-type-parameter name="T"/>
         </template><parameter name="a"><paramtype>T const &amp;</paramtype></parameter><parameter name="b"><paramtype>T const &amp;</paramtype></parameter></function>
@@ -3407,10 +3389,30 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="T"/>
           <template-type-parameter name="BinaryPredicate"/>
         </template><parameter name="a"><paramtype>T const &amp;</paramtype></parameter><parameter name="b"><paramtype>T const &amp;</paramtype></parameter><parameter name="comp"><paramtype>BinaryPredicate</paramtype></parameter></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </header>
 <header name="boost/algorithm/minmax_element.hpp">
 <namespace name="boost">
+
+
 <function name="minmax_element"><type>std::pair&lt; ForwardIter, ForwardIter &gt;</type><template>
           <template-type-parameter name="ForwardIter"/>
         </template><parameter name="first"><paramtype>ForwardIter</paramtype></parameter><parameter name="last"><paramtype>ForwardIter</paramtype></parameter></function>
@@ -3474,8 +3476,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
           <template-type-parameter name="ForwardIter"/>
           <template-type-parameter name="BinaryPredicate"/>
         </template><parameter name="first"><paramtype>ForwardIter</paramtype></parameter><parameter name="last"><paramtype>ForwardIter</paramtype></parameter><parameter name="comp"><paramtype>BinaryPredicate</paramtype></parameter></function>
-
-
 </namespace>
 </header>
 <header name="boost/algorithm/searching/boyer_moore.hpp">
@@ -3495,18 +3495,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <constructor><parameter name="first"><paramtype>patIter</paramtype></parameter><parameter name="last"><paramtype>patIter</paramtype></parameter></constructor>
 <destructor/>
 </class>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3563,6 +3551,18 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <function name="make_boyer_moore"><type><classname>boost::algorithm::boyer_moore</classname>&lt; typename boost::range_iterator&lt; Range &gt;::type &gt;</type><template>
           <template-type-parameter name="Range"/>
         </template><parameter name="r"><paramtype>Range &amp;</paramtype></parameter></function>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3863,6 +3863,18 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="knuth_morris_pratt_search"><type>std::pair&lt; corpusIter, corpusIter &gt;</type><template>
           <template-type-parameter name="patIter"/>
           <template-type-parameter name="corpusIter"/>
@@ -3886,18 +3898,6 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <function name="make_knuth_morris_pratt"><type><classname>boost::algorithm::knuth_morris_pratt</classname>&lt; typename boost::range_iterator&lt; Range &gt;::type &gt;</type><template>
           <template-type-parameter name="Range"/>
         </template><parameter name="r"><paramtype>Range &amp;</paramtype></parameter></function>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3985,6 +3985,36 @@ Suggested by olafvdspek in <ulink url="https://svn.boost.org/trac/boost/ticket/3
 <para>Sort a subrange. </para><para><para>Marshall Clow</para>
 Suggested by Sean Parent in his CppCon 2015 keynote </para><namespace name="boost">
 <namespace name="algorithm">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="sort_subrange"><type>void</type><template>
           <template-type-parameter name="Iterator"/>
           <template-type-parameter name="Pred"/>
@@ -3999,36 +4029,6 @@ Suggested by Sean Parent in his CppCon 2015 keynote </para><namespace name="boos
 <function name="partition_subrange"><type>void</type><template>
           <template-type-parameter name="Iterator"/>
         </template><parameter name="first"><paramtype>Iterator</paramtype></parameter><parameter name="last"><paramtype>Iterator</paramtype></parameter><parameter name="sub_first"><paramtype>Iterator</paramtype></parameter><parameter name="sub_last"><paramtype>Iterator</paramtype></parameter></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

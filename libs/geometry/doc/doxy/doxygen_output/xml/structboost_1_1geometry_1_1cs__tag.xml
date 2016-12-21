@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/cs.hpp" line="244" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/cs.hpp" bodystart="244" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/cs.hpp" line="244" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/cs.hpp" bodystart="244" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -35,7 +35,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/cs.hpp" line="240" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/cs.hpp" bodystart="239" bodyend="245"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/cs.hpp" line="240" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/cs.hpp" bodystart="239" bodyend="245"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1cs__tag_1a223318b8e9014ca8dee38575c8e8b5f5" prot="public" virt="non-virtual"><scope>boost::geometry::cs_tag</scope><name>type</name></member>
     </listofallmembers>

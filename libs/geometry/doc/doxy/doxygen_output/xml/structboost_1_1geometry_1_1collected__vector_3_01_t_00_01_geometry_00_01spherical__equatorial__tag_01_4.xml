@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="144" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="144" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="144" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1ab0491c05abb46a232c31e56a65bd70a4" prot="public" static="no">
         <type><ref refid="classboost_1_1geometry_1_1model_1_1point" kindref="compound">model::point</ref>&lt; T, 2, <ref refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1aad17741710bc6763d8d09aedb41ab4e8" kindref="member">cs_type</ref> &gt;</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="145" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="145" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="145" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="145" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1ac5a39995714bbd39aafbddab699148fe" prot="public" static="no">
         <type>T</type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="142" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="142" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="142" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a55ad809434c5e1fea8ca31d7f0261250" prot="public" static="no">
         <type><ref refid="classboost_1_1geometry_1_1model_1_1point" kindref="compound">model::point</ref>&lt; T, 3, <ref refid="structboost_1_1geometry_1_1cs_1_1cartesian" kindref="compound">cs::cartesian</ref> &gt;</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="146" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="146" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="146" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="146" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="230" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="230" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="230" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="230" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1af7ecc7a07b0b50d008c39b04d2c0753b" prot="private" static="no" mutable="no">
         <type><ref refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a55ad809434c5e1fea8ca31d7f0261250" kindref="member">vector_type</ref></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="232" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="232" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="232" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="232" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1aedd2ccf74fa5a60209f8263442c05cb1" prot="private" static="no" mutable="no">
         <type><ref refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1ab0491c05abb46a232c31e56a65bd70a4" kindref="member">point_type</ref></type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="229" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="229" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="229" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="229" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a1443cc86ad5ed5c62fb84e0db7fbf90c" prot="private" static="no" mutable="no">
         <type><ref refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a55ad809434c5e1fea8ca31d7f0261250" kindref="member">vector_type</ref></type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="231" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="231" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="231" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="231" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="148" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="148" bodyend="149"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="148" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="148" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a3c577337828af49ad0de443cbc05fee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="152" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="152" bodyend="161"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="152" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="152" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1acd4ce58ea8b70ad0b23a8c1f0bf4b75b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="201" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="201" bodyend="204"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="201" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="201" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1acfb6b03ec7c276050c8b35717df6b014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="163" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="163" bodyend="175"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="163" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="163" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a9230fd471bfeea9139a3ac1c38968e5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="177" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="177" bodyend="196"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="177" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="177" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a5e773d3c3a8ef035dcaa5169ae680a43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -223,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="207" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="207" bodyend="212"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="207" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="207" bodyend="212"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="216" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="216" bodyend="220"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="216" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="216" bodyend="220"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -267,7 +267,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="141" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="140" bodyend="233"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="141" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="140" bodyend="233"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1aaba1ae31580d0065d44662d92fec577b" prot="public" virt="non-virtual"><scope>boost::geometry::collected_vector&lt; T, Geometry, spherical_equatorial_tag &gt;</scope><name>collected_vector</name></member>
       <member refid="structboost_1_1geometry_1_1collected__vector_3_01_t_00_01_geometry_00_01spherical__equatorial__tag_01_4_1a3c577337828af49ad0de443cbc05fee9" prot="public" virt="non-virtual"><scope>boost::geometry::collected_vector&lt; T, Geometry, spherical_equatorial_tag &gt;</scope><name>collected_vector</name></member>

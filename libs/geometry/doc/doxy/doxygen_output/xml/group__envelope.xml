@@ -64,7 +64,7 @@
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="95" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="95" bodyend="98"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="95" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="group__envelope_1ga4afb45ba6fb41e732a008a9e1e104347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -116,7 +116,7 @@
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="117" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="117" bodyend="122"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="117" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="117" bodyend="122"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

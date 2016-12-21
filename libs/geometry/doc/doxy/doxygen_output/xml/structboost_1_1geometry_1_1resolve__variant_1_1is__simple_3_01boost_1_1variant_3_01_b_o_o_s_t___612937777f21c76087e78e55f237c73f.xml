@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="44" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="44" bodyend="47"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="44" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="44" bodyend="47"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -33,28 +33,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1063">
+      <node id="1049">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="1062">
+      <node id="1048">
         <label>boost::geometry::resolve_variant::is_simple&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1is__simple_3_01boost_1_1variant_3_01_b_o_o_s_t___612937777f21c76087e78e55f237c73f"/>
-        <childnode refid="1063" relation="public-inheritance">
+        <childnode refid="1049" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1065">
+      <node id="1051">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="1064">
+      <node id="1050">
         <label>boost::geometry::resolve_variant::is_simple&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1is__simple_3_01boost_1_1variant_3_01_b_o_o_s_t___612937777f21c76087e78e55f237c73f"/>
-        <childnode refid="1065" relation="public-inheritance">
+        <childnode refid="1051" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="42" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="41" bodyend="48"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="42" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="41" bodyend="48"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1is__simple_3_01boost_1_1variant_3_01_b_o_o_s_t___612937777f21c76087e78e55f237c73f_1a1c49294338dc433a40f860142347d170" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::is_simple&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>operator()</name></member>
     </listofallmembers>

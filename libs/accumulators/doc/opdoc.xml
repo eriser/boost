@@ -413,9 +413,6 @@
 <namespace name="boost">
 <namespace name="numeric">
 <namespace name="operators">
-
-
-
 <function name="operator*"><type>disable_if&lt; mpl::or_&lt; is_same&lt; T, U &gt;, is_same&lt; std::complex&lt; T &gt;, U &gt; &gt;, std::complex&lt; T &gt; &gt;::type</type><template>
           <template-type-parameter name="T"/>
           <template-type-parameter name="U"/>
@@ -424,6 +421,9 @@
           <template-type-parameter name="T"/>
           <template-type-parameter name="U"/>
         </template><parameter name="ri"><paramtype>std::complex&lt; T &gt;</paramtype></parameter><parameter name="u"><paramtype>U const &amp;</paramtype></parameter></function>
+
+
+
 
 
 
@@ -502,6 +502,8 @@
 </method-group>
 </struct-specialization></namespace>
 <namespace name="operators">
+
+
 <function name="operator/"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="Left"/>
           <template-type-parameter name="Right"/>
@@ -514,8 +516,6 @@
           <template-type-parameter name="Left"/>
           <template-type-parameter name="Right"/>
         </template><parameter name="left"><paramtype>std::valarray&lt; Left &gt; const &amp;</paramtype></parameter><parameter name="right"><paramtype>std::valarray&lt; Right &gt; const &amp;</paramtype></parameter></function>
-
-
 
 
 

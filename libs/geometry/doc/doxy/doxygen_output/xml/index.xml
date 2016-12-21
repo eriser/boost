@@ -237,10 +237,6 @@
   </compound>
   <compound refid="structboost_1_1geometry_1_1degree" kind="struct"><name>boost::geometry::degree</name>
   </compound>
-  <compound refid="structboost_1_1geometry_1_1detail_1_1andoyer__inverse" kind="struct"><name>boost::geometry::detail::andoyer_inverse</name>
-    <member refid="structboost_1_1geometry_1_1detail_1_1andoyer__inverse_1a308d124e5f4d1e40e1378716a83a0164" kind="typedef"><name>result_type</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1andoyer__inverse_1a6ef1aa2a5369b3c3853e113718d7a1f5" kind="function"><name>apply</name></member>
-  </compound>
   <compound refid="structboost_1_1geometry_1_1detail_1_1coordinate__cast_3_01rational_3_01_t_01_4_01_4" kind="struct"><name>boost::geometry::detail::coordinate_cast&lt; rational&lt; T &gt; &gt;</name>
     <member refid="structboost_1_1geometry_1_1detail_1_1coordinate__cast_3_01rational_3_01_t_01_4_01_4_1a444586b57745d68cf90ae21789750c7c" kind="function"><name>apply</name></member>
     <member refid="structboost_1_1geometry_1_1detail_1_1coordinate__cast_3_01rational_3_01_t_01_4_01_4_1a7c29b40f44cb87dfca876276064f2964" kind="function"><name>split_parts</name></member>
@@ -337,20 +333,6 @@
   <compound refid="structboost_1_1geometry_1_1detail_1_1partition_1_1visit__no__policy" kind="struct"><name>boost::geometry::detail::partition::visit_no_policy</name>
     <member refid="structboost_1_1geometry_1_1detail_1_1partition_1_1visit__no__policy_1aecc38c596abff4ed8849bd4b06138c4e" kind="function"><name>apply</name></member>
   </compound>
-  <compound refid="structboost_1_1geometry_1_1detail_1_1result__direct" kind="struct"><name>boost::geometry::detail::result_direct</name>
-    <member refid="structboost_1_1geometry_1_1detail_1_1result__direct_1a6f161a5c3dac36bdd9ec4f593784b547" kind="variable"><name>lat2</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1result__direct_1a8a91f8ac4e7a1531bad37f6c99169841" kind="variable"><name>lon2</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1result__direct_1aad5372c0b014aa5c3f110914c1b6928b" kind="function"><name>set</name></member>
-  </compound>
-  <compound refid="structboost_1_1geometry_1_1detail_1_1result__inverse" kind="struct"><name>boost::geometry::detail::result_inverse</name>
-    <member refid="structboost_1_1geometry_1_1detail_1_1result__inverse_1ac6059809ad7789efd2e6da2f5a576df9" kind="variable"><name>azimuth</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1result__inverse_1aaddbf8a79ea3b8bcb39a987b4562999a" kind="variable"><name>distance</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1result__inverse_1a8def88776cafabd8e60eac68345f6795" kind="function"><name>set</name></member>
-  </compound>
-  <compound refid="structboost_1_1geometry_1_1detail_1_1thomas__inverse" kind="struct"><name>boost::geometry::detail::thomas_inverse</name>
-    <member refid="structboost_1_1geometry_1_1detail_1_1thomas__inverse_1ae9d0a5c72a56ab8aab5edff7e94082a6" kind="typedef"><name>result_type</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1thomas__inverse_1a432416a8100a63fbe633580f7b1072f7" kind="function"><name>apply</name></member>
-  </compound>
   <compound refid="structboost_1_1geometry_1_1detail_1_1turns_1_1filter__continue__turns" kind="struct"><name>boost::geometry::detail::turns::filter_continue_turns</name>
     <member refid="structboost_1_1geometry_1_1detail_1_1turns_1_1filter__continue__turns_1a02e1643da8ceb136cd8ffc2ae3d39834" kind="function"><name>apply</name></member>
   </compound>
@@ -388,14 +370,6 @@
   <compound refid="structboost_1_1geometry_1_1detail_1_1unique__types" kind="struct"><name>boost::geometry::detail::unique_types</name>
   </compound>
   <compound refid="structboost_1_1geometry_1_1detail_1_1variant__or__single" kind="struct"><name>boost::geometry::detail::variant_or_single</name>
-  </compound>
-  <compound refid="structboost_1_1geometry_1_1detail_1_1vincenty__direct" kind="struct"><name>boost::geometry::detail::vincenty_direct</name>
-    <member refid="structboost_1_1geometry_1_1detail_1_1vincenty__direct_1a9d4487d9dd27c21a2ae0fd5ef81c5318" kind="typedef"><name>result_type</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1vincenty__direct_1ae161ac0763aab058c3fb1f1f4914e5ab" kind="function"><name>apply</name></member>
-  </compound>
-  <compound refid="structboost_1_1geometry_1_1detail_1_1vincenty__inverse" kind="struct"><name>boost::geometry::detail::vincenty_inverse</name>
-    <member refid="structboost_1_1geometry_1_1detail_1_1vincenty__inverse_1a6377bc93e07ec81d8f711a3412b59781" kind="typedef"><name>result_type</name></member>
-    <member refid="structboost_1_1geometry_1_1detail_1_1vincenty__inverse_1a1e863a0019983d50616ec06e27b5c234" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1detail__dispatch_1_1helper__geometry" kind="struct"><name>boost::geometry::detail_dispatch::helper_geometry</name>
   </compound>
@@ -2213,11 +2187,13 @@
     <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1ublas__transformer_3_01_calculation_type_00_013_00_013_01_4_1a96f6d09aadf6482942a45e2731161358" kind="function"><name>ublas_transformer</name></member>
     <member refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1ublas__transformer_3_01_calculation_type_00_013_00_013_01_4_1a90f3fc5f749016841cecb48f975c6a3f" kind="function"><name>ublas_transformer</name></member>
   </compound>
-  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__longitude__check" kind="struct"><name>boost::geometry::strategy::within::box_covered_by_longitude_check</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__longitude__check_1ab72ef7dbe0867027b67dd0c93db57c22" kind="function"><name>apply</name></member>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__coord" kind="struct"><name>boost::geometry::strategy::within::box_covered_by_coord</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__coord_1a14a04a15bad65e9bfb74e4a0f425539b" kind="function"><name>apply</name></member>
+  </compound>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__longitude__diff" kind="struct"><name>boost::geometry::strategy::within::box_covered_by_longitude_diff</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__longitude__diff_1a308f59ca9b3cbf6215914d88950b25d8" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__range" kind="struct"><name>boost::geometry::strategy::within::box_covered_by_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__range_1aefabb716659b593b7b7e41edff7be1b1" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__range_3_01_geometry_00_010_00_01spherical__tag_01_4" kind="struct"><name>boost::geometry::strategy::within::box_covered_by_range&lt; Geometry, 0, spherical_tag &gt;</name>
   </compound>
@@ -2225,21 +2201,25 @@
     <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__in__box_1ac6b97f4596fe2ac856a06aa6191d0ea3" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__longitude__range" kind="struct"><name>boost::geometry::strategy::within::box_longitude_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__longitude__range_1afb62e330bf8136ca6b6b675671ceb31b" kind="function"><name>apply</name></member>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__longitude__range_1a262f5e1af13a4ae049471a82ffd6a3e5" kind="function"><name>apply</name></member>
   </compound>
-  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__longitude__check" kind="struct"><name>boost::geometry::strategy::within::box_within_longitude_check</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__longitude__check_1a3c81a7432a2bd05a07dedd97ca8b7741" kind="function"><name>apply</name></member>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__coord" kind="struct"><name>boost::geometry::strategy::within::box_within_coord</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__coord_1a210fcee4f3edafeb4793500d13a1c20d" kind="function"><name>apply</name></member>
+  </compound>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__longitude__diff" kind="struct"><name>boost::geometry::strategy::within::box_within_longitude_diff</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__longitude__diff_1aa06ce2c84d94c91de434f3204dcf4f02" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__range" kind="struct"><name>boost::geometry::strategy::within::box_within_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__range_1afa7f5cb37cdfd61a338105c3ad4f61f8" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__range_3_01_geometry_00_010_00_01spherical__tag_01_4" kind="struct"><name>boost::geometry::strategy::within::box_within_range&lt; Geometry, 0, spherical_tag &gt;</name>
   </compound>
-  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__longitude__range" kind="struct"><name>boost::geometry::strategy::within::covered_by_longitude_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__longitude__range_1af04b03081e4a5717890656313aff8d8f" kind="function"><name>apply</name></member>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__coord" kind="struct"><name>boost::geometry::strategy::within::covered_by_coord</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__coord_1a2286c7ff3104ee5285adb0a3f097d83c" kind="function"><name>apply</name></member>
+  </compound>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__longitude__diff" kind="struct"><name>boost::geometry::strategy::within::covered_by_longitude_diff</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__longitude__diff_1ab8c4d729881ca173cd5806e7c38c1a62" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__range" kind="struct"><name>boost::geometry::strategy::within::covered_by_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__range_1a4be750858e0c877b437eb8e20496b171" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__range_3_01_geometry_00_010_00_01spherical__tag_01_4" kind="struct"><name>boost::geometry::strategy::within::covered_by_range&lt; Geometry, 0, spherical_tag &gt;</name>
   </compound>
@@ -2278,7 +2258,7 @@
     <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1franklin_1_1crossings_1a50c965ab7c686b54a252d52e42a9d040" kind="function"><name>crossings</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1longitude__range" kind="struct"><name>boost::geometry::strategy::within::longitude_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1longitude__range_1a140499cd9e05eb359b096784be32a177" kind="function"><name>apply</name></member>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1longitude__range_1a75bfae0217b0bdd4c332bd1cd3c821fa" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="classboost_1_1geometry_1_1strategy_1_1within_1_1oriented__winding" kind="class"><name>boost::geometry::strategy::within::oriented_winding</name>
     <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1oriented__winding_1aac823a7cf7f7530515a9cc79bbe88109" kind="typedef"><name>calculation_type</name></member>
@@ -2377,11 +2357,13 @@
     <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__small__angle_1a3a2efddc1550189c9cb4102e2ed7529a" kind="typedef"><name>cs_t</name></member>
     <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__small__angle_1aa4e66c3993e87015ea2f842e3d5ea62c" kind="function"><name>apply</name></member>
   </compound>
-  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__longitude__range" kind="struct"><name>boost::geometry::strategy::within::within_longitude_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__longitude__range_1a1a8e8375552f0e2650b69f9127fbfad8" kind="function"><name>apply</name></member>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__coord" kind="struct"><name>boost::geometry::strategy::within::within_coord</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__coord_1aa82ee48878da20f2bd4e8c00c6cb6098" kind="function"><name>apply</name></member>
+  </compound>
+  <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__longitude__diff" kind="struct"><name>boost::geometry::strategy::within::within_longitude_diff</name>
+    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__longitude__diff_1a52de456e2b776f309fefe2325a55644b" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__range" kind="struct"><name>boost::geometry::strategy::within::within_range</name>
-    <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__range_1a611ddcdf7a36fef423633fb21c692436" kind="function"><name>apply</name></member>
   </compound>
   <compound refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__range_3_01_geometry_00_010_00_01spherical__tag_01_4" kind="struct"><name>boost::geometry::strategy::within::within_range&lt; Geometry, 0, spherical_tag &gt;</name>
   </compound>
@@ -2996,8 +2978,6 @@
   </compound>
   <compound refid="crosses_8hpp" kind="file"><name>crosses.hpp</name>
   </compound>
-  <compound refid="andoyer__inverse_8hpp" kind="file"><name>andoyer_inverse.hpp</name>
-  </compound>
   <compound refid="as__range_8hpp" kind="file"><name>as_range.hpp</name>
   </compound>
   <compound refid="assign__box__corners_8hpp" kind="file"><name>assign_box_corners.hpp</name>
@@ -3409,8 +3389,6 @@
   </compound>
   <compound refid="turns_8hpp" kind="file"><name>turns.hpp</name>
   </compound>
-  <compound refid="result__inverse_8hpp" kind="file"><name>result_inverse.hpp</name>
-  </compound>
   <compound refid="ring__identifier_8hpp" kind="file"><name>ring_identifier.hpp</name>
   </compound>
   <compound refid="range__by__section_8hpp" kind="file"><name>range_by_section.hpp</name>
@@ -3429,8 +3407,6 @@
   </compound>
   <compound refid="sweep_8hpp" kind="file"><name>sweep.hpp</name>
   </compound>
-  <compound refid="thomas__inverse_8hpp" kind="file"><name>thomas_inverse.hpp</name>
-  </compound>
   <compound refid="throw__on__empty__input_8hpp" kind="file"><name>throw_on_empty_input.hpp</name>
   </compound>
   <compound refid="compare__turns_8hpp" kind="file"><name>compare_turns.hpp</name>
@@ -3442,12 +3418,6 @@
   <compound refid="print__turns_8hpp" kind="file"><name>print_turns.hpp</name>
   </compound>
   <compound refid="remove__duplicate__turns_8hpp" kind="file"><name>remove_duplicate_turns.hpp</name>
-  </compound>
-  <compound refid="vincenty__direct_8hpp" kind="file"><name>vincenty_direct.hpp</name>
-    <member refid="vincenty__direct_8hpp_1a4fc050d985ac878097cde762197887f9" kind="define"><name>BOOST_GEOMETRY_DETAIL_VINCENTY_MAX_STEPS</name></member>
-  </compound>
-  <compound refid="vincenty__inverse_8hpp" kind="file"><name>vincenty_inverse.hpp</name>
-    <member refid="vincenty__inverse_8hpp_1a4fc050d985ac878097cde762197887f9" kind="define"><name>BOOST_GEOMETRY_DETAIL_VINCENTY_MAX_STEPS</name></member>
   </compound>
   <compound refid="point__in__geometry_8hpp" kind="file"><name>point_in_geometry.hpp</name>
   </compound>
@@ -3612,6 +3582,10 @@
   </compound>
   <compound refid="c__array_8hpp" kind="file"><name>c_array.hpp</name>
     <member refid="c__array_8hpp_1a815278dd46c0e0cbb9188150ef5305a9" kind="define"><name>BOOST_GEOMETRY_REGISTER_C_ARRAY_CS</name></member>
+  </compound>
+  <compound refid="std__array_8hpp" kind="file"><name>std_array.hpp</name>
+    <member refid="std__array_8hpp_1a891003691be29d9a40065b91f0b1475f" kind="define"><name>BOOST_GEOMETRY_ADAPTED_STD_ARRAY_TAG_DEFINED</name></member>
+    <member refid="std__array_8hpp_1ad8f6590bf1dcf15685a490d9dd9faa1b" kind="define"><name>BOOST_GEOMETRY_REGISTER_STD_ARRAY_CS</name></member>
   </compound>
   <compound refid="std__pair__as__segment_8hpp" kind="file"><name>std_pair_as_segment.hpp</name>
     <member refid="std__pair__as__segment_8hpp_1aa73faa86c70603589a4c8945968f8a81" kind="define"><name>BOOST_GEOMETRY_ADAPTED_STD_RANGE_TAG_DEFINED</name></member>
@@ -4235,109 +4209,105 @@
   </compound>
   <compound refid="art09" kind="page"><name>art09</name>
   </compound>
-  <compound refid="dir_b1c3408d39074b319f4645aed5bb8b63" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/geometries/adapted</name>
+  <compound refid="dir_c4154bbc965a3059c1389d76fabb9909" kind="dir"><name>/home/ubuntu/boost/boost/geometry/geometries/adapted</name>
   </compound>
-  <compound refid="dir_19144ff23f2feaf79e9fd0085ce60eac" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic</name>
+  <compound refid="dir_ec2048b5cea213e2cc722ca028d49e6a" kind="dir"><name>/home/ubuntu/boost/boost/geometry/strategies/agnostic</name>
   </compound>
-  <compound refid="dir_0dc8931d37de9720ba7c03d0f554ded1" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms</name>
+  <compound refid="dir_3f22f8f261c0d9328ee09f7cb5725856" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms</name>
   </compound>
-  <compound refid="dir_fb95e015b0511ec55c8d28ef36c37b2d" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/arithmetic</name>
+  <compound refid="dir_eea2e390c6b586e324421e3fad61506a" kind="dir"><name>/home/ubuntu/boost/boost/geometry/arithmetic</name>
   </compound>
-  <compound refid="dir_a3f3934fe93618c2e6f3527095116c07" kind="dir"><name>/home/travis/build/boostorg/boost/boost</name>
+  <compound refid="dir_70241e0cb632ef83c95057df97d23a47" kind="dir"><name>/home/ubuntu/boost/boost</name>
   </compound>
-  <compound refid="dir_b82d0a402713c1965e63885170196de6" kind="dir"><name>/home/travis/build/boostorg/boost</name>
+  <compound refid="dir_e10a884cfce9a00b7ac96c4db7962926" kind="dir"><name>/home/ubuntu/boost</name>
   </compound>
-  <compound refid="dir_025ae08e78d6f4efebb0a56ce250a736" kind="dir"><name>/home/travis/build/boostorg</name>
+  <compound refid="dir_076a6b668c7dcb869625ada646dca203" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer</name>
   </compound>
-  <compound refid="dir_a3ea32c32e4892434ec17811730eee3c" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer</name>
+  <compound refid="dir_b953a48569803954c505a924ecd015c9" kind="dir"><name>/home/ubuntu/boost/boost/geometry/strategies/cartesian</name>
   </compound>
-  <compound refid="dir_658dffd2684749c363737148727fc8b1" kind="dir"><name>/home/travis/build</name>
+  <compound refid="dir_ce8ec053dbd9d0374ec05a4b3ae9c526" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance</name>
   </compound>
-  <compound refid="dir_ab9fe656c4f32f2c1e58c621c71ae626" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian</name>
+  <compound refid="dir_ef5bc0061659e1a179d097305cf1ac7f" kind="dir"><name>/home/ubuntu/boost/boost/geometry/strategies/concepts</name>
   </compound>
-  <compound refid="dir_3031b9e2f12f859ebfbf5ccda127064a" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance</name>
+  <compound refid="dir_35a555b0591d1b44c893e4edc123f3bc" kind="dir"><name>/home/ubuntu/boost/boost/geometry/geometries/concepts</name>
   </compound>
-  <compound refid="dir_c4bc4d645eeb285867583fc13529c41a" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/strategies/concepts</name>
+  <compound refid="dir_f73e9b2c9de8bd44a3adae2d08652f95" kind="dir"><name>/home/ubuntu/boost/boost/geometry/core</name>
   </compound>
-  <compound refid="dir_fe0d79349011638387ca7fc00c80eb51" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts</name>
+  <compound refid="dir_92f361b4a32ec995cfd4ca2b6c1db54e" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail</name>
   </compound>
-  <compound refid="dir_a72d5363979ef62232485f75f2f4db90" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/core</name>
+  <compound refid="dir_240371d377791d61f55b0e0bf5a0dd09" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint</name>
   </compound>
-  <compound refid="dir_3ef17d421db005a49eeea1db0210e908" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail</name>
+  <compound refid="dir_9b3be21ff36a80560a8760bf277967e5" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/distance</name>
   </compound>
-  <compound refid="dir_937a3bd4d0081552ae9b68f27650b616" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/disjoint</name>
+  <compound refid="dir_5be1e7266b0f6c266318ec782c0e6351" kind="dir"><name>/home/ubuntu/boost/libs/geometry/doc</name>
   </compound>
-  <compound refid="dir_42d5bc1cdd9bb87e7c1e23fe50079caa" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance</name>
+  <compound refid="dir_96c8b917b4cb6d737be5dc5c6859faea" kind="dir"><name>/home/ubuntu/boost/libs/geometry/doc/doxy</name>
   </compound>
-  <compound refid="dir_e4909e460444ce8794795414bf3e2f88" kind="dir"><name>/home/travis/build/boostorg/boost/libs/geometry/doc</name>
+  <compound refid="dir_c2615b5acffe682b248992c9895e8655" kind="dir"><name>/home/ubuntu/boost/libs/geometry/doc/doxy/doxygen_input</name>
   </compound>
-  <compound refid="dir_0be6f8cb898b13eaf58e615d63893d56" kind="dir"><name>/home/travis/build/boostorg/boost/libs/geometry/doc/doxy</name>
+  <compound refid="dir_426bed0270696b40148e4d7a86fb3b35" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope</name>
   </compound>
-  <compound refid="dir_04d45d6267fb6c25282d58ad810b7bdc" kind="dir"><name>/home/travis/build/boostorg/boost/libs/geometry/doc/doxy/doxygen_input</name>
+  <compound refid="dir_d8db61fb33ec460327d34e99ebd1b883" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/equals</name>
   </compound>
-  <compound refid="dir_f9d010407669c283f84388388d11766b" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope</name>
+  <compound refid="dir_5db56d367dd6a19f5d5ea1327d78a650" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/expand</name>
   </compound>
-  <compound refid="dir_a389a9de0dc4da0f87ab463cc63bf11d" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals</name>
+  <compound refid="dir_497000fd3b800405f7f32c9cbeb1465a" kind="dir"><name>/home/ubuntu/boost/boost/geometry/geometries</name>
   </compound>
-  <compound refid="dir_fb0871cff28874276e9df77a5e7224a3" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/expand</name>
+  <compound refid="dir_686bf93a459df29704d44542e79553fb" kind="dir"><name>/home/ubuntu/boost/libs/geometry</name>
   </compound>
-  <compound refid="dir_5070b4beede81efd2daa508f8025de96" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/geometries</name>
+  <compound refid="dir_6f25c90e381132fd960cd64986a2bf26" kind="dir"><name>/home/ubuntu/boost/boost/geometry</name>
   </compound>
-  <compound refid="dir_98dc608304ece04b1029fa67c309ea05" kind="dir"><name>/home/travis/build/boostorg/boost/libs/geometry</name>
-  </compound>
-  <compound refid="dir_1db53b2a0b4206971f8a07039331107d" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry</name>
-  </compound>
-  <compound refid="dir_57e22e5373b72052d85c921f2583ae85" kind="dir"><name>/home/travis/build/boostorg/boost/libs/geometry/doc/doxy/doxygen_input/groups</name>
+  <compound refid="dir_3a930f68218f9a74b5a922510cabe103" kind="dir"><name>/home/ubuntu/boost/libs/geometry/doc/doxy/doxygen_input/groups</name>
   </compound>
   <compound refid="dir_75b82e7e4a5feb05200b9ad7adf06257" kind="dir"><name>/home</name>
   </compound>
-  <compound refid="dir_e2a6022e9b6b893585e6efd32eb28246" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/intersection</name>
+  <compound refid="dir_f3ff23821d89b6fcf74835f1ec514cb0" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection</name>
   </compound>
-  <compound refid="dir_372b3be2c08e4e1d39166612525793e2" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/io</name>
+  <compound refid="dir_d61fc38811511f3891dfbb1732109fc6" kind="dir"><name>/home/ubuntu/boost/boost/geometry/io</name>
   </compound>
-  <compound refid="dir_dbb29707c3aec431150ec3f92a4a5d27" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple</name>
+  <compound refid="dir_6d87660168227ca8feae46798c5be5fc" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple</name>
   </compound>
-  <compound refid="dir_fd10a9410dc95d5be6a5c599ac3244eb" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid</name>
+  <compound refid="dir_8b1317c99384b64629dc3eea5dfb7133" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid</name>
   </compound>
-  <compound refid="dir_054af7bbe036a67261726b73e573b3ce" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/iterators</name>
+  <compound refid="dir_2cfc9703d0a9e29b67ad67e1fc4f41b1" kind="dir"><name>/home/ubuntu/boost/boost/geometry/iterators</name>
   </compound>
-  <compound refid="dir_0e80b72aef6627e684aa225d13561273" kind="dir"><name>/home/travis/build/boostorg/boost/libs</name>
+  <compound refid="dir_6536a3ae99e012220d1425d86ce10880" kind="dir"><name>/home/ubuntu/boost/libs</name>
   </compound>
-  <compound refid="dir_b67f73bc9fc64a4bd2753eadf8cac3b3" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay</name>
+  <compound refid="dir_4364810b03ed3439587f82726112547a" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay</name>
   </compound>
-  <compound refid="dir_c7a013051d1ea4062c18161fc553a050" kind="dir"><name>/home/travis/build/boostorg/boost/libs/geometry/doc/doxy/doxygen_input/pages</name>
+  <compound refid="dir_049d2999acca6ee9ddd9926662db5e10" kind="dir"><name>/home/ubuntu/boost/libs/geometry/doc/doxy/doxygen_input/pages</name>
   </compound>
-  <compound refid="dir_f136d2905b0cfceed5fa550ffb4c4588" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/policies</name>
+  <compound refid="dir_520a6077ae64aa67ed641adea0ae5c78" kind="dir"><name>/home/ubuntu/boost/boost/geometry/policies</name>
   </compound>
-  <compound refid="dir_c19d9ca7c7931af5390b4815bac35861" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/geometries/register</name>
+  <compound refid="dir_e1c651de8fa4f334f23969000e17c580" kind="dir"><name>/home/ubuntu/boost/boost/geometry/geometries/register</name>
   </compound>
-  <compound refid="dir_70223ecaef5d80d63353dbb0510f117c" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/policies/relate</name>
+  <compound refid="dir_2ff997cda945dcf99cb172905be45df4" kind="dir"><name>/home/ubuntu/boost/boost/geometry/policies/relate</name>
   </compound>
-  <compound refid="dir_75e122e08cf075e5a1adee2d1bc7049c" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate</name>
+  <compound refid="dir_320e89c529fcce765d69aac70816711d" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/relate</name>
   </compound>
-  <compound refid="dir_647565eec0d94dc3299c955b84302d28" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relation</name>
+  <compound refid="dir_e27e4dfc26ea67af8e0a1787aa051f36" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/relation</name>
   </compound>
-  <compound refid="dir_8adfea765970617810d1a83b2c339557" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sections</name>
+  <compound refid="dir_001a2c9b9f2e0891f4e68600b6ae29e2" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/sections</name>
   </compound>
-  <compound refid="dir_8bb675351ffaa252a69261671389e2c0" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical</name>
+  <compound refid="dir_da02a38105763950155504ef82176910" kind="dir"><name>/home/ubuntu/boost/boost/geometry/strategies/spherical</name>
   </compound>
-  <compound refid="dir_5d74177c508066817a1255a92dc8f2a4" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/strategies</name>
+  <compound refid="dir_1e26e30a3d1138b879ba48852e3258df" kind="dir"><name>/home/ubuntu/boost/boost/geometry/strategies</name>
   </compound>
-  <compound refid="dir_6264b039324fcd610a179f376cbde94b" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/io/svg</name>
+  <compound refid="dir_2dce7c5653b7400ad9ca3889e3c87243" kind="dir"><name>/home/ubuntu/boost/boost/geometry/io/svg</name>
   </compound>
-  <compound refid="dir_1402c78cfe4b3a8f8b61b0acdd44b6a4" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/strategies/transform</name>
+  <compound refid="dir_60bbce529c31cb9c0d505297c3116180" kind="dir"><name>/home/ubuntu/boost/boost/geometry/strategies/transform</name>
   </compound>
-  <compound refid="dir_bacb04149764cbf6394e26ac332ca39a" kind="dir"><name>/home/travis</name>
+  <compound refid="dir_6a3c5298e5d503d74f80bff40f75e2a4" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/turns</name>
   </compound>
-  <compound refid="dir_1ebdbb358340eb3b0364c9d3ed6c8a4f" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/turns</name>
+  <compound refid="dir_91591915e9997d8f09df5890c710928d" kind="dir"><name>/home/ubuntu</name>
   </compound>
-  <compound refid="dir_f55ac20fb3e3255e57c57139f4ea1870" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/util</name>
+  <compound refid="dir_3f16df574dd8a8b6d0b01b742004fbc3" kind="dir"><name>/home/ubuntu/boost/boost/geometry/util</name>
   </compound>
-  <compound refid="dir_66dc2cdcd61111ce2045ba19a27cf177" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/views</name>
+  <compound refid="dir_72c4062d208f9a8bee31299fb47de215" kind="dir"><name>/home/ubuntu/boost/boost/geometry/views</name>
   </compound>
-  <compound refid="dir_7ce704194c15a3c97d5827509e8deb1f" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/within</name>
+  <compound refid="dir_efb8585ef907f7b2af426d00e9dda44b" kind="dir"><name>/home/ubuntu/boost/boost/geometry/algorithms/detail/within</name>
   </compound>
-  <compound refid="dir_9e6ee61a7858f08ee1131a2e8d211359" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/io/wkt</name>
+  <compound refid="dir_2ee39d25a13b77346142f9ce90e6fc1f" kind="dir"><name>/home/ubuntu/boost/boost/geometry/io/wkt</name>
   </compound>
   <compound refid="01_point_example_8cpp-example" kind="example"><name>01_point_example.cpp</name>
   </compound>

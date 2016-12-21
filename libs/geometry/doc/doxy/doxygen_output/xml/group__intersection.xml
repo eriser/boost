@@ -82,7 +82,7 @@
  <qbk>[include reference/algorithms/intersection.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="288" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="288" bodyend="301"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="288" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="288" bodyend="301"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

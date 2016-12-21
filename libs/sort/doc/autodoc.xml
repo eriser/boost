@@ -3,20 +3,6 @@
 <namespace name="boost">
 <namespace name="sort">
 <namespace name="spreadsort">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="float_mem_cast"><type>Cast_type</type><template>
           <template-type-parameter name="Data_type"><purpose><para>Floating-point IEEE 754/IEC559 type. </para></purpose></template-type-parameter>
           <template-type-parameter name="Cast_type"><purpose><para>Integer type (same size) to which to cast.</para></purpose></template-type-parameter>
@@ -52,6 +38,20 @@ spreadsort(vec.begin(), vec.end());
           <template-type-parameter name="Compare"/>
         </template><parameter name="first"><paramtype>RandomAccessIter</paramtype><description><para>Iterator pointer to first element. </para></description></parameter><parameter name="last"><paramtype>RandomAccessIter</paramtype><description><para>Iterator pointing to one beyond the end of data. </para></description></parameter><parameter name="rshift"><paramtype>Right_shift</paramtype><description><para>Functor that returns the result of shifting the value_type right a specified number of bits. </para></description></parameter><parameter name="comp"><paramtype>Compare</paramtype><description><para>A binary functor that returns whether the first element passed to it should go before the second in order. </para></description></parameter><purpose>Float sort algorithm using random access iterators with both right-shift and user-defined comparison operator. </purpose><description><para>
 </para></description></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </namespace>
@@ -60,6 +60,10 @@ spreadsort(vec.begin(), vec.end());
 <namespace name="boost">
 <namespace name="sort">
 <namespace name="spreadsort">
+
+
+
+
 <function name="integer_sort"><type>void</type><template>
           <template-type-parameter name="RandomAccessIter"/>
         </template><parameter name="first"><paramtype>RandomAccessIter</paramtype><description><para>Iterator pointer to first element. </para></description></parameter><parameter name="last"><paramtype>RandomAccessIter</paramtype><description><para>Iterator pointing to one beyond the end of data.</para></description></parameter><purpose>Integer sort algorithm using random access iterators. (All variants fall back to <computeroutput>std::sort</computeroutput> if the data size is too small, &lt; <computeroutput>detail::min_sort_size</computeroutput>). </purpose><description><para><computeroutput>integer_sort</computeroutput> is a fast templated in-place hybrid radix/comparison algorithm, which in testing tends to be roughly 50% to 2X faster than <computeroutput>std::sort</computeroutput> for large tests (&gt;=100kB).<sbr/>
@@ -121,10 +125,6 @@ Some performance plots of runtime vs. n and log(range) are provided:<sbr/>
 
 
 
-
-
-
-
 </namespace>
 </namespace>
 </namespace>
@@ -133,9 +133,6 @@ Some performance plots of runtime vs. n and log(range) are provided:<sbr/>
 <namespace name="boost">
 <namespace name="sort">
 <namespace name="spreadsort">
-
-
-
 
 
 
@@ -175,6 +172,9 @@ Some performance plots of runtime vs. n and log(range) are provided:<sbr/>
 
 
 
+
+
+
 </namespace>
 </namespace>
 </namespace>
@@ -183,6 +183,14 @@ Some performance plots of runtime vs. n and log(range) are provided:<sbr/>
 <namespace name="boost">
 <namespace name="sort">
 <namespace name="spreadsort">
+
+
+
+
+
+
+
+
 
 
 
@@ -312,14 +320,6 @@ Some performance plots of runtime vs. n and log(range) are provided:<sbr/>
 <note><para><computeroutput>spreadsort</computeroutput> function provides a wrapper that calls the fastest sorting algorithm available for a data type, enabling faster generic-programming.</para></note>
 <para>The lesser of <emphasis> O(N*log(N)) </emphasis> comparisons and <emphasis> O(N*log(K/S + S)) </emphasis>operations worst-case, where: </para><para>* N is <computeroutput>last</computeroutput> - <computeroutput>first</computeroutput>, </para><para>* K is the log of the range in bits (32 for 32-bit integers using their full range), </para><para>* S is a constant called max_splits, defaulting to 11 (except for strings where it is the log of the character size). </para>
 </para></description><requires><para>[<computeroutput>first</computeroutput>, <computeroutput>last</computeroutput>) is a valid range. </para><para><computeroutput>RandomAccessIter</computeroutput> <computeroutput>value_type</computeroutput> is mutable. </para><para><computeroutput>RandomAccessIter</computeroutput> <computeroutput>value_type</computeroutput> is <ulink url="http://en.cppreference.com/w/cpp/concept/LessThanComparable">LessThanComparable</ulink> </para></requires><postconditions><para>The elements in the range [<computeroutput>first</computeroutput>, <computeroutput>last</computeroutput>) are sorted in ascending order.</para></postconditions><returns><para><computeroutput>void</computeroutput>.</para></returns><throws><simpara><classname>std::exception</classname> Propagates exceptions if any of the element comparisons, the element swaps (or moves), the right shift, subtraction of right-shifted elements, functors, or any operations on iterators throw.</simpara></throws></function>
-
-
-
-
-
-
-
-
 </namespace>
 </namespace>
 </namespace>

@@ -23,14 +23,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" line="105" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" bodystart="105" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" line="105" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" bodystart="105" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" line="101" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" bodystart="100" bodyend="106"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" line="101" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_point_box.hpp" bodystart="100" bodyend="106"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1comparable_1_1pythagoras__point__box_1_1calculation__type_1a35d31b903a5c535b411fe4a64bd9a7e8" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::comparable::pythagoras_point_box::calculation_type</scope><name>type</name></member>
     </listofallmembers>

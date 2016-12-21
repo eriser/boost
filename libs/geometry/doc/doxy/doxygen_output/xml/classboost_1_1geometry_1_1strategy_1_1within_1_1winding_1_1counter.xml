@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="353" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="353" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="353" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="353" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1_1counter_1ae03bc3c5b6aa19b92ee07ff94cc0270e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="354" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="354" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="354" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="354" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="362" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="362" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="362" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="362" bodyend="-1"/>
       </memberdef>
       <memberdef kind="friend" id="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1_1counter_1a2921b0da3a1c4360682475dc218ca4f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="365" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="365" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="365" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="365" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="356" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="356" bodyend="359"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="356" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="356" bodyend="359"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -96,14 +96,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="367" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="367" bodyend="370"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="367" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="367" bodyend="370"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>subclass to keep state </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="352" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="351" bodyend="372"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="352" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="351" bodyend="372"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1_1counter_1a46cfbcbd4e1bd02a1fb6a125d6de7a58" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::within::winding::counter</scope><name>code</name></member>
       <member refid="classboost_1_1geometry_1_1strategy_1_1within_1_1winding_1_1counter_1a2df3f1fdcf1b85d3a6134504a58acdf8" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding::counter</scope><name>counter</name></member>

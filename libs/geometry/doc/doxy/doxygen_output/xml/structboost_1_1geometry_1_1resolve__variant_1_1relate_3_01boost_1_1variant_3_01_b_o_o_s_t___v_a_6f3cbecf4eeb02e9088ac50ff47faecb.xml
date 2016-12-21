@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="295" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="295" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="295" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="295" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="301" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="301" bodyend="306"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="301" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="301" bodyend="306"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_6f3cbecf4eeb02e9088ac50ff47faecb_1a835d32f867600f380a2817cc0cca8d6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="297" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="297" bodyend="298"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="297" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="297" bodyend="298"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,28 +77,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1133">
+      <node id="1119">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="1132">
+      <node id="1118">
         <label>boost::geometry::resolve_variant::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T2)&gt;&gt;::visitor&lt; Mask &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_6f3cbecf4eeb02e9088ac50ff47faecb"/>
-        <childnode refid="1133" relation="public-inheritance">
+        <childnode refid="1119" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1135">
+      <node id="1121">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="1134">
+      <node id="1120">
         <label>boost::geometry::resolve_variant::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T2)&gt;&gt;::visitor&lt; Mask &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_6f3cbecf4eeb02e9088ac50ff47faecb"/>
-        <childnode refid="1135" relation="public-inheritance">
+        <childnode refid="1121" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="294" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="293" bodyend="307"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="294" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="293" bodyend="307"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_6f3cbecf4eeb02e9088ac50ff47faecb_1a8a974ffa7e6c9ffd4ce6a7725b873161" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T1)&gt;, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T2)&gt;&gt;::visitor</scope><name>m_mask</name></member>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1relate_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_6f3cbecf4eeb02e9088ac50ff47faecb_1aa336e8e48d4af3018ae852196a07e0fc" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::relate&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T1)&gt;, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T2)&gt;&gt;::visitor</scope><name>operator()</name></member>

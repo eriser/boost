@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="84" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="84" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="84" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="84" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="133" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="133" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="133" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1af6af1f3b489dddb045247cb24917cefb" prot="public" static="no" mutable="no">
         <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1a8f1ec4833942cf9f261d6c4cb2f49a16" kindref="member">intersection_point_flag</ref></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="136" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="136" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="136" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a4ffd058285cf940ed636d70414d4844b" prot="public" static="no" mutable="no">
         <type>SegmentRatio</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="134" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="134" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="134" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a823e2301405aea46fb0e2a9ac10d1f9c" prot="public" static="no" mutable="no">
         <type>SegmentRatio</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="135" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="135" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="135" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="135" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="108" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="108" bodyend="131"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="108" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="108" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a54199c753262f223a35b95b70fed3751" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="97" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="97" bodyend="100"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="97" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="97" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a5c07d8f1aec3a047729fcdbd89b15fed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="102" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="102" bodyend="105"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="102" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="102" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a0e461bd55aafbcb90a975ebae3dbb62e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a3b378c68fbffc578e158e80c0504f095" kindref="member">promoted_type</ref></type>
@@ -203,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="86" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="86" bodyend="89"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="86" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="86" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1abec522fd701d633e61c61392fabc7d16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a3b378c68fbffc578e158e80c0504f095" kindref="member">promoted_type</ref></type>
@@ -216,14 +216,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="91" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="91" bodyend="94"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="91" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="91" bodyend="94"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" line="80" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="79" bodyend="137"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" line="80" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/intersection.hpp" bodystart="79" bodyend="137"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a3588b501512f7695651f763136836e77" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::relate_spherical_segments::segment_intersection_info</scope><name>assign</name></member>
       <member refid="structboost_1_1geometry_1_1strategy_1_1intersection_1_1relate__spherical__segments_1_1segment__intersection__info_1a54199c753262f223a35b95b70fed3751" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::intersection::relate_spherical_segments::segment_intersection_info</scope><name>assign_a</name></member>

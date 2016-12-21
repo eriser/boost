@@ -16,74 +16,74 @@
     <includes local="no">boost/type_traits/is_integral.hpp</includes>
     <includes local="no">boost/type_traits/is_unsigned.hpp</includes>
     <incdepgraph>
-      <node id="65566">
+      <node id="65280">
         <label>boost/mpl/list.hpp</label>
       </node>
-      <node id="65565">
+      <node id="65279">
         <label>boost/mpl/if.hpp</label>
       </node>
-      <node id="65567">
+      <node id="65281">
         <label>boost/mpl/next.hpp</label>
       </node>
-      <node id="65569">
+      <node id="65283">
         <label>boost/type_traits/integral_constant.hpp</label>
       </node>
-      <node id="65568">
+      <node id="65282">
         <label>boost/mpl/size_t.hpp</label>
       </node>
-      <node id="65570">
+      <node id="65284">
         <label>boost/type_traits/is_fundamental.hpp</label>
       </node>
-      <node id="65563">
+      <node id="65277">
         <label>boost/mpl/deref.hpp</label>
       </node>
-      <node id="65559">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/util/promote_integral.hpp</label>
-        <link refid="promote_integral.hpp"/>
-        <childnode refid="65560" relation="include">
-        </childnode>
-        <childnode refid="65561" relation="include">
-        </childnode>
-        <childnode refid="65562" relation="include">
-        </childnode>
-        <childnode refid="65563" relation="include">
-        </childnode>
-        <childnode refid="65564" relation="include">
-        </childnode>
-        <childnode refid="65565" relation="include">
-        </childnode>
-        <childnode refid="65566" relation="include">
-        </childnode>
-        <childnode refid="65567" relation="include">
-        </childnode>
-        <childnode refid="65568" relation="include">
-        </childnode>
-        <childnode refid="65569" relation="include">
-        </childnode>
-        <childnode refid="65570" relation="include">
-        </childnode>
-        <childnode refid="65571" relation="include">
-        </childnode>
-        <childnode refid="65572" relation="include">
-        </childnode>
-      </node>
-      <node id="65564">
+      <node id="65278">
         <label>boost/mpl/end.hpp</label>
       </node>
-      <node id="65572">
+      <node id="65286">
         <label>boost/type_traits/is_unsigned.hpp</label>
       </node>
-      <node id="65561">
+      <node id="65275">
         <label>cstddef</label>
       </node>
-      <node id="65571">
+      <node id="65285">
         <label>boost/type_traits/is_integral.hpp</label>
       </node>
-      <node id="65560">
+      <node id="65274">
         <label>climits</label>
       </node>
-      <node id="65562">
+      <node id="65276">
         <label>boost/mpl/begin.hpp</label>
+      </node>
+      <node id="65273">
+        <label>/home/ubuntu/boost/boost/geometry/util/promote_integral.hpp</label>
+        <link refid="promote_integral.hpp"/>
+        <childnode refid="65274" relation="include">
+        </childnode>
+        <childnode refid="65275" relation="include">
+        </childnode>
+        <childnode refid="65276" relation="include">
+        </childnode>
+        <childnode refid="65277" relation="include">
+        </childnode>
+        <childnode refid="65278" relation="include">
+        </childnode>
+        <childnode refid="65279" relation="include">
+        </childnode>
+        <childnode refid="65280" relation="include">
+        </childnode>
+        <childnode refid="65281" relation="include">
+        </childnode>
+        <childnode refid="65282" relation="include">
+        </childnode>
+        <childnode refid="65283" relation="include">
+        </childnode>
+        <childnode refid="65284" relation="include">
+        </childnode>
+        <childnode refid="65285" relation="include">
+        </childnode>
+        <childnode refid="65286" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="classboost_1_1geometry_1_1promote__integral" prot="public">boost::geometry::promote_integral</innerclass>
@@ -99,13 +99,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/util/promote_integral.hpp" line="15" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/util/promote_integral.hpp" bodystart="15" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/util/promote_integral.hpp" line="15" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/util/promote_integral.hpp" bodystart="15" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/util/promote_integral.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/util/promote_integral.hpp"/>
   </compounddef>
 </doxygen>

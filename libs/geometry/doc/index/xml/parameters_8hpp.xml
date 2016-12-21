@@ -8,7 +8,7 @@
         <label>limits</label>
       </node>
       <node id="25">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp</label>
+        <label>/home/ubuntu/boost/boost/geometry/index/parameters.hpp</label>
         <link refid="parameters.hpp"/>
         <childnode refid="26" relation="include">
         </childnode>
@@ -30,6 +30,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp"/>
   </compounddef>
 </doxygen>

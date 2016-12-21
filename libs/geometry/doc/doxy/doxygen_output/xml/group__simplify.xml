@@ -102,7 +102,7 @@
  <qbk.distinguish>with strategy</qbk.distinguish>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" line="461" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" bodystart="461" bodyend="469"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" line="461" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" bodystart="461" bodyend="469"/>
       </memberdef>
       <memberdef kind="function" id="group__simplify_1ga7f1ed83b2a595dc644205374eddf0057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -173,7 +173,7 @@
  <qbk>[include reference/algorithms/simplify.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" line="489" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" bodystart="489" bodyend="495"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" line="489" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" bodystart="489" bodyend="495"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

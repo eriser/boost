@@ -561,14 +561,14 @@
 </method-group>
 </struct-specialization><struct-specialization name="size_type_of"><template>
     </template><specialization><template-arg>boost::gregorian::date_duration</template-arg></specialization><typedef name="type"><type>boost::gregorian::date_duration</type></typedef>
-</struct-specialization>
-
-
-
-<function name="operator++"><type>boost::gregorian::date</type><parameter name="x"><paramtype>boost::gregorian::date &amp;</paramtype></parameter></function>
+</struct-specialization><function name="operator++"><type>boost::gregorian::date</type><parameter name="x"><paramtype>boost::gregorian::date &amp;</paramtype></parameter></function>
 <function name="operator--"><type>boost::gregorian::date</type><parameter name="x"><paramtype>boost::gregorian::date &amp;</paramtype></parameter></function>
 <function name="operator++"><type>boost::gregorian::date_duration</type><parameter name="x"><paramtype>boost::gregorian::date_duration &amp;</paramtype></parameter></function>
 <function name="operator--"><type>boost::gregorian::date_duration</type><parameter name="x"><paramtype>boost::gregorian::date_duration &amp;</paramtype></parameter></function>
+
+
+
+
 
 
 </namespace>
@@ -1369,7 +1369,7 @@
       <template-nontype-parameter name="Compare"><type>ICL_COMPARE</type><default>ICL_COMPARE_INSTANCE(ICL_COMPARE_DEFAULT, DomainT)</default></template-nontype-parameter>
       <template-nontype-parameter name="Interval"><type>ICL_INTERVAL(ICL_COMPARE)</type><default>ICL_INTERVAL_INSTANCE(ICL_INTERVAL_DEFAULT, DomainT, Compare)</default></template-nontype-parameter>
       <template-nontype-parameter name="Alloc"><type>ICL_ALLOC</type><default>std::allocator</default></template-nontype-parameter>
-    </template><inherit access="public">boost::icl::interval_base_set&lt; interval_set&lt; DomainT, Compare, Interval, Alloc &gt;, DomainT, Compare, Interval, Alloc &gt;</inherit><purpose>Implements a set as a set of intervals - merging adjoining intervals. </purpose><enum name="@9"><enumvalue name="fineness"><default>= 1</default></enumvalue></enum>
+    </template><inherit access="public">boost::icl::interval_base_set&lt; interval_set&lt; DomainT, Compare, Interval, Alloc &gt;, DomainT, Compare, Interval, Alloc &gt;</inherit><purpose>Implements a set as a set of intervals - merging adjoining intervals. </purpose><enum name="@1"><enumvalue name="fineness"><default>= 1</default></enumvalue></enum>
 <typedef name="type"><type><classname>interval_set</classname>&lt; DomainT, Compare, Interval, Alloc &gt;</type></typedef>
 <typedef name="base_type"><purpose>The base_type of this class. </purpose><type><classname>interval_base_set</classname>&lt; <classname>type</classname>, DomainT, Compare, Interval, Alloc &gt;</type></typedef>
 <typedef name="overloadable_type"><type><classname>type</classname></type></typedef>
@@ -1527,10 +1527,6 @@
 
 
 
-
-
-
-
 <function name="adder"><type><classname>add_iterator</classname>&lt; ContainerT &gt;</type><template>
           <template-type-parameter name="ContainerT"/>
           <template-type-parameter name="IteratorT"/>
@@ -1539,6 +1535,10 @@
           <template-type-parameter name="ContainerT"/>
           <template-type-parameter name="IteratorT"/>
         </template><parameter name="cont"><paramtype>ContainerT &amp;</paramtype></parameter><parameter name="iter_"><paramtype>IteratorT</paramtype></parameter><description><para>Function inserter creates and initializes an <classname alt="boost::icl::insert_iterator">insert_iterator</classname> </para></description></function>
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -1606,14 +1606,14 @@
 <header name="boost/icl/map.hpp">
 <namespace name="boost">
 <namespace name="icl">
-<struct name="partial_absorber"><enum name="@1"><enumvalue name="absorbs_identities"><default>= true</default></enumvalue></enum>
-<enum name="@2"><enumvalue name="is_total"><default>= false</default></enumvalue></enum>
-</struct><struct name="partial_enricher"><enum name="@3"><enumvalue name="absorbs_identities"><default>= false</default></enumvalue></enum>
-<enum name="@4"><enumvalue name="is_total"><default>= false</default></enumvalue></enum>
-</struct><struct name="total_absorber"><enum name="@5"><enumvalue name="absorbs_identities"><default>= true</default></enumvalue></enum>
-<enum name="@6"><enumvalue name="is_total"><default>= true</default></enumvalue></enum>
-</struct><struct name="total_enricher"><enum name="@7"><enumvalue name="absorbs_identities"><default>= false</default></enumvalue></enum>
-<enum name="@8"><enumvalue name="is_total"><default>= true</default></enumvalue></enum>
+<struct name="partial_absorber"><enum name="@2"><enumvalue name="absorbs_identities"><default>= true</default></enumvalue></enum>
+<enum name="@3"><enumvalue name="is_total"><default>= false</default></enumvalue></enum>
+</struct><struct name="partial_enricher"><enum name="@4"><enumvalue name="absorbs_identities"><default>= false</default></enumvalue></enum>
+<enum name="@5"><enumvalue name="is_total"><default>= false</default></enumvalue></enum>
+</struct><struct name="total_absorber"><enum name="@6"><enumvalue name="absorbs_identities"><default>= true</default></enumvalue></enum>
+<enum name="@7"><enumvalue name="is_total"><default>= true</default></enumvalue></enum>
+</struct><struct name="total_enricher"><enum name="@8"><enumvalue name="absorbs_identities"><default>= false</default></enumvalue></enum>
+<enum name="@9"><enumvalue name="is_total"><default>= true</default></enumvalue></enum>
 </struct><class name="map"><template>
       <template-type-parameter name="DomainT"/>
       <template-type-parameter name="CodomainT"/>
@@ -1971,16 +1971,16 @@
 </method-group>
 </struct-specialization><struct-specialization name="size_type_of"><template>
     </template><specialization><template-arg>boost::posix_time::time_duration</template-arg></specialization><typedef name="type"><type>boost::posix_time::time_duration</type></typedef>
-</struct-specialization><function name="operator++"><type>boost::posix_time::ptime</type><parameter name="x"><paramtype>boost::posix_time::ptime &amp;</paramtype></parameter></function>
+</struct-specialization>
+
+
+
+
+
+<function name="operator++"><type>boost::posix_time::ptime</type><parameter name="x"><paramtype>boost::posix_time::ptime &amp;</paramtype></parameter></function>
 <function name="operator--"><type>boost::posix_time::ptime</type><parameter name="x"><paramtype>boost::posix_time::ptime &amp;</paramtype></parameter></function>
 <function name="operator++"><type>boost::posix_time::time_duration</type><parameter name="x"><paramtype>boost::posix_time::time_duration &amp;</paramtype></parameter></function>
 <function name="operator--"><type>boost::posix_time::time_duration</type><parameter name="x"><paramtype>boost::posix_time::time_duration &amp;</paramtype></parameter></function>
-
-
-
-
-
-
 </namespace>
 </namespace>
 </header>

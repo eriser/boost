@@ -43,13 +43,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/turns/print_turns.hpp" line="87" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/turns/print_turns.hpp" bodystart="87" bodyend="95"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/print_turns.hpp" line="87" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/print_turns.hpp" bodystart="87" bodyend="95"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/turns/compare_turns.hpp" line="25" column="1"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/turns/compare_turns.hpp" line="25" column="1"/>
   </compounddef>
 </doxygen>

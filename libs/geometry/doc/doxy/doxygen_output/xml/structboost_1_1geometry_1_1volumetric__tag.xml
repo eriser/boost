@@ -7,7 +7,7 @@
 <para>For volume types (also box (?), polyhedron) </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="76" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="76" bodyend="76"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="76" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="76" bodyend="76"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

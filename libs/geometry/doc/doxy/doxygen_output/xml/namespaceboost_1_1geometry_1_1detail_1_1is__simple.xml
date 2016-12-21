@@ -22,13 +22,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/debug_print_boundary_points.hpp" line="103" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/debug_print_boundary_points.hpp" bodystart="103" bodyend="105"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/debug_print_boundary_points.hpp" line="103" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/debug_print_boundary_points.hpp" bodystart="103" bodyend="105"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/debug_print_boundary_points.hpp" line="39" column="1"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/debug_print_boundary_points.hpp" line="39" column="1"/>
   </compounddef>
 </doxygen>

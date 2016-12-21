@@ -4522,26 +4522,6 @@ typename rebind_pointer&lt;U&gt;::type</programlisting></description><type>U *</
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="operator!="><type>bool</type><template>
           <template-type-parameter name="T"/>
           <template-nontype-parameter name="Options"><type>class...</type></template-nontype-parameter>
@@ -4582,6 +4562,26 @@ typename rebind_pointer&lt;U&gt;::type</programlisting></description><type>U *</
           <template-type-parameter name="T"/>
           <template-nontype-parameter name="Options"><type>class...</type></template-nontype-parameter>
         </template><parameter name="x"><paramtype><classname>multiset</classname>&lt; T, Options...&gt; &amp;</paramtype></parameter><parameter name="y"><paramtype><classname>multiset</classname>&lt; T, Options...&gt; &amp;</paramtype></parameter></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -5067,6 +5067,16 @@ typename rebind_pointer&lt;U&gt;::type</programlisting></description><type>U *</
 
 
 
+
+
+
+
+
+
+
+
+
+
 <function name="operator!="><type>bool</type><template>
           <template-type-parameter name="T"/>
           <template-nontype-parameter name="Options"><type>class...</type></template-nontype-parameter>
@@ -5107,16 +5117,6 @@ typename rebind_pointer&lt;U&gt;::type</programlisting></description><type>U *</
           <template-type-parameter name="T"/>
           <template-nontype-parameter name="Options"><type>class...</type></template-nontype-parameter>
         </template><parameter name="x"><paramtype><classname>sg_multiset</classname>&lt; T, Options...&gt; &amp;</paramtype></parameter><parameter name="y"><paramtype><classname>sg_multiset</classname>&lt; T, Options...&gt; &amp;</paramtype></parameter></function>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -6291,6 +6291,16 @@ typename rebind_pointer&lt;U&gt;::type</programlisting></description><type>U *</
 
 
 
+
+
+
+
+
+
+
+
+
+
 <function name="operator!="><type>bool</type><template>
           <template-type-parameter name="T"/>
           <template-nontype-parameter name="Options"><type>class...</type></template-nontype-parameter>
@@ -6331,16 +6341,6 @@ typename rebind_pointer&lt;U&gt;::type</programlisting></description><type>U *</
           <template-type-parameter name="T"/>
           <template-nontype-parameter name="Options"><type>class...</type></template-nontype-parameter>
         </template><parameter name="x"><paramtype><classname>splay_multiset</classname>&lt; T, Options...&gt; &amp;</paramtype></parameter><parameter name="y"><paramtype><classname>splay_multiset</classname>&lt; T, Options...&gt; &amp;</paramtype></parameter></function>
-
-
-
-
-
-
-
-
-
-
 </namespace>
 </namespace>
 </header>

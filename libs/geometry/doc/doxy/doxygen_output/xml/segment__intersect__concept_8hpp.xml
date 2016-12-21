@@ -4,14 +4,14 @@
     <compoundname>segment_intersect_concept.hpp</compoundname>
     <includes local="no">boost/concept_check.hpp</includes>
     <incdepgraph>
-      <node id="60927">
-        <label>boost/concept_check.hpp</label>
-      </node>
-      <node id="60926">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/strategies/concepts/segment_intersect_concept.hpp</label>
+      <node id="60677">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/concepts/segment_intersect_concept.hpp</label>
         <link refid="segment_intersect_concept.hpp"/>
-        <childnode refid="60927" relation="include">
+        <childnode refid="60678" relation="include">
         </childnode>
+      </node>
+      <node id="60678">
+        <label>boost/concept_check.hpp</label>
       </node>
     </incdepgraph>
     <innerclass refid="classboost_1_1geometry_1_1concepts_1_1_segment_intersect_strategy" prot="public">boost::geometry::concepts::SegmentIntersectStrategy</innerclass>
@@ -22,6 +22,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/concepts/segment_intersect_concept.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/concepts/segment_intersect_concept.hpp"/>
   </compounddef>
 </doxygen>

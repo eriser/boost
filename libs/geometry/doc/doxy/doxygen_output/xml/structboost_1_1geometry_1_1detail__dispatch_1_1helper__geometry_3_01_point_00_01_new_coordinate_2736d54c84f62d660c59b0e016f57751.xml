@@ -26,14 +26,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="119" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="119" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="119" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="119" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="115" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="114" bodyend="120"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="115" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="114" bodyend="120"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1detail__dispatch_1_1helper__geometry_3_01_point_00_01_new_coordinate_2736d54c84f62d660c59b0e016f57751_1a2a598d55e594c262234d52976d08ff28" prot="public" virt="non-virtual"><scope>boost::geometry::detail_dispatch::helper_geometry&lt; Point, NewCoordinateType, NewUnits, point_tag &gt;</scope><name>type</name></member>
     </listofallmembers>

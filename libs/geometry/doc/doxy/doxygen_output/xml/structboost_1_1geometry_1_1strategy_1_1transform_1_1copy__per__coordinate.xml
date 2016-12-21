@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" line="110" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="110" bodyend="117"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" line="110" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="110" bodyend="117"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -53,7 +53,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" line="109" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="108" bodyend="118"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" line="109" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="108" bodyend="118"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1transform_1_1copy__per__coordinate_1ad0d7f18576b0d2c6e02e72ee6d932f88" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::copy_per_coordinate</scope><name>apply</name></member>
     </listofallmembers>

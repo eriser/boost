@@ -37,14 +37,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="124" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="124" bodyend="135"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="124" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="124" bodyend="135"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="122" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="121" bodyend="136"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="122" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="121" bodyend="136"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__side__equal_3_01cartesian__tag_01_4_1aa3f322179a4f71a941cd12c285e3b913" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding_side_equal&lt; cartesian_tag &gt;</scope><name>apply</name></member>
     </listofallmembers>

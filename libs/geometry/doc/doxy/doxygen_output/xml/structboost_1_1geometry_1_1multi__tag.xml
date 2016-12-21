@@ -12,36 +12,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="560">
+      <node id="546">
         <label>boost::geometry::multi_linestring_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__linestring__tag"/>
-        <childnode refid="558" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="558">
+      <node id="544">
         <label>boost::geometry::multi_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__tag"/>
       </node>
-      <node id="561">
+      <node id="547">
         <label>boost::geometry::multi_point_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__point__tag"/>
-        <childnode refid="558" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="559">
+      <node id="545">
         <label>boost::geometry::geometry_collection_tag</label>
         <link refid="structboost_1_1geometry_1_1geometry__collection__tag"/>
-        <childnode refid="558" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="562">
+      <node id="548">
         <label>boost::geometry::multi_polygon_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__polygon__tag"/>
-        <childnode refid="558" relation="public-inheritance">
+        <childnode refid="544" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="61" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="61" bodyend="61"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="61" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="61" bodyend="61"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

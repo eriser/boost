@@ -53,7 +53,7 @@
  <qbk>[include reference/algorithms/num_points.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_points.hpp" line="199" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_points.hpp" bodystart="199" bodyend="202"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/num_points.hpp" line="199" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/num_points.hpp" bodystart="199" bodyend="202"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

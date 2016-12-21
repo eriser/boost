@@ -134,6 +134,8 @@ The logger implements fundamental facilities of loggers, such as storing source-
 
 
 
+
+
 </namespace>
 </namespace>
 <macro name="BOOST_LOG_FORWARD_LOGGER_CONSTRUCTORS" kind="functionlike"><macro-parameter name="class_type"/></macro>
@@ -216,6 +218,8 @@ The header contains implementation of a channel support feature. </para><namespa
 
 
 
+
+
 </namespace>
 </namespace>
 <macro name="BOOST_LOG_STREAM_CHANNEL" kind="functionlike"><macro-parameter name="logger"/><macro-parameter name="chan"/><purpose>The macro allows to put a record with a specific channel name into log. </purpose></macro>
@@ -281,6 +285,8 @@ The header contains implementation of a logger with channel support. </para><nam
 
 
 
+
+
 </namespace>
 </namespace>
 </header>
@@ -328,6 +334,8 @@ The header contains implementation of an exception handler support feature. </pa
 
 
 
+
+
 </namespace>
 </namespace>
 </header>
@@ -345,6 +353,8 @@ The header contains definition of a features list class template. </para><namesp
 
 
 
+
+
 </namespace>
 </namespace>
 </header>
@@ -356,6 +366,8 @@ The header contains implementation of facilities to declare global loggers. </pa
 <namespace name="sources">
 
 </namespace>
+
+
 
 
 
@@ -382,6 +394,8 @@ The header contains implementation of a simplistic logger with no features. </pa
 
 
 
+
+
 </namespace>
 </namespace>
 </header>
@@ -395,6 +409,7 @@ This header contains a wrapper class around a logging record that allows to comp
     </template><inherit access="public">basic_formatting_ostream&lt; CharT &gt;</inherit><purpose>Logging record adapter with a streaming capability. </purpose><description><para>This class allows to compose the logging record message by streaming operations. It aggregates the log record and provides the standard output stream interface. </para></description><typedef name="char_type"><purpose>Character type. </purpose><type>CharT</type></typedef>
 <typedef name="string_type"><purpose>String type to be used as a message text holder. </purpose><type>std::basic_string&lt; char_type &gt;</type></typedef>
 <typedef name="stream_type"><purpose>Stream type. </purpose><type>std::basic_ostream&lt; char_type &gt;</type></typedef>
+<typedef name="traits_type"><purpose>Character traits. </purpose><type>base_type::traits_type</type></typedef>
 <method-group name="public member functions">
 <method name="conversion-operator" cv="const noexcept" specifiers="explicit"><type>bool</type><description><para>Conversion to an unspecified boolean type</para><para>
 </para></description><returns><para><computeroutput>true</computeroutput>, if stream is valid and ready for formatting, <computeroutput>false</computeroutput>, if the stream is not valid. The latter also applies to the case when the stream is not attached to a log record. </para></returns></method>
@@ -407,6 +422,33 @@ This header contains a wrapper class around a logging record that allows to comp
 <method name="attach_record"><type>void</type><parameter name="rec"><paramtype>record &amp;</paramtype><description><para>New log record to attach to </para></description></parameter><description><para>If the stream is attached to a log record, flushes internal buffers to complete all pending formatting operations. Then reattaches the stream to another log record.</para><para>
 </para></description></method>
 <method name="detach_from_record" cv="noexcept"><type>void</type><purpose>The function resets the stream into a detached (default initialized) state. </purpose></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="manip"><paramtype>typename base_type::ios_base_manip</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="manip"><paramtype>typename base_type::basic_ios_manip</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="manip"><paramtype>typename base_type::stream_manip</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="c"><paramtype>char</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="p"><paramtype>const char *</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="c"><paramtype>wchar_t</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="p"><paramtype>const wchar_t *</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="c"><paramtype>char16_t</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="p"><paramtype>const char16_t *</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="c"><paramtype>char32_t</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="p"><paramtype>const char32_t *</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>bool</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>signed char</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>unsigned char</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>short</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>unsigned short</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>int</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>unsigned int</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>long</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>unsigned long</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>long long</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>unsigned long long</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>float</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>double</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>long double</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="value"><paramtype>const void *</paramtype></parameter></method>
+<method name="operator&lt;&lt;"><type><classname>basic_record_ostream</classname> &amp;</type><parameter name="buf"><paramtype>std::basic_streambuf&lt; char_type, traits_type &gt; *</paramtype></parameter></method>
 </method-group>
 <constructor cv="noexcept"><description><para>Default constructor. Creates an empty record that is equivalent to the invalid record handle. The stream capability is not available after construction.</para><para>
 </para></description><postconditions><para><computeroutput>!*this == true</computeroutput> </para></postconditions></constructor>
@@ -425,11 +467,19 @@ This header contains a wrapper class around a logging record that allows to comp
 <function name="operator&lt;&lt;"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="StreamT"/>
           <template-type-parameter name="T"/>
+        </template><parameter name="strm"><paramtype>StreamT &amp;</paramtype></parameter><parameter name="value"><paramtype>T</paramtype></parameter></function>
+<function name="operator&lt;&lt;"><type><emphasis>unspecified</emphasis></type><template>
+          <template-type-parameter name="StreamT"/>
+          <template-type-parameter name="T"/>
         </template><parameter name="strm"><paramtype>StreamT &amp;</paramtype></parameter><parameter name="value"><paramtype>T const &amp;</paramtype></parameter></function>
 <function name="operator&lt;&lt;"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="StreamT"/>
           <template-type-parameter name="T"/>
         </template><parameter name="strm"><paramtype>StreamT &amp;</paramtype></parameter><parameter name="value"><paramtype>T &amp;</paramtype></parameter></function>
+<function name="operator&lt;&lt;"><type><emphasis>unspecified</emphasis></type><template>
+          <template-type-parameter name="StreamT"/>
+          <template-type-parameter name="T"/>
+        </template><parameter name="strm"><paramtype>StreamT &amp;&amp;</paramtype></parameter><parameter name="value"><paramtype>T</paramtype></parameter></function>
 <function name="operator&lt;&lt;"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="StreamT"/>
           <template-type-parameter name="T"/>
@@ -501,6 +551,8 @@ The header contains implementation of a logger with severity level and channel s
 
 
 
+
+
 </namespace>
 </namespace>
 <macro name="BOOST_LOG_STREAM_CHANNEL_SEV" kind="functionlike"><macro-parameter name="logger"/><macro-parameter name="chan"/><macro-parameter name="lvl"/><purpose>The macro allows to put a record with a specific channel name into log. </purpose></macro>
@@ -549,6 +601,8 @@ The header contains implementation of a severity level support feature. </para><
     </template><typedef name="type"><type><classname>basic_severity_logger</classname>&lt; BaseT, LevelT &gt;</type></typedef>
 </struct></struct>
 </namespace>
+
+
 
 
 
@@ -614,6 +668,8 @@ The header contains implementation of a logger with severity level support. </pa
 <copy-assignment><type><classname>wseverity_logger_mt</classname> &amp;</type><parameter name="that"><paramtype><classname>wseverity_logger_mt</classname> const &amp;</paramtype></parameter><description><para>Assignment operator</para><para>Swaps two loggers </para></description></copy-assignment>
 </class>
 </namespace>
+
+
 
 
 
@@ -684,6 +740,8 @@ The header contains definition of threading models that can be used in loggers. 
 <copy-assignment><type><classname>multi_thread_model</classname> &amp;</type><parameter name=""><paramtype><classname>multi_thread_model</classname> const &amp;</paramtype></parameter></copy-assignment>
 </struct>
 </namespace>
+
+
 
 
 

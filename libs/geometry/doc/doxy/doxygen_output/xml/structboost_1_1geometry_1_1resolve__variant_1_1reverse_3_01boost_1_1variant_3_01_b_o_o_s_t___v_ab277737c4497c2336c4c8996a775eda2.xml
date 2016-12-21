@@ -25,14 +25,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/reverse.hpp" line="157" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/reverse.hpp" bodystart="157" bodyend="160"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/reverse.hpp" line="157" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/reverse.hpp" bodystart="157" bodyend="160"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/reverse.hpp" line="147" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/reverse.hpp" bodystart="146" bodyend="161"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/reverse.hpp" line="147" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/reverse.hpp" bodystart="146" bodyend="161"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1reverse_3_01boost_1_1variant_3_01_b_o_o_s_t___v_ab277737c4497c2336c4c8996a775eda2_1ae13c3f2d98648e63c1913d8608c55109" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::reverse&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;</scope><name>apply</name></member>
     </listofallmembers>

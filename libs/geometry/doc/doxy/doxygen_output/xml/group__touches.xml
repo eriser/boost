@@ -42,7 +42,7 @@
  <qbk.distinguish>one geometry</qbk.distinguish>   <qbk>[def __one_parameter__]</qbk>   <qbk>[include reference/algorithms/touches.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" line="560" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" bodystart="560" bodyend="563"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" line="560" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" bodystart="560" bodyend="563"/>
       </memberdef>
       <memberdef kind="function" id="group__touches_1gabbb053b4c78edc40a6c37f1f0f71ddbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -102,7 +102,7 @@
  <qbk.distinguish>two geometries</qbk.distinguish>   <qbk>[include reference/algorithms/touches.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" line="579" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" bodystart="579" bodyend="582"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" line="579" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" bodystart="579" bodyend="582"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
