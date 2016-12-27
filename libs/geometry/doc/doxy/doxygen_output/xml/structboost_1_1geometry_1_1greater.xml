@@ -25,28 +25,28 @@
 <para>Can be used to sort points in reverse order <simplesect kind="see"><para>Less functor </para></simplesect>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="418">
+      <node id="404">
         <label>boost::geometry::greater&lt; Point, Dimension, Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1greater"/>
-        <childnode refid="419" relation="public-inheritance">
+        <childnode refid="405" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="419">
+      <node id="405">
         <label>dispatch::compare_geometries&lt; -1, Point, Strategy, Dimension &gt;</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="420">
+      <node id="406">
         <label>boost::geometry::greater&lt; Point, Dimension, Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1greater"/>
-        <childnode refid="421" relation="public-inheritance">
+        <childnode refid="407" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="421">
+      <node id="407">
         <label>dispatch::compare_geometries&lt; -1, Point, Strategy, Dimension &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" line="210" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" bodystart="202" bodyend="210"/>
+    <location file="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" line="210" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" bodystart="202" bodyend="210"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

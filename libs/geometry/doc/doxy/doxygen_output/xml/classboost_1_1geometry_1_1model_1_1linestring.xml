@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" line="64" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" bodystart="64" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" line="64" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" bodystart="64" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" line="62" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" line="62" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" line="68" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" bodystart="68" bodyend="70"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" line="68" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" bodystart="68" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1model_1_1linestring_1a09b2523065ccd5bc9df6a04e77c40a5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" line="74" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" bodystart="74" bodyend="76"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" line="74" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" bodystart="74" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1model_1_1linestring_1aa964ac0f6bae17c8f1cf7b458c934f7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" line="81" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" bodystart="81" bodyend="83"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" line="81" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" bodystart="81" bodyend="83"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -142,28 +142,28 @@
 [link geometry.reference.concepts.concept_linestring Linestring Concept]
 </qbk.before.synopsis>  </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="507">
+      <node id="493">
         <label>Container&lt; Point, Allocator&lt; Point &gt; &gt;</label>
       </node>
-      <node id="506">
+      <node id="492">
         <label>boost::geometry::model::linestring&lt; Point, Container, Allocator &gt;</label>
         <link refid="classboost_1_1geometry_1_1model_1_1linestring"/>
-        <childnode refid="507" relation="public-inheritance">
+        <childnode refid="493" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="509">
+      <node id="495">
         <label>Container&lt; Point, Allocator&lt; Point &gt; &gt;</label>
       </node>
-      <node id="508">
+      <node id="494">
         <label>boost::geometry::model::linestring&lt; Point, Container, Allocator &gt;</label>
         <link refid="classboost_1_1geometry_1_1model_1_1linestring"/>
-        <childnode refid="509" relation="public-inheritance">
+        <childnode refid="495" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" line="61" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/linestring.hpp" bodystart="60" bodyend="99"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" line="61" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/linestring.hpp" bodystart="60" bodyend="99"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1model_1_1linestring_1ad166000688c7d99f2f76b39c7fa22524" prot="private" virt="non-virtual"><scope>boost::geometry::model::linestring</scope><name>base_type</name></member>
       <member refid="classboost_1_1geometry_1_1model_1_1linestring_1a0fe9e5bb972f7f3f448391dc6dca81c9" prot="private" virt="non-virtual"><scope>boost::geometry::model::linestring</scope><name>BOOST_CONCEPT_ASSERT</name></member>

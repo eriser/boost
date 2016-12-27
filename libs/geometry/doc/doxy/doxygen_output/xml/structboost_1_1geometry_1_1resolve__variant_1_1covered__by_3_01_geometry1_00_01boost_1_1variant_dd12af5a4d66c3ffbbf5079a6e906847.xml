@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="363" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="363" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="363" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="363" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1covered__by_3_01_geometry1_00_01boost_1_1variant_dd12af5a4d66c3ffbbf5079a6e906847_1ac03c18fe9fcf2469a9284388a65c3dce" prot="public" static="no" mutable="no">
         <type>Strategy const &amp;</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="364" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="364" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="364" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="364" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="370" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="370" bodyend="374"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="370" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="370" bodyend="374"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1covered__by_3_01_geometry1_00_01boost_1_1variant_dd12af5a4d66c3ffbbf5079a6e906847_1a289407c737a4ea759b331c30852e7adf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="366" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="366" bodyend="367"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="366" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="366" bodyend="367"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -87,28 +87,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="903">
+      <node id="889">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="902">
+      <node id="888">
         <label>boost::geometry::resolve_variant::covered_by&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1covered__by_3_01_geometry1_00_01boost_1_1variant_dd12af5a4d66c3ffbbf5079a6e906847"/>
-        <childnode refid="903" relation="public-inheritance">
+        <childnode refid="889" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="905">
+      <node id="891">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="904">
+      <node id="890">
         <label>boost::geometry::resolve_variant::covered_by&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1covered__by_3_01_geometry1_00_01boost_1_1variant_dd12af5a4d66c3ffbbf5079a6e906847"/>
-        <childnode refid="905" relation="public-inheritance">
+        <childnode refid="891" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="362" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="361" bodyend="375"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="362" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="361" bodyend="375"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1covered__by_3_01_geometry1_00_01boost_1_1variant_dd12af5a4d66c3ffbbf5079a6e906847_1a4828aecbb14186075f5df6c7b928bcd8" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::covered_by&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_geometry1</name></member>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1covered__by_3_01_geometry1_00_01boost_1_1variant_dd12af5a4d66c3ffbbf5079a6e906847_1ac03c18fe9fcf2469a9284388a65c3dce" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::covered_by&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_strategy</name></member>

@@ -17,7 +17,7 @@
 </para></listitem></itemizedlist>
 </para><para><simplesect kind="note"><para>The segment concept is similar to the box concept, defining another tag. However, the box concept assumes the index as min_corner, max_corner, while for the segment concept there is no assumption. </para></simplesect>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/segment_concept.hpp" line="50" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/segment_concept.hpp" bodystart="49" bodyend="83"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/concepts/segment_concept.hpp" line="50" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/concepts/segment_concept.hpp" bodystart="49" bodyend="83"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

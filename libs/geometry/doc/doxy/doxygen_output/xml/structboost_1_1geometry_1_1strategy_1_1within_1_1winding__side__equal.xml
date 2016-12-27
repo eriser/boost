@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="84" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="84" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="84" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="84" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -55,14 +55,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="87" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="87" bodyend="117"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="87" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="87" bodyend="117"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="80" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="79" bodyend="118"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" line="80" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/agnostic/point_in_poly_winding.hpp" bodystart="79" bodyend="118"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__side__equal_1a229ae739725a4e824f0301dcd72b1fde" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding_side_equal</scope><name>apply</name></member>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__side__equal_1aac533fd46a1529d330555ebecd372963" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::winding_side_equal</scope><name>strategy_side_type</name></member>

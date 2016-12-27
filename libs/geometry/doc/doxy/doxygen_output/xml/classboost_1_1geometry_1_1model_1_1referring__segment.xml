@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" line="97" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" bodystart="97" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" line="97" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" bodystart="97" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" line="101" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" bodystart="101" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" line="101" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1model_1_1referring__segment_1aa93b6ffc58a5d66abcd3e0fc7a4e2b75" prot="public" static="no" mutable="no">
         <type>point_type &amp;</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" line="102" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" bodystart="102" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" line="102" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" bodystart="102" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" line="88" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" line="88" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" line="107" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" bodystart="107" bodyend="110"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" line="107" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" bodystart="107" bodyend="110"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -105,7 +105,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" line="87" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/segment.hpp" bodystart="86" bodyend="111"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" line="87" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/segment.hpp" bodystart="86" bodyend="111"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1model_1_1referring__segment_1ac7a3e1d9bef125f1eb2aa56b311aff07" prot="private" virt="non-virtual"><scope>boost::geometry::model::referring_segment</scope><name>BOOST_CONCEPT_ASSERT</name></member>
       <member refid="classboost_1_1geometry_1_1model_1_1referring__segment_1a3d7474ad6f9d9222abd61e906c6ed63c" prot="public" virt="non-virtual"><scope>boost::geometry::model::referring_segment</scope><name>first</name></member>

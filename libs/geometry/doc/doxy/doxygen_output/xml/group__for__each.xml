@@ -61,7 +61,7 @@
  <qbk>[include reference/algorithms/for_each_point.qbk]</qbk>   <qbk>[heading Example]</qbk>   <qbk>[for_each_point] [for_each_point_output]</qbk>   <qbk>[for_each_point_const] [for_each_point_const_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" line="338" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" bodystart="338" bodyend="344"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" line="338" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" bodystart="338" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="group__for__each_1ga42ec4761584f85dae332cd4266418017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -120,7 +120,7 @@
  <qbk>[include reference/algorithms/for_each_segment.qbk]</qbk>   <qbk>[heading Example]</qbk>   <qbk>[for_each_segment_const] [for_each_segment_const_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" line="361" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" bodystart="361" bodyend="367"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" line="361" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" bodystart="361" bodyend="367"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

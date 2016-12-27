@@ -189,7 +189,7 @@
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/closure.hpp" line="51" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/closure.hpp" bodystart="50" bodyend="60"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/closure.hpp" line="51" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/closure.hpp" bodystart="50" bodyend="60"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceboost_1_1geometry_1a6424afc319f6cc4d4276a3900e966d3f" prot="public" static="no">
         <name>iterate_direction</name>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/views/reversible_view.hpp" line="35" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/reversible_view.hpp" bodystart="35" bodyend="35"/>
+        <location file="/home/ubuntu/boost/boost/geometry/views/reversible_view.hpp" line="35" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/reversible_view.hpp" bodystart="35" bodyend="35"/>
       </memberdef>
       <memberdef kind="enum" id="group__enum_1ga0af1c124acb76f0892024d6d4ab2bc8c" prot="public" static="no">
         <name>order_selector</name>
@@ -250,7 +250,7 @@
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/point_order.hpp" line="49" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/point_order.hpp" bodystart="48" bodyend="57"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/point_order.hpp" line="49" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/point_order.hpp" bodystart="48" bodyend="57"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceboost_1_1geometry_1a6b49ba0dbb14c37e57127f78a74e4921" prot="public" static="no">
         <name>overlay_type</name>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/overlay_type.hpp" line="19" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/overlay_type.hpp" bodystart="18" bodyend="25"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/overlay_type.hpp" line="19" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/overlay_type.hpp" bodystart="18" bodyend="25"/>
       </memberdef>
       <memberdef kind="enum" id="group__enum_1ga8f93f0b6945c2ebb9f8a4bb53019a0d8" prot="public" static="no">
         <name>validity_failure_type</name>
@@ -421,7 +421,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/validity_failure_type.hpp" line="34" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/validity_failure_type.hpp" bodystart="33" bodyend="85"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/validity_failure_type.hpp" line="34" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/validity_failure_type.hpp" bodystart="33" bodyend="85"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -436,7 +436,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/signed_size_type.hpp" line="23" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/signed_size_type.hpp" bodystart="23" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/signed_size_type.hpp" line="23" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/signed_size_type.hpp" bodystart="23" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -452,7 +452,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="38" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" bodystart="38" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="38" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/access.hpp" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespaceboost_1_1geometry_1a60f531e30e193d8ce30098428d9134c1" prot="public" static="no" mutable="no">
         <type>int const</type>
@@ -466,7 +466,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="35" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" bodystart="35" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="35" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/access.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -527,7 +527,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="163" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="163" bodyend="169"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="163" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="163" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1ga9c6f97e8be0aea5a989b10282cfdfcd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -576,7 +576,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="140" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="140" bodyend="150"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="140" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="140" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="group__append_1gaa3a95c7738229a30f77562cb095b3699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -659,7 +659,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/append.qbk]</qbk>  } </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/append.hpp" line="359" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/append.hpp" bodystart="359" bodyend="364"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/append.hpp" line="359" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/append.hpp" bodystart="359" bodyend="364"/>
       </memberdef>
       <memberdef kind="function" id="group__area_1gaf7a1c34467f74f290d0b090adb27db62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -698,7 +698,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/area.qbk]</qbk>   <qbk>[heading Examples]</qbk>   <qbk>[area] [area_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/area.hpp" line="267" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/area.hpp" bodystart="267" bodyend="283"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/area.hpp" line="267" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/area.hpp" bodystart="267" bodyend="283"/>
       </memberdef>
       <memberdef kind="function" id="group__area_1ga59861901cb4e4b95a9e9bf82f3b4fa35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -768,7 +768,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/area.hpp" line="310" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/area.hpp" bodystart="310" bodyend="318"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/area.hpp" line="310" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/area.hpp" bodystart="310" bodyend="318"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a1847c5af13e0d19c3911421d3dab6c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -791,7 +791,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" line="94" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="94" bodyend="97"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" line="94" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="94" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a13b8191ba1135e983690791efab43927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -812,7 +812,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" line="120" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="120" bodyend="123"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" line="120" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a8de3fe127dab25ac9c46d611f78afafa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -835,7 +835,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" line="110" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="110" bodyend="113"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" line="110" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="110" bodyend="113"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ad4a36c4d293b80a01c84e37543b59456" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -858,7 +858,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" line="104" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="104" bodyend="107"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" line="104" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/coordinate_dimension.hpp" bodystart="104" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1ga384744a79ea0798e6def3a5dfa577af3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -923,7 +923,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="369" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="369" bodyend="372"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="369" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="369" bodyend="372"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1gac2a4b4117524f23c5a04309182172375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -967,7 +967,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="97" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="97" bodyend="106"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="97" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="97" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gaa595e4f32e834533b6299e08449afc6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1026,7 +1026,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="323" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="323" bodyend="329"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="323" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="323" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1ga1fdbc43645872ba459c455318706a925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1094,7 +1094,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="70" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="70" bodyend="76"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="70" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="70" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gaa6e3bfda2aa04de193ee936a93663c7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1143,7 +1143,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="301" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="301" bodyend="310"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="301" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="301" bodyend="310"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1ga9ee6c10e38a19e8e52bf9a1fc5a19a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1219,7 +1219,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="147" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="147" bodyend="157"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="147" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="147" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1ga8ab0619796142e5d72e104349d827738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1306,7 +1306,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="179" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="179" bodyend="190"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="179" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="179" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1gaaf4e377b4c3c28f42be6d76f2df0ce6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1398,7 +1398,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish> 4 coordinate values</qbk.distinguish>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="206" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="206" bodyend="217"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="206" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="206" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="group__assign_1gaa7e4279800ffd8a60d4b60bb2ee5c5a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1436,7 +1436,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" line="117" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/assign.hpp" bodystart="117" bodyend="126"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" line="117" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/assign.hpp" bodystart="117" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="group__buffer_1ga60bc23b4b5d3b572cf221714dae9a52a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1528,7 +1528,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/buffer.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="182" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="182" bodyend="189"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="182" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="182" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="group__buffer_1gaf56bd07bd0dc7a7e4812223f23ddae7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1692,7 +1692,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategies</qbk.distinguish>   <qbk>[include reference/algorithms/buffer_with_strategies.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="250" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="250" bodyend="287"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="250" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="250" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="group__centroid_1ga3ec2c5e245c42ffaf28f1c88ea564c8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1772,7 +1772,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/centroid.qbk]</qbk>   <qbk>[include reference/algorithms/centroid_strategies.qbk]</qbk>  } </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" line="604" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" bodystart="604" bodyend="608"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" line="604" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" bodystart="604" bodyend="608"/>
       </memberdef>
       <memberdef kind="function" id="group__centroid_1ga0231bbe9c80e9009271245e31ce5496b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1835,7 +1835,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" line="628" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" bodystart="628" bodyend="631"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" line="628" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" bodystart="628" bodyend="631"/>
       </memberdef>
       <memberdef kind="function" id="group__clear_1ga61147247703a55d2d81badbd7f0a12a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1874,7 +1874,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/clear.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/clear.hpp" line="186" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/clear.hpp" bodystart="186" bodyend="191"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/clear.hpp" line="186" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/clear.hpp" bodystart="186" bodyend="191"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a01cddb2f3a4f6294198cd7bb58084236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1933,7 +1933,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="522" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="522" bodyend="532"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" line="522" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/equals/collect_vectors.hpp" bodystart="522" bodyend="532"/>
       </memberdef>
       <memberdef kind="function" id="group__distance_1ga96e975b2491449d359a57a84a03c2a86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2014,7 +2014,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="318" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="318" bodyend="329"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="318" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="318" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="group__distance_1gabdb5143911178c7e4c78114a785551ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2074,7 +2074,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/comparable_distance.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="351" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="351" bodyend="357"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="351" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="351" bodyend="357"/>
       </memberdef>
       <memberdef kind="function" id="group__convert_1ga79cfffc1475f201bda92cb40a075a3d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2133,7 +2133,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/convert.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/convert.hpp" line="548" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/convert.hpp" bodystart="548" bodyend="551"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/convert.hpp" line="548" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/convert.hpp" bodystart="548" bodyend="551"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a5f0f6e4d01982d810d1ad1c1817521cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2169,7 +2169,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/convex_hull.hpp" line="302" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/convex_hull.hpp" bodystart="302" bodyend="312"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/convex_hull.hpp" line="302" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/convex_hull.hpp" bodystart="302" bodyend="312"/>
       </memberdef>
       <memberdef kind="function" id="group__convex__hull_1gadce5f964b027cc193af16673ad8ff4e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2228,7 +2228,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/convex_hull.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/convex_hull.hpp" line="327" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/convex_hull.hpp" bodystart="327" bodyend="331"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/convex_hull.hpp" line="327" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/convex_hull.hpp" bodystart="327" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a940cd6b6c22894d4b486793e34aa4f48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2273,7 +2273,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="283" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="283" bodyend="297"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="283" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="283" bodyend="297"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a52e34bc3d6bad7f7e39e13f19a2c9bde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2330,7 +2330,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="312" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="312" bodyend="345"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="312" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="312" bodyend="345"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ad1fe604e9b46fabfc39147d341472026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2387,7 +2387,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="360" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="360" bodyend="369"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="360" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="360" bodyend="369"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1aca0fd80f5a980e4cb73e580227bab287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2448,7 +2448,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="383" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="383" bodyend="393"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" line="383" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segment_point.hpp" bodystart="383" bodyend="393"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1aa3b0e31bed132879fd68c9a19d95d20b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2500,7 +2500,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segments.hpp" line="346" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/copy_segments.hpp" bodystart="346" bodyend="359"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segments.hpp" line="346" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/copy_segments.hpp" bodystart="346" bodyend="359"/>
       </memberdef>
       <memberdef kind="function" id="group__correct_1gaf14641937f187af33fec6bd99c8202d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2538,7 +2538,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/correct.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/correct.hpp" line="326" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/correct.hpp" bodystart="326" bodyend="329"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/correct.hpp" line="326" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/correct.hpp" bodystart="326" bodyend="329"/>
       </memberdef>
       <memberdef kind="function" id="group__covered__by_1ga83cfa260c6a4f3bcba5a99da6113d19c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2599,7 +2599,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/covered_by.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="441" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="441" bodyend="445"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="441" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="441" bodyend="445"/>
       </memberdef>
       <memberdef kind="function" id="group__covered__by_1ga4db6801730953629ec9eb040a5ccc1ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2673,7 +2673,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/covered_by.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="464" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="464" bodyend="469"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="464" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="464" bodyend="469"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gac1db64902c8bb77241db98a1805d941e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2721,7 +2721,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/cross_product.hpp" line="95" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/cross_product.hpp" bodystart="95" bodyend="104"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/cross_product.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/cross_product.hpp" bodystart="95" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gaac070750570068100488f1411025a083" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2763,7 +2763,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/cross_product.hpp" line="115" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/cross_product.hpp" bodystart="115" bodyend="123"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/cross_product.hpp" line="115" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/cross_product.hpp" bodystart="115" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="group__crosses_1gab50efa33876edf806597ea27a9d77989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2823,7 +2823,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/crosses.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/crosses.hpp" line="185" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/crosses.hpp" bodystart="185" bodyend="188"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" line="185" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/crosses.hpp" bodystart="185" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="group__difference_1gae23e000e550abb271baac3679fae7640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2903,7 +2903,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/difference.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/difference.hpp" line="142" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/difference.hpp" bodystart="142" bodyend="163"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/difference.hpp" line="142" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/difference.hpp" bodystart="142" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="group__disjoint_1ga980fdae7d8c1840c1362f09bb0dcf04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2963,7 +2963,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/disjoint.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" line="177" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" bodystart="177" bodyend="181"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" line="177" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/disjoint/interface.hpp" bodystart="177" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="group__distance_1ga7d68c34d1ded4428903f906244b31da4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3052,7 +3052,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="360" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="360" bodyend="375"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="360" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="360" bodyend="375"/>
       </memberdef>
       <memberdef kind="function" id="group__distance_1gad5f5e3da7d38da77c40d7bdad61fee54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3112,7 +3112,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/distance.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="392" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="392" bodyend="399"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="392" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="392" bodyend="399"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1ga8141e616132d8d614da3428863336dc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3171,7 +3171,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="284" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="284" bodyend="290"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="284" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="284" bodyend="290"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1ga98645f15cfba3e9e9e9e83c72e0f98e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3220,7 +3220,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="261" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="261" bodyend="271"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="261" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="261" bodyend="271"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gaf962409b64cd5023d9e439c4468db1d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3280,7 +3280,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/dot_product.hpp" line="69" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/dot_product.hpp" bodystart="69" bodyend="80"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/dot_product.hpp" line="69" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/dot_product.hpp" bodystart="69" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a23c4763c107490e95ea33c714cbf5ec4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3431,7 +3431,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp" line="260" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp" bodystart="260" bodyend="342"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp" line="260" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/enrich_intersection_points.hpp" bodystart="260" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="group__envelope_1gac1f1865a7b36047d44949e17266d8f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3493,7 +3493,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="95" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="95" bodyend="98"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="95" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="group__equals_1gaf75334fd455c4d01a57a2f2d590d068c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3553,7 +3553,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/equals.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" line="475" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" bodystart="475" bodyend="479"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" line="475" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" bodystart="475" bodyend="479"/>
       </memberdef>
       <memberdef kind="function" id="group__expand_1ga2f189378ab0aa90c5b98bd7f3ed3cc93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3612,7 +3612,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/expand.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/expand/interface.hpp" line="121" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/expand/interface.hpp" bodystart="121" bodyend="124"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/expand/interface.hpp" line="121" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/expand/interface.hpp" bodystart="121" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="group__exterior__ring_1ga08713d51a3bbe530a5f69b5084107d89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3652,7 +3652,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/exterior_ring.hpp" line="110" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/exterior_ring.hpp" bodystart="110" bodyend="117"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/exterior_ring.hpp" line="110" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/exterior_ring.hpp" bodystart="110" bodyend="117"/>
       </memberdef>
       <memberdef kind="function" id="group__exterior__ring_1ga96a935d3093b77955f100cc3da6a4e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3692,7 +3692,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>const version</qbk.distinguish>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/exterior_ring.hpp" line="131" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/exterior_ring.hpp" bodystart="131" bodyend="139"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/exterior_ring.hpp" line="131" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/exterior_ring.hpp" bodystart="131" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a6e974796693e03c4e4837477054bae35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3734,7 +3734,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/extreme_points.hpp" line="493" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/extreme_points.hpp" bodystart="493" bodyend="513"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/extreme_points.hpp" line="493" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/extreme_points.hpp" bodystart="493" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ad61d195eec9f266bb67b31f72a022606" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3763,7 +3763,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/util/for_each_coordinate.hpp" line="67" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/util/for_each_coordinate.hpp" bodystart="67" bodyend="77"/>
+        <location file="/home/ubuntu/boost/boost/geometry/util/for_each_coordinate.hpp" line="67" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/util/for_each_coordinate.hpp" bodystart="67" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ac25c04e4afa958469c5b8e911eac143f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3792,7 +3792,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/util/for_each_coordinate.hpp" line="80" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/util/for_each_coordinate.hpp" bodystart="80" bodyend="90"/>
+        <location file="/home/ubuntu/boost/boost/geometry/util/for_each_coordinate.hpp" line="80" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/util/for_each_coordinate.hpp" bodystart="80" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="group__for__each_1ga3010849a8b501309db7b74157382cfaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3851,7 +3851,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/for_each_point.qbk]</qbk>   <qbk>[heading Example]</qbk>   <qbk>[for_each_point] [for_each_point_output]</qbk>   <qbk>[for_each_point_const] [for_each_point_const_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" line="338" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" bodystart="338" bodyend="344"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" line="338" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" bodystart="338" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="group__for__each_1ga42ec4761584f85dae332cd4266418017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3910,7 +3910,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/for_each_segment.qbk]</qbk>   <qbk>[heading Example]</qbk>   <qbk>[for_each_segment_const] [for_each_segment_const_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" line="361" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/for_each.hpp" bodystart="361" bodyend="367"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" line="361" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/for_each.hpp" bodystart="361" bodyend="367"/>
       </memberdef>
       <memberdef kind="function" id="group__get_1ga6f2549aa15489bdfa2e0ee28c620ab07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -3961,7 +3961,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/core/get_point.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="269" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" bodystart="269" bodyend="287"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="269" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/access.hpp" bodystart="269" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="group__get_1gabf9ceb2655358244b0348cef1f308288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4024,7 +4024,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with index</qbk.distinguish>   <qbk>[include reference/core/get_box.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="339" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" bodystart="339" bodyend="358"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="339" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/access.hpp" bodystart="339" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="group__get_1ga599e31cfc2d3b5074bc3ac4cf24b9152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4076,7 +4076,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/radian_access.hpp" line="127" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/radian_access.hpp" bodystart="127" bodyend="131"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/radian_access.hpp" line="127" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/radian_access.hpp" bodystart="127" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ad8660b0cfc5db2cf38ce39dc32172c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4119,7 +4119,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp" line="107" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp" bodystart="107" bodyend="147"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp" line="107" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/get_intersection_points.hpp" bodystart="107" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="group__access_1ga1e0627c198b569ca7f278acce06120ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4163,7 +4163,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/radius.hpp" line="126" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/radius.hpp" bodystart="126" bodyend="135"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/radius.hpp" line="126" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/radius.hpp" bodystart="126" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a89288d6d8396b6b713099f502277ea04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4284,7 +4284,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/get_turns.hpp" line="969" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/get_turns.hpp" bodystart="969" bodyend="1004"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/get_turns.hpp" line="969" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/get_turns.hpp" bodystart="969" bodyend="1004"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a591a8b3ec94a359069e5e07d8a238b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -4306,7 +4306,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/util/has_infinite_coordinate.hpp" line="40" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/util/has_infinite_coordinate.hpp" bodystart="40" bodyend="51"/>
+        <location file="/home/ubuntu/boost/boost/geometry/util/has_infinite_coordinate.hpp" line="40" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/util/has_infinite_coordinate.hpp" bodystart="40" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ad4a419817fdd2bf57433c6a0d9e47595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -4328,7 +4328,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/util/has_nan_coordinate.hpp" line="84" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/util/has_nan_coordinate.hpp" bodystart="84" bodyend="95"/>
+        <location file="/home/ubuntu/boost/boost/geometry/util/has_nan_coordinate.hpp" line="84" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/util/has_nan_coordinate.hpp" bodystart="84" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a2f950b91e4e331aff1235ddd25deef72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -4350,7 +4350,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/util/has_non_finite_coordinate.hpp" line="40" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/util/has_non_finite_coordinate.hpp" bodystart="40" bodyend="51"/>
+        <location file="/home/ubuntu/boost/boost/geometry/util/has_non_finite_coordinate.hpp" line="40" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/util/has_non_finite_coordinate.hpp" bodystart="40" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a1949f8f89274f3b53f6129638f8efc14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4376,7 +4376,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/has_one_element.hpp" line="20" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/has_one_element.hpp" bodystart="20" bodyend="23"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/has_one_element.hpp" line="20" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/has_one_element.hpp" bodystart="20" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="group__interior__rings_1gac5980f18e5c2d400f598299104630c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4416,7 +4416,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/interior_rings.hpp" line="114" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/interior_rings.hpp" bodystart="114" bodyend="121"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/interior_rings.hpp" line="114" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/interior_rings.hpp" bodystart="114" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="group__interior__rings_1gace65f7563db807c7d2b2ad8bc4f7116b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4456,7 +4456,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>const version</qbk.distinguish>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/interior_rings.hpp" line="135" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/interior_rings.hpp" bodystart="135" bodyend="143"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/interior_rings.hpp" line="135" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/interior_rings.hpp" bodystart="135" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="group__intersection_1gac78b88e0ea7af3453a626a0e6fc588d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4536,7 +4536,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/intersection.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="288" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="288" bodyend="301"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" line="288" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/intersection/interface.hpp" bodystart="288" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="group__intersects_1gacc0c6eb239493fc30afd057d7d56bb11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4576,7 +4576,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>one geometry</qbk.distinguish>   <qbk>[def __one_parameter__]</qbk>   <qbk>[include reference/algorithms/intersects.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" line="50" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" bodystart="50" bodyend="78"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" line="50" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" bodystart="50" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="group__intersects_1ga3d8bd9a2b73bb493d66cbcb37426a7be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4636,7 +4636,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>two geometries</qbk.distinguish>   <qbk>[include reference/algorithms/intersects.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" line="94" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/intersects.hpp" bodystart="94" bodyend="100"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" line="94" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/intersects.hpp" bodystart="94" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a4168186cc06493d9628b2ee4cb8abaf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4658,7 +4658,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/is_convex.hpp" line="151" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/is_convex.hpp" bodystart="151" bodyend="154"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/is_convex.hpp" line="151" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/is_convex.hpp" bodystart="151" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="group__is__empty_1gad12981ac44661b053d1e23bbc50be1b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4697,7 +4697,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/is_empty.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/is_empty.hpp" line="198" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/is_empty.hpp" bodystart="198" bodyend="201"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/is_empty.hpp" line="198" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/is_empty.hpp" bodystart="198" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="group__is__simple_1gadb32b5248d8b5ecedadcb05a4c9d7490" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4736,7 +4736,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/is_simple.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="71" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="71" bodyend="74"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" line="71" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_simple/interface.hpp" bodystart="71" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a183da81edb3b8b170da54b4d15b0d923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4765,7 +4765,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="77" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="77" bodyend="80"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="77" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="77" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="group__is__valid_1ga356cf864eac8d92b2b841419c945b03f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4804,7 +4804,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/is_valid.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="97" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="97" bodyend="101"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="97" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="97" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="group__is__valid_1ga679fa00f8e9cc0a124fcdba608516dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4854,7 +4854,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with failure value</qbk.distinguish>   <qbk>[include reference/algorithms/is_valid_with_failure.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="121" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="121" bodyend="127"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="121" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="121" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="group__is__valid_1gaf0867398eaeea60e5c004a8615c7c28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4904,7 +4904,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with message</qbk.distinguish>   <qbk>[include reference/algorithms/is_valid_with_message.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="147" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="147" bodyend="154"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" line="147" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/is_valid/interface.hpp" bodystart="147" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="group__length_1ga38dff36b8deb6a1a8cb0a3d6387af8fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -4943,7 +4943,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/length.qbk]</qbk>   <qbk>[length] [length_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" line="252" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" bodystart="252" bodyend="265"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" line="252" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" bodystart="252" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="group__length_1ga31c0f8fcd943475255e7ab329f2c2771" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5003,7 +5003,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/length.qbk]</qbk>   <qbk>[length_with_strategy] [length_with_strategy_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" line="284" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" bodystart="284" bodyend="291"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" line="284" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" bodystart="284" bodyend="291"/>
       </memberdef>
       <memberdef kind="function" id="group__make_1gab8c2f53b1696956874ed69114cef3a94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5070,7 +5070,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" line="79" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" bodystart="79" bodyend="91"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" line="79" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" bodystart="79" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="group__make_1gacab36dbf4f41c6994fb66600303dfe3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5147,7 +5147,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" line="113" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" bodystart="113" bodyend="125"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" line="113" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" bodystart="113" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a84ea9e8996ff4c4a67339c0371042177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5184,7 +5184,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" line="128" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" bodystart="128" bodyend="140"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" line="128" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" bodystart="128" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="group__make_1gabf487e6de983091aa6003f792b1b05df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5217,7 +5217,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" line="164" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" bodystart="164" bodyend="175"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" line="164" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" bodystart="164" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="group__make_1ga06bcbd65d487f8dad0ebdab1f08aefa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5244,7 +5244,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" line="185" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/make.hpp" bodystart="185" bodyend="196"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" line="185" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/make.hpp" bodystart="185" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a873bb153a6c2f37dd97e6a6b997e07ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5277,7 +5277,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" line="226" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" bodystart="226" bodyend="253"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" line="226" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" bodystart="226" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a5c2390572b9ac45d119a20fcf81b8876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5299,7 +5299,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" line="257" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" bodystart="257" bodyend="273"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" line="257" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/max_interval_gap.hpp" bodystart="257" bodyend="273"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ac4e8d5a470810b2bfca824af100894d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>char</type>
@@ -5316,7 +5316,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" line="19" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" bodystart="19" bodyend="34"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" line="19" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" bodystart="19" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1ga3ce5cfd812427c46ac5a319a34fe33b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5376,7 +5376,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="244" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="244" bodyend="250"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="244" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="244" bodyend="250"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gaee0fa23a64414a4781e08965653c0b81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5425,7 +5425,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="220" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="220" bodyend="230"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="220" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="220" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="group__num__geometries_1gaa10343b9ce9a67688199e3da44a4af5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5464,7 +5464,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/num_geometries.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_geometries.hpp" line="132" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_geometries.hpp" bodystart="132" bodyend="135"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/num_geometries.hpp" line="132" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/num_geometries.hpp" bodystart="132" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="group__num__interior__rings_1gad46daea8aff732fece897726c8a1eaf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5504,7 +5504,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_interior_rings.hpp" line="133" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_interior_rings.hpp" bodystart="133" bodyend="136"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/num_interior_rings.hpp" line="133" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/num_interior_rings.hpp" bodystart="133" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="group__num__points_1ga4e90b249b3cf16e4ef8f486df042aacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5555,7 +5555,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/num_points.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_points.hpp" line="199" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_points.hpp" bodystart="199" bodyend="202"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/num_points.hpp" line="199" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/num_points.hpp" bodystart="199" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="group__num__segments_1ga6d9d17a4691db85b4dacf8390dd14396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5594,7 +5594,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/num_segments.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_segments.hpp" line="195" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/num_segments.hpp" bodystart="195" bodyend="198"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/num_segments.hpp" line="195" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/num_segments.hpp" bodystart="195" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a22abb7a9456a80327b223fbeee1027a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>char</type>
@@ -5611,7 +5611,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" line="36" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" bodystart="36" bodyend="49"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" line="36" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" bodystart="36" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="group__overlaps_1gacf8e51774babe694d39be3f049be6b39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5671,7 +5671,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/overlaps.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/overlaps.hpp" line="185" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/overlaps.hpp" bodystart="185" bodyend="195"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/overlaps.hpp" line="185" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/overlaps.hpp" bodystart="185" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="group__perimeter_1gabf1b8b04c850eece3b57dcb5d95a0bd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5710,7 +5710,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/perimeter.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/perimeter.hpp" line="197" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/perimeter.hpp" bodystart="197" bodyend="202"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/perimeter.hpp" line="197" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/perimeter.hpp" bodystart="197" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="group__perimeter_1gad580959ac971e1617c5f8cd08e32c6df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5770,7 +5770,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/perimeter.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/perimeter.hpp" line="219" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/perimeter.hpp" bodystart="219" bodyend="224"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/perimeter.hpp" line="219" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/perimeter.hpp" bodystart="219" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1aad3c56fd589d630843eb5d095d2d8bfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5836,7 +5836,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/point_on_border.hpp" line="285" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/point_on_border.hpp" bodystart="285" bodyend="298"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/point_on_border.hpp" line="285" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/point_on_border.hpp" bodystart="285" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1abeacf9dce3785e034214937074a1f3cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5888,7 +5888,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/point_on_surface.hpp" line="296" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/point_on_surface.hpp" bodystart="296" bodyend="307"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/point_on_surface.hpp" line="296" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/point_on_surface.hpp" bodystart="296" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a03db7eeb2de8c6f84c0ed09c480420c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5910,7 +5910,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_iterator.hpp" line="291" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_iterator.hpp" bodystart="291" bodyend="294"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/point_iterator.hpp" line="291" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/point_iterator.hpp" bodystart="291" bodyend="294"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a6286ce2300b3917da4253f7b2c71dda5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5932,7 +5932,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_iterator.hpp" line="300" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_iterator.hpp" bodystart="300" bodyend="303"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/point_iterator.hpp" line="300" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/point_iterator.hpp" bodystart="300" bodyend="303"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ac56435cec379140e921fb5e8f955d292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5954,7 +5954,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_reverse_iterator.hpp" line="66" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_reverse_iterator.hpp" bodystart="66" bodyend="72"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/point_reverse_iterator.hpp" line="66" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/point_reverse_iterator.hpp" bodystart="66" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a5984be872c96e65629dcb6156b293e0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -5976,7 +5976,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_reverse_iterator.hpp" line="78" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/point_reverse_iterator.hpp" bodystart="78" bodyend="84"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/point_reverse_iterator.hpp" line="78" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/point_reverse_iterator.hpp" bodystart="78" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ac434096877035540e71a7ad08bfe3a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6035,7 +6035,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sections/range_by_section.hpp" line="178" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sections/range_by_section.hpp" bodystart="178" bodyend="188"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/sections/range_by_section.hpp" line="178" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/sections/range_by_section.hpp" bodystart="178" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="group__wkt_1ga972597e2ff21d50a85b19de43ed6cd76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6084,7 +6084,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/io/read_wkt.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/wkt/read.hpp" line="895" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/wkt/read.hpp" bodystart="895" bodyend="899"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/wkt/read.hpp" line="895" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/wkt/read.hpp" bodystart="895" bodyend="899"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ae65cfdfcb0e698fba1370e9347960c66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6120,7 +6120,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/recalculate.hpp" line="220" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/recalculate.hpp" bodystart="220" bodyend="228"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/recalculate.hpp" line="220" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/recalculate.hpp" bodystart="220" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="group__relate_1gabe671b5a5c5cd468621a4605ca7e57c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6201,7 +6201,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/relate.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="335" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="335" bodyend="344"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" line="335" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relate/interface.hpp" bodystart="335" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="group__relation_1ga6a43ab4b83f66fb53c0dfe34981a6f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6261,7 +6261,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/relation.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relation/interface.hpp" line="173" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/relation/interface.hpp" bodystart="173" bodyend="181"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/relation/interface.hpp" line="173" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/relation/interface.hpp" bodystart="173" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ab9f805dce11277676f1de471ee87a14b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6299,7 +6299,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" line="276" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="276" bodyend="279"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" line="276" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="276" bodyend="279"/>
       </memberdef>
       <memberdef kind="function" id="group__buffer_1ga8f897ad6face43210c41f8afedf526bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -6381,7 +6381,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="205" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="205" bodyend="215"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="205" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="205" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="group__centroid_1ga607a6c57dac30f7b2826f29f937a7fe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6430,7 +6430,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/centroid.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" line="646" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" bodystart="646" bodyend="651"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" line="646" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" bodystart="646" bodyend="651"/>
       </memberdef>
       <memberdef kind="function" id="group__centroid_1ga34a41b95d0bcc2ecb14e3093623386d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6500,7 +6500,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/centroid.qbk]</qbk>   <qbk>[include reference/algorithms/centroid_strategies.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" line="669" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/centroid.hpp" bodystart="669" bodyend="674"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" line="669" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/centroid.hpp" bodystart="669" bodyend="674"/>
       </memberdef>
       <memberdef kind="function" id="group__envelope_1ga4afb45ba6fb41e732a008a9e1e104347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6552,7 +6552,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="117" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="117" bodyend="122"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" line="117" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/envelope/interface.hpp" bodystart="117" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a1922563e36f64c8dd031257ac58d4df3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6591,7 +6591,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/point_on_surface.hpp" line="317" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/point_on_surface.hpp" bodystart="317" bodyend="322"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/point_on_surface.hpp" line="317" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/point_on_surface.hpp" bodystart="317" bodyend="322"/>
       </memberdef>
       <memberdef kind="function" id="group__reverse_1ga9d0e06498236cee4517168b4cb231998" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6629,7 +6629,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/reverse.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/reverse.hpp" line="178" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/reverse.hpp" bodystart="178" bodyend="181"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/reverse.hpp" line="178" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/reverse.hpp" bodystart="178" bodyend="181"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ab8cd77a55d7479badca9ddb3379bce06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6734,7 +6734,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sections/sectionalize.hpp" line="819" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sections/sectionalize.hpp" bodystart="819" bodyend="861"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/sections/sectionalize.hpp" line="819" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/sections/sectionalize.hpp" bodystart="819" bodyend="861"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1af53a7cce3633298bd5fe47d6ce71b4ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6756,7 +6756,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/segment_iterator.hpp" line="336" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/segment_iterator.hpp" bodystart="336" bodyend="339"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/segment_iterator.hpp" line="336" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/segment_iterator.hpp" bodystart="336" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a947086a59a0e75d7918bda2e292d1a63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6778,7 +6778,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/iterators/segment_iterator.hpp" line="345" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/iterators/segment_iterator.hpp" bodystart="345" bodyend="348"/>
+        <location file="/home/ubuntu/boost/boost/geometry/iterators/segment_iterator.hpp" line="345" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/iterators/segment_iterator.hpp" bodystart="345" bodyend="348"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a7a2c5b63fa7d9e10d2c87650b05ade53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6868,7 +6868,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/self_turn_points.hpp" line="275" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/self_turn_points.hpp" bodystart="275" bodyend="289"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/self_turn_points.hpp" line="275" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/self_turn_points.hpp" bodystart="275" bodyend="289"/>
       </memberdef>
       <memberdef kind="function" id="group__set_1ga547b9e2d42e58aab04949d056b795702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -6936,7 +6936,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/core/set_point.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="303" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" bodystart="303" bodyend="322"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="303" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/access.hpp" bodystart="303" bodyend="322"/>
       </memberdef>
       <memberdef kind="function" id="group__set_1gab344165e39efdf322c11f5b3205cb302" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7016,7 +7016,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with index</qbk.distinguish>   <qbk>[include reference/core/set_box.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="375" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" bodystart="375" bodyend="395"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="375" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/access.hpp" bodystart="375" bodyend="395"/>
       </memberdef>
       <memberdef kind="function" id="group__set_1ga78f2e71135a76ccad3e37afab58b0f70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7078,7 +7078,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/radian_access.hpp" line="147" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/radian_access.hpp" bodystart="147" bodyend="152"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/radian_access.hpp" line="147" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/radian_access.hpp" bodystart="147" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="group__access_1ga6c403657f606b2a4d3f64d6e4ae74437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7132,7 +7132,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/radius.hpp" line="145" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/radius.hpp" bodystart="145" bodyend="155"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/radius.hpp" line="145" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/radius.hpp" bodystart="145" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="group__simplify_1ga8f1c13c0fe844ffdaa6196ce3854849f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7231,7 +7231,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" line="461" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" bodystart="461" bodyend="469"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" line="461" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" bodystart="461" bodyend="469"/>
       </memberdef>
       <memberdef kind="function" id="group__simplify_1ga7f1ed83b2a595dc644205374eddf0057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7302,7 +7302,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/simplify.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" line="489" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/simplify.hpp" bodystart="489" bodyend="495"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" line="489" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/simplify.hpp" bodystart="489" bodyend="495"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1ga2aaca98906e1978d00ea55b40a1a39ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7361,7 +7361,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="203" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="203" bodyend="209"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="203" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="203" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="group__arithmetic_1gaf0ffb395ff5f6359d8da055decddd385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7410,7 +7410,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" line="180" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="180" bodyend="190"/>
+        <location file="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" line="180" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/arithmetic/arithmetic.hpp" bodystart="180" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="group__svg_1ga0d9c53eb308ab2276aec264c1404e5a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7471,7 +7471,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/write.hpp" line="408" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/write.hpp" bodystart="408" bodyend="414"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/write.hpp" line="408" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/write.hpp" bodystart="408" bodyend="414"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a6321845dae26edb2471193fef0c6a04e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7515,7 +7515,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="255" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="255" bodyend="261"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="255" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="255" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a85ba136cb1836c9107108597ad3ae909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7565,7 +7565,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sweep.hpp" line="46" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sweep.hpp" bodystart="46" bodyend="66"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/sweep.hpp" line="46" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/sweep.hpp" bodystart="46" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1a0d1ffc8d5508af3bb4fa044b38ea282e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7608,7 +7608,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sweep.hpp" line="76" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/sweep.hpp" bodystart="76" bodyend="82"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/sweep.hpp" line="76" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/sweep.hpp" bodystart="76" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="group__sym__difference_1gab9e6f8b5e8d14cd699f54e79f60b1871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7688,7 +7688,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/sym_difference.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/sym_difference.hpp" line="315" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="315" bodyend="336"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" line="315" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/sym_difference.hpp" bodystart="315" bodyend="336"/>
       </memberdef>
       <memberdef kind="function" id="group__touches_1ga34c4c58f9757ecd08dbd413701a59fac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7728,7 +7728,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>one geometry</qbk.distinguish>   <qbk>[def __one_parameter__]</qbk>   <qbk>[include reference/algorithms/touches.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" line="560" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" bodystart="560" bodyend="563"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" line="560" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" bodystart="560" bodyend="563"/>
       </memberdef>
       <memberdef kind="function" id="group__touches_1gabbb053b4c78edc40a6c37f1f0f71ddbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7788,7 +7788,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>two geometries</qbk.distinguish>   <qbk>[include reference/algorithms/touches.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" line="579" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/touches.hpp" bodystart="579" bodyend="582"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" line="579" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/touches.hpp" bodystart="579" bodyend="582"/>
       </memberdef>
       <memberdef kind="function" id="group__transform_1ga396a7207dc2e9dbc3c15c1c174e0e5a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7869,7 +7869,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk.distinguish>with strategy</qbk.distinguish> </para><para> <qbk>[include reference/algorithms/transform_with_strategy.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/transform.hpp" line="451" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/transform.hpp" bodystart="451" bodyend="456"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/transform.hpp" line="451" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/transform.hpp" bodystart="451" bodyend="456"/>
       </memberdef>
       <memberdef kind="function" id="group__transform_1ga5f8dab51e6972613f20878beb34feb36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -7929,7 +7929,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/transform.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/transform.hpp" line="471" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/transform.hpp" bodystart="471" bodyend="474"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/transform.hpp" line="471" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/transform.hpp" bodystart="471" bodyend="474"/>
       </memberdef>
       <memberdef kind="function" id="group__union_1gaa300b8994725c85cc71b304713a75501" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -8010,7 +8010,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/union.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/union.hpp" line="263" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/union.hpp" bodystart="263" bodyend="275"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" line="263" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/union.hpp" bodystart="263" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="group__unique_1ga122eb540d5b35cf6b3c8c28f0c7fcc45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -8048,7 +8048,7 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/algorithms/unique.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/unique.hpp" line="167" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/unique.hpp" bodystart="167" bodyend="179"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/unique.hpp" line="167" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/unique.hpp" bodystart="167" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="namespaceboost_1_1geometry_1ae1082d5256a30c0e6fe7ab657486f444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>char</type>
@@ -8065,7 +8065,7 @@ algorithm taking a reference to validity_failure_type as second argument]
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" line="51" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" bodystart="51" bodyend="59"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" line="51" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/overlay/debug_turn_info.hpp" bodystart="51" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="group__within_1gaf8f597c0a7352f0a6808944db2a549b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -8130,7 +8130,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/within.hpp" line="484" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/within.hpp" bodystart="484" bodyend="491"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/within.hpp" line="484" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/within.hpp" bodystart="484" bodyend="491"/>
       </memberdef>
       <memberdef kind="function" id="group__within_1ga4e277994f726a9e5076429e99a6cd3b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -8214,7 +8214,7 @@ algorithm taking a reference to validity_failure_type as second argument]
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/within.hpp" line="520" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/within.hpp" bodystart="520" bodyend="528"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/within.hpp" line="520" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/within.hpp" bodystart="520" bodyend="528"/>
       </memberdef>
       <memberdef kind="function" id="group__wkt_1ga32f68b63c9c15ed3c31f386001c4ec29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -8252,13 +8252,13 @@ algorithm taking a reference to validity_failure_type as second argument]
  <qbk>[include reference/io/wkt.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/wkt/write.hpp" line="502" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/wkt/write.hpp" bodystart="502" bodyend="507"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/wkt/write.hpp" line="502" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/wkt/write.hpp" bodystart="502" bodyend="507"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/access.hpp" line="32" column="1"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/access.hpp" line="32" column="1"/>
   </compounddef>
 </doxygen>

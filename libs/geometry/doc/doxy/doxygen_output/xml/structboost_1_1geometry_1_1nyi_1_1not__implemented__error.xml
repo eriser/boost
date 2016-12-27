@@ -41,14 +41,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" line="69" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" line="69" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" line="63" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="62" bodyend="77"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="62" bodyend="77"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1nyi_1_1not__implemented__error_1a4ee7dfcea347c7fbadca0d1e19ed14fd" prot="public" virt="non-virtual"><scope>boost::geometry::nyi::not_implemented_error</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
     </listofallmembers>

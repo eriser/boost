@@ -31,14 +31,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" line="409" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="409" bodyend="413"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" line="409" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="409" bodyend="413"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" line="408" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="407" bodyend="414"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" line="408" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/strategy_transform.hpp" bodystart="407" bodyend="414"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1transform_1_1from__cartesian__3__to__spherical__equatorial__3_1af3656f4d8ca41e742dd9b246ec70841b" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::transform::from_cartesian_3_to_spherical_equatorial_3</scope><name>apply</name></member>
     </listofallmembers>

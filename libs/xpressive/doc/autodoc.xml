@@ -336,6 +336,112 @@ std::string str("1 23 456 7890");
 xp::sregex rx = (+_d)[ xp::push_back(xp::ref(result), xp::as&lt;int&gt;(_) ]
     &gt;&gt; *(' ' &gt;&gt; (+_d)[ xp::push_back(xp::ref(result), xp::as&lt;int&gt;(_) ) ]);
 </programlisting> </para></description><typedef name="type"><type>proto::terminal&lt; PolymorphicFunctionObject &gt;::type</type></typedef>
+</struct><struct name="value"><template>
+      <template-type-parameter name="T"><purpose><para>The type of the value to store.</para></purpose></template-type-parameter>
+    </template><inherit access="public">proto::extends&lt; proto::terminal&lt; T &gt;::type, value&lt; T &gt; &gt;</inherit><purpose><computeroutput>value&lt;&gt;</computeroutput> is a lazy wrapper for a value that can be used in xpressive semantic actions. </purpose><description><para>
+Below is an example that shows where <computeroutput><computeroutput>value&lt;&gt;</computeroutput></computeroutput> is useful.<programlisting language="c++">sregex good_voodoo(boost::shared_ptr&lt;int&gt; pi)
+{
+    using namespace boost::xpressive;
+    // Use val() to hold the shared_ptr by value:
+    <classname alt="boost::xpressive::basic_regex">sregex</classname> rex = +( _d [ ++*val(pi) ] &gt;&gt; '!' );
+    // OK, rex holds a reference count to the integer.
+    return rex;
+}
+</programlisting> In the above code, <computeroutput>xpressive::val()</computeroutput> is a function that returns a <computeroutput>value&lt;&gt;</computeroutput> object. Had <computeroutput>val()</computeroutput> not been used here, the operation <computeroutput>++*pi</computeroutput> would have been evaluated eagerly once, instead of lazily when the regex match happens. </para></description><method-group name="public member functions">
+<method name="get"><type>T &amp;</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="get" cv="const"><type>T const &amp;</type><purpose>Fetch the stored value. </purpose></method>
+</method-group>
+<constructor><purpose>Store a default-constructed <computeroutput>T</computeroutput>. </purpose></constructor>
+<constructor specifiers="explicit"><parameter name="t"><paramtype>T const &amp;</paramtype><description><para>The initial value. </para></description></parameter><purpose>Store a copy of <computeroutput>t</computeroutput>. </purpose><description><para>
+</para></description></constructor>
+</struct><struct name="reference"><template>
+      <template-type-parameter name="T"><purpose><para>The type of the referent.</para></purpose></template-type-parameter>
+    </template><inherit access="public">proto::extends&lt; proto::terminal&lt; reference_wrapper&lt; T &gt; &gt;::type, reference&lt; T &gt; &gt;</inherit><purpose><computeroutput>reference&lt;&gt;</computeroutput> is a lazy wrapper for a reference that can be used in xpressive semantic actions. </purpose><description><para>
+Here is an example of how to use <computeroutput>reference&lt;&gt;</computeroutput> to create a lazy reference to an existing object so it can be read and written in an xpressive semantic action.<programlisting language="c++">using namespace boost::xpressive;
+std::map&lt;std::string, int&gt; result;
+<classname alt="boost::xpressive::reference">reference&lt;std::map&lt;std::string, int&gt;</classname> &gt; result_ref(result);
+
+// Match a word and an integer, separated by =&gt;,
+// and then stuff the result into a std::map&lt;&gt;
+<classname alt="boost::xpressive::basic_regex">sregex</classname> pair = ( (s1= +_w) &gt;&gt; "=&gt;" &gt;&gt; (s2= +_d) )
+    [ result_ref[s1] = as&lt;int&gt;(s2) ];
+</programlisting> </para></description><method-group name="public member functions">
+<method name="get" cv="const"><type>T &amp;</type><purpose>Fetch the stored value. </purpose></method>
+</method-group>
+<constructor specifiers="explicit"><parameter name="t"><paramtype>T &amp;</paramtype><description><para>Reference to object </para></description></parameter><purpose>Store a reference to <computeroutput>t</computeroutput>. </purpose><description><para>
+</para></description></constructor>
+</struct><struct name="local"><template>
+      <template-type-parameter name="T"><purpose><para>The type of the local variable.</para></purpose></template-type-parameter>
+    </template><inherit access="public">proto::terminal::type&lt; reference_wrapper&lt; T &gt; &gt;</inherit><purpose><computeroutput>local&lt;&gt;</computeroutput> is a lazy wrapper for a reference to a value that is stored within the local itself. It is for use within xpressive semantic actions. </purpose><description><para>
+Below is an example of how to use <computeroutput>local&lt;&gt;</computeroutput> in semantic actions.<programlisting language="c++">using namespace boost::xpressive;
+<classname alt="boost::xpressive::local">local&lt;int&gt;</classname> i(0);
+std::string str("1!2!3?");
+// count the exciting digits, but not the
+// questionable ones.
+<classname alt="boost::xpressive::basic_regex">sregex</classname> rex = +( _d [ ++i ] &gt;&gt; '!' );
+regex_search(str, rex);
+assert( i.get() == 2 );
+</programlisting> <note><para>As the name "local" suggests, <computeroutput>local&lt;&gt;</computeroutput> objects and the regexes that refer to them should never leave the local scope. The value stored within the local object will be destroyed at the end of the <computeroutput>local&lt;&gt;'s</computeroutput> lifetime, and any regex objects still holding the <computeroutput>local&lt;&gt;</computeroutput> will be left with a dangling reference. </para></note>
+</para></description><method-group name="public member functions">
+<method name="get"><type>T &amp;</type><purpose>Fetch the wrapped value. </purpose></method>
+<method name="get" cv="const"><type>T const &amp;</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+</method-group>
+<constructor><purpose>Store a default-constructed value of type <computeroutput>T</computeroutput>. </purpose></constructor>
+<constructor specifiers="explicit"><parameter name="t"><paramtype>T const &amp;</paramtype><description><para>The initial value. </para></description></parameter><purpose>Store a default-constructed value of type <computeroutput>T</computeroutput>. </purpose><description><para>
+</para></description></constructor>
+</struct><struct name="placeholder"><template>
+      <template-type-parameter name="T"><purpose><para>The type of the object for which this placeholder stands in. </para></purpose></template-type-parameter>
+      <template-nontype-parameter name="I"><type>int</type><default>0</default><purpose><para>An optional identifier that can be used to distinguish this placeholder from others that may be used in the same semantic action that happen to have the same type.</para></purpose></template-nontype-parameter>
+    </template><purpose>For defining a placeholder to stand in for a variable a semantic action. </purpose><description><para>Use <computeroutput>placeholder&lt;&gt;</computeroutput> to define a placeholder for use in semantic actions to stand in for real objects. The use of placeholders allows regular expressions with actions to be defined once and reused in many contexts to read and write from objects which were not available when the regex was defined.</para><para>
+You can use <computeroutput>placeholder&lt;&gt;</computeroutput> by creating an object of type <computeroutput>placeholder&lt;T&gt;</computeroutput> and using that object in a semantic action exactly as you intend an object of type <computeroutput>T</computeroutput> to be used. <programlisting language="c++">placeholder&lt;int&gt; _i;
+placeholder&lt;double&gt; _d;
+
+sregex rex = ( some &gt;&gt; regex &gt;&gt; here )
+    [ ++_i, _d *= _d ];
+</programlisting> Then, when doing a pattern match with either <computeroutput>regex_search()</computeroutput>, <computeroutput>regex_match()</computeroutput> or <computeroutput>regex_replace()</computeroutput>, pass a <computeroutput><classname alt="boost::xpressive::match_results">match_results</classname>&lt;&gt;</computeroutput> object that contains bindings for the placeholders used in the regex object's semantic actions. You can create the bindings by calling <computeroutput>match_results::let</computeroutput> as follows: <programlisting language="c++">int i = 0;
+double d = 3.14;
+
+smatch what;
+what.let(_i = i)
+    .let(_d = d);
+
+if(regex_match("some string", rex, what))
+   // i and d mutated here
+</programlisting> If a semantic action executes that contains an unbound placeholder, a exception of type <computeroutput><classname alt="boost::xpressive::regex_error">regex_error</classname></computeroutput> is thrown.</para><para>See the discussion for <computeroutput>xpressive::let()</computeroutput> and the  <link linkend="boost_xpressive.user_s_guide.semantic_actions_and_user_defined_assertions.referring_to_non_local_variables"> "Referring to Non-Local Variables"</link> section in the Users' Guide for more information.</para><para><emphasis>Example:</emphasis> <programlisting language="c++">// Define a placeholder for a map object:
+placeholder&lt;std::map&lt;std::string, int&gt; &gt; _map;
+
+// Match a word and an integer, separated by =&gt;,
+// and then stuff the result into a std::map&lt;&gt;
+sregex pair = ( (s1= +_w) &gt;&gt; "=&gt;" &gt;&gt; (s2= +_d) )
+    [ _map[s1] = as&lt;int&gt;(s2) ];
+
+// Match one or more word/integer pairs, separated
+// by whitespace.
+sregex rx = pair &gt;&gt; *(+_s &gt;&gt; pair);
+
+// The string to parse
+std::string str("aaa=&gt;1 bbb=&gt;23 ccc=&gt;456");
+
+// Here is the actual map to fill in:
+std::map&lt;std::string, int&gt; result;
+
+// Bind the _map placeholder to the actual map
+smatch what;
+what.let( _map = result );
+
+// Execute the match and fill in result map
+if(regex_match(str, what, rx))
+{
+    std::cout &lt;&lt; result["aaa"] &lt;&lt; '\n';
+    std::cout &lt;&lt; result["bbb"] &lt;&lt; '\n';
+    std::cout &lt;&lt; result["ccc"] &lt;&lt; '\n';
+}
+</programlisting> </para></description><method-group name="public member functions">
+</method-group>
+<copy-assignment cv="const"><type><emphasis>unspecified</emphasis></type><parameter name="t"><paramtype>T &amp;</paramtype><description><para>The object to associate with this placeholder </para></description></parameter><description><para>
+
+</para></description><returns><para>An object of unspecified type that records the association of <computeroutput>t</computeroutput> with <computeroutput>*this</computeroutput>. </para></returns></copy-assignment>
+<copy-assignment cv="const"><type><emphasis>unspecified</emphasis></type><parameter name="t"><paramtype>T const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></copy-assignment>
 </struct><namespace name="op">
 <struct name="at"><purpose><computeroutput>at</computeroutput> is a PolymorphicFunctionObject for indexing into a sequence </purpose><struct name="result"><template>
       <template-type-parameter name="Sig"/>
@@ -572,6 +678,96 @@ xp::sregex rx = (+_d)[ xp::push_back(xp::ref(result), xp::as&lt;int&gt;(_) ]
 
 </para></description><returns><para><computeroutput>std::make_pair(first, second)</computeroutput> </para></returns></method>
 </method-group>
+</struct><struct name="as"><template>
+      <template-type-parameter name="T"><purpose><para>The type to which to lexically cast the parameter. </para></purpose></template-type-parameter>
+    </template><purpose><computeroutput>as&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for lexically casting a parameter to a different type. </purpose><description><para>
+</para></description><typedef name="result_type"><type>T</type></typedef>
+<method-group name="public member functions">
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="Value"/>
+        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to lexically cast. </para></description></parameter><description><para>
+
+</para></description><returns><para><computeroutput>boost::lexical_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
+</method-group>
+<method-group name="private member functions">
+</method-group>
+</struct><struct name="static_cast_"><template>
+      <template-type-parameter name="T"><purpose><para>The type to which to statically cast the parameter. </para></purpose></template-type-parameter>
+    </template><purpose><computeroutput><classname alt="boost::xpressive::op::static_cast_">static_cast_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for statically casting a parameter to a different type. </purpose><description><para>
+</para></description><typedef name="result_type"><type>T</type></typedef>
+<method-group name="public member functions">
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="Value"/>
+        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to statically cast. </para></description></parameter><description><para>
+
+</para></description><returns><para><computeroutput>static_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
+</method-group>
+</struct><struct name="dynamic_cast_"><template>
+      <template-type-parameter name="T"><purpose><para>The type to which to dynamically cast the parameter. </para></purpose></template-type-parameter>
+    </template><purpose><computeroutput><classname alt="boost::xpressive::op::dynamic_cast_">dynamic_cast_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for dynamically casting a parameter to a different type. </purpose><description><para>
+</para></description><typedef name="result_type"><type>T</type></typedef>
+<method-group name="public member functions">
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="Value"/>
+        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to dynamically cast. </para></description></parameter><description><para>
+
+</para></description><returns><para><computeroutput>dynamic_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
+</method-group>
+</struct><struct name="const_cast_"><template>
+      <template-type-parameter name="T"><purpose><para>The type to which to const-cast the parameter. </para></purpose></template-type-parameter>
+    </template><purpose><computeroutput><classname alt="boost::xpressive::op::const_cast_">const_cast_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for const-casting a parameter to a cv qualification. </purpose><description><para>
+</para></description><typedef name="result_type"><type>T</type></typedef>
+<method-group name="public member functions">
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="Value"/>
+        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to const-cast. </para></description></parameter><description><para>
+
+
+</para></description><requires><para>Types <computeroutput>T</computeroutput> and <computeroutput>Value</computeroutput> differ only in cv-qualification. </para></requires><returns><para><computeroutput>const_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
+</method-group>
+</struct><struct name="construct"><template>
+      <template-type-parameter name="T"><purpose><para>The type of the object to construct. </para></purpose></template-type-parameter>
+    </template><purpose><computeroutput>construct&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for constructing a new object. </purpose><description><para>
+</para></description><typedef name="result_type"><type>T</type></typedef>
+<method-group name="public member functions">
+<method name="operator()" cv="const"><type>T</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="A0"/>
+        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="A0"/>
+          <template-type-parameter name="A1"/>
+        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="operator()" cv="const"><type>T</type><template>
+          <template-type-parameter name="A0"/>
+          <template-type-parameter name="A1"/>
+          <template-type-parameter name="A2"/>
+        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype><description><para>The first argument to the constructor </para></description></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype><description><para>The second argument to the constructor </para></description></parameter><parameter name="a2"><paramtype>A2 const &amp;</paramtype><description><para>The third argument to the constructor </para></description></parameter><description><para>
+
+</para></description><returns><para><computeroutput>T(a0,a1,...)</computeroutput> </para></returns></method>
+</method-group>
+</struct><struct name="throw_"><template>
+      <template-type-parameter name="Except"><purpose><para>The type of the object to throw. </para></purpose></template-type-parameter>
+    </template><purpose><computeroutput><classname alt="boost::xpressive::op::throw_">throw_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for throwing an exception. </purpose><description><para>
+</para></description><typedef name="result_type"><type>void</type></typedef>
+<method-group name="public member functions">
+<method name="operator()" cv="const"><type>void</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="operator()" cv="const"><type>void</type><template>
+          <template-type-parameter name="A0"/>
+        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="operator()" cv="const"><type>void</type><template>
+          <template-type-parameter name="A0"/>
+          <template-type-parameter name="A1"/>
+        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="operator()" cv="const"><type>void</type><template>
+          <template-type-parameter name="A0"/>
+          <template-type-parameter name="A1"/>
+          <template-type-parameter name="A2"/>
+        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype><description><para>The first argument to the constructor </para></description></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype><description><para>The second argument to the constructor </para></description></parameter><parameter name="a2"><paramtype>A2 const &amp;</paramtype><description><para>The third argument to the constructor </para></description></parameter><description><para>
+
+<note><para>This function makes use of the <computeroutput>BOOST_THROW_EXCEPTION</computeroutput> macro to actually throw the exception. See the documentation for the Boost.Exception library. </para></note>
+</para></description><throws><simpara><classname>&lt;tt&gt;Except(a0</classname> </simpara></throws></method>
+</method-group>
 </struct><struct name="unwrap_reference"><purpose><computeroutput><classname alt="boost::xpressive::op::unwrap_reference">unwrap_reference</classname></computeroutput> is a PolymorphicFunctionObject for unwrapping a <computeroutput>boost::reference_wrapper&lt;&gt;</computeroutput>. </purpose><struct name="result"><template>
       <template-type-parameter name="Sig"/>
     </template></struct><struct-specialization name="result"><template>
@@ -608,18 +804,6 @@ xp::sregex rx = (+_d)[ xp::push_back(xp::ref(result), xp::as&lt;int&gt;(_) ]
 <data-member name="insert"><type><classname>function</classname>&lt; <classname>op::insert</classname> &gt;::type const</type><purpose><computeroutput>insert</computeroutput> is a lazy PolymorphicFunctionObject for inserting a value or a range of values into a sequence in an xpressive semantic action. </purpose></data-member>
 <data-member name="make_pair"><type><classname>function</classname>&lt; <classname>op::make_pair</classname> &gt;::type const</type><purpose><computeroutput>make_pair</computeroutput> is a lazy PolymorphicFunctionObject for making a <computeroutput><classname alt="std::pair">std::pair</classname>&lt;&gt;</computeroutput> in an xpressive semantic action. </purpose></data-member>
 <data-member name="unwrap_reference"><type><classname>function</classname>&lt; <classname>op::unwrap_reference</classname> &gt;::type const</type><purpose><computeroutput>unwrap_reference</computeroutput> is a lazy PolymorphicFunctionObject for unwrapping a <computeroutput>boost::reference_wrapper&lt;&gt;</computeroutput> in an xpressive semantic action. </purpose></data-member>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <function name="as"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="T"><purpose><para>The type to which to lexically cast the parameter. </para></purpose></template-type-parameter>
@@ -786,66 +970,24 @@ std::cout &lt;&lt; result["ccc"] &lt;&lt; '\n';
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
 <header name="boost/xpressive/regex_algorithms.hpp">
 <para>Contains the regex_match(), regex_search() and regex_replace() algorithms. </para><namespace name="boost">
 <namespace name="xpressive">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -952,6 +1094,60 @@ std::cout &lt;&lt; result["ccc"] &lt;&lt; '\n';
 
 
 </para></description><requires><para>Type <computeroutput>BidiIter</computeroutput> meets the requirements of a Bidirectional Iterator (24.1.4). </para><para>Type <computeroutput>OutIter</computeroutput> meets the requirements of an Output Iterator (24.1.2). </para><para>Type <computeroutput>Formatter</computeroutput> models <computeroutput>ForwardRange</computeroutput>, <computeroutput>Callable&lt;<classname alt="boost::xpressive::match_results">match_results</classname>&lt;BidiIter&gt; &gt;</computeroutput>, <computeroutput>Callable&lt;<classname alt="boost::xpressive::match_results">match_results</classname>&lt;BidiIter&gt;, OutIter&gt;</computeroutput>, or <computeroutput>Callable&lt;<classname alt="boost::xpressive::match_results">match_results</classname>&lt;BidiIter&gt;, OutIter, regex_constants::match_flag_type&gt;</computeroutput>; or else it is a null-terminated format string, or an expression template representing a formatter lambda expression. </para><para><computeroutput>[begin,end)</computeroutput> denotes a valid iterator range. </para></requires><returns><para>The value of the output iterator after the output sequence has been written to it. </para></returns><throws><simpara><classname>regex_error</classname> on stack exhaustion or invalid format string. </simpara></throws></overloaded-function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1305,7 +1501,31 @@ std::cout &lt;&lt; result["ccc"] &lt;&lt; '\n';
 <header name="boost/xpressive/regex_iterator.hpp">
 <para>Contains the definition of the regex_iterator type, an STL-compatible iterator for stepping through all the matches in a sequence. </para><namespace name="boost">
 <namespace name="xpressive">
-
+<struct name="regex_iterator"><template>
+      <template-type-parameter name="BidiIter"/>
+    </template><typedef name="regex_type"><type><classname>basic_regex</classname>&lt; BidiIter &gt;</type></typedef>
+<typedef name="value_type"><type><classname>match_results</classname>&lt; BidiIter &gt;</type></typedef>
+<typedef name="difference_type"><type>iterator_difference&lt; BidiIter &gt;::type</type></typedef>
+<typedef name="pointer"><type>value_type const *</type></typedef>
+<typedef name="reference"><type>value_type const &amp;</type></typedef>
+<typedef name="iterator_category"><type>std::forward_iterator_tag</type></typedef>
+<method-group name="public member functions">
+<method name="operator*" cv="const"><type>value_type const &amp;</type></method>
+<method name="operator-&gt;" cv="const"><type>value_type const *</type></method>
+<method name="operator++"><type><classname>regex_iterator</classname>&lt; BidiIter &gt; &amp;</type><description><para>If what.prefix().first != what[0].second and if the element match_prev_avail is not set in flags then sets it. Then behaves as if by calling regex_search(what[0].second, end, what, *pre, flags), with the following variation: in the event that the previous match found was of zero length (what[0].length() == 0) then attempts to find a non-zero length match starting at what[0].second, only if that fails and provided what[0].second != suffix().second does it look for a (possibly zero length) match starting from what[0].second + 1. If no further match is found then sets *this equal to the end of sequence iterator. 
+</para></description><postconditions><para>(*this)-&gt;size() == pre-&gt;mark_count() + 1 </para><para>(*this)-&gt;empty() == false </para><para>(*this)-&gt;prefix().first == An iterator denoting the end point of the previous match found </para><para>(*this)-&gt;prefix().last == (**this)[0].first </para><para>(*this)-&gt;prefix().matched == (*this)-&gt;prefix().first != (*this)-&gt;prefix().second </para><para>(*this)-&gt;suffix().first == (**this)[0].second </para><para>(*this)-&gt;suffix().last == end </para><para>(*this)-&gt;suffix().matched == (*this)-&gt;suffix().first != (*this)-&gt;suffix().second </para><para>(**this)[0].first == The starting iterator for this match. </para><para>(**this)[0].second == The ending iterator for this match. </para><para>(**this)[0].matched == true if a full match was found, and false if it was a partial match (found as a result of the match_partial flag being set). </para><para>(**this)[n].first == For all integers n &lt; (*this)-&gt;size(), the start of the sequence that matched sub-expression n. Alternatively, if sub-expression n did not participate in the match, then end. </para><para>(**this)[n].second == For all integers n &lt; (*this)-&gt;size(), the end of the sequence that matched sub-expression n. Alternatively, if sub-expression n did not participate in the match, then end. </para><para>(**this)[n].matched == For all integers n &lt; (*this)-&gt;size(), true if sub-expression n participated in the match, false otherwise. </para><para>(*this)-&gt;position() == The distance from the start of the original sequence being iterated, to the start of this match. </para></postconditions></method>
+<method name="operator++"><type><classname>regex_iterator</classname>&lt; BidiIter &gt;</type><parameter name=""><paramtype>int</paramtype></parameter></method>
+</method-group>
+<constructor/>
+<constructor><parameter name="begin"><paramtype>BidiIter</paramtype></parameter><parameter name="end"><paramtype>BidiIter</paramtype></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default></parameter></constructor>
+<constructor><template>
+          <template-type-parameter name="LetExpr"/>
+        </template><parameter name="begin"><paramtype>BidiIter</paramtype></parameter><parameter name="end"><paramtype>BidiIter</paramtype></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><parameter name="args"><paramtype><emphasis>unspecified</emphasis></paramtype></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default></parameter></constructor>
+<constructor><parameter name="that"><paramtype><classname>regex_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter></constructor>
+<copy-assignment><type><classname>regex_iterator</classname>&lt; BidiIter &gt; &amp;</type><parameter name="that"><paramtype><classname>regex_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter></copy-assignment>
+<method-group name="private member functions">
+</method-group>
+</struct>
 
 
 
@@ -1479,6 +1699,40 @@ sregex rx = (number = +_d) &gt;&gt; ' ' &gt;&gt; number;
 <data-member name="a8"><type><emphasis>unspecified</emphasis></type></data-member>
 <data-member name="a9"><type><emphasis>unspecified</emphasis></type></data-member>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="icase"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="Expr"/>
         </template><parameter name="expr"><paramtype>Expr const &amp;</paramtype></parameter><purpose>Makes a sub-expression case-insensitive. </purpose><description><para>Use icase() to make a sub-expression case-insensitive. For instance, "foo" &gt;&gt; icase(set['b'] &gt;&gt; "ar") will match "foo" exactly followed by "bar" irrespective of case. </para></description></function>
@@ -1580,47 +1834,55 @@ sregex sentence = skip(set[_s | punct])( +word );
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </namespace>
 </namespace>
 </header>
 <header name="boost/xpressive/regex_token_iterator.hpp">
 <para>Contains the definition of regex_token_iterator, and STL-compatible iterator for tokenizing a string using a regular expression. </para><namespace name="boost">
 <namespace name="xpressive">
+<struct name="regex_token_iterator"><template>
+      <template-type-parameter name="BidiIter"/>
+    </template><typedef name="regex_type"><type><classname>basic_regex</classname>&lt; BidiIter &gt;</type></typedef>
+<typedef name="char_type"><type>iterator_value&lt; BidiIter &gt;::type</type></typedef>
+<typedef name="value_type"><type><classname>sub_match</classname>&lt; BidiIter &gt;</type></typedef>
+<typedef name="difference_type"><type>std::ptrdiff_t</type></typedef>
+<typedef name="pointer"><type>value_type const *</type></typedef>
+<typedef name="reference"><type>value_type const &amp;</type></typedef>
+<typedef name="iterator_category"><type>std::forward_iterator_tag</type></typedef>
+<method-group name="public member functions">
+<method name="operator*" cv="const"><type>value_type const &amp;</type></method>
+<method name="operator-&gt;" cv="const"><type>value_type const *</type></method>
+<method name="operator++"><type><classname>regex_token_iterator</classname>&lt; BidiIter &gt; &amp;</type><description><para>If N == -1 then sets *this equal to the end of sequence iterator. Otherwise if N+1 &lt; subs.size(), then increments N and sets result equal to ((subs[N] == -1) ? value_type(what.prefix().str()) : value_type(what[subs[N]].str())). Otherwise if what.prefix().first != what[0].second and if the element match_prev_avail is not set in flags then sets it. Then locates the next match as if by calling regex_search(what[0].second, end, what, *pre, flags), with the following variation: in the event that the previous match found was of zero length (what[0].length() == 0) then attempts to find a non-zero length match starting at what[0].second, only if that fails and provided what[0].second != suffix().second does it look for a (possibly zero length) match starting from what[0].second + 1. If such a match is found then sets N equal to zero, and sets result equal to ((subs[N] == -1) ? value_type(what.prefix().str()) : value_type(what[subs[N]].str())). Otherwise if no further matches were found, then let last_end be the endpoint of the last match that was found. Then if last_end != end and subs[0] == -1 sets N equal to -1 and sets result equal to value_type(last_end, end). Otherwise sets *this equal to the end of sequence iterator. </para></description></method>
+<method name="operator++"><type><classname>regex_token_iterator</classname>&lt; BidiIter &gt;</type><parameter name=""><paramtype>int</paramtype></parameter></method>
+</method-group>
+<constructor><description><para>
+</para></description><postconditions><para><computeroutput>*this</computeroutput> is the end of sequence iterator. </para></postconditions></constructor>
+<constructor><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><description><para>
 
+</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para></requires></constructor>
+<constructor><template>
+          <template-type-parameter name="LetExpr"/>
+        </template><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><parameter name="args"><paramtype><emphasis>unspecified</emphasis></paramtype><description><para>A let() expression with argument bindings for semantic actions. </para></description></parameter><description><para>
+
+</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para></requires></constructor>
+<constructor><template>
+          <template-type-parameter name="Subs"/>
+        </template><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><parameter name="subs"><paramtype>Subs const &amp;</paramtype><description><para>A range of integers designating sub-matches to be treated as tokens. </para></description></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default><description><para>Optional match flags, used to control how the expression is matched against the sequence. (See match_flag_type.) </para></description></parameter><description><para>
+
+</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para><para><computeroutput>subs</computeroutput> is either an integer greater or equal to -1, or else an array or non-empty <computeroutput>std::vector&lt;&gt;</computeroutput> of such integers. </para></requires></constructor>
+<constructor><template>
+          <template-type-parameter name="Subs"/>
+          <template-type-parameter name="LetExpr"/>
+        </template><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><parameter name="subs"><paramtype>Subs const &amp;</paramtype><description><para>A range of integers designating sub-matches to be treated as tokens. </para></description></parameter><parameter name="args"><paramtype><emphasis>unspecified</emphasis></paramtype><description><para>A let() expression with argument bindings for semantic actions. </para></description></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default><description><para>Optional match flags, used to control how the expression is matched against the sequence. (See match_flag_type.) </para></description></parameter><description><para>
+
+</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para><para><computeroutput>subs</computeroutput> is either an integer greater or equal to -1, or else an array or non-empty <computeroutput>std::vector&lt;&gt;</computeroutput> of such integers. </para></requires></constructor>
+<constructor><parameter name="that"><paramtype><classname>regex_token_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><description><para>
+</para></description><postconditions><para><computeroutput>*this == that</computeroutput> </para></postconditions></constructor>
+<copy-assignment><type><classname>regex_token_iterator</classname>&lt; BidiIter &gt; &amp;</type><parameter name="that"><paramtype><classname>regex_token_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><description><para>
+</para></description><postconditions><para><computeroutput>*this == that</computeroutput> </para></postconditions></copy-assignment>
+<method-group name="private member functions">
+</method-group>
+</struct>
 
 
 
@@ -1715,7 +1977,17 @@ sregex sentence = skip(set[_s | punct])( +word );
 <header name="boost/xpressive/regex_traits.hpp">
 <para>Includes the C regex traits or the CPP regex traits header file depending on the BOOST_XPRESSIVE_USE_C_TRAITS macro. </para><namespace name="boost">
 <namespace name="xpressive">
-<struct name="regex_traits_version_1_tag"><description><para>Tag used to denote that a traits class conforms to the version 1 traits interface. </para></description></struct><struct name="regex_traits_version_2_tag"><inherit access="public">boost::xpressive::regex_traits_version_1_tag</inherit><description><para>Tag used to denote that a traits class conforms to the version 2 traits interface. </para></description></struct>
+<struct name="regex_traits_version_1_tag"><description><para>Tag used to denote that a traits class conforms to the version 1 traits interface. </para></description></struct><struct name="regex_traits_version_2_tag"><inherit access="public">boost::xpressive::regex_traits_version_1_tag</inherit><description><para>Tag used to denote that a traits class conforms to the version 2 traits interface. </para></description></struct><struct name="has_fold_case"><template>
+      <template-type-parameter name="Traits"/>
+    </template><inherit access="public">is_convertible&lt; Traits::version_tag *, regex_traits_version_1_case_fold_tag * &gt;</inherit><purpose>Trait used to denote that a traits class has the fold_case member function. </purpose></struct><struct name="regex_traits"><template>
+      <template-type-parameter name="Char"/>
+      <template-type-parameter name="Impl"/>
+    </template><inherit access="public">Impl</inherit><description><para>Thin wrapper around the default <classname alt="boost::xpressive::regex_traits">regex_traits</classname> implementation, either <classname alt="boost::xpressive::cpp_regex_traits">cpp_regex_traits</classname> or <classname alt="boost::xpressive::c_regex_traits">c_regex_traits</classname> </para></description><typedef name="locale_type"><type>Impl::locale_type</type></typedef>
+<method-group name="public member functions">
+</method-group>
+<constructor/>
+<constructor specifiers="explicit"><parameter name="loc"><paramtype>locale_type const &amp;</paramtype></parameter></constructor>
+</struct>
 
 
 
@@ -1810,6 +2082,51 @@ sregex sentence = skip(set[_s | punct])( +word );
 <header name="boost/xpressive/sub_match.hpp">
 <para>Contains the definition of the class template sub_match&lt;&gt; and associated helper functions </para><namespace name="boost">
 <namespace name="xpressive">
+<struct name="sub_match"><template>
+      <template-type-parameter name="BidiIter"/>
+    </template><inherit access="public">std::pair&lt; BidiIter, BidiIter &gt;</inherit><purpose>Class template <computeroutput><classname alt="boost::xpressive::sub_match">sub_match</classname></computeroutput> denotes the sequence of characters matched by a particular marked sub-expression. </purpose><description><para>When the marked sub-expression denoted by an object of type <computeroutput><classname alt="boost::xpressive::sub_match">sub_match</classname>&lt;&gt;</computeroutput> participated in a regular expression match then member <computeroutput>matched</computeroutput> evaluates to <computeroutput>true</computeroutput>, and members <computeroutput>first</computeroutput> and <computeroutput>second</computeroutput> denote the range of characters <computeroutput>[first,second)</computeroutput> which formed that match. Otherwise <computeroutput>matched</computeroutput> is <computeroutput>false</computeroutput>, and members <computeroutput>first</computeroutput> and <computeroutput>second</computeroutput> contained undefined values.</para><para>If an object of type <computeroutput><classname alt="boost::xpressive::sub_match">sub_match</classname>&lt;&gt;</computeroutput> represents sub-expression 0 - that is to say the whole match - then member <computeroutput>matched</computeroutput> is always <computeroutput>true</computeroutput>, unless a partial match was obtained as a result of the flag <computeroutput>match_partial</computeroutput> being passed to a regular expression algorithm, in which case member <computeroutput>matched</computeroutput> is <computeroutput>false</computeroutput>, and members <computeroutput>first</computeroutput> and <computeroutput>second</computeroutput> represent the character range that formed the partial match. </para></description><typedef name="value_type"><type>iterator_value&lt; BidiIter &gt;::type</type></typedef>
+<typedef name="difference_type"><type>iterator_difference&lt; BidiIter &gt;::type</type></typedef>
+<typedef name="string_type"><type><emphasis>unspecified</emphasis></type></typedef>
+<typedef name="iterator"><type>BidiIter</type></typedef>
+<data-member name="matched"><type>bool</type><purpose>true if this sub-match participated in the full match. </purpose></data-member>
+<method-group name="public member functions">
+<method name="str" cv="const"><type>string_type</type></method>
+<method name="conversion-operator" cv="const"><type>string_type</type></method>
+<method name="length" cv="const"><type>difference_type</type></method>
+<method name="conversion-operator" cv="const"><type>bool_type</type></method>
+<method name="operator!" cv="const"><type>bool</type></method>
+<method name="compare" cv="const"><type>int</type><parameter name="str"><paramtype>string_type const &amp;</paramtype><description><para>the string against which to compare </para></description></parameter><purpose>Performs a lexicographic string comparison. </purpose><description><para>
+
+</para></description><returns><para>the results of <computeroutput>(*this).str().compare(str)</computeroutput> </para></returns></method>
+<method name="compare" cv="const"><type>int</type><parameter name="sub"><paramtype><classname>sub_match</classname> const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+<method name="compare" cv="const"><type>int</type><parameter name="ptr"><paramtype>value_type const *</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
+</method-group>
+<constructor/>
+<constructor><parameter name="first"><paramtype>BidiIter</paramtype></parameter><parameter name="second"><paramtype>BidiIter</paramtype></parameter><parameter name="matched_"><paramtype>bool</paramtype><default>false</default></parameter></constructor>
+</struct>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1969,30 +2286,6 @@ sregex sentence = skip(set[_s | punct])( +word );
 <function name="operator+"><type><classname>sub_match</classname>&lt; BidiIter &gt;::string_type</type><template>
           <template-type-parameter name="BidiIter"/>
         </template><parameter name="lhs"><paramtype>typename <classname>sub_match</classname>&lt; BidiIter &gt;::string_type const &amp;</paramtype></parameter><parameter name="rhs"><paramtype><classname>sub_match</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </namespace>
 </namespace>
 </header>
@@ -2500,279 +2793,10 @@ sregex sentence = skip(set[_s | punct])( +word );
 <method name="getloc" specifiers="static"><type>locale_type</type><description><para>Returns locale_type().</para><para>
 </para></description><returns><para>locale_type() </para></returns></method>
 </method-group>
-</struct><struct name="has_fold_case"><template>
-      <template-type-parameter name="Trait"/>
-    </template><inherit access="public">is_convertible&lt; Traits::version_tag *, regex_traits_version_1_case_fold_tag * &gt;</inherit><purpose>Trait used to denote that a traits class has the fold_case member function. </purpose></struct><struct name="regex_iterator"><template>
-      <template-type-parameter name="BidiIter"/>
-    </template><method-group name="public member functions">
-<method name="operator*" cv="const"><type>value_type const &amp;</type></method>
-<method name="operator-&gt;" cv="const"><type>value_type const *</type></method>
-<method name="operator++"><type><classname>regex_iterator</classname>&lt; BidiIter &gt; &amp;</type><description><para>If what.prefix().first != what[0].second and if the element match_prev_avail is not set in flags then sets it. Then behaves as if by calling regex_search(what[0].second, end, what, *pre, flags), with the following variation: in the event that the previous match found was of zero length (what[0].length() == 0) then attempts to find a non-zero length match starting at what[0].second, only if that fails and provided what[0].second != suffix().second does it look for a (possibly zero length) match starting from what[0].second + 1. If no further match is found then sets *this equal to the end of sequence iterator. 
-</para></description><postconditions><para>(*this)-&gt;size() == pre-&gt;mark_count() + 1 </para><para>(*this)-&gt;empty() == false </para><para>(*this)-&gt;prefix().first == An iterator denoting the end point of the previous match found </para><para>(*this)-&gt;prefix().last == (**this)[0].first </para><para>(*this)-&gt;prefix().matched == (*this)-&gt;prefix().first != (*this)-&gt;prefix().second </para><para>(*this)-&gt;suffix().first == (**this)[0].second </para><para>(*this)-&gt;suffix().last == end </para><para>(*this)-&gt;suffix().matched == (*this)-&gt;suffix().first != (*this)-&gt;suffix().second </para><para>(**this)[0].first == The starting iterator for this match. </para><para>(**this)[0].second == The ending iterator for this match. </para><para>(**this)[0].matched == true if a full match was found, and false if it was a partial match (found as a result of the match_partial flag being set). </para><para>(**this)[n].first == For all integers n &lt; (*this)-&gt;size(), the start of the sequence that matched sub-expression n. Alternatively, if sub-expression n did not participate in the match, then end. </para><para>(**this)[n].second == For all integers n &lt; (*this)-&gt;size(), the end of the sequence that matched sub-expression n. Alternatively, if sub-expression n did not participate in the match, then end. </para><para>(**this)[n].matched == For all integers n &lt; (*this)-&gt;size(), true if sub-expression n participated in the match, false otherwise. </para><para>(*this)-&gt;position() == The distance from the start of the original sequence being iterated, to the start of this match. </para></postconditions></method>
-<method name="operator++"><type><classname>regex_iterator</classname>&lt; BidiIter &gt;</type><parameter name=""><paramtype>int</paramtype></parameter></method>
-</method-group>
-<constructor/>
-<constructor><parameter name="begin"><paramtype>BidiIter</paramtype></parameter><parameter name="end"><paramtype>BidiIter</paramtype></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default></parameter></constructor>
-<constructor><template>
-          <template-type-parameter name="LetExpr"/>
-        </template><parameter name="begin"><paramtype>BidiIter</paramtype></parameter><parameter name="end"><paramtype>BidiIter</paramtype></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><parameter name="args"><paramtype><emphasis>unspecified</emphasis></paramtype></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default></parameter></constructor>
-<constructor><parameter name="that"><paramtype><classname>regex_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter></constructor>
-<copy-assignment><type><classname>regex_iterator</classname>&lt; BidiIter &gt; &amp;</type><parameter name="that"><paramtype><classname>regex_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter></copy-assignment>
-<method-group name="private member functions">
-</method-group>
-</struct><struct name="regex_token_iterator"><template>
-      <template-type-parameter name="BidiIter"/>
-    </template><method-group name="public member functions">
-<method name="operator*" cv="const"><type>value_type const &amp;</type></method>
-<method name="operator-&gt;" cv="const"><type>value_type const *</type></method>
-<method name="operator++"><type><classname>regex_token_iterator</classname>&lt; BidiIter &gt; &amp;</type><description><para>If N == -1 then sets *this equal to the end of sequence iterator. Otherwise if N+1 &lt; subs.size(), then increments N and sets result equal to ((subs[N] == -1) ? value_type(what.prefix().str()) : value_type(what[subs[N]].str())). Otherwise if what.prefix().first != what[0].second and if the element match_prev_avail is not set in flags then sets it. Then locates the next match as if by calling regex_search(what[0].second, end, what, *pre, flags), with the following variation: in the event that the previous match found was of zero length (what[0].length() == 0) then attempts to find a non-zero length match starting at what[0].second, only if that fails and provided what[0].second != suffix().second does it look for a (possibly zero length) match starting from what[0].second + 1. If such a match is found then sets N equal to zero, and sets result equal to ((subs[N] == -1) ? value_type(what.prefix().str()) : value_type(what[subs[N]].str())). Otherwise if no further matches were found, then let last_end be the endpoint of the last match that was found. Then if last_end != end and subs[0] == -1 sets N equal to -1 and sets result equal to value_type(last_end, end). Otherwise sets *this equal to the end of sequence iterator. </para></description></method>
-<method name="operator++"><type><classname>regex_token_iterator</classname>&lt; BidiIter &gt;</type><parameter name=""><paramtype>int</paramtype></parameter></method>
-</method-group>
-<constructor><description><para>
-</para></description><postconditions><para><computeroutput>*this</computeroutput> is the end of sequence iterator. </para></postconditions></constructor>
-<constructor><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><description><para>
-
-</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para></requires></constructor>
-<constructor><template>
-          <template-type-parameter name="LetExpr"/>
-        </template><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><parameter name="args"><paramtype><emphasis>unspecified</emphasis></paramtype><description><para>A let() expression with argument bindings for semantic actions. </para></description></parameter><description><para>
-
-</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para></requires></constructor>
-<constructor><template>
-          <template-type-parameter name="Subs"/>
-        </template><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><parameter name="subs"><paramtype>Subs const &amp;</paramtype><description><para>A range of integers designating sub-matches to be treated as tokens. </para></description></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default><description><para>Optional match flags, used to control how the expression is matched against the sequence. (See match_flag_type.) </para></description></parameter><description><para>
-
-</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para><para><computeroutput>subs</computeroutput> is either an integer greater or equal to -1, or else an array or non-empty <computeroutput>std::vector&lt;&gt;</computeroutput> of such integers. </para></requires></constructor>
-<constructor><template>
-          <template-type-parameter name="Subs"/>
-          <template-type-parameter name="LetExpr"/>
-        </template><parameter name="begin"><paramtype>BidiIter</paramtype><description><para>The beginning of the character range to search. </para></description></parameter><parameter name="end"><paramtype>BidiIter</paramtype><description><para>The end of the character range to search. </para></description></parameter><parameter name="rex"><paramtype><classname>basic_regex</classname>&lt; BidiIter &gt; const &amp;</paramtype><description><para>The regex pattern to search for. </para></description></parameter><parameter name="subs"><paramtype>Subs const &amp;</paramtype><description><para>A range of integers designating sub-matches to be treated as tokens. </para></description></parameter><parameter name="args"><paramtype><emphasis>unspecified</emphasis></paramtype><description><para>A let() expression with argument bindings for semantic actions. </para></description></parameter><parameter name="flags"><paramtype>regex_constants::match_flag_type</paramtype><default>regex_constants::match_default</default><description><para>Optional match flags, used to control how the expression is matched against the sequence. (See match_flag_type.) </para></description></parameter><description><para>
-
-</para></description><requires><para><computeroutput/>[begin,end) is a valid range. </para><para><computeroutput>subs</computeroutput> is either an integer greater or equal to -1, or else an array or non-empty <computeroutput>std::vector&lt;&gt;</computeroutput> of such integers. </para></requires></constructor>
-<constructor><parameter name="that"><paramtype><classname>regex_token_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><description><para>
-</para></description><postconditions><para><computeroutput>*this == that</computeroutput> </para></postconditions></constructor>
-<copy-assignment><type><classname>regex_token_iterator</classname>&lt; BidiIter &gt; &amp;</type><parameter name="that"><paramtype><classname>regex_token_iterator</classname>&lt; BidiIter &gt; const &amp;</paramtype></parameter><description><para>
-</para></description><postconditions><para><computeroutput>*this == that</computeroutput> </para></postconditions></copy-assignment>
-<method-group name="private member functions">
-</method-group>
-</struct><struct name="sub_match"><template>
-      <template-type-parameter name="BidiIter"/>
-    </template><inherit access="public">std::pair&lt; BidiIter, BidiIter &gt;</inherit><purpose>Class template <computeroutput><classname alt="boost::xpressive::sub_match">sub_match</classname></computeroutput> denotes the sequence of characters matched by a particular marked sub-expression. </purpose><description><para>When the marked sub-expression denoted by an object of type <computeroutput><classname alt="boost::xpressive::sub_match">sub_match</classname>&lt;&gt;</computeroutput> participated in a regular expression match then member <computeroutput>matched</computeroutput> evaluates to <computeroutput>true</computeroutput>, and members <computeroutput>first</computeroutput> and <computeroutput>second</computeroutput> denote the range of characters <computeroutput>[first,second)</computeroutput> which formed that match. Otherwise <computeroutput>matched</computeroutput> is <computeroutput>false</computeroutput>, and members <computeroutput>first</computeroutput> and <computeroutput>second</computeroutput> contained undefined values.</para><para>If an object of type <computeroutput><classname alt="boost::xpressive::sub_match">sub_match</classname>&lt;&gt;</computeroutput> represents sub-expression 0 - that is to say the whole match - then member <computeroutput>matched</computeroutput> is always <computeroutput>true</computeroutput>, unless a partial match was obtained as a result of the flag <computeroutput>match_partial</computeroutput> being passed to a regular expression algorithm, in which case member <computeroutput>matched</computeroutput> is <computeroutput>false</computeroutput>, and members <computeroutput>first</computeroutput> and <computeroutput>second</computeroutput> represent the character range that formed the partial match. </para></description><method-group name="public member functions">
-<method name="str" cv="const"><type>string_type</type></method>
-<method name="conversion-operator" cv="const"><type>string_type</type></method>
-<method name="length" cv="const"><type>difference_type</type></method>
-<method name="conversion-operator" cv="const"><type>bool_type</type></method>
-<method name="operator!" cv="const"><type>bool</type></method>
-<method name="compare" cv="const"><type>int</type><parameter name="str"><paramtype>string_type const &amp;</paramtype><description><para>the string against which to compare </para></description></parameter><purpose>Performs a lexicographic string comparison. </purpose><description><para>
-
-</para></description><returns><para>the results of <computeroutput>(*this).str().compare(str)</computeroutput> </para></returns></method>
-<method name="compare" cv="const"><type>int</type><parameter name="sub"><paramtype><classname>sub_match</classname> const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="compare" cv="const"><type>int</type><parameter name="ptr"><paramtype>value_type const *</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-</method-group>
-<constructor/>
-<constructor><parameter name="first"><paramtype>BidiIter</paramtype></parameter><parameter name="second"><paramtype>BidiIter</paramtype></parameter><parameter name="matched_"><paramtype>bool</paramtype><default>false</default></parameter></constructor>
 </struct><struct name="compiler_traits"><template>
       <template-type-parameter name="RegexTraits"/>
-    </template></struct><struct name="regex_traits"><template>
-      <template-type-parameter name="Char"/>
-      <template-type-parameter name="Impl"><default>typename <classname alt="boost::xpressive::detail::default_regex_traits">detail::default_regex_traits</classname>&lt;Char&gt;::type</default></template-type-parameter>
-    </template><inherit access="public">Impl</inherit><description><para>Thin wrapper around the default <classname alt="boost::xpressive::regex_traits">regex_traits</classname> implementation, either <classname alt="boost::xpressive::cpp_regex_traits">cpp_regex_traits</classname> or <classname alt="boost::xpressive::c_regex_traits">c_regex_traits</classname> </para></description><method-group name="public member functions">
-</method-group>
-<constructor/>
-<constructor specifiers="explicit"><parameter name="loc"><paramtype>locale_type const &amp;</paramtype></parameter></constructor>
-</struct><struct name="value"><template>
-      <template-type-parameter name="T"><purpose><para>The type of the value to store.</para></purpose></template-type-parameter>
-    </template><inherit access="public">proto::extends&lt; proto::terminal&lt; T &gt;::type, value&lt; T &gt; &gt;</inherit><purpose><computeroutput>value&lt;&gt;</computeroutput> is a lazy wrapper for a value that can be used in xpressive semantic actions. </purpose><description><para>
-Below is an example that shows where <computeroutput><computeroutput>value&lt;&gt;</computeroutput></computeroutput> is useful.<programlisting language="c++">sregex good_voodoo(boost::shared_ptr&lt;int&gt; pi)
-{
-    using namespace boost::xpressive;
-    // Use val() to hold the shared_ptr by value:
-    <classname alt="boost::xpressive::basic_regex">sregex</classname> rex = +( _d [ ++*val(pi) ] &gt;&gt; '!' );
-    // OK, rex holds a reference count to the integer.
-    return rex;
-}
-</programlisting> In the above code, <computeroutput>xpressive::val()</computeroutput> is a function that returns a <computeroutput>value&lt;&gt;</computeroutput> object. Had <computeroutput>val()</computeroutput> not been used here, the operation <computeroutput>++*pi</computeroutput> would have been evaluated eagerly once, instead of lazily when the regex match happens. </para></description><method-group name="public member functions">
-<method name="get"><type>T &amp;</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="get" cv="const"><type>T const &amp;</type><purpose>Fetch the stored value. </purpose></method>
-</method-group>
-<constructor><purpose>Store a default-constructed <computeroutput>T</computeroutput>. </purpose></constructor>
-<constructor specifiers="explicit"><parameter name="t"><paramtype>T const &amp;</paramtype><description><para>The initial value. </para></description></parameter><purpose>Store a copy of <computeroutput>t</computeroutput>. </purpose><description><para>
-</para></description></constructor>
-</struct><struct name="reference"><template>
-      <template-type-parameter name="T"><purpose><para>The type of the referent.</para></purpose></template-type-parameter>
-    </template><inherit access="public">proto::extends&lt; proto::terminal&lt; reference_wrapper&lt; T &gt; &gt;::type, reference&lt; T &gt; &gt;</inherit><purpose><computeroutput>reference&lt;&gt;</computeroutput> is a lazy wrapper for a reference that can be used in xpressive semantic actions. </purpose><description><para>
-Here is an example of how to use <computeroutput>reference&lt;&gt;</computeroutput> to create a lazy reference to an existing object so it can be read and written in an xpressive semantic action.<programlisting language="c++">using namespace boost::xpressive;
-std::map&lt;std::string, int&gt; result;
-<classname alt="boost::xpressive::reference">reference&lt;std::map&lt;std::string, int&gt;</classname> &gt; result_ref(result);
-
-// Match a word and an integer, separated by =&gt;,
-// and then stuff the result into a std::map&lt;&gt;
-<classname alt="boost::xpressive::basic_regex">sregex</classname> pair = ( (s1= +_w) &gt;&gt; "=&gt;" &gt;&gt; (s2= +_d) )
-    [ result_ref[s1] = as&lt;int&gt;(s2) ];
-</programlisting> </para></description><method-group name="public member functions">
-<method name="get" cv="const"><type>T &amp;</type><purpose>Fetch the stored value. </purpose></method>
-</method-group>
-<constructor specifiers="explicit"><parameter name="t"><paramtype>T &amp;</paramtype><description><para>Reference to object </para></description></parameter><purpose>Store a reference to <computeroutput>t</computeroutput>. </purpose><description><para>
-</para></description></constructor>
-</struct><struct name="local"><template>
-      <template-type-parameter name="T"><purpose><para>The type of the local variable.</para></purpose></template-type-parameter>
-    </template><inherit access="public">proto::terminal::type&lt; reference_wrapper&lt; T &gt; &gt;</inherit><purpose><computeroutput>local&lt;&gt;</computeroutput> is a lazy wrapper for a reference to a value that is stored within the local itself. It is for use within xpressive semantic actions. </purpose><description><para>
-Below is an example of how to use <computeroutput>local&lt;&gt;</computeroutput> in semantic actions.<programlisting language="c++">using namespace boost::xpressive;
-<classname alt="boost::xpressive::local">local&lt;int&gt;</classname> i(0);
-std::string str("1!2!3?");
-// count the exciting digits, but not the
-// questionable ones.
-<classname alt="boost::xpressive::basic_regex">sregex</classname> rex = +( _d [ ++i ] &gt;&gt; '!' );
-regex_search(str, rex);
-assert( i.get() == 2 );
-</programlisting> <note><para>As the name "local" suggests, <computeroutput>local&lt;&gt;</computeroutput> objects and the regexes that refer to them should never leave the local scope. The value stored within the local object will be destroyed at the end of the <computeroutput>local&lt;&gt;'s</computeroutput> lifetime, and any regex objects still holding the <computeroutput>local&lt;&gt;</computeroutput> will be left with a dangling reference. </para></note>
-</para></description><method-group name="public member functions">
-<method name="get"><type>T &amp;</type><purpose>Fetch the wrapped value. </purpose></method>
-<method name="get" cv="const"><type>T const &amp;</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-</method-group>
-<constructor><purpose>Store a default-constructed value of type <computeroutput>T</computeroutput>. </purpose></constructor>
-<constructor specifiers="explicit"><parameter name="t"><paramtype>T const &amp;</paramtype><description><para>The initial value. </para></description></parameter><purpose>Store a default-constructed value of type <computeroutput>T</computeroutput>. </purpose><description><para>
-</para></description></constructor>
-</struct><struct name="placeholder"><template>
-      <template-type-parameter name="T"><purpose><para>The type of the object for which this placeholder stands in. </para></purpose></template-type-parameter>
-      <template-nontype-parameter name="I"><type>int</type><default>0</default><purpose><para>An optional identifier that can be used to distinguish this placeholder from others that may be used in the same semantic action that happen to have the same type.</para></purpose></template-nontype-parameter>
-      <template-type-parameter name="Dummy"><default>proto::is_proto_expr</default></template-type-parameter>
-    </template><purpose>For defining a placeholder to stand in for a variable a semantic action. </purpose><description><para>Use <computeroutput>placeholder&lt;&gt;</computeroutput> to define a placeholder for use in semantic actions to stand in for real objects. The use of placeholders allows regular expressions with actions to be defined once and reused in many contexts to read and write from objects which were not available when the regex was defined.</para><para>
-You can use <computeroutput>placeholder&lt;&gt;</computeroutput> by creating an object of type <computeroutput>placeholder&lt;T&gt;</computeroutput> and using that object in a semantic action exactly as you intend an object of type <computeroutput>T</computeroutput> to be used. <programlisting language="c++">placeholder&lt;int&gt; _i;
-placeholder&lt;double&gt; _d;
-
-sregex rex = ( some &gt;&gt; regex &gt;&gt; here )
-    [ ++_i, _d *= _d ];
-</programlisting> Then, when doing a pattern match with either <computeroutput>regex_search()</computeroutput>, <computeroutput>regex_match()</computeroutput> or <computeroutput>regex_replace()</computeroutput>, pass a <computeroutput><classname alt="boost::xpressive::match_results">match_results</classname>&lt;&gt;</computeroutput> object that contains bindings for the placeholders used in the regex object's semantic actions. You can create the bindings by calling <computeroutput>match_results::let</computeroutput> as follows: <programlisting language="c++">int i = 0;
-double d = 3.14;
-
-smatch what;
-what.let(_i = i)
-    .let(_d = d);
-
-if(regex_match("some string", rex, what))
-   // i and d mutated here
-</programlisting> If a semantic action executes that contains an unbound placeholder, a exception of type <computeroutput><classname alt="boost::xpressive::regex_error">regex_error</classname></computeroutput> is thrown.</para><para>See the discussion for <computeroutput>xpressive::let()</computeroutput> and the  <link linkend="boost_xpressive.user_s_guide.semantic_actions_and_user_defined_assertions.referring_to_non_local_variables"> "Referring to Non-Local Variables"</link> section in the Users' Guide for more information.</para><para><emphasis>Example:</emphasis> <programlisting language="c++">// Define a placeholder for a map object:
-placeholder&lt;std::map&lt;std::string, int&gt; &gt; _map;
-
-// Match a word and an integer, separated by =&gt;,
-// and then stuff the result into a std::map&lt;&gt;
-sregex pair = ( (s1= +_w) &gt;&gt; "=&gt;" &gt;&gt; (s2= +_d) )
-    [ _map[s1] = as&lt;int&gt;(s2) ];
-
-// Match one or more word/integer pairs, separated
-// by whitespace.
-sregex rx = pair &gt;&gt; *(+_s &gt;&gt; pair);
-
-// The string to parse
-std::string str("aaa=&gt;1 bbb=&gt;23 ccc=&gt;456");
-
-// Here is the actual map to fill in:
-std::map&lt;std::string, int&gt; result;
-
-// Bind the _map placeholder to the actual map
-smatch what;
-what.let( _map = result );
-
-// Execute the match and fill in result map
-if(regex_match(str, what, rx))
-{
-    std::cout &lt;&lt; result["aaa"] &lt;&lt; '\n';
-    std::cout &lt;&lt; result["bbb"] &lt;&lt; '\n';
-    std::cout &lt;&lt; result["ccc"] &lt;&lt; '\n';
-}
-</programlisting> </para></description><method-group name="public member functions">
-</method-group>
-<copy-assignment cv="const"><type><emphasis>unspecified</emphasis></type><parameter name="t"><paramtype>T &amp;</paramtype><description><para>The object to associate with this placeholder </para></description></parameter><description><para>
-
-</para></description><returns><para>An object of unspecified type that records the association of <computeroutput>t</computeroutput> with <computeroutput>*this</computeroutput>. </para></returns></copy-assignment>
-<copy-assignment cv="const"><type><emphasis>unspecified</emphasis></type><parameter name="t"><paramtype>T const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></copy-assignment>
-</struct><namespace name="op">
-<struct name="as"><template>
-      <template-type-parameter name="T"><purpose><para>The type to which to lexically cast the parameter. </para></purpose></template-type-parameter>
-    </template><purpose><computeroutput>as&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for lexically casting a parameter to a different type. </purpose><description><para>
-</para></description><method-group name="public member functions">
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="Value"/>
-        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to lexically cast. </para></description></parameter><description><para>
-
-</para></description><returns><para><computeroutput>boost::lexical_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
-</method-group>
-<method-group name="private member functions">
-</method-group>
-</struct><struct name="static_cast_"><template>
-      <template-type-parameter name="T"><purpose><para>The type to which to statically cast the parameter. </para></purpose></template-type-parameter>
-    </template><purpose><computeroutput><classname alt="boost::xpressive::op::static_cast_">static_cast_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for statically casting a parameter to a different type. </purpose><description><para>
-</para></description><method-group name="public member functions">
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="Value"/>
-        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to statically cast. </para></description></parameter><description><para>
-
-</para></description><returns><para><computeroutput>static_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
-</method-group>
-</struct><struct name="dynamic_cast_"><template>
-      <template-type-parameter name="T"><purpose><para>The type to which to dynamically cast the parameter. </para></purpose></template-type-parameter>
-    </template><purpose><computeroutput><classname alt="boost::xpressive::op::dynamic_cast_">dynamic_cast_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for dynamically casting a parameter to a different type. </purpose><description><para>
-</para></description><method-group name="public member functions">
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="Value"/>
-        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to dynamically cast. </para></description></parameter><description><para>
-
-</para></description><returns><para><computeroutput>dynamic_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
-</method-group>
-</struct><struct name="const_cast_"><template>
-      <template-type-parameter name="T"><purpose><para>The type to which to const-cast the parameter. </para></purpose></template-type-parameter>
-    </template><purpose><computeroutput><classname alt="boost::xpressive::op::const_cast_">const_cast_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for const-casting a parameter to a cv qualification. </purpose><description><para>
-</para></description><method-group name="public member functions">
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="Value"/>
-        </template><parameter name="val"><paramtype>Value const &amp;</paramtype><description><para>The value to const-cast. </para></description></parameter><description><para>
-
-
-</para></description><requires><para>Types <computeroutput>T</computeroutput> and <computeroutput>Value</computeroutput> differ only in cv-qualification. </para></requires><returns><para><computeroutput>const_cast&lt;T&gt;(val)</computeroutput> </para></returns></method>
-</method-group>
-</struct><struct name="construct"><template>
-      <template-type-parameter name="T"><purpose><para>The type of the object to construct. </para></purpose></template-type-parameter>
-    </template><purpose><computeroutput>construct&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for constructing a new object. </purpose><description><para>
-</para></description><method-group name="public member functions">
-<method name="operator()" cv="const"><type>T</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="A0"/>
-        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="A0"/>
-          <template-type-parameter name="A1"/>
-        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="operator()" cv="const"><type>T</type><template>
-          <template-type-parameter name="A0"/>
-          <template-type-parameter name="A1"/>
-          <template-type-parameter name="A2"/>
-        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype><description><para>The first argument to the constructor </para></description></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype><description><para>The second argument to the constructor </para></description></parameter><parameter name="a2"><paramtype>A2 const &amp;</paramtype><description><para>The third argument to the constructor </para></description></parameter><description><para>
-
-</para></description><returns><para><computeroutput>T(a0,a1,...)</computeroutput> </para></returns></method>
-</method-group>
-</struct><struct name="throw_"><template>
-      <template-type-parameter name="Except"><purpose><para>The type of the object to throw. </para></purpose></template-type-parameter>
-    </template><purpose><computeroutput><classname alt="boost::xpressive::op::throw_">throw_</classname>&lt;&gt;</computeroutput> is a PolymorphicFunctionObject for throwing an exception. </purpose><description><para>
-</para></description><method-group name="public member functions">
-<method name="operator()" cv="const"><type>void</type><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="operator()" cv="const"><type>void</type><template>
-          <template-type-parameter name="A0"/>
-        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="operator()" cv="const"><type>void</type><template>
-          <template-type-parameter name="A0"/>
-          <template-type-parameter name="A1"/>
-        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype></parameter><description><para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para></description></method>
-<method name="operator()" cv="const"><type>void</type><template>
-          <template-type-parameter name="A0"/>
-          <template-type-parameter name="A1"/>
-          <template-type-parameter name="A2"/>
-        </template><parameter name="a0"><paramtype>A0 const &amp;</paramtype><description><para>The first argument to the constructor </para></description></parameter><parameter name="a1"><paramtype>A1 const &amp;</paramtype><description><para>The second argument to the constructor </para></description></parameter><parameter name="a2"><paramtype>A2 const &amp;</paramtype><description><para>The third argument to the constructor </para></description></parameter><description><para>
-
-<note><para>This function makes use of the <computeroutput>BOOST_THROW_EXCEPTION</computeroutput> macro to actually throw the exception. See the documentation for the Boost.Exception library. </para></note>
-</para></description><throws><simpara><classname>&lt;tt&gt;Except(a0</classname> </simpara></throws></method>
-</method-group>
-</struct></namespace>
+    </template></struct><namespace name="op">
+</namespace>
 <typedef name="regex_id_type"><type>void const *</type></typedef>
 <typedef name="sregex"><type><classname>basic_regex</classname>&lt; std::string::const_iterator &gt;</type></typedef>
 <typedef name="cregex"><type><classname>basic_regex</classname>&lt; char const * &gt;</type></typedef>

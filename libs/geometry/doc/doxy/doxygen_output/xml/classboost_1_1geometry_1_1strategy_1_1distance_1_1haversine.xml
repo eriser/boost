@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="130" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="130" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="130" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-type">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="138" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="138" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="138" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="138" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="174" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="174" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="174" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="174" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -106,7 +106,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="156" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="156" bodyend="162"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="156" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="156" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1haversine_1a9fb4f56a1a94e4432c06cc91a3f996ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -132,7 +132,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="144" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="144" bodyend="146"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="144" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="144" bodyend="146"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1strategy_1_1distance_1_1haversine_1a13e805220265954d343963abb3cdaf7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>RadiusType</type>
@@ -146,7 +146,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="168" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="168" bodyend="171"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="168" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="168" bodyend="171"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -176,7 +176,7 @@
 [heading See also]
 [link geometry.reference.algorithms.distance.distance_3_with_strategy distance (with strategy)]
 </qbk>  </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="129" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="128" bodyend="175"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" line="129" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/spherical/distance_haversine.hpp" bodystart="128" bodyend="175"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1haversine_1aad71e6eac82c6fd2a1ee308c4bb3e33a" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::haversine</scope><name>apply</name></member>
       <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1haversine_1a5e6cca09efcc7bd61337581360fd3236" prot="private" virt="non-virtual"><scope>boost::geometry::strategy::distance::haversine</scope><name>comparable_type</name></member>

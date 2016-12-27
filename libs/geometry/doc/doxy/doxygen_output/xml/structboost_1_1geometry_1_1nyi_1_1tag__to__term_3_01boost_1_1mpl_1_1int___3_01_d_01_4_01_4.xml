@@ -22,14 +22,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" line="96" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="96" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" line="96" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="96" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" line="96" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="96" bodyend="96"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" line="96" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="96" bodyend="96"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1nyi_1_1tag__to__term_3_01boost_1_1mpl_1_1int___3_01_d_01_4_01_4_1ad85c2e7bcd3fbf2cf06753d8d30353ac" prot="public" virt="non-virtual"><scope>boost::geometry::nyi::tag_to_term&lt; boost::mpl::int_&lt; D &gt; &gt;</scope><name>type</name></member>
     </listofallmembers>

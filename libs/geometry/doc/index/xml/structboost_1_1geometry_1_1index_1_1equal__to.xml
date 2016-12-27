@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" line="241" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" bodystart="241" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" line="241" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" bodystart="241" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -60,7 +60,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" line="250" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" bodystart="250" bodyend="253"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" line="250" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" bodystart="250" bodyend="253"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -99,7 +99,7 @@
         <link refid="structboost_1_1geometry_1_1index_1_1detail_1_1equal__to"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" line="239" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" bodystart="237" bodyend="254"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" line="239" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" bodystart="237" bodyend="254"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1index_1_1equal__to_1adb497915885d69df9aff938d16922ff3" prot="public" virt="non-virtual"><scope>boost::geometry::index::equal_to</scope><name>operator()</name></member>
       <member refid="structboost_1_1geometry_1_1index_1_1equal__to_1ae6a986988e380c2ba4afa646294cfd93" prot="public" virt="non-virtual"><scope>boost::geometry::index::equal_to</scope><name>result_type</name></member>

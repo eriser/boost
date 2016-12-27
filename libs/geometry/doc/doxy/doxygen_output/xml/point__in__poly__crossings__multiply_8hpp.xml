@@ -4,170 +4,170 @@
     <compoundname>point_in_poly_crossings_multiply.hpp</compoundname>
     <includes refid="coordinate__type_8hpp" local="no">boost/geometry/core/coordinate_type.hpp</includes>
     <includes refid="select__calculation__type_8hpp" local="no">boost/geometry/util/select_calculation_type.hpp</includes>
-    <includedby refid="strategies_8hpp" local="no">/home/travis/build/boostorg/boost/boost/geometry/strategies/strategies.hpp</includedby>
+    <includedby refid="strategies_8hpp" local="no">/home/ubuntu/boost/boost/geometry/strategies/strategies.hpp</includedby>
     <incdepgraph>
-      <node id="60368">
+      <node id="60216">
         <label>boost/type_traits/remove_const.hpp</label>
       </node>
-      <node id="60371">
+      <node id="60211">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp</label>
+        <link refid="point_in_poly_crossings_multiply.hpp"/>
+        <childnode refid="60212" relation="include">
+        </childnode>
+        <childnode refid="60227" relation="include">
+        </childnode>
+      </node>
+      <node id="60214">
+        <label>boost/geometry/core/point_type.hpp</label>
+        <link refid="point__type_8hpp"/>
+        <childnode refid="60213" relation="include">
+        </childnode>
+        <childnode refid="60215" relation="include">
+        </childnode>
+        <childnode refid="60216" relation="include">
+        </childnode>
+        <childnode refid="60217" relation="include">
+        </childnode>
+        <childnode refid="60221" relation="include">
+        </childnode>
+        <childnode refid="60222" relation="include">
+        </childnode>
+        <childnode refid="60223" relation="include">
+        </childnode>
+      </node>
+      <node id="60219">
         <label>boost/type_traits/is_const.hpp</label>
       </node>
-      <node id="60370">
+      <node id="60218">
         <label>boost/mpl/if.hpp</label>
       </node>
-      <node id="60364">
-        <label>boost/geometry/core/coordinate_type.hpp</label>
-        <link refid="coordinate__type_8hpp"/>
-        <childnode refid="60365" relation="include">
+      <node id="60217">
+        <label>boost/geometry/core/ring_type.hpp</label>
+        <link refid="ring__type_8hpp"/>
+        <childnode refid="60213" relation="include">
         </childnode>
-        <childnode refid="60366" relation="include">
+        <childnode refid="60218" relation="include">
         </childnode>
-        <childnode refid="60373" relation="include">
+        <childnode refid="60215" relation="include">
         </childnode>
-        <childnode refid="60375" relation="include">
+        <childnode refid="60219" relation="include">
         </childnode>
-        <childnode refid="60377" relation="include">
+        <childnode refid="60216" relation="include">
         </childnode>
-      </node>
-      <node id="60365">
-        <label>boost/mpl/assert.hpp</label>
-      </node>
-      <node id="60372">
-        <label>boost/type_traits/remove_reference.hpp</label>
-      </node>
-      <node id="60377">
-        <label>boost/geometry/util/promote_floating_point.hpp</label>
-        <link refid="promote__floating__point_8hpp"/>
-        <childnode refid="60370" relation="include">
+        <childnode refid="60220" relation="include">
         </childnode>
-        <childnode refid="60378" relation="include">
+        <childnode refid="60221" relation="include">
+        </childnode>
+        <childnode refid="60222" relation="include">
         </childnode>
       </node>
-      <node id="60374">
+      <node id="60222">
         <label>boost/geometry/core/tags.hpp</label>
         <link refid="core_2tags_8hpp"/>
       </node>
-      <node id="60380">
-        <label>boost/type_traits/is_void.hpp</label>
+      <node id="60213">
+        <label>boost/mpl/assert.hpp</label>
       </node>
-      <node id="60384">
-        <label>boost/type_traits/is_fundamental.hpp</label>
+      <node id="60220">
+        <label>boost/type_traits/remove_reference.hpp</label>
       </node>
-      <node id="60363">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp</label>
-        <link refid="point_in_poly_crossings_multiply.hpp"/>
-        <childnode refid="60364" relation="include">
-        </childnode>
-        <childnode refid="60379" relation="include">
-        </childnode>
-      </node>
-      <node id="60381">
-        <label>boost/geometry/util/select_coordinate_type.hpp</label>
-        <link refid="select__coordinate__type_8hpp"/>
-        <childnode refid="60364" relation="include">
-        </childnode>
-        <childnode refid="60382" relation="include">
-        </childnode>
-      </node>
-      <node id="60366">
-        <label>boost/geometry/core/point_type.hpp</label>
-        <link refid="point__type_8hpp"/>
-        <childnode refid="60365" relation="include">
-        </childnode>
-        <childnode refid="60367" relation="include">
-        </childnode>
-        <childnode refid="60368" relation="include">
-        </childnode>
-        <childnode refid="60369" relation="include">
-        </childnode>
-        <childnode refid="60373" relation="include">
-        </childnode>
-        <childnode refid="60374" relation="include">
-        </childnode>
-        <childnode refid="60375" relation="include">
-        </childnode>
-      </node>
-      <node id="60367">
-        <label>boost/range/value_type.hpp</label>
-      </node>
-      <node id="60369">
-        <label>boost/geometry/core/ring_type.hpp</label>
-        <link refid="ring__type_8hpp"/>
-        <childnode refid="60365" relation="include">
-        </childnode>
-        <childnode refid="60370" relation="include">
-        </childnode>
-        <childnode refid="60367" relation="include">
-        </childnode>
-        <childnode refid="60371" relation="include">
-        </childnode>
-        <childnode refid="60368" relation="include">
-        </childnode>
-        <childnode refid="60372" relation="include">
-        </childnode>
-        <childnode refid="60373" relation="include">
-        </childnode>
-        <childnode refid="60374" relation="include">
-        </childnode>
-      </node>
-      <node id="60378">
-        <label>boost/type_traits/is_integral.hpp</label>
-      </node>
-      <node id="60379">
-        <label>boost/geometry/util/select_calculation_type.hpp</label>
-        <link refid="select__calculation__type_8hpp"/>
-        <childnode refid="60370" relation="include">
-        </childnode>
-        <childnode refid="60380" relation="include">
-        </childnode>
-        <childnode refid="60381" relation="include">
-        </childnode>
-      </node>
-      <node id="60383">
-        <label>boost/type_traits/is_floating_point.hpp</label>
-      </node>
-      <node id="60373">
-        <label>boost/geometry/core/tag.hpp</label>
-        <link refid="tag_8hpp"/>
-        <childnode refid="60374" relation="include">
-        </childnode>
-        <childnode refid="60375" relation="include">
-        </childnode>
-      </node>
-      <node id="60375">
+      <node id="60223">
         <label>boost/geometry/util/bare_type.hpp</label>
         <link refid="bare__type_8hpp"/>
-        <childnode refid="60368" relation="include">
+        <childnode refid="60216" relation="include">
         </childnode>
-        <childnode refid="60376" relation="include">
+        <childnode refid="60224" relation="include">
         </childnode>
-        <childnode refid="60372" relation="include">
+        <childnode refid="60220" relation="include">
         </childnode>
       </node>
-      <node id="60376">
-        <label>boost/type_traits/remove_pointer.hpp</label>
+      <node id="60228">
+        <label>boost/type_traits/is_void.hpp</label>
       </node>
-      <node id="60382">
+      <node id="60225">
+        <label>boost/geometry/util/promote_floating_point.hpp</label>
+        <link refid="promote__floating__point_8hpp"/>
+        <childnode refid="60218" relation="include">
+        </childnode>
+        <childnode refid="60226" relation="include">
+        </childnode>
+      </node>
+      <node id="60232">
+        <label>boost/type_traits/is_fundamental.hpp</label>
+      </node>
+      <node id="60221">
+        <label>boost/geometry/core/tag.hpp</label>
+        <link refid="tag_8hpp"/>
+        <childnode refid="60222" relation="include">
+        </childnode>
+        <childnode refid="60223" relation="include">
+        </childnode>
+      </node>
+      <node id="60227">
+        <label>boost/geometry/util/select_calculation_type.hpp</label>
+        <link refid="select__calculation__type_8hpp"/>
+        <childnode refid="60218" relation="include">
+        </childnode>
+        <childnode refid="60228" relation="include">
+        </childnode>
+        <childnode refid="60229" relation="include">
+        </childnode>
+      </node>
+      <node id="60215">
+        <label>boost/range/value_type.hpp</label>
+      </node>
+      <node id="60226">
+        <label>boost/type_traits/is_integral.hpp</label>
+      </node>
+      <node id="60231">
+        <label>boost/type_traits/is_floating_point.hpp</label>
+      </node>
+      <node id="60230">
         <label>boost/geometry/util/select_most_precise.hpp</label>
         <link refid="select__most__precise_8hpp"/>
-        <childnode refid="60370" relation="include">
+        <childnode refid="60218" relation="include">
         </childnode>
-        <childnode refid="60383" relation="include">
+        <childnode refid="60231" relation="include">
         </childnode>
-        <childnode refid="60384" relation="include">
+        <childnode refid="60232" relation="include">
+        </childnode>
+      </node>
+      <node id="60212">
+        <label>boost/geometry/core/coordinate_type.hpp</label>
+        <link refid="coordinate__type_8hpp"/>
+        <childnode refid="60213" relation="include">
+        </childnode>
+        <childnode refid="60214" relation="include">
+        </childnode>
+        <childnode refid="60221" relation="include">
+        </childnode>
+        <childnode refid="60223" relation="include">
+        </childnode>
+        <childnode refid="60225" relation="include">
+        </childnode>
+      </node>
+      <node id="60224">
+        <label>boost/type_traits/remove_pointer.hpp</label>
+      </node>
+      <node id="60229">
+        <label>boost/geometry/util/select_coordinate_type.hpp</label>
+        <link refid="select__coordinate__type_8hpp"/>
+        <childnode refid="60212" relation="include">
+        </childnode>
+        <childnode refid="60230" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="60386">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/strategies/strategies.hpp</label>
-        <link refid="strategies_8hpp"/>
-      </node>
-      <node id="60385">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp</label>
+      <node id="60233">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp</label>
         <link refid="point_in_poly_crossings_multiply.hpp"/>
-        <childnode refid="60386" relation="include">
+        <childnode refid="60234" relation="include">
         </childnode>
+      </node>
+      <node id="60234">
+        <label>/home/ubuntu/boost/boost/geometry/strategies/strategies.hpp</label>
+        <link refid="strategies_8hpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classboost_1_1geometry_1_1strategy_1_1within_1_1crossings__multiply" prot="public">boost::geometry::strategy::within::crossings_multiply</innerclass>
@@ -180,6 +180,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp"/>
   </compounddef>
 </doxygen>

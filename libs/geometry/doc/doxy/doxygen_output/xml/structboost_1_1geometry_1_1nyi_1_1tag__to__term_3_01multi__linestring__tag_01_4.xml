@@ -17,14 +17,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" line="93" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="93" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" line="93" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="93" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" line="93" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="93" bodyend="93"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" line="93" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/not_implemented.hpp" bodystart="93" bodyend="93"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1nyi_1_1tag__to__term_3_01multi__linestring__tag_01_4_1ad706050b4fc8a82e89d8038d6c3669bb" prot="public" virt="non-virtual"><scope>boost::geometry::nyi::tag_to_term&lt; multi_linestring_tag &gt;</scope><name>type</name></member>
     </listofallmembers>

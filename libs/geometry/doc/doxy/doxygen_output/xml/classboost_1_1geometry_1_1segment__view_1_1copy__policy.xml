@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" line="74" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" bodystart="74" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" line="74" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" bodystart="74" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" line="68" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" bodystart="68" bodyend="72"/>
+        <location file="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" line="68" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" bodystart="68" bodyend="72"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1segment__view_1_1copy__policy_1ac39a7234f28e55fdd56b7e6ae6136dd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,14 +50,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" line="64" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" bodystart="64" bodyend="66"/>
+        <location file="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" line="64" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" bodystart="64" bodyend="66"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" line="62" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/segment_view.hpp" bodystart="61" bodyend="75"/>
+    <location file="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" line="62" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/segment_view.hpp" bodystart="61" bodyend="75"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1segment__view_1_1copy__policy_1a377d53b1fc8fa8d53297b52ced83754b" prot="public" virt="non-virtual"><scope>boost::geometry::segment_view::copy_policy</scope><name>apply</name></member>
       <member refid="classboost_1_1geometry_1_1segment__view_1_1copy__policy_1ac39a7234f28e55fdd56b7e6ae6136dd7" prot="public" virt="non-virtual"><scope>boost::geometry::segment_view::copy_policy</scope><name>copy_policy</name></member>

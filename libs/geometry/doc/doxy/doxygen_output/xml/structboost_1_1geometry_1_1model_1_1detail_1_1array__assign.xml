@@ -41,14 +41,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/point.hpp" line="60" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/point.hpp" bodystart="60" bodyend="63"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/point.hpp" line="60" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/point.hpp" bodystart="60" bodyend="63"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/point.hpp" line="58" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/point.hpp" bodystart="57" bodyend="64"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/point.hpp" line="58" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/point.hpp" bodystart="57" bodyend="64"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1model_1_1detail_1_1array__assign_1a44052843b1b89ae68e8b954010c8b921" prot="public" virt="non-virtual"><scope>boost::geometry::model::detail::array_assign</scope><name>apply</name></member>
     </listofallmembers>

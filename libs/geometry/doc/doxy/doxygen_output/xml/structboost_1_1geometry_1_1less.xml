@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" line="184" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" bodystart="184" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" line="184" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" bodystart="184" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structboost_1_1geometry_1_1less_1a13f145f4a23f60d2f820d1b4fefb9eb7" prot="public" static="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" line="186" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" bodystart="186" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" line="186" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structboost_1_1geometry_1_1less_1a5da96dc71f58dbb244f8a51caae393d2" prot="public" static="no">
         <type>Point</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" line="185" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" bodystart="185" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" line="185" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" bodystart="185" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -87,28 +87,28 @@
 </parameterlist>
 </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="478">
+      <node id="464">
         <label>dispatch::compare_geometries&lt; 1, Point, Strategy, Dimension &gt;</label>
       </node>
-      <node id="477">
+      <node id="463">
         <label>boost::geometry::less&lt; Point, Dimension, Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1less"/>
-        <childnode refid="478" relation="public-inheritance">
+        <childnode refid="464" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="480">
+      <node id="466">
         <label>dispatch::compare_geometries&lt; 1, Point, Strategy, Dimension &gt;</label>
       </node>
-      <node id="479">
+      <node id="465">
         <label>boost::geometry::less&lt; Point, Dimension, Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1less"/>
-        <childnode refid="480" relation="public-inheritance">
+        <childnode refid="466" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" line="183" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/policies/compare.hpp" bodystart="175" bodyend="187"/>
+    <location file="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" line="183" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/policies/compare.hpp" bodystart="175" bodyend="187"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1less_1a0e8afa849f58539a34983c97f40bc5d4" prot="public" virt="non-virtual"><scope>boost::geometry::less</scope><name>first_argument_type</name></member>
       <member refid="structboost_1_1geometry_1_1less_1a13f145f4a23f60d2f820d1b4fefb9eb7" prot="public" virt="non-virtual"><scope>boost::geometry::less</scope><name>result_type</name></member>

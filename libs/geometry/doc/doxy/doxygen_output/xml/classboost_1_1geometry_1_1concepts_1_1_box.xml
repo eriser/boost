@@ -17,7 +17,7 @@
 </para></listitem></itemizedlist>
 </para></simplesect>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/box_concept.hpp" line="49" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/box_concept.hpp" bodystart="48" bodyend="84"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/concepts/box_concept.hpp" line="49" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/concepts/box_concept.hpp" bodystart="48" bodyend="84"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

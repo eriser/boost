@@ -9,30 +9,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="409">
+      <node id="395">
         <label>boost::geometry::multi_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__tag"/>
       </node>
-      <node id="408">
+      <node id="394">
         <label>boost::geometry::geometry_collection_tag</label>
         <link refid="structboost_1_1geometry_1_1geometry__collection__tag"/>
-        <childnode refid="409" relation="public-inheritance">
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="411">
+      <node id="397">
         <label>boost::geometry::multi_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__tag"/>
       </node>
-      <node id="410">
+      <node id="396">
         <label>boost::geometry::geometry_collection_tag</label>
         <link refid="structboost_1_1geometry_1_1geometry__collection__tag"/>
-        <childnode refid="411" relation="public-inheritance">
+        <childnode refid="397" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="114" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="114" bodyend="114"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="114" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="114" bodyend="114"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

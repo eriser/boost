@@ -2,15 +2,18 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="namespaceboost_1_1geometry_1_1strategy_1_1within" kind="namespace">
     <compoundname>boost::geometry::strategy::within</compoundname>
-    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__longitude__check" prot="public">boost::geometry::strategy::within::box_covered_by_longitude_check</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__coord" prot="public">boost::geometry::strategy::within::box_covered_by_coord</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__longitude__diff" prot="public">boost::geometry::strategy::within::box_covered_by_longitude_diff</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__range" prot="public">boost::geometry::strategy::within::box_covered_by_range</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__covered__by__range_3_01_geometry_00_010_00_01spherical__tag_01_4" prot="public">boost::geometry::strategy::within::box_covered_by_range&lt; Geometry, 0, spherical_tag &gt;</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__in__box" prot="public">boost::geometry::strategy::within::box_in_box</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__longitude__range" prot="public">boost::geometry::strategy::within::box_longitude_range</innerclass>
-    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__longitude__check" prot="public">boost::geometry::strategy::within::box_within_longitude_check</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__coord" prot="public">boost::geometry::strategy::within::box_within_coord</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__longitude__diff" prot="public">boost::geometry::strategy::within::box_within_longitude_diff</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__range" prot="public">boost::geometry::strategy::within::box_within_range</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1box__within__range_3_01_geometry_00_010_00_01spherical__tag_01_4" prot="public">boost::geometry::strategy::within::box_within_range&lt; Geometry, 0, spherical_tag &gt;</innerclass>
-    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__longitude__range" prot="public">boost::geometry::strategy::within::covered_by_longitude_range</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__coord" prot="public">boost::geometry::strategy::within::covered_by_coord</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__longitude__diff" prot="public">boost::geometry::strategy::within::covered_by_longitude_diff</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__range" prot="public">boost::geometry::strategy::within::covered_by_range</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1covered__by__range_3_01_geometry_00_010_00_01spherical__tag_01_4" prot="public">boost::geometry::strategy::within::covered_by_range&lt; Geometry, 0, spherical_tag &gt;</innerclass>
     <innerclass refid="classboost_1_1geometry_1_1strategy_1_1within_1_1crossings__multiply" prot="public">boost::geometry::strategy::within::crossings_multiply</innerclass>
@@ -34,7 +37,8 @@
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__side__equal" prot="public">boost::geometry::strategy::within::winding_side_equal</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__side__equal_3_01cartesian__tag_01_4" prot="public">boost::geometry::strategy::within::winding_side_equal&lt; cartesian_tag &gt;</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1winding__small__angle" prot="public">boost::geometry::strategy::within::winding_small_angle</innerclass>
-    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__longitude__range" prot="public">boost::geometry::strategy::within::within_longitude_range</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__coord" prot="public">boost::geometry::strategy::within::within_coord</innerclass>
+    <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__longitude__diff" prot="public">boost::geometry::strategy::within::within_longitude_diff</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__range" prot="public">boost::geometry::strategy::within::within_range</innerclass>
     <innerclass refid="structboost_1_1geometry_1_1strategy_1_1within_1_1within__range_3_01_geometry_00_010_00_01spherical__tag_01_4" prot="public">boost::geometry::strategy::within::within_range&lt; Geometry, 0, spherical_tag &gt;</innerclass>
     <innernamespace refid="namespaceboost_1_1geometry_1_1strategy_1_1within_1_1services">boost::geometry::strategy::within::services</innernamespace>
@@ -42,6 +46,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/within.hpp" line="24" column="1"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/within.hpp" line="24" column="1"/>
   </compounddef>
 </doxygen>

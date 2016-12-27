@@ -5,43 +5,43 @@
     <includes refid="tag_8hpp" local="no">boost/geometry/core/tag.hpp</includes>
     <includes refid="core_2tags_8hpp" local="no">boost/geometry/core/tags.hpp</includes>
     <incdepgraph>
-      <node id="25977">
+      <node id="25917">
+        <label>/home/ubuntu/boost/boost/geometry/geometries/register/ring.hpp</label>
+        <link refid="geometries/register/ring.hpp"/>
+        <childnode refid="25918" relation="include">
+        </childnode>
+        <childnode refid="25919" relation="include">
+        </childnode>
+      </node>
+      <node id="25921">
         <label>boost/type_traits/remove_const.hpp</label>
       </node>
-      <node id="25973">
-        <label>/home/travis/build/boostorg/boost/boost/geometry/geometries/register/ring.hpp</label>
-        <link refid="geometries/register/ring.hpp"/>
-        <childnode refid="25974" relation="include">
-        </childnode>
-        <childnode refid="25975" relation="include">
-        </childnode>
-      </node>
-      <node id="25979">
-        <label>boost/type_traits/remove_reference.hpp</label>
-      </node>
-      <node id="25975">
+      <node id="25919">
         <label>boost/geometry/core/tags.hpp</label>
         <link refid="core_2tags_8hpp"/>
       </node>
-      <node id="25974">
-        <label>boost/geometry/core/tag.hpp</label>
-        <link refid="tag_8hpp"/>
-        <childnode refid="25975" relation="include">
-        </childnode>
-        <childnode refid="25976" relation="include">
-        </childnode>
+      <node id="25923">
+        <label>boost/type_traits/remove_reference.hpp</label>
       </node>
-      <node id="25976">
+      <node id="25920">
         <label>boost/geometry/util/bare_type.hpp</label>
         <link refid="bare__type_8hpp"/>
-        <childnode refid="25977" relation="include">
+        <childnode refid="25921" relation="include">
         </childnode>
-        <childnode refid="25978" relation="include">
+        <childnode refid="25922" relation="include">
         </childnode>
-        <childnode refid="25979" relation="include">
+        <childnode refid="25923" relation="include">
         </childnode>
       </node>
-      <node id="25978">
+      <node id="25918">
+        <label>boost/geometry/core/tag.hpp</label>
+        <link refid="tag_8hpp"/>
+        <childnode refid="25919" relation="include">
+        </childnode>
+        <childnode refid="25920" relation="include">
+        </childnode>
+      </node>
+      <node id="25922">
         <label>boost/type_traits/remove_pointer.hpp</label>
       </node>
     </incdepgraph>
@@ -70,7 +70,7 @@
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/ring.hpp" line="35" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/ring.hpp" bodystart="35" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/ring.hpp" line="35" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/ring.hpp" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__register_1ga8a9071c3e9e9e0175250677a50e3fcc8" prot="public" static="no">
         <name>BOOST_GEOMETRY_REGISTER_RING_TEMPLATED</name>
@@ -96,13 +96,13 @@
 </qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/ring.hpp" line="54" column="9" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/ring.hpp" bodystart="54" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/register/ring.hpp" line="54" column="9" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/register/ring.hpp" bodystart="54" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/register/ring.hpp"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/register/ring.hpp"/>
   </compounddef>
 </doxygen>

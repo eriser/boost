@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="129" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="129" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="129" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1index_1_1rstar_1a2b1dbc3eb46a97257b2c80650cf31abe" prot="public" static="yes" mutable="no">
         <type>const size_t</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="130" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="130" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="130" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1index_1_1rstar_1ab1423e5c0fc461db5490af15b8fb4483" prot="public" static="yes" mutable="no">
         <type>const size_t</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="131" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="131" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="131" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1index_1_1rstar_1a168a5cc1555cf598a35c6844443f27f1" prot="public" static="yes" mutable="no">
         <type>const size_t</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="132" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="132" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="132" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="132" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="126" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="126" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="134" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="134" bodyend="134"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="134" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="134" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1index_1_1rstar_1afc2516f278b3a75871a22cb559ed9a4f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="135" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="135" bodyend="135"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="135" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="135" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1index_1_1rstar_1a7561bb5427a6db5cbec4894a49dd8c9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="136" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="136" bodyend="136"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="136" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="136" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1index_1_1rstar_1ab1b41eb286b2396a836ad03b9c581c86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="137" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="137" bodyend="137"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="137" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="137" bodyend="137"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -197,7 +197,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="125" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="124" bodyend="138"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="125" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="124" bodyend="138"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1index_1_1rstar_1a265a4b8112f7ed2f32e3010ef2cd0cf0" prot="public" virt="non-virtual"><scope>boost::geometry::index::rstar</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
       <member refid="structboost_1_1geometry_1_1index_1_1rstar_1a3256c967833680dc205c32a999e6920d" prot="public" virt="non-virtual"><scope>boost::geometry::index::rstar</scope><name>get_max_elements</name></member>

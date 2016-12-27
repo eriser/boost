@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="190" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="190" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="190" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="190" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1comparable__distance_3_01_geometry1_00_01boost_1_58db78cf44f948bf2a21996e8d3b0b96_1a96e4a75ff4513b6b11039023fc182315" prot="public" static="no" mutable="no">
         <type>Strategy const &amp;</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="191" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="191" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="191" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="191" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="204" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="204" bodyend="214"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="204" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="204" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1comparable__distance_3_01_geometry1_00_01boost_1_58db78cf44f948bf2a21996e8d3b0b96_1a0b678db47ddee0006ceb80ec1ea32a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="193" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="193" bodyend="197"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="193" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="193" bodyend="197"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -87,28 +87,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="832">
+      <node id="818">
         <label>boost::static_visitor&lt; comparable_distance_result&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Strategy &gt;::type &gt;</label>
       </node>
-      <node id="831">
+      <node id="817">
         <label>boost::geometry::resolve_variant::comparable_distance&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1comparable__distance_3_01_geometry1_00_01boost_1_58db78cf44f948bf2a21996e8d3b0b96"/>
-        <childnode refid="832" relation="public-inheritance">
+        <childnode refid="818" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="834">
+      <node id="820">
         <label>boost::static_visitor&lt; comparable_distance_result&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Strategy &gt;::type &gt;</label>
       </node>
-      <node id="833">
+      <node id="819">
         <label>boost::geometry::resolve_variant::comparable_distance&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor&lt; Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1comparable__distance_3_01_geometry1_00_01boost_1_58db78cf44f948bf2a21996e8d3b0b96"/>
-        <childnode refid="834" relation="public-inheritance">
+        <childnode refid="820" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="189" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="180" bodyend="215"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" line="189" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/comparable_distance/interface.hpp" bodystart="180" bodyend="215"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1comparable__distance_3_01_geometry1_00_01boost_1_58db78cf44f948bf2a21996e8d3b0b96_1ad22f4456b8db039d5a4bdc9e2ffc0a5d" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::comparable_distance&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_geometry1</name></member>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1comparable__distance_3_01_geometry1_00_01boost_1_58db78cf44f948bf2a21996e8d3b0b96_1a96e4a75ff4513b6b11039023fc182315" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::comparable_distance&lt; Geometry1, boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;::visitor</scope><name>m_strategy</name></member>

@@ -29,14 +29,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" line="64" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" line="64" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" line="63" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" bodystart="62" bodyend="69"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" line="63" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" bodystart="62" bodyend="69"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1traits_1_1ring__mutable__type_1a6ed9eadedbacf1ba7f6b2c7a7c39d8dd" prot="public" virt="non-virtual"><scope>boost::geometry::traits::ring_mutable_type</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
     </listofallmembers>

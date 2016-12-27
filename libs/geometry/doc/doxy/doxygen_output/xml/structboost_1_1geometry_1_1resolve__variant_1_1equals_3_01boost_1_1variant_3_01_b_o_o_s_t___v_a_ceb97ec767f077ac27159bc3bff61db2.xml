@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" line="371" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" bodystart="371" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" line="371" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" bodystart="371" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" line="378" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" bodystart="378" bodyend="382"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" line="378" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" bodystart="378" bodyend="382"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1equals_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_ceb97ec767f077ac27159bc3bff61db2_1af6f9c02f72e8300b4e16a218160487ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" line="373" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" bodystart="373" bodyend="375"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" line="373" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" bodystart="373" bodyend="375"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -65,28 +65,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1007">
+      <node id="993">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="1006">
+      <node id="992">
         <label>boost::geometry::resolve_variant::equals&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1equals_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_ceb97ec767f077ac27159bc3bff61db2"/>
-        <childnode refid="1007" relation="public-inheritance">
+        <childnode refid="993" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1009">
+      <node id="995">
         <label>boost::static_visitor&lt; bool &gt;</label>
       </node>
-      <node id="1008">
+      <node id="994">
         <label>boost::geometry::resolve_variant::equals&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1equals_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_ceb97ec767f077ac27159bc3bff61db2"/>
-        <childnode refid="1009" relation="public-inheritance">
+        <childnode refid="995" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" line="370" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/equals.hpp" bodystart="369" bodyend="384"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" line="370" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/equals.hpp" bodystart="369" bodyend="384"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1equals_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_ceb97ec767f077ac27159bc3bff61db2_1aa1a8ce289162e7ea97c82fc79f899f14" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::equals&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_geometry2</name></member>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1equals_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_ceb97ec767f077ac27159bc3bff61db2_1a15c51ede8dcd1b0dc92e0aae90f6e853" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::equals&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>operator()</name></member>

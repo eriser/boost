@@ -65,7 +65,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/write.hpp" line="408" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/write.hpp" bodystart="408" bodyend="414"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/write.hpp" line="408" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/write.hpp" bodystart="408" bodyend="414"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

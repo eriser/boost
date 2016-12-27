@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" line="101" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" bodystart="101" bodyend="161"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" line="101" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" bodystart="101" bodyend="161"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
 [heading See also]
 [link geometry.reference.algorithms.distance.distance_3_with_strategy distance (with strategy)]
 </qbk>  </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" line="76" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" bodystart="75" bodyend="162"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" line="76" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_projected_point.hpp" bodystart="75" bodyend="162"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1projected__point_1a73f6b43d1a04e576d5b7c9e8ae5eeccc" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::projected_point</scope><name>apply</name></member>
     </listofallmembers>

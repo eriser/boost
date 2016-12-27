@@ -29,14 +29,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/distance.hpp" line="51" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/distance.hpp" line="51" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/distance.hpp" line="50" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/distance.hpp" bodystart="49" bodyend="55"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/distance.hpp" line="50" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/distance.hpp" bodystart="49" bodyend="55"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1distance_1_1services_1_1comparable__type_1a2b931ac9d299a4b041a563182a577e99" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::services::comparable_type</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
     </listofallmembers>

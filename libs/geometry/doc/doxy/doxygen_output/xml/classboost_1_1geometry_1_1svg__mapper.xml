@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="289" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="289" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="289" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classboost_1_1geometry_1_1svg__mapper_1afa455a84bf1140e4265705845e27b6d4" prot="private" static="no">
         <type><ref refid="classboost_1_1geometry_1_1model_1_1point" kindref="compound">model::point</ref>&lt; SvgCoordinateType, 2, <ref refid="structboost_1_1geometry_1_1cs_1_1cartesian" kindref="compound">cs::cartesian</ref> &gt;</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="283" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="283" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="283" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="283" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classboost_1_1geometry_1_1svg__mapper_1a2433227d6c15d121c002507b62ef6bc3" prot="private" static="no">
         <type><ref refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1map__transformer" kindref="compound">strategy::transform::map_transformer</ref>&lt; calculation_type, <ref refid="structboost_1_1geometry_1_1dimension" kindref="compound">geometry::dimension</ref>&lt; Point &gt;::type::value, <ref refid="structboost_1_1geometry_1_1dimension" kindref="compound">geometry::dimension</ref>&lt; Point &gt;::type::value, true, SameScale &gt;</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="298" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="298" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="298" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="298" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="300" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="300" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="300" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1svg__mapper_1a0a7be4f12329b910b850bafd5a256b09" prot="private" static="no" mutable="no">
         <type>SvgCoordinateType</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="303" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="303" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="303" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="303" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1svg__mapper_1a6ee55394bfe7620b43c8f7f704b7a7c3" prot="private" static="no" mutable="no">
         <type>boost::scoped_ptr&lt; <ref refid="classboost_1_1geometry_1_1strategy_1_1transform_1_1map__transformer" kindref="compound">transformer_type</ref> &gt;</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="301" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="301" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="301" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="301" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1svg__mapper_1a20eff16f1ed9e25621d5b1f7610ffc9f" prot="private" static="no" mutable="no">
         <type>std::ostream &amp;</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="302" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="302" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="302" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="302" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1svg__mapper_1a3bac9d3e0fe5d96295f426bb9e09b832" prot="private" static="no" mutable="no">
         <type>SvgCoordinateType</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="303" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="303" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="303" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="303" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classboost_1_1geometry_1_1svg__mapper_1a9bccfd56cdd4dff2a3d4f41c75c08728" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="304" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="304" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="304" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="304" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="306" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="306" bodyend="328"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="306" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="306" bodyend="328"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -196,7 +196,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="367" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="367" bodyend="377"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="367" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="367" bodyend="377"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1svg__mapper_1acd0e35eb96b15f426a5b113df53044a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -257,7 +257,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="388" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="388" bodyend="393"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="388" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="388" bodyend="393"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1svg__mapper_1a9bde4b39494e074fa7f4a1c5637ba446" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -316,7 +316,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="340" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="340" bodyend="350"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="340" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="340" bodyend="350"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1svg__mapper_1a6b860b4cc7f5d4a637ad7787cf309c0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -413,7 +413,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="406" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="406" bodyend="443"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="406" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="406" bodyend="443"/>
       </memberdef>
       <memberdef kind="function" id="classboost_1_1geometry_1_1svg__mapper_1ac0543fa378854571a4c5479ea345eb98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
@@ -426,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="355" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="355" bodyend="358"/>
+        <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="355" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="355" bodyend="358"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -456,28 +456,28 @@
 </parameterlist>
  <qbk>[include reference/io/svg.qbk]</qbk>  </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1702">
+      <node id="1708">
         <label>boost::noncopyable</label>
       </node>
-      <node id="1701">
+      <node id="1707">
         <label>boost::geometry::svg_mapper&lt; Point, SameScale, SvgCoordinateType &gt;</label>
         <link refid="classboost_1_1geometry_1_1svg__mapper"/>
-        <childnode refid="1702" relation="private-inheritance">
+        <childnode refid="1708" relation="private-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1704">
+      <node id="1710">
         <label>boost::noncopyable</label>
       </node>
-      <node id="1703">
+      <node id="1709">
         <label>boost::geometry::svg_mapper&lt; Point, SameScale, SvgCoordinateType &gt;</label>
         <link refid="classboost_1_1geometry_1_1svg__mapper"/>
-        <childnode refid="1704" relation="private-inheritance">
+        <childnode refid="1710" relation="private-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" line="282" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="281" bodyend="444"/>
+    <location file="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" line="282" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/io/svg/svg_mapper.hpp" bodystart="281" bodyend="444"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1svg__mapper_1af2732c88df588aee0fd9539616d4e6b3" prot="public" virt="non-virtual"><scope>boost::geometry::svg_mapper</scope><name>add</name></member>
       <member refid="classboost_1_1geometry_1_1svg__mapper_1a7089f4c9e3b3e34221c03c2b21464f1c" prot="private" virt="non-virtual"><scope>boost::geometry::svg_mapper</scope><name>calculation_type</name></member>

@@ -44,14 +44,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="118" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="118" bodyend="124"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="118" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="118" bodyend="124"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="116" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="115" bodyend="125"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="116" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="115" bodyend="125"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1buffer_1a2a7f9c441af625bdcc8ecccf61ea67a0" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::buffer</scope><name>apply</name></member>
     </listofallmembers>

@@ -21,14 +21,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="117" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="117" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="117" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="117" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="116" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="115" bodyend="118"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" line="116" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/buffer/buffered_ring.hpp" bodystart="115" bodyend="118"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1traits_1_1closure_3_01geometry_1_1detail_1_1buffer_1_1buffered__ring_3_01_ring_01_4_01_4_1a19f304611d73927103b1ac76fbe7f2cb" prot="public" virt="non-virtual"><scope>boost::geometry::traits::closure&lt; geometry::detail::buffer::buffered_ring&lt; Ring &gt; &gt;</scope><name>value</name></member>
     </listofallmembers>

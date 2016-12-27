@@ -553,7 +553,7 @@ the most frequently used algorithms and containers, along with a short
 description of what each of them does.
 
 
-@subsection tutorial-quickstart-cheatsheet Cheatsheet
+@section tutorial-cheatsheet Cheatsheet
 
 ### Remarks
 - Most algorithms work on both types and values (see the section on
@@ -1876,7 +1876,7 @@ The `quote` and the `to_json` overloads are pretty self-explanatory. The
 `intersperse` function takes a sequence and a separator, and returns a new
 sequence with the separator in between each pair of elements of the original
 sequence. In other words, we take a sequence of the form `[x1, ..., xn]` and
-turn it into a sequence of the form `[x1, seq, x2, sep, ..., sep, xn]`.
+turn it into a sequence of the form `[x1, sep, x2, sep, ..., sep, xn]`.
 Finally, we fold the resulting sequence with the `_ + _` function object,
 which is equivalent to `std::plus<>{}`. Since our sequence contains
 `std::string`s (we assume it does), this has the effect of concatenating
@@ -3077,14 +3077,14 @@ conjunction with `hana::when` to achieve a great deal of expressiveness.
 @subsection tutorial-core-concepts Emulation of C++ concepts
 
 The implementation of concepts in Hana is very simple. At its heart, a concept
-is just a template `struct` with a nested `::%value` boolean representing
-whether the given type is a _model_ of the concept:
+is just a template `struct` that inherits from a boolean `integral_constant`
+representing whether the given type is a _model_ of the concept:
 
 @code{cpp}
 template <typename T>
-struct Concept {
-  static constexpr bool value = whether T models Concept;
-};
+struct Concept
+  : hana::integral_constant<bool, whether T models Concept>
+{ };
 @endcode
 
 Then, one can test whether a type `T` is a model of `Concept` by looking at
@@ -3108,9 +3108,9 @@ that can be `print`ed. Our end goal is to have a template struct such as
 
 @code{cpp}
 template <typename T>
-struct Printable {
-  static constexpr bool value = whether print_impl<tag of T> is defined;
-};
+struct Printable
+  : hana::integral_constant<bool, whether print_impl<tag of T> is defined>
+{ };
 @endcode
 
 To know whether `print_impl<...>` has been defined, we'll modify `print_impl`
@@ -3124,14 +3124,13 @@ inherit from that `special_base_class` type:
 
 @snippet example/tutorial/concepts.cpp special_base_class_customize
 
-As you can see, `Printable<T>::%value` really only checks whether the
-`print_impl<T>` struct was specialized by a custom type. In particular,
-it does not even check whether the nested `::%apply` function is defined
-or if it is syntactically valid. It is assumed that if one specializes
-`print_impl` for a custom type, the nested `::%apply` function exists and
-is correct. If it is not, a compilation error will be triggered when one
-tries to call `print` on an object of that type. Concepts in Hana make the
-same assumptions.
+As you can see, `Printable<T>` really only checks whether the `print_impl<T>`
+struct was specialized by a custom type. In particular, it does not even check
+whether the nested `::%apply` function is defined or if it is syntactically
+valid. It is assumed that if one specializes `print_impl` for a custom type,
+the nested `::%apply` function exists and is correct. If it is not, a compilation
+error will be triggered when one tries to call `print` on an object of that type.
+Concepts in Hana make the same assumptions.
 
 Since this pattern of inheriting from a special base class is quite abundant
 in Hana, the library provides a dummy type called `hana::default_` that can be

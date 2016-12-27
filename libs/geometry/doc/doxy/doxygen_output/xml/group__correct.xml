@@ -40,7 +40,7 @@
  <qbk>[include reference/algorithms/correct.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/correct.hpp" line="326" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/correct.hpp" bodystart="326" bodyend="329"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/correct.hpp" line="326" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/correct.hpp" bodystart="326" bodyend="329"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -18,7 +18,7 @@
 <para>Checks strategy for point-segment distance. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/concepts/distance_concept.hpp" line="138" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/concepts/distance_concept.hpp" bodystart="137" bodyend="206"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/concepts/distance_concept.hpp" line="138" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/concepts/distance_concept.hpp" bodystart="137" bodyend="206"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

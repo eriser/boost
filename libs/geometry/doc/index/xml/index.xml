@@ -355,12 +355,12 @@
   <compound refid="group__adaptors" kind="group"><name>adaptors</name>
     <member refid="group__adaptors_1ga4716cd5423bfed3ff3e69e9ec274ac81" kind="function"><name>queried</name></member>
   </compound>
-  <compound refid="dir_0d70c6d27e6ac49e78cf999cef868997" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/index/adaptors</name>
+  <compound refid="dir_a9e91759b06c3469534fe3a2d2635516" kind="dir"><name>/home/ubuntu/boost/boost/geometry/index/adaptors</name>
   </compound>
-  <compound refid="dir_a3f3934fe93618c2e6f3527095116c07" kind="dir"><name>/home/travis/build/boostorg/boost/boost</name>
+  <compound refid="dir_70241e0cb632ef83c95057df97d23a47" kind="dir"><name>/home/ubuntu/boost/boost</name>
   </compound>
-  <compound refid="dir_1db53b2a0b4206971f8a07039331107d" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry</name>
+  <compound refid="dir_6f25c90e381132fd960cd64986a2bf26" kind="dir"><name>/home/ubuntu/boost/boost/geometry</name>
   </compound>
-  <compound refid="dir_fdbe8c75440c2b51ea0bcda5afe8de82" kind="dir"><name>/home/travis/build/boostorg/boost/boost/geometry/index</name>
+  <compound refid="dir_ef67fc9629a2ce2087f73d1d24f131e1" kind="dir"><name>/home/ubuntu/boost/boost/geometry/index</name>
   </compound>
 </doxygenindex>

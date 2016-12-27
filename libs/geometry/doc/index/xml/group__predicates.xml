@@ -42,7 +42,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="47" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="47" bodyend="55"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="43" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="43" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga02dbb7cca47de0b921ef96af464d9590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -82,7 +82,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="77" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="77" bodyend="85"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="73" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="73" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga0e92e4a20dd19185584fe85847439108" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -122,7 +122,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="107" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="107" bodyend="115"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="103" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="103" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga0aa114ab16f40c8caeb3338adba5d6da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -162,7 +162,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="137" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="137" bodyend="145"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="133" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="133" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga78cb2ef221b951867c591ffb51b7d8c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -204,7 +204,7 @@ bgi::query(spatial_index, bgi::intersects(polygon), std::back_inserter(result));
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="169" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="169" bodyend="177"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="165" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="165" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga4a6d33e6f61ad5bff3bdee50a972d54b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -244,7 +244,7 @@ bgi::query(spatial_index, bgi::intersects(polygon), std::back_inserter(result));
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="199" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="199" bodyend="207"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="195" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="195" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1gaabce901b82af2aab10ebbd0dda12f4d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -284,7 +284,7 @@ bgi::query(spatial_index, bgi::intersects(polygon), std::back_inserter(result));
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="258" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="258" bodyend="266"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="254" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="254" bodyend="262"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga3213772dd3e54ad03340c2ca66b4f58c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -341,7 +341,7 @@ std::back_inserter(result));
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="303" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="303" bodyend="306"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="299" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="299" bodyend="302"/>
       </memberdef>
       <memberdef kind="function" id="group__predicates_1ga8772d9d3e5b12b3292f7d94d47310e3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -387,7 +387,7 @@ bgi::query(spatial_index, bgi::nearest(box, 5), std::back_inserter(result));
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" line="333" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/predicates.hpp" bodystart="333" bodyend="336"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" line="329" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/predicates.hpp" bodystart="329" bodyend="332"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

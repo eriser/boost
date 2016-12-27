@@ -13,6 +13,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="30" column="1"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="30" column="1"/>
   </compounddef>
 </doxygen>

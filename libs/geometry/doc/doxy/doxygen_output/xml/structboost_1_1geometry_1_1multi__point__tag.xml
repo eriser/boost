@@ -10,42 +10,42 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="546">
+      <node id="532">
         <label>boost::geometry::pointlike_tag</label>
         <link refid="structboost_1_1geometry_1_1pointlike__tag"/>
       </node>
-      <node id="545">
+      <node id="531">
         <label>boost::geometry::multi_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__tag"/>
       </node>
-      <node id="544">
+      <node id="530">
         <label>boost::geometry::multi_point_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__point__tag"/>
-        <childnode refid="545" relation="public-inheritance">
+        <childnode refid="531" relation="public-inheritance">
         </childnode>
-        <childnode refid="546" relation="public-inheritance">
+        <childnode refid="532" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="549">
+      <node id="535">
         <label>boost::geometry::pointlike_tag</label>
         <link refid="structboost_1_1geometry_1_1pointlike__tag"/>
       </node>
-      <node id="548">
+      <node id="534">
         <label>boost::geometry::multi_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__tag"/>
       </node>
-      <node id="547">
+      <node id="533">
         <label>boost::geometry::multi_point_tag</label>
         <link refid="structboost_1_1geometry_1_1multi__point__tag"/>
-        <childnode refid="548" relation="public-inheritance">
+        <childnode refid="534" relation="public-inheritance">
         </childnode>
-        <childnode refid="549" relation="public-inheritance">
+        <childnode refid="535" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="105" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="105" bodyend="105"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="105" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="105" bodyend="105"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

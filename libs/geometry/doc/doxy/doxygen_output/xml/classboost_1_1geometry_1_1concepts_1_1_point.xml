@@ -50,7 +50,7 @@ A read-only legacy point, using a macro to fulfil to the <ref refid="classboost_
 <codeline><highlight class="normal"><ref refid="group__register_1ga3a3e97175ef92eed648707933c3fbeaa" kindref="member">BOOST_GEOMETRY_REGISTER_POINT_2D_CONST</ref>(legacy_point2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/><ref refid="structboost_1_1geometry_1_1cs_1_1cartesian" kindref="compound">boost::geometry::cs::cartesian</ref>,<sp/>x(),<sp/>y()<sp/>)</highlight></codeline>
 <codeline><highlight class="normal"></highlight><highlight class="comment">//<sp/>end<sp/>adaptation</highlight></codeline>
 </programlisting> </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/point_concept.hpp" line="95" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/point_concept.hpp" bodystart="94" bodyend="134"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/concepts/point_concept.hpp" line="95" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/concepts/point_concept.hpp" bodystart="94" bodyend="134"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

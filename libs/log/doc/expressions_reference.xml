@@ -426,15 +426,15 @@ The header contains implementation of C-style character decorators. </para><name
 
 
 
-
-
-
 <function name="make_c_decor"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="CharT"/>
         </template><description><para>The function creates a C-style decorator generator for arbitrary character type. </para></description></function>
 <function name="make_c_ascii_decor"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="CharT"/>
         </template><description><para>The function creates a C-style decorator generator for arbitrary character type. </para></description></function>
+
+
+
 
 
 
@@ -578,9 +578,6 @@ The header contains implementation of a character decorator. </para><namespace n
 
 
 
-
-
-
 <function name="char_decor"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="RangeT"/>
         </template><parameter name="decorations"><paramtype>RangeT const &amp;</paramtype><description><para>A sequence of string pairs that will be used as decorations. Every <computeroutput>decorations[i].first</computeroutput> substring occurrence in the output will be replaced with <computeroutput>decorations[i].second</computeroutput>. </para></description></parameter><description><para>The function returns a decorator generator object. The generator provides <computeroutput>operator[]</computeroutput> that can be used to construct the actual decorator.</para><para>
@@ -591,6 +588,9 @@ The header contains implementation of a character decorator. </para><namespace n
         </template><parameter name="from"><paramtype>FromRangeT const &amp;</paramtype><description><para>A sequence of strings that will be sought in the output. </para></description></parameter><parameter name="to"><paramtype>ToRangeT const &amp;</paramtype><description><para>A sequence of strings that will be used as replacements.</para></description></parameter><description><para>The function returns a decorator generator object. The generator provides <computeroutput>operator[]</computeroutput> that can be used to construct the actual decorator.</para><para>
 <note><para>The <emphasis>from</emphasis> and <emphasis>to</emphasis> sequences mush be of the same size. Every <computeroutput>from[i]</computeroutput> substring occurrence in the output will be replaced with <computeroutput>to[i]</computeroutput>. </para></note>
 </para></description></function>
+
+
+
 
 
 
@@ -671,13 +671,13 @@ The header contains implementation of a CSV-style character decorator. See: <uli
 
 
 
-
-
-
-
 <function name="make_csv_decor"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="CharT"/>
         </template><description><para>The function creates an CSV-style decorator generator for arbitrary character type. </para></description></function>
+
+
+
+
 
 
 
@@ -800,24 +800,6 @@ The header contains a formatter function for date and time attribute values. </p
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="format_date_time"><type><classname>format_date_time_actor</classname>&lt; AttributeValueT, fallback_to_none, CharT &gt;</type><template>
           <template-type-parameter name="AttributeValueT"/>
           <template-type-parameter name="CharT"/>
@@ -856,6 +838,24 @@ The header contains a formatter function for date and time attribute values. </p
           <template-type-parameter name="CharT"/>
         </template><parameter name="placeholder"><paramtype><classname>attribute_actor</classname>&lt; T, FallbackPolicyT, TagT, ActorT &gt; const &amp;</paramtype><description><para>Attribute placeholder </para></description></parameter><parameter name="format"><paramtype>std::basic_string&lt; CharT &gt; const &amp;</paramtype><description><para>Format string </para></description></parameter><description><para>The function generates a manipulator node in a template expression. The manipulator must participate in a formatting expression (stream output or <computeroutput>format</computeroutput> placeholder filler).</para><para>
 </para></description></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 
 
@@ -932,14 +932,6 @@ The header contains a generic log record formatter function. </para><namespace n
 
 
 
-
-
-
-
-
-
-
-
 <function name="format"><type>phoenix::actor&lt; <classname>format_terminal</classname>&lt; CharT &gt; &gt;</type><template>
           <template-type-parameter name="CharT"/>
         </template><parameter name="fmt"><paramtype>const CharT *</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will perform log record formatting according to the provided format string. </para></description></function>
@@ -948,6 +940,14 @@ The header contains a generic log record formatter function. </para><namespace n
           <template-type-parameter name="TraitsT"/>
           <template-type-parameter name="AllocatorT"/>
         </template><parameter name="fmt"><paramtype>std::basic_string&lt; CharT, TraitsT, AllocatorT &gt; const &amp;</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will perform log record formatting according to the provided format string. </para></description></function>
+
+
+
+
+
+
+
+
 
 
 
@@ -1015,16 +1015,16 @@ The header contains implementation of a conditional formatter. </para><namespace
 
 
 
+
+
+
+
+
+
 <function name="if_"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="CondT"/>
         </template><parameter name="cond"><paramtype>CondT const &amp;</paramtype><description><para>A filter expression that will be used as the condition </para></description></parameter><description><para>The function returns a conditional formatter generator object. The generator provides <computeroutput>operator[]</computeroutput> that can be used to construct the actual formatter. The formatter must participate in a streaming expression.</para><para>
 </para></description></function>
-
-
-
-
-
-
 
 
 
@@ -1129,6 +1129,20 @@ The header contains implementation of a string length limiting decorator. </para
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="max_size_decor"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="CharT"/>
         </template><parameter name="max_size"><paramtype>std::size_t</paramtype><description><para>The maximum number of characters (i.e. string element objects) that the decorated formatter can produce. </para></description></parameter><description><para>The function returns a decorator generator object. The generator provides <computeroutput>operator[]</computeroutput> that can be used to construct the actual decorator.</para><para>
@@ -1143,20 +1157,6 @@ The header contains implementation of a string length limiting decorator. </para
         </template><parameter name="max_size"><paramtype>std::size_t</paramtype><description><para>The maximum number of characters (i.e. string element objects) that the decorated formatter can produce. </para></description></parameter><parameter name="overflow_marker"><paramtype>std::basic_string&lt; CharT &gt; const &amp;</paramtype><description><para>The marker string which is appended to the output if the <emphasis>max_size</emphasis> limit is exceeded.</para></description></parameter><description><para>The function returns a decorator generator object. The generator provides <computeroutput>operator[]</computeroutput> that can be used to construct the actual decorator.</para><para>
 
 </para></description><requires><para>The <emphasis>overflow_marker</emphasis> length must not exceed the <emphasis>max_size</emphasis> limit. </para></requires></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1276,6 +1276,14 @@ The header contains a formatter function for named scope attribute values. </par
 
 
 
+
+
+
+
+
+
+
+
 <function name="format_named_scope"><type><classname>format_named_scope_actor</classname>&lt; fallback_to_none, CharT &gt;</type><template>
           <template-type-parameter name="CharT"/>
         </template><parameter name="name"><paramtype>attribute_name const &amp;</paramtype><description><para>Attribute name </para></description></parameter><parameter name="element_format"><paramtype>const CharT *</paramtype><description><para>Format string for a single named scope </para></description></parameter><description><para>The function generates a manipulator node in a template expression. The manipulator must participate in a formatting expression (stream output or <computeroutput>format</computeroutput> placeholder filler).</para><para>
@@ -1334,14 +1342,6 @@ The header contains a formatter function for named scope attribute values. </par
           <template-nontype-parameter name="ArgsT"><type>typename...</type></template-nontype-parameter>
         </template><parameter name="placeholder"><paramtype><classname>attribute_actor</classname>&lt; T, FallbackPolicyT, TagT, ActorT &gt; const &amp;</paramtype></parameter><parameter name="args"><paramtype>ArgsT...const &amp;</paramtype></parameter></signature><description><para>Formatter generator. Construct the named scope formatter with the specified formatting parameters.</para><para>
 </para></description></overloaded-function>
-
-
-
-
-
-
-
-
 
 
 
@@ -1535,6 +1535,11 @@ The header contains a formatter function wrapper that enables third-party functi
 
 
 
+
+
+
+
+
 <function name="wrap_formatter"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="FunT"/>
         </template><parameter name="fun"><paramtype>FunT const &amp;</paramtype></parameter><description><para>The function wraps a function object in order it to be able to participate in formatting expressions. The wrapped function object must be compatible with the following signature:</para><programlisting>
@@ -1546,11 +1551,6 @@ void (record_view const&amp;, basic_formatting_ostream&lt; CharT &gt;&amp;)
         </template><parameter name="fun"><paramtype>FunT const &amp;</paramtype></parameter><description><para>The function wraps a function object in order it to be able to participate in formatting expressions. The wrapped function object must be compatible with the following signature:</para><programlisting>
 void (record_view const&amp;, basic_formatting_ostream&lt; CharT &gt;&amp;)
 </programlisting><para>where <computeroutput>CharT</computeroutput> is the character type of the formatting expression. </para></description></function>
-
-
-
-
-
 
 </namespace>
 
@@ -1624,19 +1624,19 @@ The header contains implementation of a XML-style character decorator. </para><n
 
 
 
+
+
+
+
+
+
+
+
+
+
 <function name="make_xml_decor"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="CharT"/>
         </template><description><para>The function creates an XML-style decorator generator for arbitrary character type. </para></description></function>
-
-
-
-
-
-
-
-
-
-
 </namespace>
 
 
@@ -2038,9 +2038,6 @@ The header contains implementation of a <computeroutput>begins_with</computerout
 <typedef name="attribute_begins_with"><description><para>The predicate checks if the attribute value begins with a substring. The attribute value is assumed to be of a string type. </para></description><type><emphasis>unspecified</emphasis></type></typedef>
 
 
-
-
-
 <function name="begins_with"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="T"/>
           <template-type-parameter name="FallbackPolicyT"/>
@@ -2057,6 +2054,9 @@ The header contains implementation of a <computeroutput>begins_with</computerout
           <template-type-parameter name="T"/>
           <template-type-parameter name="SubstringT"/>
         </template><parameter name="name"><paramtype>attribute_name const &amp;</paramtype></parameter><parameter name="substring"><paramtype>SubstringT const &amp;</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will check if the attribute value, which is assumed to be a string, begins with the specified substring. </para></description></function>
+
+
+
 
 
 
@@ -2196,15 +2196,6 @@ The header contains implementation of a minimal severity per channel filter. </p
 <constructor specifiers="explicit"><parameter name="act"><paramtype>base_type const &amp;</paramtype></parameter><purpose>Initializing constructor. </purpose></constructor>
 <constructor><parameter name="that"><paramtype>channel_severity_filter_actor const &amp;</paramtype></parameter><purpose>Copy constructor. </purpose></constructor>
 </class>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2390,6 +2381,15 @@ The header contains implementation of a minimal severity per channel filter. </p
 
 
 
+
+
+
+
+
+
+
+
+
 </namespace>
 
 
@@ -2403,6 +2403,21 @@ The header contains implementation of a <computeroutput>contains</computeroutput
 <namespace name="log">
 <namespace name="expressions">
 <typedef name="attribute_contains"><description><para>The predicate checks if the attribute value contains a substring. The attribute value is assumed to be of a string type. </para></description><type><emphasis>unspecified</emphasis></type></typedef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2470,21 +2485,6 @@ The header contains implementation of a <computeroutput>contains</computeroutput
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </namespace>
 
 
@@ -2498,6 +2498,27 @@ The header contains implementation of a <computeroutput>ends_with</computeroutpu
 <namespace name="log">
 <namespace name="expressions">
 <typedef name="attribute_ends_with"><description><para>The predicate checks if the attribute value ends with a substring. The attribute value is assumed to be of a string type. </para></description><type><emphasis>unspecified</emphasis></type></typedef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2522,27 +2543,6 @@ The header contains implementation of a <computeroutput>ends_with</computeroutpu
           <template-type-parameter name="T"/>
           <template-type-parameter name="SubstringT"/>
         </template><parameter name="name"><paramtype>attribute_name const &amp;</paramtype></parameter><parameter name="substring"><paramtype>SubstringT const &amp;</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will check if the attribute value, which is assumed to be a string, ends with the specified substring. </para></description></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2650,12 +2650,6 @@ The header contains implementation of a generic attribute presence checker in te
 
 
 
-
-
-
-
-
-
 <function name="has_attr"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="AttributeValueT"/>
         </template><parameter name="name"><paramtype>attribute_name const &amp;</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will check for the attribute value presence in a log record. The node will also check that the attribute value has the specified type, if present.</para><para>The function generates a terminal node in a template expression. The node will check for the attribute value presence in a log record. </para></description></function>
@@ -2663,6 +2657,12 @@ The header contains implementation of a generic attribute presence checker in te
           <template-type-parameter name="DescriptorT"/>
           <template-nontype-parameter name="ActorT"><type>template&lt; typename &gt; class</type></template-nontype-parameter>
         </template><parameter name=""><paramtype><classname>attribute_keyword</classname>&lt; DescriptorT, ActorT &gt; const &amp;</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will check for the attribute value presence in a log record. The node will also check that the attribute value has the specified type, if present. </para></description></function>
+
+
+
+
+
+
 
 
 
@@ -2709,7 +2709,6 @@ The header contains implementation of an <computeroutput>is_in_range</computerou
 <namespace name="log">
 <namespace name="expressions">
 <typedef name="attribute_is_in_range"><description><para>The predicate checks if the attribute value contains a substring. The attribute value is assumed to be of a string type. </para></description><type><emphasis>unspecified</emphasis></type></typedef>
-
 
 
 
@@ -2791,6 +2790,7 @@ The header contains implementation of an <computeroutput>is_in_range</computerou
 
 
 
+
 </namespace>
 
 
@@ -2817,6 +2817,41 @@ The header contains implementation of a <computeroutput>matches</computeroutput>
 </para></description></constructor>
 </class>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="matches"><type><emphasis>unspecified</emphasis></type><template>
           <template-type-parameter name="T"/>
           <template-type-parameter name="FallbackPolicyT"/>
@@ -2833,41 +2868,6 @@ The header contains implementation of a <computeroutput>matches</computeroutput>
           <template-type-parameter name="T"/>
           <template-type-parameter name="RegexT"/>
         </template><parameter name="name"><paramtype>attribute_name const &amp;</paramtype></parameter><parameter name="rex"><paramtype>RegexT const &amp;</paramtype></parameter><description><para>The function generates a terminal node in a template expression. The node will check if the attribute value, which is assumed to be a string, matches the specified regular expression. </para></description></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

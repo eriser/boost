@@ -14,48 +14,48 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1317">
+      <node id="1303">
         <label>boost::geometry::ring_tag</label>
         <link refid="structboost_1_1geometry_1_1ring__tag"/>
-        <childnode refid="1312" relation="public-inheritance">
+        <childnode refid="1298" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1316">
+      <node id="1302">
         <label>boost::geometry::polygon_tag</label>
         <link refid="structboost_1_1geometry_1_1polygon__tag"/>
-        <childnode refid="1312" relation="public-inheritance">
+        <childnode refid="1298" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1312">
+      <node id="1298">
         <label>boost::geometry::single_tag</label>
         <link refid="structboost_1_1geometry_1_1single__tag"/>
       </node>
-      <node id="1315">
+      <node id="1301">
         <label>boost::geometry::point_tag</label>
         <link refid="structboost_1_1geometry_1_1point__tag"/>
-        <childnode refid="1312" relation="public-inheritance">
+        <childnode refid="1298" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1313">
+      <node id="1299">
         <label>boost::geometry::box_tag</label>
         <link refid="structboost_1_1geometry_1_1box__tag"/>
-        <childnode refid="1312" relation="public-inheritance">
+        <childnode refid="1298" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1318">
+      <node id="1304">
         <label>boost::geometry::segment_tag</label>
         <link refid="structboost_1_1geometry_1_1segment__tag"/>
-        <childnode refid="1312" relation="public-inheritance">
+        <childnode refid="1298" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1314">
+      <node id="1300">
         <label>boost::geometry::linestring_tag</label>
         <link refid="structboost_1_1geometry_1_1linestring__tag"/>
-        <childnode refid="1312" relation="public-inheritance">
+        <childnode refid="1298" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="57" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="57" bodyend="57"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="57" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="57" bodyend="57"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

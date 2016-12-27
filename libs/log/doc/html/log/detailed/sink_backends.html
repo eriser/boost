@@ -190,7 +190,8 @@
             and DOS operating systems have a special treatment with regard to new-line
             characters. Each new-line character is written as a two byte sequence
             0x0D 0x0A instead of a single 0x0A. Other platform-specific character
-            translations are also known.
+            translations are also known. The actual size on disk can also be less
+            than the number of written characters on compressed filesystems.
           </p></td></tr>
 </table></div>
 <p>
@@ -273,6 +274,27 @@
             the rotation should have happened.
           </p></td></tr>
 </table></div>
+<p>
+          In addition to time and size-based file rotation the backend also performs
+          rotation on its destruction by default. This is done in order to maintain
+          all log files collected in the target directory after program termination
+          and ensure that temporary log files don't pile up in the directory the
+          sink backend writes to. This behavior can be disabled with the <code class="computeroutput"><span class="identifier">enable_final_rotation</span></code> parameter of the
+          backend constructor or the similarly named method of the backend:
+        </p>
+<pre class="programlisting"><span class="keyword">void</span> <span class="identifier">init_logging</span><span class="special">()</span>
+<span class="special">{</span>
+    <span class="comment">// ...</span>
+
+    <span class="identifier">boost</span><span class="special">::</span><span class="identifier">shared_ptr</span><span class="special">&lt;</span> <span class="identifier">sinks</span><span class="special">::</span><span class="identifier">text_file_backend</span> <span class="special">&gt;</span> <span class="identifier">backend</span> <span class="special">=</span>
+        <span class="identifier">boost</span><span class="special">::</span><span class="identifier">make_shared</span><span class="special">&lt;</span> <span class="identifier">sinks</span><span class="special">::</span><span class="identifier">text_file_backend</span> <span class="special">&gt;(</span>
+            <span class="identifier">keywords</span><span class="special">::</span><span class="identifier">file_name</span> <span class="special">=</span> <span class="string">"file_%5N.log"</span><span class="special">,</span>
+            <span class="identifier">keywords</span><span class="special">::</span><span class="identifier">enable_final_rotation</span> <span class="special">=</span> <span class="keyword">false</span>
+        <span class="special">);</span>
+
+    <span class="comment">// ...</span>
+<span class="special">}</span>
+</pre>
 <p>
           The file name pattern may contain a number of wildcards, like the one you
           can see in the example above. Supported placeholders are:
@@ -707,7 +729,7 @@
           displaying.
         </p>
 <p>
-          The backend is implemented by the <code class="computeroutput"><a class="link" href="../../boost/log/sinks/text_ipc_idm46161977038304.html" title="Class template text_ipc_message_queue_backend">text_ipc_message_queue_backend</a></code>
+          The backend is implemented by the <code class="computeroutput"><a class="link" href="../../boost/log/sinks/text_ipc_messa_idp61352096.html" title="Class template text_ipc_message_queue_backend">text_ipc_message_queue_backend</a></code>
           class template which should be instantiated with an interprocess message
           queue such as <code class="computeroutput"><a class="link" href="../../boost/log/ipc/reliable_message_queue.html" title="Class reliable_message_queue">reliable_message_queue</a></code>.
           The following example program illustrates a logger process.
@@ -1051,7 +1073,7 @@
           event log backend</a>
         </h6>
 <p>
-          The <code class="computeroutput"><a class="link" href="../../boost/log/sinks/basic_si_idm46161977541168.html" title="Class template basic_simple_event_log_backend">basic_simple_event_log_backend</a></code>
+          The <code class="computeroutput"><a class="link" href="../../boost/log/sinks/basic_simple_e_idp60841904.html" title="Class template basic_simple_event_log_backend">basic_simple_event_log_backend</a></code>
           backend is intended to encapsulate as much of the event log API as possible,
           leaving interface and usage model very similar to other sink backends.
           It contains all resources that are needed for the Event Viewer to function

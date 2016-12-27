@@ -31,14 +31,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" line="21" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" bodystart="21" bodyend="24"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" line="21" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" bodystart="21" bodyend="24"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" line="20" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/equal_to.hpp" bodystart="19" bodyend="25"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" line="20" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/equal_to.hpp" bodystart="19" bodyend="25"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1index_1_1detail_1_1equals_1a9616facd7b5651d1895f3f27404c3897" prot="public" virt="non-virtual"><scope>boost::geometry::index::detail::equals</scope><name>apply</name></member>
     </listofallmembers>

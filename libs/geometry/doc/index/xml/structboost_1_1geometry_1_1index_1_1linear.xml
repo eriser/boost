@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="79" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="79" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="79" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1index_1_1linear_1a4d38e783069dfbf9a511ba49c7ce5315" prot="public" static="yes" mutable="no">
         <type>const size_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="80" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="80" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="80" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="80" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="76" column="1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="76" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="82" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="82" bodyend="82"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="82" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="82" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1index_1_1linear_1a6bd4b1d2e3e370785f164fb8046bff88" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="83" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="83" bodyend="83"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="83" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="83" bodyend="83"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -117,7 +117,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" line="75" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/parameters.hpp" bodystart="74" bodyend="84"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" line="75" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/parameters.hpp" bodystart="74" bodyend="84"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1index_1_1linear_1ac6f32e160803ac3b96e435558f1c9c3a" prot="public" virt="non-virtual"><scope>boost::geometry::index::linear</scope><name>BOOST_MPL_ASSERT_MSG</name></member>
       <member refid="structboost_1_1geometry_1_1index_1_1linear_1acbe123037c8dcebc6657000f4f2ec6a4" prot="public" virt="non-virtual"><scope>boost::geometry::index::linear</scope><name>get_max_elements</name></member>

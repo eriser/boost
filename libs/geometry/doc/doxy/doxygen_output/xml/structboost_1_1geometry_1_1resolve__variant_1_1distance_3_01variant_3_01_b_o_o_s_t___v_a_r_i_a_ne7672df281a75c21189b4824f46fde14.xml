@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="166" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="166" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="166" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structboost_1_1geometry_1_1resolve__variant_1_1distance_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_ne7672df281a75c21189b4824f46fde14_1a1de5dc171a95e18bb6ad68014417857d" prot="public" static="no" mutable="no">
         <type>Strategy const &amp;</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="167" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="167" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="167" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="167" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="177" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="177" bodyend="187"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="177" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="177" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="structboost_1_1geometry_1_1resolve__variant_1_1distance_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_ne7672df281a75c21189b4824f46fde14_1ae5ffbe67fdfe58c952f0f784135f4d51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="169" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="169" bodyend="173"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="169" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="169" bodyend="173"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -87,28 +87,28 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="970">
+      <node id="956">
         <label>boost::static_visitor&lt; distance_result&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2, Strategy &gt;::type &gt;</label>
       </node>
-      <node id="969">
+      <node id="955">
         <label>boost::geometry::resolve_variant::distance&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1distance_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_ne7672df281a75c21189b4824f46fde14"/>
-        <childnode refid="970" relation="public-inheritance">
+        <childnode refid="956" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="972">
+      <node id="958">
         <label>boost::static_visitor&lt; distance_result&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2, Strategy &gt;::type &gt;</label>
       </node>
-      <node id="971">
+      <node id="957">
         <label>boost::geometry::resolve_variant::distance&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor&lt; Strategy &gt;</label>
         <link refid="structboost_1_1geometry_1_1resolve__variant_1_1distance_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_ne7672df281a75c21189b4824f46fde14"/>
-        <childnode refid="972" relation="public-inheritance">
+        <childnode refid="958" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="165" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="156" bodyend="188"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" line="165" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/detail/distance/interface.hpp" bodystart="156" bodyend="188"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1distance_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_ne7672df281a75c21189b4824f46fde14_1aa266e9bfc8200b58d0010859959bcdaf" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::distance&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_geometry2</name></member>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1distance_3_01variant_3_01_b_o_o_s_t___v_a_r_i_a_ne7672df281a75c21189b4824f46fde14_1a1de5dc171a95e18bb6ad68014417857d" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::distance&lt; variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt;, Geometry2 &gt;::visitor</scope><name>m_strategy</name></member>

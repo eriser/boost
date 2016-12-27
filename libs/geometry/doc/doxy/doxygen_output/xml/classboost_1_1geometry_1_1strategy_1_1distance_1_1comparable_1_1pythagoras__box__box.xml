@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" line="115" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" bodystart="115" bodyend="135"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" line="115" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" bodystart="115" bodyend="135"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -67,7 +67,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" line="99" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" bodystart="98" bodyend="136"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" line="99" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/distance_pythagoras_box_box.hpp" bodystart="98" bodyend="136"/>
     <listofallmembers>
       <member refid="classboost_1_1geometry_1_1strategy_1_1distance_1_1comparable_1_1pythagoras__box__box_1ad3d1b11db59e71706eece6aa04a6cd26" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::distance::comparable::pythagoras_box_box</scope><name>apply</name></member>
     </listofallmembers>

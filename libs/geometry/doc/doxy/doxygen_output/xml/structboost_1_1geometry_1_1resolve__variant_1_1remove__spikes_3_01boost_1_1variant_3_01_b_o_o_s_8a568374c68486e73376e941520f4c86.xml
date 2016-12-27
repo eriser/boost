@@ -25,14 +25,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" line="261" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="261" bodyend="264"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" line="261" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="261" bodyend="264"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" line="251" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="250" bodyend="265"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" line="251" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="250" bodyend="265"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1remove__spikes_3_01boost_1_1variant_3_01_b_o_o_s_8a568374c68486e73376e941520f4c86_1a93ecb5cdd6897a4516c29d2db5348a09" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::remove_spikes&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;</scope><name>apply</name></member>
     </listofallmembers>

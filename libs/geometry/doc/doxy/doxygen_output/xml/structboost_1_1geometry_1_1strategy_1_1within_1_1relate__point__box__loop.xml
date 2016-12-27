@@ -46,14 +46,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" line="136" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" bodystart="136" bodyend="154"/>
+        <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" line="152" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" bodystart="152" bodyend="170"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" line="135" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" bodystart="134" bodyend="155"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" line="151" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/point_in_box.hpp" bodystart="150" bodyend="171"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1strategy_1_1within_1_1relate__point__box__loop_1a1f7ec4d96b366313d76b97818226a666" prot="public" virt="non-virtual"><scope>boost::geometry::strategy::within::relate_point_box_loop</scope><name>apply</name></member>
     </listofallmembers>

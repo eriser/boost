@@ -94,7 +94,7 @@
  <qbk>[include reference/algorithms/buffer.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="182" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="182" bodyend="189"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="182" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="182" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="group__buffer_1gaf56bd07bd0dc7a7e4812223f23ddae7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -258,7 +258,7 @@
  <qbk.distinguish>with strategies</qbk.distinguish>   <qbk>[include reference/algorithms/buffer_with_strategies.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="250" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="250" bodyend="287"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="250" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="250" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="group__buffer_1ga8f897ad6face43210c41f8afedf526bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -340,7 +340,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="205" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="205" bodyend="215"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="205" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="205" bodyend="215"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

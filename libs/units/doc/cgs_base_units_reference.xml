@@ -3,7 +3,7 @@
 <namespace name="boost">
 <namespace name="units">
 <namespace name="cgs">
-<typedef name="biot_base_unit"><type>scaled_base_unit&lt; boost::units::si::ampere_base_unit, scale&lt; 10, static_rational&lt;-1 &gt; &gt; &gt;</type></typedef>
+<typedef name="biot_base_unit"><type>scaled_base_unit&lt; boost::units::si::ampere_base_unit, scale&lt; 10, static_rational&lt;+1 &gt; &gt; &gt;</type></typedef>
 </namespace>
 </namespace>
 </namespace>

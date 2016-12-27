@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/views/box_view.hpp" line="53" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/box_view.hpp" bodystart="53" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/views/box_view.hpp" line="53" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/box_view.hpp" bodystart="53" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/views/box_view.hpp" line="56" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/box_view.hpp" bodystart="56" bodyend="58"/>
+        <location file="/home/ubuntu/boost/boost/geometry/views/box_view.hpp" line="56" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/box_view.hpp" bodystart="56" bodyend="58"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -94,7 +94,7 @@
         <label>detail::points_view&lt; geometry::point_type&lt; Box &gt;::type, 5 &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/views/box_view.hpp" line="52" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/views/box_view.hpp" bodystart="46" bodyend="82"/>
+    <location file="/home/ubuntu/boost/boost/geometry/views/box_view.hpp" line="52" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/views/box_view.hpp" bodystart="46" bodyend="82"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1box__view_1a3e6297ba91d3ffde29bd73d261d72fd2" prot="public" virt="non-virtual"><scope>boost::geometry::box_view</scope><name>box_view</name></member>
       <member refid="structboost_1_1geometry_1_1box__view_1a70791d0cb54de244cdbec85135e6be10" prot="public" virt="non-virtual"><scope>boost::geometry::box_view</scope><name>point_type</name></member>

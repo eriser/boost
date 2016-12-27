@@ -24,14 +24,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" line="242" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="242" bodyend="246"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" line="242" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="242" bodyend="246"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" line="241" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="240" bodyend="247"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" line="241" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/remove_spikes.hpp" bodystart="240" bodyend="247"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1remove__spikes_1a3511c3265167e412f2690fe13cccd42d" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::remove_spikes</scope><name>apply</name></member>
     </listofallmembers>

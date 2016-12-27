@@ -31,14 +31,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/index/rtree.hpp" line="2220" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/rtree.hpp" bodystart="2220" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/index/rtree.hpp" line="2220" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/rtree.hpp" bodystart="2220" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/index/rtree.hpp" line="2216" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/index/rtree.hpp" bodystart="2212" bodyend="2221"/>
+    <location file="/home/ubuntu/boost/boost/geometry/index/rtree.hpp" line="2216" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/index/rtree.hpp" bodystart="2212" bodyend="2221"/>
     <listofallmembers>
       <member refid="structboost_1_1range__mutable__iterator_3_01boost_1_1geometry_1_1index_1_1rtree_3_01_value_00_01377110862522c8f6142f1a65b06f20fa_1a31fb3372014914ca450efcc0aadb5736" prot="public" virt="non-virtual"><scope>boost::range_mutable_iterator&lt; boost::geometry::index::rtree&lt; Value, Parameters, IndexableGetter, EqualTo, Allocator &gt; &gt;</scope><name>type</name></member>
     </listofallmembers>

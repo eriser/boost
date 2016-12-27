@@ -45,7 +45,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="98" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="98" bodyend="98"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="98" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="98" bodyend="98"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

@@ -2405,12 +2405,12 @@
 <namespace name="boost">
 <namespace name="container">
 <namespace name="pmr">
-
-
 <function name="new_delete_resource"><type><classname>memory_resource</classname> *</type><description><para><emphasis role="bold">Returns</emphasis>: A pointer to a static-duration object of a type derived from <classname alt="boost::container::pmr::memory_resource">memory_resource</classname> that can serve as a resource for allocating memory using global <computeroutput>operator new</computeroutput> and global <computeroutput>operator delete</computeroutput>. The same value is returned every time this function is called. For return value p and memory resource r, p-&gt;is_equal(r) returns &amp;r == p. </para></description></function>
 <function name="null_memory_resource"><type><classname>memory_resource</classname> *</type><description><para><emphasis role="bold">Returns</emphasis>: A pointer to a static-duration object of a type derived from <classname alt="boost::container::pmr::memory_resource">memory_resource</classname> for which allocate() always throws bad_alloc and for which deallocate() has no effect. The same value is returned every time this function is called. For return value p and memory resource r, p-&gt;is_equal(r) returns &amp;r == p. </para></description></function>
 <function name="set_default_resource"><type><classname>memory_resource</classname> *</type><parameter name="r"><paramtype><classname>memory_resource</classname> *</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: If r is non-null, sets the value of the default memory resource pointer to r, otherwise sets the default memory resource pointer to new_delete_resource().</para><para><emphasis role="bold">Postconditions</emphasis>: get_default_resource() == r.</para><para><emphasis role="bold">Returns</emphasis>: The previous value of the default memory resource pointer.</para><para><emphasis role="bold">Remarks</emphasis>: Calling the set_default_resource and get_default_resource functions shall not incur a data race. A call to the set_default_resource function shall synchronize with subsequent calls to the set_default_resource and get_default_resource functions. </para></description></function>
 <function name="get_default_resource"><type><classname>memory_resource</classname> *</type><description><para><emphasis role="bold">Returns</emphasis>: The current value of the default memory resource pointer. </para></description></function>
+
+
 </namespace>
 
 
@@ -2646,7 +2646,11 @@
           <template-type-parameter name="U"/>
         </template><parameter name="other"><paramtype>const <classname>polymorphic_allocator</classname>&lt; U &gt; &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Sets m_resource to other.resource(). </para></description></constructor>
 <copy-assignment><type><classname>polymorphic_allocator</classname> &amp;</type><parameter name="other"><paramtype>const <classname>polymorphic_allocator</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Sets m_resource to other.resource(). </para></description></copy-assignment>
-</class><function name="operator=="><type>bool</type><template>
+</class>
+
+
+
+<function name="operator=="><type>bool</type><template>
           <template-type-parameter name="T1"/>
           <template-type-parameter name="T2"/>
         </template><parameter name="a"><paramtype>const <classname>polymorphic_allocator</classname>&lt; T1 &gt; &amp;</paramtype></parameter><parameter name="b"><paramtype>const <classname>polymorphic_allocator</classname>&lt; T2 &gt; &amp;</paramtype></parameter><description><para><emphasis role="bold">Returns</emphasis>: <computeroutput>*a.resource() == *b.resource()</computeroutput>. </para></description></function>
@@ -2654,10 +2658,6 @@
           <template-type-parameter name="T1"/>
           <template-type-parameter name="T2"/>
         </template><parameter name="a"><paramtype>const <classname>polymorphic_allocator</classname>&lt; T1 &gt; &amp;</paramtype></parameter><parameter name="b"><paramtype>const <classname>polymorphic_allocator</classname>&lt; T2 &gt; &amp;</paramtype></parameter><description><para><emphasis role="bold">Returns</emphasis>: <computeroutput>! (a == b)</computeroutput>. </para></description></function>
-
-
-
-
 </namespace>
 
 
@@ -3086,44 +3086,7 @@
 <method-group name="friend functions">
 <method name="swap"><type>friend void</type><parameter name="l"><paramtype><classname>scoped_allocator_adaptor</classname> &amp;</paramtype></parameter><parameter name="r"><paramtype><classname>scoped_allocator_adaptor</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: swaps *this with r. </para></description></method>
 </method-group>
-</class>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<function name="operator=="><type>bool</type><template>
+</class><function name="operator=="><type>bool</type><template>
           <template-type-parameter name="OuterA1"/>
           <template-type-parameter name="OuterA2"/>
           <template-nontype-parameter name=""><type>BOOST_CONTAINER_SCOPEDALLOC_ALLINNERCLASS</type></template-nontype-parameter>
@@ -3133,6 +3096,43 @@
           <template-type-parameter name="OuterA2"/>
           <template-nontype-parameter name=""><type>BOOST_CONTAINER_SCOPEDALLOC_ALLINNERCLASS</type></template-nontype-parameter>
         </template><parameter name="a"><paramtype>const <classname>scoped_allocator_adaptor</classname>&lt; OuterA1, InnerAllocs...&gt; &amp;</paramtype></parameter><parameter name="b"><paramtype>const <classname>scoped_allocator_adaptor</classname>&lt; OuterA2, InnerAllocs...&gt; &amp;</paramtype></parameter></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4719,43 +4719,6 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 </method-group>
 </class>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <function name="operator=="><type>bool</type><template>
           <template-type-parameter name="V"/>
           <template-nontype-parameter name="C1"><type>std::size_t</type></template-nontype-parameter>
@@ -4811,6 +4774,43 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
         </template><parameter name="x"><paramtype><classname>static_vector</classname>&lt; V, C1 &gt; &amp;</paramtype><description><para>The first <classname alt="boost::container::static_vector">static_vector</classname>. </para></description></parameter><parameter name="y"><paramtype><classname>static_vector</classname>&lt; V, C2 &gt; &amp;</paramtype><description><para>The second <classname alt="boost::container::static_vector">static_vector</classname>.</para></description></parameter><purpose>Swaps contents of two static_vectors. </purpose><description><para>This function calls static_vector::swap().</para><para>
 <formalpara><title>Complexity</title><para>Linear O(N). </para></formalpara>
 </para></description></function>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -4990,6 +4990,10 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 
+
+
+
+
 <function name="operator+"><type><classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt;</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5154,10 +5158,6 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 
-
-
-
-
 </namespace>
 </namespace>
 </header>
@@ -5231,6 +5231,47 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <header name="boost/container/throw_exception.hpp">
 <namespace name="boost">
 <namespace name="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <function name="throw_bad_alloc"><type>void</type><description><para>Exception callback called by Boost.Container when fails to allocate the requested storage space. <itemizedlist>
 <listitem>
 <para>If BOOST_NO_EXCEPTIONS is NOT defined <computeroutput>std::bad_alloc()</computeroutput> is thrown.</para><para/></listitem>
@@ -5276,47 +5317,6 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <para>If BOOST_NO_EXCEPTIONS and BOOST_CONTAINER_USER_DEFINED_THROW_CALLBACKS are defined the user must provide an implementation and the function should not return. </para></listitem>
 </itemizedlist>
 </para></description></function>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </namespace>
 </namespace>
 </header>

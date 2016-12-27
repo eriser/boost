@@ -32,7 +32,7 @@ A custom linestring, defining the necessary specializations to fulfill to the co
 <listitem><para>There is also the registration macro BOOST_GEOMETRY_REGISTER_LINESTRING</para></listitem><listitem><para>For registration of std::vector&lt;P&gt; (and deque, and list) it is enough to include the header-file geometries/adapted/std_as_linestring.hpp. That registers a vector as a linestring (so it cannot be registered as a linear ring then, in the same source code). </para></listitem></itemizedlist>
 </para></simplesect>
 </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/linestring_concept.hpp" line="75" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/concepts/linestring_concept.hpp" bodystart="74" bodyend="93"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/concepts/linestring_concept.hpp" line="75" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/concepts/linestring_concept.hpp" bodystart="74" bodyend="93"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

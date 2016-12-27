@@ -42,7 +42,7 @@
  <qbk>[include reference/algorithms/length.qbk]</qbk>   <qbk>[length] [length_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" line="252" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" bodystart="252" bodyend="265"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" line="252" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" bodystart="252" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="group__length_1ga31c0f8fcd943475255e7ab329f2c2771" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -102,7 +102,7 @@
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/length.qbk]</qbk>   <qbk>[length_with_strategy] [length_with_strategy_output]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" line="284" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/length.hpp" bodystart="284" bodyend="291"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" line="284" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/length.hpp" bodystart="284" bodyend="291"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -243,20 +243,20 @@
     <base>build_acc_list&lt; fusion::result_of::begin&lt; Sequence &gt;::type, fusion::result_of::end&lt; Sequence &gt;::type &gt;</base>
   </compound>
   <compound kind="dir">
-    <name>/home/travis/build/boostorg/boost/boost/accumulators</name>
-    <path>/home/travis/build/boostorg/boost/boost/accumulators/</path>
+    <name>/home/ubuntu/boost/boost/accumulators</name>
+    <path>/home/ubuntu/boost/boost/accumulators/</path>
     <filename>dir_66af1ff6c588fbffd50b9a38d3ada08d.html</filename>
-    <dir>/home/travis/build/boostorg/boost/boost/accumulators/framework</dir>
+    <dir>/home/ubuntu/boost/boost/accumulators/framework</dir>
   </compound>
   <compound kind="dir">
-    <name>/home/travis/build/boostorg/boost/boost</name>
-    <path>/home/travis/build/boostorg/boost/boost/</path>
+    <name>/home/ubuntu/boost/boost</name>
+    <path>/home/ubuntu/boost/boost/</path>
     <filename>dir_c8984f1860c11f62f47abb6761e46c1e.html</filename>
-    <dir>/home/travis/build/boostorg/boost/boost/accumulators</dir>
+    <dir>/home/ubuntu/boost/boost/accumulators</dir>
   </compound>
   <compound kind="dir">
-    <name>/home/travis/build/boostorg/boost/boost/accumulators/framework</name>
-    <path>/home/travis/build/boostorg/boost/boost/accumulators/framework/</path>
+    <name>/home/ubuntu/boost/boost/accumulators/framework</name>
+    <path>/home/ubuntu/boost/boost/accumulators/framework/</path>
     <filename>dir_9590459749c6d0e896222db774211cbc.html</filename>
     <file>depends_on.hpp</file>
     <file>extractor.hpp</file>

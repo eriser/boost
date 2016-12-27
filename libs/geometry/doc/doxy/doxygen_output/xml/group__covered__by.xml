@@ -64,7 +64,7 @@
  <qbk>[include reference/algorithms/covered_by.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="441" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="441" bodyend="445"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="441" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="441" bodyend="445"/>
       </memberdef>
       <memberdef kind="function" id="group__covered__by_1ga4db6801730953629ec9eb040a5ccc1ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -138,7 +138,7 @@
  <qbk.distinguish>with strategy</qbk.distinguish>   <qbk>[include reference/algorithms/covered_by.qbk]</qbk>  </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" line="464" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="464" bodyend="469"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" line="464" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/covered_by.hpp" bodystart="464" bodyend="469"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

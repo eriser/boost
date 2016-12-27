@@ -15,7 +15,7 @@
 \* [link geometry.reference.algorithms.buffer.buffer_7_with_strategies buffer (with strategies)]
 \* [link geometry.reference.strategies.strategy_buffer_end_round end_round]
 </qbk>  </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_flat.hpp" line="49" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/strategies/cartesian/buffer_end_flat.hpp" bodystart="48" bodyend="105"/>
+    <location file="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_flat.hpp" line="49" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/strategies/cartesian/buffer_end_flat.hpp" bodystart="48" bodyend="105"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

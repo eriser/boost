@@ -45,14 +45,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="153" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="153" bodyend="161"/>
+        <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="153" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="153" bodyend="161"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" line="129" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/algorithms/buffer.hpp" bodystart="128" bodyend="162"/>
+    <location file="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" line="129" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/algorithms/buffer.hpp" bodystart="128" bodyend="162"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1resolve__variant_1_1buffer_3_01boost_1_1variant_3_01_b_o_o_s_t___v_a_19429672a55ba036e3207ef7485b042b_1a1576cf710a2099481201eb3fd08d4c19" prot="public" virt="non-virtual"><scope>boost::geometry::resolve_variant::buffer&lt; boost::variant&lt; BOOST_VARIANT_ENUM_PARAMS(T)&gt; &gt;</scope><name>apply</name></member>
     </listofallmembers>

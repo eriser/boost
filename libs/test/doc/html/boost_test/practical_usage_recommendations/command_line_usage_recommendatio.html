@@ -62,7 +62,7 @@
         dialogs (depends on compiler and OS) that will halt you regression tests
         run. The second recommendation is to suppress result report output by adding
       </p>
-<pre class="programlisting">--__param_report_level__=no
+<pre class="programlisting">--<a class="link" href="../utf_reference/rt_param_reference/report_level.html" title="report_level">report_level</a>=no
 </pre>
 <p>
         argument and test log output by adding
@@ -74,9 +74,14 @@
         going to look at anyway. We recommend relying only on result code that will
         be consistent for all test programs. An alternative to my second recommendation
         is direct both log and report to separate file you could analyze later on.
-        Moreover you can make Boost.Test to produce them in XML format using
+        Moreover you can make Boost.Test to produce them in XML or JUNIT format using
       </p>
 <pre class="programlisting">--<a class="link" href="../utf_reference/rt_param_reference/output_format.html" title="output_format">output_format</a>=XML
+</pre>
+<p>
+        or
+      </p>
+<pre class="programlisting">--<a class="link" href="../utf_reference/rt_param_reference/log_format.html" title="log_format">log_format</a>=JUNIT
 </pre>
 <p>
         and use some automated tool that will format this information as you like.

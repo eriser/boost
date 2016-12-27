@@ -9,30 +9,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1324">
+      <node id="1310">
         <label>boost::geometry::spherical_equatorial_tag</label>
         <link refid="structboost_1_1geometry_1_1spherical__equatorial__tag"/>
-        <childnode refid="1325" relation="public-inheritance">
+        <childnode refid="1311" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1325">
+      <node id="1311">
         <label>boost::geometry::spherical_tag</label>
         <link refid="structboost_1_1geometry_1_1spherical__tag"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1326">
+      <node id="1312">
         <label>boost::geometry::spherical_equatorial_tag</label>
         <link refid="structboost_1_1geometry_1_1spherical__equatorial__tag"/>
-        <childnode refid="1327" relation="public-inheritance">
+        <childnode refid="1313" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1327">
+      <node id="1313">
         <label>boost::geometry::spherical_tag</label>
         <link refid="structboost_1_1geometry_1_1spherical__tag"/>
       </node>
     </collaborationgraph>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" line="39" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/tags.hpp" bodystart="39" bodyend="39"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/tags.hpp" line="39" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/tags.hpp" bodystart="39" bodyend="39"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

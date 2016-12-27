@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" line="208" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" bodystart="208" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" line="208" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" bodystart="208" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,7 +37,7 @@
 </parameteritem>
 </parameterlist>
  <qbk>[include reference/core/ring_type.qbk]</qbk>  </para>    </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" line="203" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/core/ring_type.hpp" bodystart="202" bodyend="209"/>
+    <location file="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" line="203" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/core/ring_type.hpp" bodystart="202" bodyend="209"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1ring__type_1a009cf4da9da6576d9733537a6e4d9ed6" prot="public" virt="non-virtual"><scope>boost::geometry::ring_type</scope><name>type</name></member>
     </listofallmembers>

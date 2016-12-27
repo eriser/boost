@@ -20,14 +20,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="74" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="74" bodyend="-1"/>
+        <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="74" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="74" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" line="73" column="1" bodyfile="/home/travis/build/boostorg/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="72" bodyend="75"/>
+    <location file="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" line="73" column="1" bodyfile="/home/ubuntu/boost/boost/geometry/geometries/helper_geometry.hpp" bodystart="72" bodyend="75"/>
     <listofallmembers>
       <member refid="structboost_1_1geometry_1_1detail_1_1helper__geometries_1_1cs__tag__to__coordinate__system_3_01_units_00_01geographic__tag_01_4_1a42551e84b10e0d11037951ebd5e22a6f" prot="public" virt="non-virtual"><scope>boost::geometry::detail::helper_geometries::cs_tag_to_coordinate_system&lt; Units, geographic_tag &gt;</scope><name>type</name></member>
     </listofallmembers>
