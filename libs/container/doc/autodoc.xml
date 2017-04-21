@@ -102,6 +102,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -151,6 +163,18 @@
 <method name="priv_allocation_command"><type>pointer</type><parameter name="command"><paramtype>allocation_type</paramtype></parameter><parameter name="limit_size"><paramtype>std::size_t</paramtype></parameter><parameter name="prefer_in_recvd_out_size"><paramtype>size_type &amp;</paramtype></parameter><parameter name="reuse_ptr"><paramtype>pointer &amp;</paramtype></parameter></method>
 </method-group>
 </class>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -286,6 +310,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -305,6 +341,18 @@
 <data-member name="ordered_range" specifiers="static"><type>const <classname>ordered_range_t</classname></type><description><para>Value used to tag that the input range is guaranteed to be ordered </para></description></data-member>
 <data-member name="ordered_unique_range" specifiers="static"><type>const <classname>ordered_unique_range_t</classname></type><description><para>Value used to tag that the input range is guaranteed to be ordered and unique </para></description></data-member>
 <data-member name="default_init" specifiers="static"><type>const <classname>default_init_t</classname></type><description><para>Value used to tag that the inserted values should be default initialized </para></description></data-member>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -519,6 +567,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -537,6 +597,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -925,6 +997,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -953,6 +1037,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1303,6 +1399,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -1329,6 +1437,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1556,6 +1676,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -1574,6 +1706,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1961,6 +2105,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -1989,6 +2145,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2137,6 +2305,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -2189,6 +2369,18 @@
 <method name="priv_allocation_command"><type>pointer</type><parameter name="command"><paramtype>allocation_type</paramtype></parameter><parameter name="limit_size"><paramtype>std::size_t</paramtype></parameter><parameter name="prefer_in_recvd_out_size"><paramtype>size_type &amp;</paramtype></parameter><parameter name="reuse"><paramtype>pointer &amp;</paramtype></parameter></method>
 </method-group>
 </class>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2339,6 +2531,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -2398,6 +2602,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -2412,6 +2628,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2534,6 +2762,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -2570,6 +2810,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2705,6 +2957,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -2726,6 +2990,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2808,6 +3084,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2938,6 +3226,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -2976,6 +3276,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3140,12 +3452,36 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
 <header name="boost/container/scoped_allocator_fwd.hpp">
 <para>This header file forward declares <classname alt="boost::container::scoped_allocator_adaptor">boost::container::scoped_allocator_adaptor</classname> </para><namespace name="boost">
 <namespace name="container">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3488,6 +3824,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -3514,6 +3862,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3748,6 +4108,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 <namespace name="std">
@@ -3784,6 +4156,18 @@
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3988,6 +4372,18 @@ void some_function()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -4007,6 +4403,18 @@ void some_function()
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4213,6 +4621,18 @@ void some_function()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -4231,6 +4651,18 @@ void some_function()
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4811,6 +5243,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -4872,18 +5316,29 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <method name="at"><type>reference</type><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: size() &gt; n.</para><para><emphasis role="bold">Effects</emphasis>: Returns a reference to the nth element from the beginning of the container.</para><para><emphasis role="bold">Throws</emphasis>: std::range_error if n &gt;= size()</para><para><emphasis role="bold">Complexity</emphasis>: Constant. </para></description></method>
 <method name="at" cv="const"><type>const_reference</type><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: size() &gt; n.</para><para><emphasis role="bold">Effects</emphasis>: Returns a const reference to the nth element from the beginning of the container.</para><para><emphasis role="bold">Throws</emphasis>: std::range_error if n &gt;= size()</para><para><emphasis role="bold">Complexity</emphasis>: Constant. </para></description></method>
 <method name="operator+="><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Calls append(str.data, str.size()).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="operator+="><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Same as <computeroutput>return append(sv)</computeroutput>. </para></description></method>
 <method name="operator+="><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Calls append(s).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="operator+="><type><classname>basic_string</classname> &amp;</type><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Calls append(1, c).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="operator+="><type><classname>basic_string</classname> &amp;</type><parameter name="il"><paramtype>std::initializer_list&lt; CharT &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Returns append(il) </para></description></method>
 <method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Calls append(str.data(), str.size()).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
-<method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to append as the smaller of n and str.size() - pos and calls append(str.data() + pos, rlen).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws and out_of_range if pos &gt; str.size()</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="append"><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Same as return append(sv.data(), sv.size()). </para></description></method>
+<method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to append as the smaller of n and str.size() - pos and calls append(str.data() + pos, rlen).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws and out_of_range if pos &gt; str.size()</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Effects</emphasis>: The function replaces the string controlled by *this with a string of length size() + n whose irst size() elements are a copy of the original string controlled by *this and whose remaining elements are a copy of the initial n elements of s.</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws length_error if size() + n &gt; max_size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Effects</emphasis>: Calls append(s, traits::length(s)).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="n"><paramtype>size_type</paramtype></parameter><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to append(basic_string(n, c)).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="append"><type><classname>basic_string</classname> &amp;</type><template>
           <template-type-parameter name="InputIter"/>
         </template><parameter name="first"><paramtype>InputIter</paramtype></parameter><parameter name="last"><paramtype>InputIter</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: [first,last) is a valid range.</para><para><emphasis role="bold">Effects</emphasis>: Equivalent to append(basic_string(first, last)).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
-<method name="push_back"><type>void</type><parameter name="c"><paramtype>CharT</paramtype></parameter><purpose><emphasis role="bold">Effects</emphasis>: Equivalent to append(static_cast&lt;size_type&gt;(1), c). </purpose></method>
+<method name="append"><type><classname>basic_string</classname> &amp;</type><parameter name="il"><paramtype>std::initializer_list&lt; CharT &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Returns append(il.begin(), il.size()). </para></description></method>
+<method name="push_back"><type>void</type><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to append(static_cast&lt;size_type&gt;(1), c). </para></description></method>
 <method name="assign"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to assign(str, 0, npos).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="assign"><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to return assign(sv.data(), sv.size()).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="assign" cv="noexcept"><type><classname>basic_string</classname> &amp;</type><parameter name="ms"><paramtype><classname>basic_string</classname> &amp;&amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: The function replaces the string controlled by *this with a string of length str.size() whose elements are a copy of the string controlled by str. Leaves str in a valid but unspecified state.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="assign"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to assign as the smaller of n and str.size() - pos and calls assign(str.data() + pos rlen).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws or out_of_range if pos &gt; str.size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="assign"><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Effects</emphasis>: Replaces the string controlled by *this with a string of length n whose elements are a copy of those pointed to by s.</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws or length_error if n &gt; max_size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
@@ -4893,23 +5348,34 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <method name="assign"><type><classname>basic_string</classname> &amp;</type><template>
           <template-type-parameter name="InputIter"/>
         </template><parameter name="first"><paramtype>InputIter</paramtype></parameter><parameter name="last"><paramtype>InputIter</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to assign(basic_string(first, last)).</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="assign"><type><classname>basic_string</classname> &amp;</type><parameter name="il"><paramtype>std::initializer_list&lt; CharT &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Returns assign(il.begin(), il.size()). </para></description></method>
 <method name="insert"><type><classname>basic_string</classname> &amp;</type><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= size().</para><para><emphasis role="bold">Effects</emphasis>: Calls insert(pos, str.data(), str.size()).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws or out_of_range if pos &gt; size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
-<method name="insert"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to insert as the smaller of n and str.size() - pos2 and calls insert(pos1, str.data() + pos2, rlen).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws or out_of_range if pos1 &gt; size() or pos2 &gt; str.size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="insert"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to insert as the smaller of n and str.size() - pos2 and calls insert(pos1, str.data() + pos2, rlen).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws or out_of_range if pos1 &gt; size() or pos2 &gt; str.size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="insert"><type><classname>basic_string</classname> &amp;</type><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT and pos &lt;= size().</para><para><emphasis role="bold">Effects</emphasis>: Replaces the string controlled by *this with a string of length size() + n whose first pos elements are a copy of the initial elements of the original string controlled by *this and whose next n elements are a copy of the elements in s and whose remaining elements are a copy of the remaining elements of the original string controlled by *this.</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws, out_of_range if pos &gt; size() or length_error if size() + n &gt; max_size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="insert"><type><classname>basic_string</classname> &amp;</type><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= size() and s points to an array of at least traits::length(s) + 1 elements of CharT</para><para><emphasis role="bold">Effects</emphasis>: Calls insert(pos, s, traits::length(s)).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws, out_of_range if pos &gt; size() length_error if size() &gt; max_size() - Traits::length(s)</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="insert"><type><classname>basic_string</classname> &amp;</type><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to insert(pos, basic_string(n, c)).</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws, out_of_range if pos &gt; size() length_error if size() &gt; max_size() - n</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="insert"><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Same as <computeroutput>return insert(pos, sv.data(), sv.size())</computeroutput>. </para></description></method>
 <method name="insert"><type>iterator</type><parameter name="p"><paramtype>const_iterator</paramtype></parameter><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: p is a valid iterator on *this.</para><para><emphasis role="bold">Effects</emphasis>: inserts a copy of c before the character referred to by p.</para><para><emphasis role="bold">Returns</emphasis>: An iterator which refers to the copy of the inserted character. </para></description></method>
 <method name="insert"><type>iterator</type><parameter name="p"><paramtype>const_iterator</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: p is a valid iterator on *this.</para><para><emphasis role="bold">Effects</emphasis>: Inserts n copies of c before the character referred to by p.</para><para><emphasis role="bold">Returns</emphasis>: an iterator to the first inserted element or p if n is 0. </para></description></method>
 <method name="insert"><type>iterator</type><template>
           <template-type-parameter name="InputIter"/>
         </template><parameter name="p"><paramtype>const_iterator</paramtype></parameter><parameter name="first"><paramtype>InputIter</paramtype></parameter><parameter name="last"><paramtype>InputIter</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: p is a valid iterator on *this. [first,last) is a valid range.</para><para><emphasis role="bold">Effects</emphasis>: Equivalent to insert(p - begin(), basic_string(first, last)).</para><para><emphasis role="bold">Returns</emphasis>: an iterator to the first inserted element or p if first == last. </para></description></method>
+<method name="insert"><type>iterator</type><parameter name="p"><paramtype>const_iterator</paramtype></parameter><parameter name="il"><paramtype>std::initializer_list&lt; CharT &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: As if by insert(p, il.begin(), il.end()).</para><para><emphasis role="bold">Returns</emphasis>: An iterator which refers to the copy of the first inserted character, or p if i1 is empty. </para></description></method>
 <method name="pop_back" cv="noexcept"><type>void</type><description><para><emphasis role="bold">Effects</emphasis>: Removes the last element from the container.</para><para><emphasis role="bold">Throws</emphasis>: Nothing.</para><para><emphasis role="bold">Complexity</emphasis>: Constant time. </para></description></method>
 <method name="erase"><type><classname>basic_string</classname> &amp;</type><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><parameter name="n"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length xlen of the string to be removed as the smaller of n and size() - pos. The function then replaces the string controlled by *this with a string of length size() - xlen whose first pos elements are a copy of the initial elements of the original string controlled by *this, and whose remaining elements are a copy of the elements of the original string controlled by *this beginning at position pos + xlen.</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos &gt; size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="erase" cv="noexcept"><type>iterator</type><parameter name="p"><paramtype>const_iterator</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Removes the character referred to by p.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: An iterator which points to the element immediately following p prior to the element being erased. If no such element exists, end() is returned. </para></description></method>
 <method name="erase" cv="noexcept"><type>iterator</type><parameter name="first"><paramtype>const_iterator</paramtype></parameter><parameter name="last"><paramtype>const_iterator</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: first and last are valid iterators on *this, defining a range [first,last).</para><para><emphasis role="bold">Effects</emphasis>: Removes the characters in the range [first,last).</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: An iterator which points to the element pointed to by last prior to the other elements being erased. If no such element exists, end() is returned. </para></description></method>
 <method name="clear" cv="noexcept"><type>void</type><description><para><emphasis role="bold">Effects</emphasis>: Erases all the elements of the vector.</para><para><emphasis role="bold">Throws</emphasis>: Nothing.</para><para><emphasis role="bold">Complexity</emphasis>: Linear to the number of elements in the vector. </para></description></method>
 <method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size().</para><para><emphasis role="bold">Effects</emphasis>: Calls replace(pos1, n1, str.data(), str.size()).</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws or out_of_range if pos1 &gt; size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
-<method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size().</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to be inserted as the smaller of n2 and str.size() - pos2 and calls replace(pos1, n1, str.data() + pos2, rlen).</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws, out_of_range if pos1 &gt; size() or pos2 &gt; str.size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="replace"><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Calls <computeroutput>return replace(pos1, n1, sv.data(), sv.size());</computeroutput>. </para></description></method>
+<method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size().</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to be inserted as the smaller of n2 and str.size() - pos2 and calls replace(pos1, n1, str.data() + pos2, rlen).</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws, out_of_range if pos1 &gt; size() or pos2 &gt; str.size().</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="replace"><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size() or pos2 &gt; sv.size().</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to be inserted as the smaller of n2 and sv.size() - pos2 and calls <computeroutput>replace(pos1, n1, sv.data() + pos2, rlen)</computeroutput>.</para><para><emphasis role="bold">Returns</emphasis>: *this. </para></description></method>
 <method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and s points to an array of at least n2 elements of CharT.</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length xlen of the string to be removed as the smaller of n1 and size() - pos1. If size() - xlen &gt;= max_size() - n2 throws length_error. Otherwise, the function replaces the string controlled by *this with a string of length size() - xlen + n2 whose first pos1 elements are a copy of the initial elements of the original string controlled by *this, whose next n2 elements are a copy of the initial n2 elements of s, and whose remaining elements are a copy of the elements of the original string controlled by *this beginning at position pos + xlen.</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws, out_of_range if pos1 &gt; size() or length_error if the length of the resulting string would exceed max_size()</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and s points to an array of at least n2 elements of CharT.</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length xlen of the string to be removed as the smaller of n1 and size() - pos1. If size() - xlen &gt;= max_size() - n2 throws length_error. Otherwise, the function replaces the string controlled by *this with a string of length size() - xlen + n2 whose first pos1 elements are a copy of the initial elements of the original string controlled by *this, whose next n2 elements are a copy of the initial n2 elements of s, and whose remaining elements are a copy of the elements of the original string controlled by *this beginning at position pos + xlen.</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws, out_of_range if pos1 &gt; size() or length_error if the length of the resulting string would exceed max_size()</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
 <method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype></parameter><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size().</para><para><emphasis role="bold">Effects</emphasis>: Equivalent to replace(pos1, n1, basic_string(n2, c)).</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws, out_of_range if pos1 &gt; size() or length_error if the length of the resulting string would exceed max_size()</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
@@ -4920,38 +5386,76 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <method name="replace"><type><classname>basic_string</classname> &amp;</type><template>
           <template-type-parameter name="InputIter"/>
         </template><parameter name="i1"><paramtype>const_iterator</paramtype></parameter><parameter name="i2"><paramtype>const_iterator</paramtype></parameter><parameter name="j1"><paramtype>InputIter</paramtype></parameter><parameter name="j2"><paramtype>InputIter</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: [begin(),i1), [i1,i2) and [j1,j2) are valid ranges.</para><para><emphasis role="bold">Effects</emphasis>: Calls replace(i1 - begin(), i2 - i1, basic_string(j1, j2)).</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws</para><para><emphasis role="bold">Returns</emphasis>: *this </para></description></method>
+<method name="replace"><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="i1"><paramtype>const_iterator</paramtype></parameter><parameter name="i2"><paramtype>const_iterator</paramtype></parameter><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: [begin(), i1) and [i1, i2) are valid ranges.</para><para><emphasis role="bold">Effects</emphasis>: Calls <computeroutput>replace(i1 - begin(), i2 - i1, sv).</computeroutput>.</para><para>&lt;bReturns: *this. </para></description></method>
+<method name="replace"><type><classname>basic_string</classname> &amp;</type><parameter name="i1"><paramtype>const_iterator</paramtype></parameter><parameter name="i2"><paramtype>const_iterator</paramtype></parameter><parameter name="il"><paramtype>std::initializer_list&lt; CharT &gt;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: [begin(), i1) and [i1, i2) are valid ranges.</para><para><emphasis role="bold">Effects</emphasis>: Calls replace(i1 - begin(), i2 - i1, il.begin(), il.size()).</para><para>&lt;bReturns: *this. </para></description></method>
 <method name="copy" cv="const"><type>size_type</type><parameter name="s"><paramtype>CharT *</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of n and size() - pos. s shall designate an array of at least rlen elements. The function then replaces the string designated by s with a string of length rlen whose elements are a copy of the string controlled by *this beginning at position pos. The function does not append a null object to the string designated by s.</para><para><emphasis role="bold">Throws</emphasis>: if memory allocation throws, out_of_range if pos &gt; size().</para><para><emphasis role="bold">Returns</emphasis>: rlen </para></description></method>
 <method name="swap" cv="noexcept(allocator_traits_type::propagate_on_container_swap::value||allocator_traits_type::is_always_equal::value))"><type>void</type><parameter name="x"><paramtype><classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: *this contains the same sequence of characters that was in s, s contains the same sequence of characters that was in *this.</para><para><emphasis role="bold">Throws</emphasis>: Nothing </para></description></method>
 <method name="c_str" cv="const noexcept"><type>const CharT *</type><description><para><emphasis role="bold">Requires</emphasis>: The program shall not alter any of the values stored in the character array.</para><para><emphasis role="bold">Returns</emphasis>: A pointer p such that p + i == &amp;operator[](i) for each i in [0,size()].</para><para><emphasis role="bold">Complexity</emphasis>: constant time. </para></description></method>
 <method name="data" cv="const noexcept"><type>const CharT *</type><description><para><emphasis role="bold">Requires</emphasis>: The program shall not alter any of the values stored in the character array.</para><para><emphasis role="bold">Returns</emphasis>: A pointer p such that p + i == &amp;operator[](i) for each i in [0,size()].</para><para><emphasis role="bold">Complexity</emphasis>: constant time. </para></description></method>
-<method name="find" cv="const"><type>size_type</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions obtain: 19 pos &lt;= xpos and xpos + str.size() &lt;= size(); 2) traits::eq(at(xpos+I), str.at(I)) for all elements I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="data" cv="noexcept"><type>CharT *</type><description><para><emphasis role="bold">Returns</emphasis>: A pointer p such that p + i == &amp;operator[](i) for each i in [0,size()].</para><para><emphasis role="bold">Complexity</emphasis>: constant time. </para></description></method>
+<method name="conversion-operator" cv="const noexcept"><type>BasicStringView&lt; CharT, Traits &gt;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><description><para><emphasis role="bold">Returns</emphasis>: a string_view to the characters in the string.</para><para><emphasis role="bold">Complexity</emphasis>: constant time. </para></description></method>
+<method name="to_view" cv="const noexcept"><type>BasicStringView</type><template>
+          <template-type-parameter name="BasicStringView"/>
+        </template><description><para><emphasis role="bold">Returns</emphasis>: a string_view to the characters in the string.</para><para><emphasis role="bold">Complexity</emphasis>: constant time.</para><para><emphasis role="bold">Note</emphasis>: This function is available to write portable code for compilers that don't support templated conversion operators. </para></description></method>
+<method name="find" cv="const"><type>size_type</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions hold: 1) pos &lt;= xpos and xpos + str.size() &lt;= size(); 2) traits::eq(at(xpos+I), str.at(I)) for all elements I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="find" cv="const"><type>size_type</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions hold: 1) pos &lt;= xpos and xpos + sv.size() &lt;= size(); 2) traits::eq(at(xpos+I), sv.at(I)) for all elements I of the string controlled by sv.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
 <method name="find" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find(basic_string&lt;CharT,traits,Allocator&gt;(s,n),pos). </para></description></method>
 <method name="find" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find(basic_string(s), pos). </para></description></method>
 <method name="find" cv="const"><type>size_type</type><parameter name="c"><paramtype>CharT</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find(basic_string&lt;CharT,traits,Allocator&gt;(1,c), pos). </para></description></method>
 <method name="rfind" cv="const"><type>size_type</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the highest position xpos, if possible, such that both of the following conditions obtain: a) xpos &lt;= pos and xpos + str.size() &lt;= size(); b) traits::eq(at(xpos+I), str.at(I)) for all elements I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="rfind" cv="const"><type>size_type</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the highest position xpos, if possible, such that both of the following conditions obtain: a) xpos &lt;= pos and xpos + sv.size() &lt;= size(); b) traits::eq(at(xpos+I), sv.at(I)) for all elements I of the string controlled by sv.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
 <method name="rfind" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: rfind(basic_string(s, n), pos). </para></description></method>
 <method name="rfind" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos &lt;= size() and s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: rfind(basic_string(s), pos). </para></description></method>
 <method name="rfind" cv="const"><type>size_type</type><parameter name="c"><paramtype>CharT</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: rfind(basic_string&lt;CharT,traits,Allocator&gt;(1,c),pos). </para></description></method>
-<method name="find_first_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions obtain: a) pos &lt;= xpos and xpos &lt; size(); b) traits::eq(at(xpos), str.at(I)) for some element I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="find_first_of" cv="const"><type>size_type</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions obtain: a) pos &lt;= xpos and xpos &lt; size(); b) traits::eq(at(xpos), str.at(I)) for some element I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="find_first_of" cv="const"><type>size_type</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions obtain: a) pos &lt;= xpos and xpos &lt; size(); b) traits::eq(at(xpos), sv.at(I)) for some element I of the string controlled by sv.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
 <method name="find_first_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_first_of(basic_string(s, n), pos). </para></description></method>
 <method name="find_first_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_first_of(basic_string(s), pos). </para></description></method>
 <method name="find_first_of" cv="const"><type>size_type</type><parameter name="c"><paramtype>CharT</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_first_of(basic_string&lt;CharT,traits,Allocator&gt;(1,c), pos). </para></description></method>
 <method name="find_last_of" cv="const"><type>size_type</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the highest position xpos, if possible, such that both of the following conditions obtain: a) xpos &lt;= pos and xpos &lt; size(); b) traits::eq(at(xpos), str.at(I)) for some element I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="find_last_of" cv="const"><type>size_type</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the highest position xpos, if possible, such that both of the following conditions obtain: a) xpos &lt;= pos and xpos &lt; size(); b) traits::eq(at(xpos), str.at(I)) for some element I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
 <method name="find_last_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_last_of(basic_string(s, n), pos). </para></description></method>
 <method name="find_last_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_last_of(basic_string&lt;CharT,traits,Allocator&gt;(1,c),pos). </para></description></method>
 <method name="find_last_of" cv="const"><type>size_type</type><parameter name="c"><paramtype>CharT</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_last_of(basic_string(s), pos). </para></description></method>
 <method name="find_first_not_of" cv="const"><type>size_type</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions obtain: a) pos &lt;= xpos and xpos &lt; size(); b) traits::eq(at(xpos), str.at(I)) for no element I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="find_first_not_of" cv="const"><type>size_type</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the lowest position xpos, if possible, such that both of the following conditions obtain: a) pos &lt;= xpos and xpos &lt; size(); b) traits::eq(at(xpos), sv.at(I)) for no element I of the string controlled by sv.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
 <method name="find_first_not_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_first_not_of(basic_string(s, n), pos). </para></description></method>
 <method name="find_first_not_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_first_not_of(basic_string(s), pos). </para></description></method>
 <method name="find_first_not_of" cv="const"><type>size_type</type><parameter name="c"><paramtype>CharT</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_first_not_of(basic_string(1, c), pos). </para></description></method>
 <method name="find_last_not_of" cv="const"><type>size_type</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the highest position xpos, if possible, such that both of the following conditions obtain: a) xpos &lt;= pos and xpos &lt; size(); b) traits::eq(at(xpos), str.at(I)) for no element I of the string controlled by str.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
+<method name="find_last_not_of" cv="const"><type>size_type</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the highest position xpos, if possible, such that both of the following conditions obtain: a) xpos &lt;= pos and xpos &lt; size(); b) traits::eq(at(xpos), sv.at(I)) for no element I of the string controlled by sv.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: xpos if the function can determine such a value for xpos. Otherwise, returns npos. </para></description></method>
 <method name="find_last_not_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype></parameter><parameter name="n"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least n elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_last_not_of(basic_string(s, n), pos). </para></description></method>
 <method name="find_last_not_of" cv="const"><type>size_type</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_last_not_of(basic_string(s), pos). </para></description></method>
 <method name="find_last_not_of" cv="const"><type>size_type</type><parameter name="c"><paramtype>CharT</paramtype></parameter><parameter name="pos"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: find_last_not_of(basic_string(1, c), pos). </para></description></method>
 <method name="substr" cv="const"><type><classname>basic_string</classname></type><parameter name="pos"><paramtype>size_type</paramtype><default>0</default></parameter><parameter name="n"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: Requires: pos &lt;= size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of n and size() - pos.</para><para><emphasis role="bold">Throws</emphasis>: If memory allocation throws or out_of_range if pos &gt; size().</para><para><emphasis role="bold">Returns</emphasis>: basic_string&lt;CharT,traits,Allocator&gt;(data()+pos,rlen). </para></description></method>
-<method name="compare" cv="const"><type>int</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of size() and str.size(). The function then compares the two strings by calling traits::compare(data(), str.data(), rlen).</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: The nonzero result if the result of the comparison is nonzero. Otherwise, returns a value &lt; 0 if size() &lt; str.size(), a 0 value if size() == str.size(), and value &gt; 0 if size() &gt; str.size() </para></description></method>
-<method name="compare" cv="const"><type>int</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size()</para><para><emphasis role="bold">Returns</emphasis>:basic_string(*this,pos1,n1).compare(str). </para></description></method>
-<method name="compare" cv="const"><type>int</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size() or pos2 &gt; str.size()</para><para><emphasis role="bold">Returns</emphasis>: basic_string(*this, pos1, n1).compare(basic_string(str, pos2, n2)). </para></description></method>
+<method name="compare" cv="const"><type>int</type><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to compare as the smaller of size() and str.size(). The function then compares the two strings by calling traits::compare(data(), str.data(), rlen).</para><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: The nonzero result if the result of the comparison is nonzero. Otherwise, returns a value &lt; 0 if size() &lt; str.size(), a 0 value if size() == str.size(), and value &gt; 0 if size() &gt; str.size() </para></description></method>
+<method name="compare" cv="const"><type>int</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: compare(basic_string(sv)). </para></description></method>
+<method name="compare" cv="const"><type>int</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to compare as the smaller of (this-&gt;size() - pos1), n1 and str.size(). The function then compares the two strings by calling traits::compare(data()+pos1, str.data(), rlen).</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size()</para><para><emphasis role="bold">Returns</emphasis>:basic_string(*this,pos1,n1).compare(str). </para></description></method>
+<method name="compare" cv="const"><type>int</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size()</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size()</para><para><emphasis role="bold">Returns</emphasis>:basic_string(*this,pos1,n1).compare(sv). </para></description></method>
+<method name="compare" cv="const"><type>int</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="str"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype><default>npos</default></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size() or pos2 &gt; str.size()</para><para><emphasis role="bold">Returns</emphasis>: basic_string(*this, pos1, n1).compare(basic_string(str, pos2, n2)). </para></description></method>
+<method name="compare" cv="const"><type>int</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="pos2"><paramtype>size_type</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &lt;= size() and pos2 &lt;= str.size()</para><para><emphasis role="bold">Effects</emphasis>: Determines the effective length rlen of the string to copy as the smaller of</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size() or pos2 &gt; sv.size()</para><para><emphasis role="bold">Returns</emphasis>: basic_string(*this, pos1, n1).compare(BasicStringView&lt;CharT, Traits&gt;(sv, pos2, n2)). </para></description></method>
 <method name="compare" cv="const"><type>int</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Throws</emphasis>: Nothing</para><para><emphasis role="bold">Returns</emphasis>: compare(basic_string(s)). </para></description></method>
 <method name="compare" cv="const"><type>int</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter><parameter name="n2"><paramtype>size_type</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &gt; size() and s points to an array of at least n2 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size()</para><para><emphasis role="bold">Returns</emphasis>: basic_string(*this, pos, n1).compare(basic_string(s, n2)). </para></description></method>
 <method name="compare" cv="const"><type>int</type><parameter name="pos1"><paramtype>size_type</paramtype></parameter><parameter name="n1"><paramtype>size_type</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Requires</emphasis>: pos1 &gt; size() and s points to an array of at least traits::length(s) + 1 elements of CharT.</para><para><emphasis role="bold">Throws</emphasis>: out_of_range if pos1 &gt; size()</para><para><emphasis role="bold">Returns</emphasis>: basic_string(*this, pos, n1).compare(basic_string(s, n2)). </para></description></method>
@@ -4959,6 +5463,9 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <constructor cv="noexcept(container_detail::is_nothrow_default_constructible&lt; Allocator &gt;::value))"><description><para><emphasis role="bold">Effects</emphasis>: Default constructs a <classname alt="boost::container::basic_string">basic_string</classname>.</para><para><emphasis role="bold">Throws</emphasis>: If allocator_type's default constructor throws. </para></description></constructor>
 <constructor specifiers="explicit" cv="noexcept"><parameter name="a"><paramtype>const allocator_type &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Constructs a <classname alt="boost::container::basic_string">basic_string</classname> taking the allocator as parameter.</para><para><emphasis role="bold">Throws</emphasis>: Nothing </para></description></constructor>
 <constructor><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Copy constructs a <classname alt="boost::container::basic_string">basic_string</classname>.</para><para><emphasis role="bold">Postcondition</emphasis>: x == *this.</para><para><emphasis role="bold">Throws</emphasis>: If allocator_type's default constructor or allocation throws. </para></description></constructor>
+<constructor specifiers="explicit"><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="a"><paramtype>const Allocator &amp;</paramtype><default>Allocator()</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Same as <classname alt="boost::container::basic_string">basic_string</classname>(sv.data(), sv.size(), a).</para><para><emphasis role="bold">Throws</emphasis>: If allocator_type's default constructor or allocation throws. </para></description></constructor>
 <constructor cv="noexcept"><parameter name="s"><paramtype><classname>basic_string</classname> &amp;&amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Move constructor. Moves s's resources to *this.</para><para><emphasis role="bold">Throws</emphasis>: Nothing.</para><para><emphasis role="bold">Complexity</emphasis>: Constant. </para></description></constructor>
 <constructor><parameter name="s"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><parameter name="a"><paramtype>const allocator_type &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Copy constructs a <classname alt="boost::container::basic_string">basic_string</classname> using the specified allocator.</para><para><emphasis role="bold">Postcondition</emphasis>: x == *this.</para><para><emphasis role="bold">Throws</emphasis>: If allocation throws. </para></description></constructor>
 <constructor><parameter name="s"><paramtype><classname>basic_string</classname> &amp;&amp;</paramtype></parameter><parameter name="a"><paramtype>const allocator_type &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Move constructor using the specified allocator. Moves s's resources to *this.</para><para><emphasis role="bold">Throws</emphasis>: If allocation throws.</para><para><emphasis role="bold">Complexity</emphasis>: Constant if a == s.get_allocator(), linear otherwise. </para></description></constructor>
@@ -4978,11 +5485,16 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <constructor><template>
           <template-type-parameter name="InputIterator"/>
         </template><parameter name="f"><paramtype>InputIterator</paramtype></parameter><parameter name="l"><paramtype>InputIterator</paramtype></parameter><parameter name="a"><paramtype>const allocator_type &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Constructs a <classname alt="boost::container::basic_string">basic_string</classname> taking the allocator as parameter, and a range of iterators. </para></description></constructor>
+<constructor><parameter name="il"><paramtype>std::initializer_list&lt; value_type &gt;</paramtype></parameter><parameter name="a"><paramtype>const allocator_type &amp;</paramtype><default>allocator_type()</default></parameter><description><para><emphasis role="bold">Effects</emphasis>: Same as <classname alt="boost::container::basic_string">basic_string</classname>(il.begin(), il.end(), a). </para></description></constructor>
 <destructor><description><para><emphasis role="bold">Effects</emphasis>: Destroys the <classname alt="boost::container::basic_string">basic_string</classname>. All used memory is deallocated.</para><para><emphasis role="bold">Throws</emphasis>: Nothing.</para><para><emphasis role="bold">Complexity</emphasis>: Constant. </para></description></destructor>
 <copy-assignment><type><classname>basic_string</classname> &amp;</type><parameter name="x"><paramtype>const <classname>basic_string</classname> &amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Copy constructs a string.</para><para><emphasis role="bold">Postcondition</emphasis>: x == *this.</para><para><emphasis role="bold">Complexity</emphasis>: Linear to the elements x contains. </para></description></copy-assignment>
 <copy-assignment cv="noexcept(allocator_traits_type::propagate_on_container_move_assignment::value||allocator_traits_type::is_always_equal::value))"><type><classname>basic_string</classname> &amp;</type><parameter name="x"><paramtype><classname>basic_string</classname> &amp;&amp;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Move constructor. Moves x's resources to *this.</para><para><emphasis role="bold">Throws</emphasis>: If allocator_traits_type::propagate_on_container_move_assignment is false and allocation throws</para><para><emphasis role="bold">Complexity</emphasis>: Constant if allocator_traits_type:: propagate_on_container_move_assignment is true or this-&gt;get&gt;allocator() == x.get_allocator(). Linear otherwise. </para></description></copy-assignment>
-<copy-assignment><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><purpose><emphasis role="bold">Effects</emphasis>: Assignment from a null-terminated c-string. </purpose></copy-assignment>
-<copy-assignment><type><classname>basic_string</classname> &amp;</type><parameter name="c"><paramtype>CharT</paramtype></parameter><purpose><emphasis role="bold">Effects</emphasis>: Assignment from character. </purpose></copy-assignment>
+<copy-assignment><type><classname>basic_string</classname> &amp;</type><parameter name="s"><paramtype>const CharT *</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Assignment from a null-terminated c-string. </para></description></copy-assignment>
+<copy-assignment><type><classname>basic_string</classname> &amp;</type><parameter name="c"><paramtype>CharT</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Returns *this = basic_string(1, c). </para></description></copy-assignment>
+<copy-assignment><type><classname>basic_string</classname> &amp;</type><template>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="sv"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Equivalent to return assign(sv). </para></description></copy-assignment>
+<copy-assignment><type><classname>basic_string</classname> &amp;</type><parameter name="il"><paramtype>std::initializer_list&lt; CharT &gt;</paramtype></parameter><description><para><emphasis role="bold">Effects</emphasis>: Returns *this = basic_string(il); </para></description></copy-assignment>
 </class><typedef name="string"><description><para>Typedef for a <classname alt="boost::container::basic_string">basic_string</classname> of narrow characters </para></description><type><classname>basic_string</classname>&lt; char,std::char_traits&lt; char &gt;,<classname>new_allocator</classname>&lt; char &gt; &gt;</type></typedef>
 <typedef name="wstring"><description><para>Typedef for a <classname alt="boost::container::basic_string">basic_string</classname> of narrow characters </para></description><type><classname>basic_string</classname>&lt; wchar_t,std::char_traits&lt; wchar_t &gt;,<classname>new_allocator</classname>&lt; wchar_t &gt; &gt;</type></typedef>
 
@@ -5049,6 +5561,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
           <template-type-parameter name="Traits"/>
           <template-type-parameter name="Allocator"/>
         </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter></function>
+<function name="operator=="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="y"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter></function>
+<function name="operator=="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="y"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter></function>
 <function name="operator!="><type>bool</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5064,6 +5588,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
           <template-type-parameter name="Traits"/>
           <template-type-parameter name="Allocator"/>
         </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter></function>
+<function name="operator!="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="y"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter></function>
+<function name="operator!="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="y"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter></function>
 <function name="operator&lt;"><type>bool</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5079,6 +5615,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
           <template-type-parameter name="Traits"/>
           <template-type-parameter name="Allocator"/>
         </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter></function>
+<function name="operator&lt;"><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="y"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter></function>
+<function name="operator&lt;"><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="y"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter></function>
 <function name="operator&gt;"><type>bool</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5094,6 +5642,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
           <template-type-parameter name="Traits"/>
           <template-type-parameter name="Allocator"/>
         </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter></function>
+<function name="operator&gt;"><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="y"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter></function>
+<function name="operator&gt;"><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="y"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter></function>
 <function name="operator&lt;="><type>bool</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5109,6 +5669,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
           <template-type-parameter name="Traits"/>
           <template-type-parameter name="Allocator"/>
         </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter></function>
+<function name="operator&lt;="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="y"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter></function>
+<function name="operator&lt;="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="y"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter></function>
 <function name="operator&gt;="><type>bool</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5124,6 +5696,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
           <template-type-parameter name="Traits"/>
           <template-type-parameter name="Allocator"/>
         </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="s"><paramtype>const CharT *</paramtype></parameter></function>
+<function name="operator&gt;="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter><parameter name="y"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter></function>
+<function name="operator&gt;="><type>bool</type><template>
+          <template-type-parameter name="CharT"/>
+          <template-type-parameter name="Traits"/>
+          <template-type-parameter name="Allocator"/>
+          <template-nontype-parameter name="BasicStringView"><type>template&lt; class, class &gt; class</type></template-nontype-parameter>
+        </template><parameter name="x"><paramtype>const <classname>basic_string</classname>&lt; CharT, Traits, Allocator &gt; &amp;</paramtype></parameter><parameter name="y"><paramtype>BasicStringView&lt; CharT, Traits &gt;</paramtype></parameter></function>
 <function name="swap"><type>void</type><template>
           <template-type-parameter name="CharT"/>
           <template-type-parameter name="Traits"/>
@@ -5225,12 +5809,36 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
 <header name="boost/container/throw_exception.hpp">
 <namespace name="boost">
 <namespace name="container">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5378,6 +5986,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -5386,6 +6006,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 <namespace name="container">
 <struct name="erased_type"><description><para>The <computeroutput><classname alt="boost::container::erased_type">erased_type</classname></computeroutput> struct is an empty struct that serves as a placeholder for a type T in situations where the actual type T is determined at runtime. For example, the nested type, <computeroutput>allocator_type</computeroutput>, is an alias for <computeroutput><classname alt="boost::container::erased_type">erased_type</classname></computeroutput> in classes that use type-erased allocators. </para></description></struct><typedef name="allocator_arg_t"><description><para>The allocator_arg_t struct is an empty structure type used as a unique type to disambiguate constructor and function overloading. Specifically, several types have constructors with allocator_arg_t as the first argument, immediately followed by an argument of a type that satisfies Allocator requirements </para></description><type>unspecified</type></typedef>
 <data-member name="allocator_arg" specifiers="static"><type>allocator_arg_t</type><description><para>A instance of type allocator_arg_t </para></description></data-member>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5604,6 +6236,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </namespace>
 </namespace>
 </header>
@@ -5622,6 +6266,18 @@ std::out_of_range is thrown if out of bound access is performed in <computeroutp
 
 
 </namespace>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

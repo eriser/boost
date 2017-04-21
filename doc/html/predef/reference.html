@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../../../doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../index.html" title="The Boost C++ Libraries BoostBook Documentation Subset">
-<link rel="up" href="../predef.html" title="Chapter&#160;28.&#160;Boost.Predef 1.4.1">
+<link rel="up" href="../predef.html" title="Chapter&#160;28.&#160;Boost.Predef 1.5">
 <link rel="prev" href="adding_new_predefs.html" title="Adding new predefs">
 <link rel="next" href="check_utilities.html" title="Check Utilities">
 </head>
@@ -3157,6 +3157,19 @@
               </td>
 <td>
                 <p>
+                  V.R
+                </p>
+              </td>
+</tr>
+<tr>
+<td>
+                <p>
+                  <code class="computeroutput"><span class="identifier">__INTEL_COMPILER</span></code>
+                  and <code class="computeroutput"><span class="identifier">__INTEL_COMPILER_UPDATE</span></code>
+                </p>
+              </td>
+<td>
+                <p>
                   V.R.P
                 </p>
               </td>
@@ -3881,6 +3894,17 @@
               </td>
 </tr>
 </tbody>
+</table></div>
+<div class="note"><table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="../../../doc/src/images/note.png"></td>
+<th align="left">Note</th>
+</tr>
+<tr><td align="left" valign="top"><p>
+          Release of Visual Studio after 2015 will no longer be identified by Boost
+          Predef as the marketing version number. Instead we use the compiler version
+          number directly, i.e. the _MSC_VER number.
+        </p></td></tr>
 </table></div>
 <h5>
 <a name="predef.reference.boost_comp_compiler_macros.h28"></a>
@@ -8613,6 +8637,13 @@
             and patch numbers. And values over the ranges are truncated (modulo).
           </li>
 </ul></div>
+<pre class="programlisting"><span class="identifier">BOOST_VERSION_NUMBER_MAJOR</span><span class="special">(</span><span class="identifier">N</span><span class="special">),</span> <span class="identifier">BOOST_VERSION_NUMBER_MINOR</span><span class="special">(</span><span class="identifier">N</span><span class="special">),</span> <span class="identifier">BOOST_VERSION_NUMBER_PATCH</span><span class="special">(</span><span class="identifier">N</span><span class="special">)</span>
+</pre>
+<p>
+        The macros extract the major, minor, and patch portion from a well formed
+        version number resulting in a preprocessor expression in the range of [0,99]
+        or [0,99999] for the major and minor, or patch numbers respectively.
+      </p>
 <h5>
 <a name="predef.reference.version_definition_macros.h1"></a>
         <span class="phrase"><a name="predef.reference.version_definition_macros.boost_predef_make_macros"></a></span><a class="link" href="reference.html#predef.reference.version_definition_macros.boost_predef_make_macros"><code class="computeroutput"><span class="identifier">BOOST_PREDEF_MAKE_</span><span class="special">..</span></code>
@@ -8729,7 +8760,7 @@
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2005, 2008-2016 Rene Rivera<br>Copyright &#169; 2015 Charly Chevalier<br>Copyright &#169; 2015 Joel Falcou<p>
+<td align="right"><div class="copyright-footer">Copyright &#169; 2005-2016 Rene Rivera<br>Copyright &#169; 2015 Charly Chevalier<br>Copyright &#169; 2015 Joel Falcou<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

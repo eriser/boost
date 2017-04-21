@@ -139,6 +139,7 @@ boost_typetraits/reference/is_void.html
 boost_typetraits/reference/is_volatile.html
 boost_typetraits/reference/make_signed.html
 boost_typetraits/reference/make_unsigned.html
+boost_typetraits/reference/make_void.html
 boost_typetraits/reference/promote.html
 boost_typetraits/reference/rank.html
 boost_typetraits/reference/remove_all_extents.html

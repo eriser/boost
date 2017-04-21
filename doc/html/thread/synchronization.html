@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../../../doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../index.html" title="The Boost C++ Libraries BoostBook Documentation Subset">
-<link rel="up" href="../thread.html" title="Chapter&#160;37.&#160;Thread 4.7.2">
+<link rel="up" href="../thread.html" title="Chapter&#160;38.&#160;Thread 4.7.2">
 <link rel="prev" href="ScopedThreads.html" title="Scoped Threads">
 <link rel="next" href="thread_local_storage.html" title="Thread Local Storage">
 </head>
@@ -6094,8 +6094,8 @@
                 Locks the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.lockable" title="Lockable Concept"><code class="computeroutput"><span class="identifier">Lockable</span></code></a> objects supplied
                 as arguments in an unspecified and indeterminate order in a way that
                 avoids deadlock. It is safe to call this function concurrently from
-                multiple threads with the same mutexes (or other lockable objects)
-                in different orders without risk of deadlock. If any of the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.basic_lockable.lock" title="m.lock();"><code class="computeroutput"><span class="identifier">lock</span><span class="special">()</span></code></a>
+                multiple threads for any set of mutexes (or other lockable objects)
+                in any order without risk of deadlock. If any of the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.basic_lockable.lock" title="m.lock();"><code class="computeroutput"><span class="identifier">lock</span><span class="special">()</span></code></a>
                 or <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.lockable.try_lock" title="m.try_lock()"><code class="computeroutput"><span class="identifier">try_lock</span><span class="special">()</span></code></a>
                 operations on the supplied <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.lockable" title="Lockable Concept"><code class="computeroutput"><span class="identifier">Lockable</span></code></a> objects throws
                 an exception any locks acquired by the function will be released
@@ -6138,8 +6138,8 @@
                 Locks all the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.lockable" title="Lockable Concept"><code class="computeroutput"><span class="identifier">Lockable</span></code></a> objects in the
                 supplied range in an unspecified and indeterminate order in a way
                 that avoids deadlock. It is safe to call this function concurrently
-                from multiple threads with the same mutexes (or other lockable objects)
-                in different orders without risk of deadlock. If any of the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.basic_lockable.lock" title="m.lock();"><code class="computeroutput"><span class="identifier">lock</span><span class="special">()</span></code></a>
+                from multiple threads for any set of mutexes (or other lockable objects)
+                in any order without risk of deadlock. If any of the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.basic_lockable.lock" title="m.lock();"><code class="computeroutput"><span class="identifier">lock</span><span class="special">()</span></code></a>
                 or <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.lockable.try_lock" title="m.try_lock()"><code class="computeroutput"><span class="identifier">try_lock</span><span class="special">()</span></code></a>
                 operations on the <a class="link" href="synchronization.html#thread.synchronization.mutex_concepts.lockable" title="Lockable Concept"><code class="computeroutput"><span class="identifier">Lockable</span></code></a> objects in the
                 supplied range throws an exception any locks acquired by the function

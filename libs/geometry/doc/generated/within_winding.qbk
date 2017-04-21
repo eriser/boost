@@ -19,7 +19,7 @@
 Within detection using winding rule. 
 
 [heading Synopsis]
-``template<typename Point, typename PointOfSegment, typename CalculationType>
+``template<typename Point, typename PointOfSegment, typename SideStrategy, typename CalculationType>
 class strategy::within::winding
 {
   // ...
@@ -31,7 +31,25 @@ class strategy::within::winding
 [[Parameter] [Default] [Description]]
 [[typename Point] [] [Any type fulfilling a Point Concept ]]
 [[typename PointOfSegment] [Point] [segment point type ]]
+[[typename SideStrategy] [typename strategy::side::services::default_strategy <                                    typename cs_tag<Point>::type                                >::type] [Side strategy ]]
 [[typename CalculationType] [void] [numeric type for calculation (e.g. high precision); if [*void] then it is extracted automatically from the coordinate type and (if necessary) promoted to floating point ]]
+]
+
+[heading Constructor(s)]
+[table
+[[Function] [Description] [Parameters] ]
+[[``winding()``
+
+] [] [
+
+]]
+[[``winding(SideStrategy const & side_strategy)``
+
+] [] [[* SideStrategy const &]: ['side_strategy]:  
+
+
+
+]]
 ]
 
 [heading Member Function(s)]

@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../../../doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../index.html" title="The Boost C++ Libraries BoostBook Documentation Subset">
-<link rel="up" href="../thread.html" title="Chapter&#160;37.&#160;Thread 4.7.2">
+<link rel="up" href="../thread.html" title="Chapter&#160;38.&#160;Thread 4.7.2">
 <link rel="prev" href="thread_management.html" title="Thread Management">
 <link rel="next" href="synchronization.html" title="Synchronization">
 </head>
@@ -45,11 +45,12 @@
 <span class="keyword">struct</span> <span class="identifier">detach</span><span class="special">;</span>
 <span class="keyword">struct</span> <span class="identifier">join_if_joinable</span><span class="special">;</span>
 <span class="keyword">struct</span> <span class="identifier">interrupt_and_join_if_joinable</span><span class="special">;</span>
-<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span> <span class="special">=</span> <span class="identifier">join_if_joinable</span><span class="special">&gt;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span> <span class="special">=</span> <span class="identifier">join_if_joinable</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="identifier">thread</span><span class="special">&gt;</span>
 <span class="keyword">class</span> <span class="identifier">strict_scoped_thread</span><span class="special">;</span>
-<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span> <span class="special">=</span> <span class="identifier">join_if_joinable</span><span class="special">&gt;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span> <span class="special">=</span> <span class="identifier">join_if_joinable</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="identifier">thread</span><span class="special">&gt;</span>
 <span class="keyword">class</span> <span class="identifier">scoped_thread</span><span class="special">;</span>
-<span class="keyword">void</span> <span class="identifier">swap</span><span class="special">(</span><span class="identifier">scoped_thread</span><span class="special">&amp;</span> <span class="identifier">lhs</span><span class="special">,</span><span class="identifier">scoped_thread</span><span class="special">&amp;</span> <span class="identifier">rhs</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="identifier">thread</span><span class="special">&gt;</span>
+<span class="keyword">void</span> <span class="identifier">swap</span><span class="special">(</span><span class="identifier">scoped_thread</span><span class="special">&lt;</span><span class="identifier">Callable</span><span class="special">,</span> <span class="identifier">Thread</span><span class="special">&gt;&amp;</span> <span class="identifier">lhs</span><span class="special">,</span> <span class="identifier">scoped_threadCallable</span><span class="special">,</span> <span class="identifier">Thread</span><span class="special">&gt;&amp;</span> <span class="identifier">rhs</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 </pre>
 <div class="section">
 <div class="titlepage"><div><div><h3 class="title">
@@ -116,7 +117,8 @@
 </h4></div></div></div>
 <pre class="programlisting"><span class="keyword">struct</span> <span class="identifier">detach</span>
 <span class="special">{</span>
-  <span class="keyword">void</span> <span class="keyword">operator</span><span class="special">()(</span><span class="identifier">thread</span><span class="special">&amp;</span> <span class="identifier">t</span><span class="special">)</span>
+  <span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">Thread</span><span class="special">&gt;</span>
+  <span class="keyword">void</span> <span class="keyword">operator</span><span class="special">()(</span><span class="identifier">Thread</span><span class="special">&amp;</span> <span class="identifier">t</span><span class="special">)</span>
   <span class="special">{</span>
     <span class="identifier">t</span><span class="special">.</span><span class="identifier">detach</span><span class="special">();</span>
   <span class="special">}</span>
@@ -130,7 +132,8 @@
 </h4></div></div></div>
 <pre class="programlisting"><span class="keyword">struct</span> <span class="identifier">join_if_joinable</span>
 <span class="special">{</span>
-  <span class="keyword">void</span> <span class="keyword">operator</span><span class="special">()(</span><span class="identifier">thread</span><span class="special">&amp;</span> <span class="identifier">t</span><span class="special">)</span>
+  <span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">Thread</span><span class="special">&gt;</span>
+  <span class="keyword">void</span> <span class="keyword">operator</span><span class="special">()(</span><span class="identifier">Thread</span><span class="special">&amp;</span> <span class="identifier">t</span><span class="special">)</span>
   <span class="special">{</span>
     <span class="keyword">if</span> <span class="special">(</span><span class="identifier">t</span><span class="special">.</span><span class="identifier">joinable</span><span class="special">())</span>
     <span class="special">{</span>
@@ -147,7 +150,8 @@
 </h4></div></div></div>
 <pre class="programlisting"><span class="keyword">struct</span> <span class="identifier">interrupt_and_join_if_joinable</span>
 <span class="special">{</span>
-  <span class="keyword">void</span> <span class="keyword">operator</span><span class="special">()(</span><span class="identifier">thread</span><span class="special">&amp;</span> <span class="identifier">t</span><span class="special">)</span>
+  <span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">Thread</span><span class="special">&gt;</span>
+  <span class="keyword">void</span> <span class="keyword">operator</span><span class="special">()(</span><span class="identifier">Thread</span><span class="special">&amp;</span> <span class="identifier">t</span><span class="special">)</span>
   <span class="special">{</span>
     <span class="identifier">t</span><span class="special">.</span><span class="identifier">interrupt</span><span class="special">();</span>
     <span class="keyword">if</span> <span class="special">(</span><span class="identifier">t</span><span class="special">.</span><span class="identifier">joinable</span><span class="special">())</span>
@@ -172,7 +176,7 @@
 </dl></div>
 <pre class="programlisting"><span class="comment">// #include &lt;boost/thread/scoped_thread.hpp&gt;</span>
 
-<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span> <span class="special">=</span> <span class="identifier">join_if_joinable</span><span class="special">&gt;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span> <span class="special">=</span> <span class="identifier">join_if_joinable</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="special">::</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">thread</span><span class="special">&gt;</span>
 <span class="keyword">class</span> <span class="identifier">strict_scoped_thread</span>
 <span class="special">{</span>
   <span class="identifier">thread</span> <span class="identifier">t_</span><span class="special">;</span> <span class="comment">// for exposition purposes only</span>
@@ -181,7 +185,7 @@
   <span class="identifier">strict_scoped_thread</span><span class="special">(</span><span class="identifier">strict_scoped_thread</span> <span class="keyword">const</span><span class="special">&amp;)</span> <span class="special">=</span> <span class="keyword">delete</span><span class="special">;</span>
   <span class="identifier">strict_scoped_thread</span><span class="special">&amp;</span> <span class="keyword">operator</span><span class="special">=(</span><span class="identifier">strict_scoped_thread</span> <span class="keyword">const</span><span class="special">&amp;)</span> <span class="special">=</span> <span class="keyword">delete</span><span class="special">;</span>
 
-  <span class="keyword">explicit</span> <span class="identifier">strict_scoped_thread</span><span class="special">(</span><span class="identifier">thread</span><span class="special">&amp;&amp;</span> <span class="identifier">t</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <span class="identifier">strict_scoped_thread</span><span class="special">(</span><span class="identifier">Thread</span><span class="special">&amp;&amp;</span> <span class="identifier">t</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
   <span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">typename</span> <span class="identifier">F</span><span class="special">&amp;&amp;,</span> <span class="keyword">typename</span> <span class="special">...</span><span class="identifier">Args</span><span class="special">&gt;</span>
   <span class="keyword">explicit</span> <span class="identifier">strict_scoped_thread</span><span class="special">(</span><span class="identifier">F</span><span class="special">&amp;&amp;,</span> <span class="identifier">Args</span><span class="special">&amp;&amp;...);</span>
 
@@ -215,7 +219,7 @@
 <a name="thread.ScopedThreads.strict_scoped_thread.default_constructor"></a><a class="link" href="ScopedThreads.html#thread.ScopedThreads.strict_scoped_thread.default_constructor" title="Constructor from a thread">Constructor
         from a <code class="computeroutput"><span class="identifier">thread</span></code></a>
 </h4></div></div></div>
-<pre class="programlisting"><span class="keyword">explicit</span> <span class="identifier">strict_scoped_thread</span><span class="special">(</span><span class="identifier">thread</span><span class="special">&amp;&amp;</span> <span class="identifier">t</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+<pre class="programlisting"><span class="keyword">explicit</span> <span class="identifier">strict_scoped_thread</span><span class="special">(</span><span class="identifier">Thread</span><span class="special">&amp;&amp;</span> <span class="identifier">t</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
@@ -321,7 +325,7 @@
 </dl></div>
 <pre class="programlisting"><span class="preprocessor">#include</span> <span class="special">&lt;</span><span class="identifier">boost</span><span class="special">/</span><span class="identifier">thread</span><span class="special">/</span><span class="identifier">scoped_thread</span><span class="special">.</span><span class="identifier">hpp</span><span class="special">&gt;</span>
 
-<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span><span class="special">&gt;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="identifier">thread</span><span class="special">&gt;</span>
 <span class="keyword">class</span> <span class="identifier">scoped_thread</span>
 <span class="special">{</span>
   <span class="identifier">thread</span> <span class="identifier">t_</span><span class="special">;</span> <span class="comment">// for exposition purposes only</span>
@@ -371,7 +375,8 @@
 
 <span class="special">};</span>
 
-<span class="keyword">void</span> <span class="identifier">swap</span><span class="special">(</span><span class="identifier">scoped_thread</span><span class="special">&amp;</span> <span class="identifier">lhs</span><span class="special">,</span><span class="identifier">scoped_thread</span><span class="special">&amp;</span> <span class="identifier">rhs</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="identifier">thread</span><span class="special">&gt;</span>
+<span class="keyword">void</span> <span class="identifier">swap</span><span class="special">(</span><span class="identifier">scoped_thread</span><span class="special">&lt;</span><span class="identifier">CallableThread</span><span class="special">,</span><span class="identifier">Thread</span><span class="special">&gt;&amp;</span> <span class="identifier">lhs</span><span class="special">,</span><span class="identifier">scoped_thread</span><span class="special">&lt;</span><span class="identifier">CallableThread</span><span class="special">,</span><span class="identifier">Thread</span><span class="special">&gt;&amp;</span> <span class="identifier">rhs</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 </pre>
 <p>
         RAII <a class="link" href="thread_management.html#thread.thread_management.thread" title="Class thread"><code class="computeroutput"><span class="identifier">thread</span></code></a>
@@ -762,7 +767,8 @@
 </h3></div></div></div>
 <pre class="programlisting"><span class="preprocessor">#include</span> <span class="special">&lt;</span><span class="identifier">boost</span><span class="special">/</span><span class="identifier">thread</span><span class="special">/</span><span class="identifier">scoped_thread</span><span class="special">.</span><span class="identifier">hpp</span><span class="special">&gt;</span>
 
-<span class="keyword">void</span> <span class="identifier">swap</span><span class="special">(</span><span class="identifier">scoped_thread</span><span class="special">&amp;</span> <span class="identifier">lhs</span><span class="special">,</span><span class="identifier">scoped_thread</span><span class="special">&amp;</span> <span class="identifier">rhs</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+<span class="keyword">template</span> <span class="special">&lt;</span><span class="keyword">class</span> <span class="identifier">CallableThread</span><span class="special">,</span> <span class="keyword">class</span> <span class="identifier">Thread</span> <span class="special">=</span> <span class="identifier">thread</span><span class="special">&gt;</span>
+<span class="keyword">void</span> <span class="identifier">swap</span><span class="special">(</span><span class="identifier">scoped_thread</span><span class="special">&lt;</span><span class="identifier">Callable</span><span class="special">,</span> <span class="identifier">Thread</span><span class="special">&gt;&amp;</span> <span class="identifier">lhs</span><span class="special">,</span> <span class="identifier">scoped_threadCallable</span><span class="special">,</span> <span class="identifier">Thread</span><span class="special">&gt;&amp;</span> <span class="identifier">rhs</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>

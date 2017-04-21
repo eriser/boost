@@ -1,4 +1,79 @@
 #if 0
+#include <stdexcept>
+#include <iostream>
+#include <sstream>
+
+#include <boost/optional.hpp>
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/text_iarchive.hpp>
+#include <boost/serialization/optional.hpp>
+
+struct Foo
+{
+    Foo(int aBar) :
+        mBar(aBar)
+    {
+        if (mBar > 10)
+        {
+            throw std::logic_error("too big bar");
+        }
+    }
+    int bar() const
+    {
+        return mBar;
+    }
+    bool operator==(const Foo & rhs) const {
+        return mBar == rhs.mBar;
+    }
+private:
+    int mBar;
+};
+
+namespace boost {
+namespace serialization {
+
+template<class Archive>
+inline void serialize(Archive & ar, Foo& foo, const unsigned int /*version*/)
+{
+    std::cout << __FUNCTION__ << " called" << std::endl;
+}
+
+template<class Archive>
+inline void save_construct_data(Archive & ar, const Foo* foo, const unsigned int /*version*/)
+{
+    std::cout << __FUNCTION__ << " called" << std::endl;
+    ar & foo->bar();
+}
+
+template<class Archive>
+inline void load_construct_data(Archive & ar, Foo* foo, const unsigned int /*version*/)
+{
+    std::cout << __FUNCTION__ << " called" << std::endl;
+    int bar;
+    ar & bar;
+    ::new(foo) Foo(bar);
+}
+
+} // serialization
+} // boost
+
+
+int main()
+{
+    boost::optional<Foo> oldFoo = Foo(10);
+    std::ostringstream outStream;
+    boost::archive::text_oarchive outArchive(outStream);
+    outArchive & oldFoo;
+
+    boost::optional<Foo> newFoo;
+    std::istringstream inStream(outStream.str());
+    boost::archive::text_iarchive inArchive(inStream);
+    inArchive & newFoo;
+
+    return !(newFoo == oldFoo);
+}
+
+#elif 0
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // test_optional.cpp
 
@@ -63,7 +138,7 @@ int test_main( int /* argc */, char* /* argv */[] )
 
 // EOF
 
-#elseif 0
+#elif 0
 
 #include <fstream>
 

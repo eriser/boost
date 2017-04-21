@@ -37,12 +37,7 @@
   <span class="keyword">class</span> <a class="link" href="../../../boost/system_error.html" title="Class system_error">system_error</a><span class="special">;</span>
   <span class="keyword">namespace</span> <span class="identifier">fpe</span> <span class="special">{</span>
 
-    <span class="keyword">enum</span> <a name="boost.fpe.masks"></a>masks <span class="special">{</span> BOOST_FPE_OFF = = 0, BOOST_FPE_DIVBYZERO = = BOOST_FPE_OFF, 
-                 BOOST_FPE_INEXACT = = BOOST_FPE_OFF, 
-                 BOOST_FPE_INVALID = = BOOST_FPE_OFF, 
-                 BOOST_FPE_OVERFLOW = = BOOST_FPE_OFF, 
-                 BOOST_FPE_UNDERFLOW = = BOOST_FPE_OFF, 
-                 BOOST_FPE_ALL = = BOOST_FPE_OFF, 
+    <span class="keyword">enum</span> <a name="boost.fpe.masks"></a>masks <span class="special">{</span> BOOST_FPE_OFF = = 0, BOOST_FPE_ALL = = BOOST_FPE_OFF, 
                  BOOST_FPE_INV = = BOOST_FPE_ALL+1 <span class="special">}</span><span class="special">;</span>
     <span class="keyword">unsigned</span> <a name="boost.fpe.enable"></a><span class="identifier">enable</span><span class="special">(</span><span class="keyword">unsigned</span> mask<span class="special">)</span><span class="special">;</span>
     <span class="keyword">unsigned</span> <a name="boost.fpe.disable"></a><span class="identifier">disable</span><span class="special">(</span><span class="keyword">unsigned</span> mask<span class="special">)</span><span class="special">;</span>

@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Tweaking</title>
 <link rel="stylesheet" href="../../../../../../doc/src/boostbook.css" type="text/css">
-<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Fiber">
 <link rel="up" href="../performance.html" title="Performance">
 <link rel="prev" href="../performance.html" title="Performance">
@@ -35,7 +35,7 @@
       </p>
 <h5>
 <a name="fiber.performance.tweaking.h0"></a>
-        <span><a name="fiber.performance.tweaking.disable_synchronization"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.disable_synchronization">disable
+        <span class="phrase"><a name="fiber.performance.tweaking.disable_synchronization"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.disable_synchronization">disable
         synchronization</a>
       </h5>
 <p>
@@ -46,7 +46,7 @@
       </p>
 <h5>
 <a name="fiber.performance.tweaking.h1"></a>
-        <span><a name="fiber.performance.tweaking.ttas_locks"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.ttas_locks">TTAS
+        <span class="phrase"><a name="fiber.performance.tweaking.ttas_locks"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.ttas_locks">TTAS
         locks</a>
       </h5>
 <p>
@@ -56,7 +56,7 @@
       </p>
 <h5>
 <a name="fiber.performance.tweaking.h2"></a>
-        <span><a name="fiber.performance.tweaking.spin_wait_loop"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.spin_wait_loop">spin-wait
+        <span class="phrase"><a name="fiber.performance.tweaking.spin_wait_loop"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.spin_wait_loop">spin-wait
         loop</a>
       </h5>
 <p>
@@ -66,7 +66,7 @@
         again. While busy waiting on the lock, relaxing the CPU (via pause/yield
         memnonic) gives the CPU a hint that the code is in a spin-wait loop.
       </p>
-<div class="itemizedlist"><ul class="itemizedlist" type="disc">
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
             prevents expensive pipeline flushes (speculatively executed load and
             compare instructions are not pushed to pipeline)
@@ -79,7 +79,7 @@
           </li>
 </ul></div>
 <p>
-        It is obvious that this strategy is useless on single core syste&#181;s because
+        It is obvious that this strategy is useless on single core systems because
         the lock can only released if the thread gives up its time slice in order
         to let other threads run. The macro BOOST_FIBERS_SPIN_SINGLE_CORE disables
         active spinning, in other words, the operating system is notified (via <code class="computeroutput"><span class="identifier">std</span><span class="special">::</span><span class="identifier">this_thread_yield</span><span class="special">()</span></code>) that the thread gives up its time slice
@@ -87,7 +87,7 @@
       </p>
 <h5>
 <a name="fiber.performance.tweaking.h3"></a>
-        <span><a name="fiber.performance.tweaking.exponential_back_off"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.exponential_back_off">exponential
+        <span class="phrase"><a name="fiber.performance.tweaking.exponential_back_off"></a></span><a class="link" href="tweaking.html#fiber.performance.tweaking.exponential_back_off">exponential
         back-off</a>
       </h5>
 <p>
@@ -101,7 +101,7 @@
         futex.
       </p>
 <div class="table">
-<a name="fiber.performance.tweaking.macros_for_tweaking"></a><p class="title"><b>Table&#160;1.3.&#160;macros for tweaking</b></p>
+<a name="fiber.performance.tweaking.macros_for_tweaking"></a><p class="title"><b>Table&#160;1.4.&#160;macros for tweaking</b></p>
 <div class="table-contents"><table class="table" summary="macros for tweaking">
 <colgroup>
 <col>

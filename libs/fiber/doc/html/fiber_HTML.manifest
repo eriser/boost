@@ -6,6 +6,7 @@ fiber/fiber_mgmt/id.html
 fiber/fiber_mgmt/this_fiber.html
 fiber/scheduling.html
 fiber/stack.html
+fiber/stack/valgrind.html
 fiber/synchronization.html
 fiber/synchronization/mutex_types.html
 fiber/synchronization/conditions.html
@@ -13,7 +14,6 @@ fiber/synchronization/barriers.html
 fiber/synchronization/channels.html
 fiber/synchronization/channels/buffered_channel.html
 fiber/synchronization/channels/unbuffered_channel.html
-fiber/synchronization/channels/channels.html
 fiber/synchronization/futures.html
 fiber/synchronization/futures/future.html
 fiber/synchronization/futures/promise.html

@@ -1470,7 +1470,7 @@ em.register_exception_translator&lt;MyException&gt;( myExceptTr );
 </method-group>
 <constructor specifiers="explicit"><parameter name="exp"><paramtype>char const *</paramtype></parameter></constructor>
 </class><namespace name="fpe">
-<enum name="masks"><enumvalue name="BOOST_FPE_OFF"><default>= 0</default></enumvalue><enumvalue name="BOOST_FPE_DIVBYZERO"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_INEXACT"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_INVALID"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_OVERFLOW"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_UNDERFLOW"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_ALL"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_INV"><default>= BOOST_FPE_ALL+1</default></enumvalue></enum>
+<enum name="masks"><enumvalue name="BOOST_FPE_OFF"><default>= 0</default></enumvalue><enumvalue name="BOOST_FPE_ALL"><default>= BOOST_FPE_OFF</default></enumvalue><enumvalue name="BOOST_FPE_INV"><default>= BOOST_FPE_ALL+1</default></enumvalue></enum>
 <function name="enable"><type>unsigned</type><parameter name="mask"><paramtype>unsigned</paramtype></parameter></function>
 <function name="disable"><type>unsigned</type><parameter name="mask"><paramtype>unsigned</paramtype></parameter></function>
 </namespace>
@@ -2545,31 +2545,34 @@ Users/developers willing to implement their own formatter need to:<itemizedlist>
 <method name="ref" cv="const"><type>std::ostream &amp;</type></method>
 </method-group>
 <constructor specifiers="explicit"><parameter name="default_stream"><paramtype>std::ostream &amp;</paramtype><default>std::cout</default></parameter></constructor>
-</class><data-member name="AUTO_START_DBG"><type>std::string</type></data-member>
-<data-member name="BREAK_EXEC_PATH"><type>std::string</type></data-member>
-<data-member name="BUILD_INFO"><type>std::string</type></data-member>
-<data-member name="CATCH_SYS_ERRORS"><type>std::string</type></data-member>
-<data-member name="COLOR_OUTPUT"><type>std::string</type></data-member>
-<data-member name="DETECT_FP_EXCEPT"><type>std::string</type></data-member>
-<data-member name="DETECT_MEM_LEAKS"><type>std::string</type></data-member>
-<data-member name="LIST_CONTENT"><type>std::string</type></data-member>
-<data-member name="LIST_LABELS"><type>std::string</type></data-member>
-<data-member name="COMBINED_LOGGER"><type>std::string</type></data-member>
-<data-member name="LOG_FORMAT"><type>std::string</type></data-member>
-<data-member name="LOG_LEVEL"><type>std::string</type></data-member>
-<data-member name="LOG_SINK"><type>std::string</type></data-member>
-<data-member name="OUTPUT_FORMAT"><type>std::string</type></data-member>
-<data-member name="RANDOM_SEED"><type>std::string</type></data-member>
-<data-member name="REPORT_FORMAT"><type>std::string</type></data-member>
-<data-member name="REPORT_LEVEL"><type>std::string</type></data-member>
-<data-member name="REPORT_MEM_LEAKS"><type>std::string</type></data-member>
-<data-member name="REPORT_SINK"><type>std::string</type></data-member>
-<data-member name="RESULT_CODE"><type>std::string</type></data-member>
-<data-member name="RUN_FILTERS"><type>std::string</type></data-member>
-<data-member name="SAVE_TEST_PATTERN"><type>std::string</type></data-member>
-<data-member name="SHOW_PROGRESS"><type>std::string</type></data-member>
-<data-member name="USE_ALT_STACK"><type>std::string</type></data-member>
-<data-member name="WAIT_FOR_DEBUGGER"><type>std::string</type></data-member>
+</class><data-member name="btrt_auto_start_dbg"><type>std::string</type></data-member>
+<data-member name="btrt_break_exec_path"><type>std::string</type></data-member>
+<data-member name="btrt_build_info"><type>std::string</type></data-member>
+<data-member name="btrt_catch_sys_errors"><type>std::string</type></data-member>
+<data-member name="btrt_color_output"><type>std::string</type></data-member>
+<data-member name="btrt_detect_fp_except"><type>std::string</type></data-member>
+<data-member name="btrt_detect_mem_leaks"><type>std::string</type></data-member>
+<data-member name="btrt_list_content"><type>std::string</type></data-member>
+<data-member name="btrt_list_labels"><type>std::string</type></data-member>
+<data-member name="btrt_log_format"><type>std::string</type></data-member>
+<data-member name="btrt_log_level"><type>std::string</type></data-member>
+<data-member name="btrt_log_sink"><type>std::string</type></data-member>
+<data-member name="btrt_combined_logger"><type>std::string</type></data-member>
+<data-member name="btrt_output_format"><type>std::string</type></data-member>
+<data-member name="btrt_random_seed"><type>std::string</type></data-member>
+<data-member name="btrt_report_format"><type>std::string</type></data-member>
+<data-member name="btrt_report_level"><type>std::string</type></data-member>
+<data-member name="btrt_report_mem_leaks"><type>std::string</type></data-member>
+<data-member name="btrt_report_sink"><type>std::string</type></data-member>
+<data-member name="btrt_result_code"><type>std::string</type></data-member>
+<data-member name="btrt_run_filters"><type>std::string</type></data-member>
+<data-member name="btrt_save_test_pattern"><type>std::string</type></data-member>
+<data-member name="btrt_show_progress"><type>std::string</type></data-member>
+<data-member name="btrt_use_alt_stack"><type>std::string</type></data-member>
+<data-member name="btrt_wait_for_debugger"><type>std::string</type></data-member>
+<data-member name="btrt_help"><type>std::string</type></data-member>
+<data-member name="btrt_usage"><type>std::string</type></data-member>
+<data-member name="btrt_version"><type>std::string</type></data-member>
 <function name="init"><type>void</type><parameter name="argc"><paramtype>int &amp;</paramtype></parameter><parameter name="argv"><paramtype>char **</paramtype></parameter></function>
 <function name="argument_store"><type>runtime::arguments_store const &amp;</type><purpose>Access to arguments. </purpose></function>
 <function name="get"><type>T const &amp;</type><template>

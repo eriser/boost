@@ -27,15 +27,35 @@
 <a name="context.ecv1"></a><a name="ecv1"></a><a class="link" href="ecv1.html" title="Class execution_context (version 1)">Class execution_context
     (version 1)</a>
 </h2></div></div></div>
+<div class="warning"><table border="0" summary="Warning">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25"><img alt="[Warning]" src="../../../../../doc/src/images/warning.png"></td>
+<th align="left">Warning</th>
+</tr>
+<tr><td align="left" valign="top"><p>
+        <span class="emphasis"><em>execution_context</em></span> is deprecated.
+      </p></td></tr>
+</table></div>
 <div class="note"><table border="0" summary="Note">
 <tr>
 <td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="../../../../../doc/src/images/note.png"></td>
 <th align="left">Note</th>
 </tr>
 <tr><td align="left" valign="top"><p>
-        This class is only enabled if property <span class="emphasis"><em>segmented-stacks=on</em></span>
-        (enables segmented stacks) or compiler flag <span class="emphasis"><em>BOOST_EXECUTION_CONTEXT=1</em></span>
-        is specified at b2-commandline.
+        Include <code class="computeroutput"><span class="identifier">execution_context</span><span class="special">.</span><span class="identifier">hpp</span></code> and
+        pass define BOOST_EXECUTION_CONTEXT=1 at compilers command-line in order
+        to use <span class="emphasis"><em>execution_context</em></span> (v1).
+      </p></td></tr>
+</table></div>
+<div class="note"><table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="../../../../../doc/src/images/note.png"></td>
+<th align="left">Note</th>
+</tr>
+<tr><td align="left" valign="top"><p>
+        Segmented stacks (<span class="emphasis"><em>segmented-stacks=on</em></span>), e.g. on demand
+        growing stacks, can only be used with <span class="emphasis"><em>execution_context</em></span>
+        (v1).
       </p></td></tr>
 </table></div>
 <p>

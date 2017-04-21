@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Scheduling</title>
 <link rel="stylesheet" href="../../../../../doc/src/boostbook.css" type="text/css">
-<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../index.html" title="Chapter&#160;1.&#160;Fiber">
 <link rel="up" href="../index.html" title="Chapter&#160;1.&#160;Fiber">
 <link rel="prev" href="fiber_mgmt/this_fiber.html" title="Namespace this_fiber">
@@ -66,7 +66,7 @@
       </p>
 <h5>
 <a name="class_algorithm_bridgehead"></a>
-  <span><a name="class_algorithm"></a></span>
+  <span class="phrase"><a name="class_algorithm"></a></span>
   <a class="link" href="scheduling.html#class_algorithm">Class <code class="computeroutput">algorithm</code></a>
 </h5>
 <p>
@@ -101,7 +101,7 @@
       </p>
 <h5>
 <a name="algorithm_awakened_bridgehead"></a>
-  <span><a name="algorithm_awakened"></a></span>
+  <span class="phrase"><a name="algorithm_awakened"></a></span>
   <a class="link" href="scheduling.html#algorithm_awakened">Member function
       <code class="computeroutput">awakened</code>()</a>
 </h5>
@@ -111,7 +111,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs the scheduler that fiber <code class="computeroutput"><span class="identifier">f</span></code>
@@ -135,7 +135,7 @@
       </p>
 <h5>
 <a name="algorithm_pick_next_bridgehead"></a>
-  <span><a name="algorithm_pick_next"></a></span>
+  <span class="phrase"><a name="algorithm_pick_next"></a></span>
   <a class="link" href="scheduling.html#algorithm_pick_next">Member
       function <code class="computeroutput">pick_next</code>()</a>
 </h5>
@@ -145,7 +145,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             the fiber which is to be resumed next, or <code class="computeroutput"><span class="keyword">nullptr</span></code>
@@ -167,7 +167,7 @@
       </p>
 <h5>
 <a name="algorithm_has_ready_fibers_bridgehead"></a>
-  <span><a name="algorithm_has_ready_fibers"></a></span>
+  <span class="phrase"><a name="algorithm_has_ready_fibers"></a></span>
   <a class="link" href="scheduling.html#algorithm_has_ready_fibers">Member
       function <code class="computeroutput">has_ready_fibers</code>()</a>
 </h5>
@@ -177,7 +177,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if scheduler has fibers
@@ -189,7 +189,7 @@
       </p>
 <h5>
 <a name="algorithm_suspend_until_bridgehead"></a>
-  <span><a name="algorithm_suspend_until"></a></span>
+  <span class="phrase"><a name="algorithm_suspend_until"></a></span>
   <a class="link" href="scheduling.html#algorithm_suspend_until">Member
       function <code class="computeroutput">suspend_until</code>()</a>
 </h5>
@@ -199,7 +199,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs the scheduler that no fiber will be ready until time-point <code class="computeroutput"><span class="identifier">abs_time</span></code>.
@@ -230,7 +230,7 @@
       </p>
 <h5>
 <a name="algorithm_notify_bridgehead"></a>
-  <span><a name="algorithm_notify"></a></span>
+  <span class="phrase"><a name="algorithm_notify"></a></span>
   <a class="link" href="scheduling.html#algorithm_notify">Member function
       <code class="computeroutput">notify</code>()</a>
 </h5>
@@ -240,7 +240,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Requests the scheduler to return from a pending call to <a class="link" href="scheduling.html#algorithm_suspend_until"><code class="computeroutput">algorithm::suspend_until()</code></a>.
@@ -259,7 +259,7 @@
       </p>
 <h5>
 <a name="class_round_robin_bridgehead"></a>
-  <span><a name="class_round_robin"></a></span>
+  <span class="phrase"><a name="class_round_robin"></a></span>
   <a class="link" href="scheduling.html#class_round_robin">Class <code class="computeroutput">round_robin</code></a>
 </h5>
 <p>
@@ -292,7 +292,7 @@
       </p>
 <h5>
 <a name="round_robin_awakened_bridgehead"></a>
-  <span><a name="round_robin_awakened"></a></span>
+  <span class="phrase"><a name="round_robin_awakened"></a></span>
   <a class="link" href="scheduling.html#round_robin_awakened">Member
       function <code class="computeroutput">awakened</code>()</a>
 </h5>
@@ -302,7 +302,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Enqueues fiber <code class="computeroutput"><span class="identifier">f</span></code> onto
@@ -318,7 +318,7 @@
       </p>
 <h5>
 <a name="round_robin_pick_next_bridgehead"></a>
-  <span><a name="round_robin_pick_next"></a></span>
+  <span class="phrase"><a name="round_robin_pick_next"></a></span>
   <a class="link" href="scheduling.html#round_robin_pick_next">Member
       function <code class="computeroutput">pick_next</code>()</a>
 </h5>
@@ -328,7 +328,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             the fiber at the head of the ready queue, or <code class="computeroutput"><span class="keyword">nullptr</span></code>
@@ -350,7 +350,7 @@
       </p>
 <h5>
 <a name="round_robin_has_ready_fibers_bridgehead"></a>
-  <span><a name="round_robin_has_ready_fibers"></a></span>
+  <span class="phrase"><a name="round_robin_has_ready_fibers"></a></span>
   <a class="link" href="scheduling.html#round_robin_has_ready_fibers">Member
       function <code class="computeroutput">has_ready_fibers</code>()</a>
 </h5>
@@ -360,7 +360,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if scheduler has fibers
@@ -376,7 +376,7 @@
       </p>
 <h5>
 <a name="round_robin_suspend_until_bridgehead"></a>
-  <span><a name="round_robin_suspend_until"></a></span>
+  <span class="phrase"><a name="round_robin_suspend_until"></a></span>
   <a class="link" href="scheduling.html#round_robin_suspend_until">Member
       function <code class="computeroutput">suspend_until</code>()</a>
 </h5>
@@ -386,7 +386,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs <code class="computeroutput"><span class="identifier">round_robin</span></code> that
@@ -403,7 +403,7 @@
       </p>
 <h5>
 <a name="round_robin_notify_bridgehead"></a>
-  <span><a name="round_robin_notify"></a></span>
+  <span class="phrase"><a name="round_robin_notify"></a></span>
   <a class="link" href="scheduling.html#round_robin_notify">Member function
       <code class="computeroutput">notify</code>()</a>
 </h5>
@@ -413,7 +413,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Wake up a pending call to <a class="link" href="scheduling.html#round_robin_suspend_until"><code class="computeroutput">round_robin::suspend_until()</code></a>,
@@ -429,11 +429,21 @@
       </p>
 <h5>
 <a name="class_shared_work_bridgehead"></a>
-  <span><a name="class_shared_work"></a></span>
+  <span class="phrase"><a name="class_shared_work"></a></span>
   <a class="link" href="scheduling.html#class_shared_work">Class <code class="computeroutput">shared_work</code></a>
 </h5>
 <p>
     </p>
+<div class="note"><table border="0" summary="Note">
+<tr>
+<td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="../../../../../doc/src/images/note.png"></td>
+<th align="left">Note</th>
+</tr>
+<tr><td align="left" valign="top"><p>
+        Because of the non-locality of data, <span class="emphasis"><em>shared_work</em></span> is
+        less performant than <span class="emphasis"><em>work_stealing</em></span>.
+      </p></td></tr>
+</table></div>
 <p>
       This class implements <a class="link" href="scheduling.html#class_algorithm"><code class="computeroutput">algorithm</code></a>, scheduling fibers in round-robin
       fashion. Ready fibers are shared between all instances (running on different
@@ -463,7 +473,7 @@
       </p>
 <h5>
 <a name="shared_work_awakened_bridgehead"></a>
-  <span><a name="shared_work_awakened"></a></span>
+  <span class="phrase"><a name="shared_work_awakened"></a></span>
   <a class="link" href="scheduling.html#shared_work_awakened">Member
       function <code class="computeroutput">awakened</code>()</a>
 </h5>
@@ -473,7 +483,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Enqueues fiber <code class="computeroutput"><span class="identifier">f</span></code> onto
@@ -489,7 +499,7 @@
       </p>
 <h5>
 <a name="shared_work_pick_next_bridgehead"></a>
-  <span><a name="shared_work_pick_next"></a></span>
+  <span class="phrase"><a name="shared_work_pick_next"></a></span>
   <a class="link" href="scheduling.html#shared_work_pick_next">Member
       function <code class="computeroutput">pick_next</code>()</a>
 </h5>
@@ -499,7 +509,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             the fiber at the head of the ready queue, or <code class="computeroutput"><span class="keyword">nullptr</span></code>
@@ -521,7 +531,7 @@
       </p>
 <h5>
 <a name="shared_work_has_ready_fibers_bridgehead"></a>
-  <span><a name="shared_work_has_ready_fibers"></a></span>
+  <span class="phrase"><a name="shared_work_has_ready_fibers"></a></span>
   <a class="link" href="scheduling.html#shared_work_has_ready_fibers">Member
       function <code class="computeroutput">has_ready_fibers</code>()</a>
 </h5>
@@ -531,7 +541,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if scheduler has fibers
@@ -547,7 +557,7 @@
       </p>
 <h5>
 <a name="shared_work_suspend_until_bridgehead"></a>
-  <span><a name="shared_work_suspend_until"></a></span>
+  <span class="phrase"><a name="shared_work_suspend_until"></a></span>
   <a class="link" href="scheduling.html#shared_work_suspend_until">Member
       function <code class="computeroutput">suspend_until</code>()</a>
 </h5>
@@ -557,7 +567,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs <code class="computeroutput"><span class="identifier">shared_work</span></code> that
@@ -574,7 +584,7 @@
       </p>
 <h5>
 <a name="shared_work_notify_bridgehead"></a>
-  <span><a name="shared_work_notify"></a></span>
+  <span class="phrase"><a name="shared_work_notify"></a></span>
   <a class="link" href="scheduling.html#shared_work_notify">Member function
       <code class="computeroutput">notify</code>()</a>
 </h5>
@@ -584,7 +594,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Wake up a pending call to <a class="link" href="scheduling.html#shared_work_suspend_until"><code class="computeroutput">shared_work::suspend_until()</code></a>,
@@ -600,16 +610,15 @@
       </p>
 <h5>
 <a name="class_work_stealing_bridgehead"></a>
-  <span><a name="class_work_stealing"></a></span>
+  <span class="phrase"><a name="class_work_stealing"></a></span>
   <a class="link" href="scheduling.html#class_work_stealing">Class <code class="computeroutput">work_stealing</code></a>
 </h5>
 <p>
     </p>
 <p>
       This class implements <a class="link" href="scheduling.html#class_algorithm"><code class="computeroutput">algorithm</code></a>; if the local ready-queue runs
-      out of ready fibers, ready fibers are stolen from other schedulers. The work-stealing
-      algorithm is based on the Chase-Lev algorithm.<sup>[<a name="fiber.scheduling.f0" href="#ftn.fiber.scheduling.f0" class="footnote">1</a>]</sup> <sup>[<a name="fiber.scheduling.f1" href="#ftn.fiber.scheduling.f1" class="footnote">2</a>]</sup> The victim scheduler (from which a ready fiber is stolen) is selected
-      at random.
+      out of ready fibers, ready fibers are stolen from other schedulers. The victim
+      scheduler (from which a ready fiber is stolen) is selected at random.
     </p>
 <pre class="programlisting"><span class="preprocessor">#include</span> <span class="special">&lt;</span><span class="identifier">boost</span><span class="special">/</span><span class="identifier">fiber</span><span class="special">/</span><span class="identifier">algo</span><span class="special">/</span><span class="identifier">work_stealing</span><span class="special">.</span><span class="identifier">hpp</span><span class="special">&gt;</span>
 
@@ -635,7 +644,7 @@
       </p>
 <h5>
 <a name="work_stealing_awakened_bridgehead"></a>
-  <span><a name="work_stealing_awakened"></a></span>
+  <span class="phrase"><a name="work_stealing_awakened"></a></span>
   <a class="link" href="scheduling.html#work_stealing_awakened">Member
       function <code class="computeroutput">awakened</code>()</a>
 </h5>
@@ -645,7 +654,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Enqueues fiber <code class="computeroutput"><span class="identifier">f</span></code> onto
@@ -661,7 +670,7 @@
       </p>
 <h5>
 <a name="work_stealing_pick_next_bridgehead"></a>
-  <span><a name="work_stealing_pick_next"></a></span>
+  <span class="phrase"><a name="work_stealing_pick_next"></a></span>
   <a class="link" href="scheduling.html#work_stealing_pick_next">Member
       function <code class="computeroutput">pick_next</code>()</a>
 </h5>
@@ -671,7 +680,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             the fiber at the head of the ready queue, or <code class="computeroutput"><span class="keyword">nullptr</span></code>
@@ -693,7 +702,7 @@
       </p>
 <h5>
 <a name="work_stealing_has_ready_fibers_bridgehead"></a>
-  <span><a name="work_stealing_has_ready_fibers"></a></span>
+  <span class="phrase"><a name="work_stealing_has_ready_fibers"></a></span>
   <a class="link" href="scheduling.html#work_stealing_has_ready_fibers">Member
       function <code class="computeroutput">has_ready_fibers</code>()</a>
 </h5>
@@ -703,7 +712,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if scheduler has fibers
@@ -719,7 +728,7 @@
       </p>
 <h5>
 <a name="work_stealing_suspend_until_bridgehead"></a>
-  <span><a name="work_stealing_suspend_until"></a></span>
+  <span class="phrase"><a name="work_stealing_suspend_until"></a></span>
   <a class="link" href="scheduling.html#work_stealing_suspend_until">Member
       function <code class="computeroutput">suspend_until</code>()</a>
 </h5>
@@ -729,7 +738,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs <code class="computeroutput"><span class="identifier">work_stealing</span></code>
@@ -746,7 +755,7 @@
       </p>
 <h5>
 <a name="work_stealing_notify_bridgehead"></a>
-  <span><a name="work_stealing_notify"></a></span>
+  <span class="phrase"><a name="work_stealing_notify"></a></span>
   <a class="link" href="scheduling.html#work_stealing_notify">Member
       function <code class="computeroutput">notify</code>()</a>
 </h5>
@@ -756,7 +765,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Wake up a pending call to <a class="link" href="scheduling.html#work_stealing_suspend_until"><code class="computeroutput">work_stealing::suspend_until()</code></a>,
@@ -770,7 +779,7 @@
 </div>
 <h4>
 <a name="fiber.scheduling.h0"></a>
-      <span><a name="fiber.scheduling.custom_scheduler_fiber_properties"></a></span><a class="link" href="scheduling.html#fiber.scheduling.custom_scheduler_fiber_properties">Custom
+      <span class="phrase"><a name="fiber.scheduling.custom_scheduler_fiber_properties"></a></span><a class="link" href="scheduling.html#fiber.scheduling.custom_scheduler_fiber_properties">Custom
       Scheduler Fiber Properties</a>
     </h4>
 <p>
@@ -787,7 +796,7 @@
       </p>
 <h5>
 <a name="class_fiber_properties_bridgehead"></a>
-  <span><a name="class_fiber_properties"></a></span>
+  <span class="phrase"><a name="class_fiber_properties"></a></span>
   <a class="link" href="scheduling.html#class_fiber_properties">Class
       <code class="computeroutput">fiber_properties</code></a>
 </h5>
@@ -815,13 +824,13 @@
 </pre>
 <h4>
 <a name="fiber.scheduling.h1"></a>
-      <span><a name="fiber.scheduling.constructor"></a></span><a class="link" href="scheduling.html#fiber.scheduling.constructor">Constructor</a>
+      <span class="phrase"><a name="fiber.scheduling.constructor"></a></span><a class="link" href="scheduling.html#fiber.scheduling.constructor">Constructor</a>
     </h4>
 <pre class="programlisting"><span class="identifier">fiber_properties</span><span class="special">(</span> <span class="identifier">context</span> <span class="special">*</span> <span class="identifier">f</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Constructs base-class component of custom subclass.
@@ -840,7 +849,7 @@
       </p>
 <h5>
 <a name="fiber_properties_notify_bridgehead"></a>
-  <span><a name="fiber_properties_notify"></a></span>
+  <span class="phrase"><a name="fiber_properties_notify"></a></span>
   <a class="link" href="scheduling.html#fiber_properties_notify">Member
       function <code class="computeroutput">notify</code>()</a>
 </h5>
@@ -850,7 +859,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Pass control to the custom <a class="link" href="scheduling.html#class_algorithm_with_properties"><code class="computeroutput">algorithm_with_properties&lt;&gt;</code></a> subclass&#8217;s
@@ -883,7 +892,7 @@
       </p>
 <h5>
 <a name="class_algorithm_with_properties_bridgehead"></a>
-  <span><a name="class_algorithm_with_properties"></a></span>
+  <span class="phrase"><a name="class_algorithm_with_properties"></a></span>
   <a class="link" href="scheduling.html#class_algorithm_with_properties">Template
       <code class="computeroutput">algorithm_with_properties&lt;&gt;</code></a>
 </h5>
@@ -925,7 +934,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_awakened_bridgehead"></a>
-  <span><a name="algorithm_with_properties_awakened"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_awakened"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_awakened">Member
       function <code class="computeroutput">awakened</code>()</a>
 </h5>
@@ -935,7 +944,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs the scheduler that fiber <code class="computeroutput"><span class="identifier">f</span></code>
@@ -958,7 +967,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_pick_next_bridgehead"></a>
-  <span><a name="algorithm_with_properties_pick_next"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_pick_next"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_pick_next">Member
       function <code class="computeroutput">pick_next</code>()</a>
 </h5>
@@ -968,7 +977,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             the fiber which is to be resumed next, or <code class="computeroutput"><span class="keyword">nullptr</span></code>
@@ -988,7 +997,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_has_ready_fibers_bridgehead"></a>
-  <span><a name="algorithm_with_properties_has_ready_fibers"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_has_ready_fibers"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_has_ready_fibers">Member
       function <code class="computeroutput">has_ready_fibers</code>()</a>
 </h5>
@@ -998,7 +1007,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if scheduler has fibers
@@ -1018,7 +1027,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_suspend_until_bridgehead"></a>
-  <span><a name="algorithm_with_properties_suspend_until"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_suspend_until"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_suspend_until">Member
       function <code class="computeroutput">suspend_until</code>()</a>
 </h5>
@@ -1028,7 +1037,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Informs the scheduler that no fiber will be ready until time-point <code class="computeroutput"><span class="identifier">abs_time</span></code>.
@@ -1043,7 +1052,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_notify_bridgehead"></a>
-  <span><a name="algorithm_with_properties_notify"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_notify"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_notify">Member
       function <code class="computeroutput">notify</code>()</a>
 </h5>
@@ -1053,7 +1062,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Requests the scheduler to return from a pending call to <a class="link" href="scheduling.html#algorithm_with_properties_suspend_until"><code class="computeroutput">algorithm_with_properties::suspend_until()</code></a>.
@@ -1068,7 +1077,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_properties_bridgehead"></a>
-  <span><a name="algorithm_with_properties_properties"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_properties"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_properties">Member
       function <code class="computeroutput">properties</code>()</a>
 </h5>
@@ -1078,7 +1087,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             the <code class="computeroutput"><span class="identifier">PROPS</span></code> instance associated
@@ -1105,7 +1114,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_property_change_bridgehead"></a>
-  <span><a name="algorithm_with_properties_property_change"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_property_change"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_property_change">Member
       function <code class="computeroutput">property_change</code>()</a>
 </h5>
@@ -1115,7 +1124,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Notify the custom scheduler of a possibly-relevant change to a property
@@ -1138,7 +1147,7 @@
       </p>
 <h5>
 <a name="algorithm_with_properties_new_properties_bridgehead"></a>
-  <span><a name="algorithm_with_properties_new_properties"></a></span>
+  <span class="phrase"><a name="algorithm_with_properties_new_properties"></a></span>
   <a class="link" href="scheduling.html#algorithm_with_properties_new_properties">Member
       function <code class="computeroutput">new_properties</code>()</a>
 </h5>
@@ -1148,7 +1157,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             A new instance of <a class="link" href="scheduling.html#class_fiber_properties"><code class="computeroutput">fiber_properties</code></a> subclass <code class="computeroutput"><span class="identifier">PROPS</span></code>.
@@ -1169,7 +1178,7 @@
       <a name="context"></a></p>
 <h5>
 <a name="class_context_bridgehead"></a>
-  <span><a name="class_context"></a></span>
+  <span class="phrase"><a name="class_context"></a></span>
   <a class="link" href="scheduling.html#class_context">Class
       <code class="computeroutput">context</code></a>
 </h5>
@@ -1252,7 +1261,7 @@
       </p>
 <h5>
 <a name="context_active_bridgehead"></a>
-  <span><a name="context_active"></a></span>
+  <span class="phrase"><a name="context_active"></a></span>
   <a class="link" href="scheduling.html#context_active">Static member function
       <code class="computeroutput">active</code>()</a>
 </h5>
@@ -1262,7 +1271,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             Pointer to instance of current fiber.
@@ -1277,7 +1286,7 @@
       </p>
 <h5>
 <a name="context_get_id_bridgehead"></a>
-  <span><a name="context_get_id"></a></span>
+  <span class="phrase"><a name="context_get_id"></a></span>
   <a class="link" href="scheduling.html#context_get_id">Member function <code class="computeroutput">get_id</code>()</a>
 </h5>
 <p>
@@ -1286,7 +1295,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             If <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1307,7 +1316,7 @@
       </p>
 <h5>
 <a name="context_attach_bridgehead"></a>
-  <span><a name="context_attach"></a></span>
+  <span class="phrase"><a name="context_attach"></a></span>
   <a class="link" href="scheduling.html#context_attach">Member function <code class="computeroutput">attach</code>()</a>
 </h5>
 <p>
@@ -1316,7 +1325,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Precondition:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">this</span><span class="special">-&gt;</span><span class="identifier">get_scheduler</span><span class="special">()</span>
@@ -1364,7 +1373,7 @@
       </p>
 <h5>
 <a name="context_detach_bridgehead"></a>
-  <span><a name="context_detach"></a></span>
+  <span class="phrase"><a name="context_detach"></a></span>
   <a class="link" href="scheduling.html#context_detach">Member function <code class="computeroutput">detach</code>()</a>
 </h5>
 <p>
@@ -1373,7 +1382,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Precondition:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="special">(</span><span class="keyword">this</span><span class="special">-&gt;</span><span class="identifier">get_scheduler</span><span class="special">()</span> <span class="special">!=</span> <span class="keyword">nullptr</span><span class="special">)</span> <span class="special">&amp;&amp;</span> <span class="special">!</span>
@@ -1427,7 +1436,7 @@
       </p>
 <h5>
 <a name="context_is_context_bridgehead"></a>
-  <span><a name="context_is_context"></a></span>
+  <span class="phrase"><a name="context_is_context"></a></span>
   <a class="link" href="scheduling.html#context_is_context">Member function
       <code class="computeroutput">is_context</code>()</a>
 </h5>
@@ -1437,7 +1446,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code> is of the specified type.
@@ -1468,7 +1477,7 @@
       </p>
 <h5>
 <a name="context_is_terminated_bridgehead"></a>
-  <span><a name="context_is_terminated"></a></span>
+  <span class="phrase"><a name="context_is_terminated"></a></span>
   <a class="link" href="scheduling.html#context_is_terminated">Member
       function <code class="computeroutput">is_terminated</code>()</a>
 </h5>
@@ -1478,7 +1487,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code> is no longer a valid context.
@@ -1498,7 +1507,7 @@
       </p>
 <h5>
 <a name="context_ready_is_linked_bridgehead"></a>
-  <span><a name="context_ready_is_linked"></a></span>
+  <span class="phrase"><a name="context_ready_is_linked"></a></span>
   <a class="link" href="scheduling.html#context_ready_is_linked">Member
       function <code class="computeroutput">ready_is_linked</code>()</a>
 </h5>
@@ -1508,7 +1517,7 @@
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code> is stored in an <a class="link" href="scheduling.html#class_algorithm"><code class="computeroutput">algorithm</code></a>
@@ -1532,7 +1541,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_remote_ready_is_linked_bridgehead"></a>
-  <span><a name="context_remote_ready_is_linked"></a></span>
+  <span class="phrase"><a name="context_remote_ready_is_linked"></a></span>
   <a class="link" href="scheduling.html#context_remote_ready_is_linked">Member
       function <code class="computeroutput">remote_ready_is_linked</code>()</a>
 </h5>
@@ -1542,7 +1551,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code> is stored in the fiber manager&#8217;s remote-ready-queue.
@@ -1564,7 +1573,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_wait_is_linked_bridgehead"></a>
-  <span><a name="context_wait_is_linked"></a></span>
+  <span class="phrase"><a name="context_wait_is_linked"></a></span>
   <a class="link" href="scheduling.html#context_wait_is_linked">Member
       function <code class="computeroutput">wait_is_linked</code>()</a>
 </h5>
@@ -1574,7 +1583,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code> is stored in the wait-queue of some
@@ -1597,7 +1606,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_ready_link_bridgehead"></a>
-  <span><a name="context_ready_link"></a></span>
+  <span class="phrase"><a name="context_ready_link"></a></span>
   <a class="link" href="scheduling.html#context_ready_link">Member function
       <code class="computeroutput">ready_link</code>()</a>
 </h5>
@@ -1608,7 +1617,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Stores <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1631,7 +1640,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_remote_ready_link_bridgehead"></a>
-  <span><a name="context_remote_ready_link"></a></span>
+  <span class="phrase"><a name="context_remote_ready_link"></a></span>
   <a class="link" href="scheduling.html#context_remote_ready_link">Member
       function <code class="computeroutput">remote_ready_link</code>()</a>
 </h5>
@@ -1642,7 +1651,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Stores <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1663,7 +1672,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_wait_link_bridgehead"></a>
-  <span><a name="context_wait_link"></a></span>
+  <span class="phrase"><a name="context_wait_link"></a></span>
   <a class="link" href="scheduling.html#context_wait_link">Member function
       <code class="computeroutput">wait_link</code>()</a>
 </h5>
@@ -1674,7 +1683,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Stores <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1695,7 +1704,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_ready_unlink_bridgehead"></a>
-  <span><a name="context_ready_unlink"></a></span>
+  <span class="phrase"><a name="context_ready_unlink"></a></span>
   <a class="link" href="scheduling.html#context_ready_unlink">Member
       function <code class="computeroutput">ready_unlink</code>()</a>
 </h5>
@@ -1705,7 +1714,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Removes <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1721,7 +1730,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_remote_ready_unlink_bridgehead"></a>
-  <span><a name="context_remote_ready_unlink"></a></span>
+  <span class="phrase"><a name="context_remote_ready_unlink"></a></span>
   <a class="link" href="scheduling.html#context_remote_ready_unlink">Member
       function <code class="computeroutput">remote_ready_unlink</code>()</a>
 </h5>
@@ -1731,7 +1740,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Removes <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1747,7 +1756,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_wait_unlink_bridgehead"></a>
-  <span><a name="context_wait_unlink"></a></span>
+  <span class="phrase"><a name="context_wait_unlink"></a></span>
   <a class="link" href="scheduling.html#context_wait_unlink">Member
       function <code class="computeroutput">wait_unlink</code>()</a>
 </h5>
@@ -1757,7 +1766,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Removes <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>
@@ -1773,7 +1782,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_suspend_bridgehead"></a>
-  <span><a name="context_suspend"></a></span>
+  <span class="phrase"><a name="context_suspend"></a></span>
   <a class="link" href="scheduling.html#context_suspend">Member function <code class="computeroutput">suspend</code>()</a>
 </h5>
 <p>
@@ -1782,7 +1791,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Suspends the running fiber (the fiber associated with <code class="computeroutput"><span class="special">*</span><span class="keyword">this</span></code>) until some other fiber passes <code class="computeroutput"><span class="keyword">this</span></code> to <a class="link" href="scheduling.html#context_set_ready"><code class="computeroutput">context::set_ready()</code></a>.
@@ -1811,7 +1820,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_set_ready_bridgehead"></a>
-  <span><a name="context_set_ready"></a></span>
+  <span class="phrase"><a name="context_set_ready"></a></span>
   <a class="link" href="scheduling.html#context_set_ready">Member function
       <code class="computeroutput">set_ready</code>()</a>
 </h5>
@@ -1821,7 +1830,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Effects:</span></dt>
 <dd><p>
             Mark the fiber associated with context <code class="computeroutput"><span class="special">*</span><span class="identifier">ctx</span></code> as being ready to run. This does
@@ -1853,7 +1862,7 @@ implementation&#8217;s
       </p>
 <h5>
 <a name="context_less_bridgehead"></a>
-  <span><a name="context_less"></a></span>
+  <span class="phrase"><a name="context_less"></a></span>
   <a class="link" href="scheduling.html#context_less">Non-member function <code class="computeroutput">operator&lt;()</code></a>
 </h5>
 <p>
@@ -1862,7 +1871,7 @@ implementation&#8217;s
 </pre>
 <div class="variablelist">
 <p class="title"><b></b></p>
-<dl>
+<dl class="variablelist">
 <dt><span class="term">Returns:</span></dt>
 <dd><p>
             <code class="computeroutput"><span class="keyword">true</span></code> if <code class="computeroutput"><span class="identifier">l</span><span class="special">.</span><span class="identifier">get_id</span><span class="special">()</span> <span class="special">&lt;</span> <span class="identifier">r</span><span class="special">.</span><span class="identifier">get_id</span><span class="special">()</span></code>
@@ -1874,20 +1883,6 @@ implementation&#8217;s
             Nothing.
           </p></dd>
 </dl>
-</div>
-<div class="footnotes">
-<br><hr width="100" align="left">
-<div class="footnote"><p><sup>[<a name="ftn.fiber.scheduling.f0" href="#fiber.scheduling.f0" class="para">1</a>] </sup>
-        David Chase and Yossi Lev. Dynamic circular work-stealing deque. In SPAA
-        &#8217;05: Proceedings of the seventeenth annual ACM symposium on Parallelism in
-        algorithms and architectures, pages 21&#8211;28, New York, NY, USA, 2005. ACM.
-      </p></div>
-<div class="footnote"><p><sup>[<a name="ftn.fiber.scheduling.f1" href="#fiber.scheduling.f1" class="para">2</a>] </sup>
-        Nhat Minh L&#234;, Antoniu Pop, Albert Cohen, and Francesco Zappa Nardelli. 2013.
-        Correct and efficient work-stealing for weak memory models. In Proceedings
-        of the 18th ACM SIGPLAN symposium on Principles and practice of parallel
-        programming (PPoPP &#8217;13). ACM, New York, NY, USA, 69-80.
-      </p></div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>

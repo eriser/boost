@@ -99,7 +99,8 @@ Or
 
 [heading Available Strategies]
 * [link geometry.reference.strategies.strategy_area_surveyor Surveyor (cartesian)]
-* [link geometry.reference.strategies.strategy_area_huiller Huiller (spherical)]
+* [link geometry.reference.strategies.strategy_area_spherical Spherical]
+[/link geometry.reference.strategies.strategy_area_geographic Geographic]
 
 
 [endsect]

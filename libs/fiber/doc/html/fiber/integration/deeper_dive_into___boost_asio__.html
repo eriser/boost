@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Deeper Dive into Boost.Asio</title>
 <link rel="stylesheet" href="../../../../../../doc/src/boostbook.css" type="text/css">
-<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Fiber">
 <link rel="up" href="../integration.html" title="Sharing a Thread with Another Main Loop">
 <link rel="prev" href="embedded_main_loop.html" title="Embedded Main Loop">
@@ -25,7 +25,7 @@
 <div class="section">
 <div class="titlepage"><div><div><h3 class="title">
 <a name="fiber.integration.deeper_dive_into___boost_asio__"></a><a class="link" href="deeper_dive_into___boost_asio__.html" title="Deeper Dive into Boost.Asio">Deeper
-      Dive into <a href="http://www.boost.org/doc/libs/release/libs/asio/index.html" target="_top">Boost.Asio</a></a>
+      Dive into Boost.Asio</a>
 </h3></div></div></div>
 <p>
         By now the alert reader is thinking: but surely, with Asio in particular,
@@ -97,7 +97,7 @@
     <span class="comment">// service_already_exists if you pass the same io_service instance to</span>
     <span class="comment">// more than one round_robin instance.</span>
     <span class="identifier">boost</span><span class="special">::</span><span class="identifier">asio</span><span class="special">::</span><span class="identifier">add_service</span><span class="special">(</span> <span class="special">*</span> <span class="identifier">io_svc_</span><span class="special">,</span> <span class="keyword">new</span> <span class="identifier">service</span><span class="special">(</span> <span class="special">*</span> <span class="identifier">io_svc_</span><span class="special">)</span> <span class="special">);</span>
-<span class="special">}</span>
+    <span class="identifier">io_svc_</span><span class="special">-&gt;</span><span class="identifier">post</span><span class="special">([</span><span class="keyword">this</span><span class="special">]()</span> <span class="keyword">mutable</span> <span class="special">{</span>
 </pre>
 <p>
       </p>
@@ -125,16 +125,6 @@
     <span class="identifier">service</span><span class="special">(</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">asio</span><span class="special">::</span><span class="identifier">io_service</span> <span class="special">&amp;</span> <span class="identifier">io_svc</span><span class="special">)</span> <span class="special">:</span>
         <span class="identifier">boost</span><span class="special">::</span><span class="identifier">asio</span><span class="special">::</span><span class="identifier">io_service</span><span class="special">::</span><span class="identifier">service</span><span class="special">(</span> <span class="identifier">io_svc</span><span class="special">),</span>
         <span class="identifier">work_</span><span class="special">{</span> <span class="keyword">new</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">asio</span><span class="special">::</span><span class="identifier">io_service</span><span class="special">::</span><span class="identifier">work</span><span class="special">(</span> <span class="identifier">io_svc</span><span class="special">)</span> <span class="special">}</span> <span class="special">{</span>
-        <span class="identifier">io_svc</span><span class="special">.</span><span class="identifier">post</span><span class="special">([&amp;</span><span class="identifier">io_svc</span><span class="special">](){</span>
-</pre>
-<p>
-      </p>
-<p>
-        ...
-      </p>
-<p>
-</p>
-<pre class="programlisting">        <span class="special">});</span>
     <span class="special">}</span>
 
     <span class="keyword">virtual</span> <span class="special">~</span><span class="identifier">service</span><span class="special">()</span> <span class="special">{}</span>
@@ -148,6 +138,9 @@
 <span class="special">};</span>
 </pre>
 <p>
+      </p>
+<p>
+        ... [asio_rr_service_bottom]
       </p>
 <p>
         The <code class="computeroutput"><span class="identifier">service</span></code> struct has a
@@ -255,19 +248,21 @@ that would cause the thread to
       </p>
 <p>
 </p>
-<pre class="programlisting"><span class="keyword">while</span> <span class="special">(</span> <span class="special">!</span> <span class="identifier">io_svc</span><span class="special">.</span><span class="identifier">stopped</span><span class="special">()</span> <span class="special">)</span> <span class="special">{</span>
-    <span class="keyword">if</span> <span class="special">(</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">fibers</span><span class="special">::</span><span class="identifier">has_ready_fibers</span><span class="special">()</span> <span class="special">)</span> <span class="special">{</span>
-        <span class="comment">// run all pending handlers in round_robin</span>
-        <span class="keyword">while</span> <span class="special">(</span> <span class="identifier">io_svc</span><span class="special">.</span><span class="identifier">poll</span><span class="special">()</span> <span class="special">);</span>
-        <span class="comment">// run pending (ready) fibers</span>
-        <span class="identifier">this_fiber</span><span class="special">::</span><span class="identifier">yield</span><span class="special">();</span>
-    <span class="special">}</span> <span class="keyword">else</span> <span class="special">{</span>
-        <span class="comment">// run one handler inside io_service</span>
-        <span class="comment">// if no handler available, block this thread</span>
-        <span class="keyword">if</span> <span class="special">(</span> <span class="special">!</span> <span class="identifier">io_svc</span><span class="special">.</span><span class="identifier">run_one</span><span class="special">()</span> <span class="special">)</span> <span class="special">{</span>
-            <span class="keyword">break</span><span class="special">;</span>
-        <span class="special">}</span>
-    <span class="special">}</span>
+<pre class="programlisting"> <span class="keyword">while</span> <span class="special">(</span> <span class="special">!</span> <span class="identifier">io_svc_</span><span class="special">-&gt;</span><span class="identifier">stopped</span><span class="special">()</span> <span class="special">)</span> <span class="special">{</span>
+     <span class="keyword">if</span> <span class="special">(</span> <span class="identifier">has_ready_fibers</span><span class="special">()</span> <span class="special">)</span> <span class="special">{</span>
+         <span class="comment">// run all pending handlers in round_robin</span>
+         <span class="keyword">while</span> <span class="special">(</span> <span class="identifier">io_svc_</span><span class="special">-&gt;</span><span class="identifier">poll</span><span class="special">()</span> <span class="special">);</span>
+         <span class="comment">// block this fiber till all pending (ready) fibers are processed</span>
+         <span class="comment">// == round_robin::suspend_until() has been called</span>
+         <span class="identifier">std</span><span class="special">::</span><span class="identifier">unique_lock</span><span class="special">&lt;</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">fibers</span><span class="special">::</span><span class="identifier">mutex</span> <span class="special">&gt;</span> <span class="identifier">lk</span><span class="special">(</span> <span class="identifier">mtx_</span><span class="special">);</span>
+         <span class="identifier">cnd_</span><span class="special">.</span><span class="identifier">wait</span><span class="special">(</span> <span class="identifier">lk</span><span class="special">);</span>
+     <span class="special">}</span> <span class="keyword">else</span> <span class="special">{</span>
+         <span class="comment">// run one handler inside io_service</span>
+         <span class="comment">// if no handler available, block this thread</span>
+         <span class="keyword">if</span> <span class="special">(</span> <span class="special">!</span> <span class="identifier">io_svc_</span><span class="special">-&gt;</span><span class="identifier">run_one</span><span class="special">()</span> <span class="special">)</span> <span class="special">{</span>
+             <span class="keyword">break</span><span class="special">;</span>
+         <span class="special">}</span>
+     <span class="special">}</span>
 <span class="special">}</span>
 </pre>
 <p>
@@ -334,10 +329,8 @@ that would cause the thread to
 </p>
 <pre class="programlisting"><span class="keyword">void</span> <span class="identifier">suspend_until</span><span class="special">(</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">steady_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="keyword">const</span><span class="special">&amp;</span> <span class="identifier">abs_time</span><span class="special">)</span> <span class="keyword">noexcept</span> <span class="special">{</span>
     <span class="comment">// Set a timer so at least one handler will eventually fire, causing</span>
-    <span class="comment">// run_one() to eventually return. Set a timer even if abs_time ==</span>
-    <span class="comment">// time_point::max() so the timer can be canceled by our notify()</span>
-    <span class="comment">// method -- which calls the handler.</span>
-    <span class="keyword">if</span> <span class="special">(</span> <span class="identifier">suspend_timer_</span><span class="special">.</span><span class="identifier">expires_at</span><span class="special">()</span> <span class="special">!=</span> <span class="identifier">abs_time</span><span class="special">)</span> <span class="special">{</span>
+    <span class="comment">// run_one() to eventually return.</span>
+    <span class="keyword">if</span> <span class="special">(</span> <span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">steady_clock</span><span class="special">::</span><span class="identifier">time_point</span><span class="special">::</span><span class="identifier">max</span><span class="special">)()</span> <span class="special">!=</span> <span class="identifier">abs_time</span><span class="special">)</span> <span class="special">{</span>
         <span class="comment">// Each expires_at(time_point) call cancels any previous pending</span>
         <span class="comment">// call. We could inadvertently spin like this:</span>
         <span class="comment">// dispatcher calls suspend_until() with earliest wake time</span>
@@ -356,12 +349,11 @@ that would cause the thread to
         <span class="comment">// So only actually set the timer when we're passed a DIFFERENT</span>
         <span class="comment">// abs_time value.</span>
         <span class="identifier">suspend_timer_</span><span class="special">.</span><span class="identifier">expires_at</span><span class="special">(</span> <span class="identifier">abs_time</span><span class="special">);</span>
-        <span class="comment">// It really doesn't matter what the suspend_timer_ handler does,</span>
-        <span class="comment">// or even whether it's called because the timer ran out or was</span>
-        <span class="comment">// canceled. The whole point is to cause the run_one() call to</span>
-        <span class="comment">// return. So just pass a no-op lambda with proper signature.</span>
-        <span class="identifier">suspend_timer_</span><span class="special">.</span><span class="identifier">async_wait</span><span class="special">([](</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">system</span><span class="special">::</span><span class="identifier">error_code</span> <span class="keyword">const</span><span class="special">&amp;){});</span>
+        <span class="identifier">suspend_timer_</span><span class="special">.</span><span class="identifier">async_wait</span><span class="special">([](</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">system</span><span class="special">::</span><span class="identifier">error_code</span> <span class="keyword">const</span><span class="special">&amp;){</span>
+                                    <span class="identifier">this_fiber</span><span class="special">::</span><span class="identifier">yield</span><span class="special">();</span>
+                                  <span class="special">});</span>
     <span class="special">}</span>
+    <span class="identifier">cnd_</span><span class="special">.</span><span class="identifier">notify_one</span><span class="special">();</span>
 <span class="special">}</span>
 </pre>
 <p>
@@ -403,6 +395,9 @@ that would cause the thread to
     <span class="comment">// a new expiration time. This will cause us to spin the loop twice --</span>
     <span class="comment">// once for the operation_aborted handler, once for timer expiration</span>
     <span class="comment">// -- but that shouldn't be a big problem.</span>
+    <span class="identifier">suspend_timer_</span><span class="special">.</span><span class="identifier">async_wait</span><span class="special">([](</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">system</span><span class="special">::</span><span class="identifier">error_code</span> <span class="keyword">const</span><span class="special">&amp;){</span>
+                                <span class="identifier">this_fiber</span><span class="special">::</span><span class="identifier">yield</span><span class="special">();</span>
+                              <span class="special">});</span>
     <span class="identifier">suspend_timer_</span><span class="special">.</span><span class="identifier">expires_at</span><span class="special">(</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">steady_clock</span><span class="special">::</span><span class="identifier">now</span><span class="special">()</span> <span class="special">);</span>
 <span class="special">}</span>
 </pre>

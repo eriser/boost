@@ -12,6 +12,8 @@
 
 
 
+
+
 </namespace>
 </namespace>
 <macro name="BOOST_DLL_FORCE_ALIAS_INSTANTIATION"><description><para>Define this macro to explicitly specify translation unit in which alias must be instantiated. See section 'Limitations' for more info. You may find usage examples in source codes of almost each tutorial. Must be used in code, when <link linkend="BOOST_DLL_FORCE_NO_WEAK_EXPORTS">BOOST_DLL_FORCE_NO_WEAK_EXPORTS</link> is defined </para></description></macro>
@@ -69,6 +71,8 @@ BOOST_DLL_ALIAS(foo::bar, foo_bar_another_alias_name)
 
 
 
+
+
 </namespace>
 </namespace>
 </header>
@@ -79,11 +83,24 @@ BOOST_DLL_ALIAS(foo::bar, foo_bar_another_alias_name)
 
 
 
+<overloaded-function name="symbol_location_ptr"><signature><type>boost::filesystem::path</type><template>
+          <template-type-parameter name="T"/>
+        </template><parameter name="ptr_to_symbol"><paramtype>T</paramtype><description><para>Pointer to symbol which location is to be determined. </para></description></parameter><parameter name="ec"><paramtype>boost::system::error_code &amp;</paramtype><description><para>Variable that will be set to the result of the operation. </para></description></parameter></signature><signature><type>boost::filesystem::path</type><template>
+          <template-type-parameter name="T"/>
+        </template><parameter name="ptr_to_symbol"><paramtype>T</paramtype></parameter></signature><description><para>On success returns full path and name to the binary object that holds symbol pointed by ptr_to_symbol.</para><para>
+
+
+<emphasis role="bold">Examples:</emphasis> <programlisting language="c++">int main() {
+   dll::symbol_location_ptr(std::set_terminate(0));       // returns "/some/path/libmy_terminate_handler.so"
+   dll::symbol_location_ptr(::signal(SIGSEGV, SIG_DFL));  // returns "/some/path/libmy_symbol_handler.so"
+}
+</programlisting> </para></description><returns><para>Path to the binary object that holds symbol or empty path in case error. </para></returns><throws><simpara><classname>std::bad_alloc</classname> in case of insufficient memory. Overload that does not accept boost::system::error_code also throws boost::system::system_error.</simpara></throws></overloaded-function>
+
 <overloaded-function name="symbol_location"><signature><type>boost::filesystem::path</type><template>
           <template-type-parameter name="T"><purpose><para>Type of the symbol, must not be explicitly specified. </para></purpose></template-type-parameter>
         </template><parameter name="symbol"><paramtype>const T &amp;</paramtype><description><para>Symbol which location is to be determined. </para></description></parameter><parameter name="ec"><paramtype>boost::system::error_code &amp;</paramtype><description><para>Variable that will be set to the result of the operation. </para></description></parameter></signature><signature><type>boost::filesystem::path</type><template>
           <template-type-parameter name="T"/>
-        </template><parameter name="symbol"><paramtype>const T &amp;</paramtype></parameter></signature><description><para>On success returns full path and name of the binary object that holds symbol. 
+        </template><parameter name="symbol"><paramtype>const T &amp;</paramtype></parameter></signature><description><para>On success returns full path and name of the binary object that holds symbol.</para><para>
 
 
 
@@ -238,6 +255,8 @@ filesystem::path full_path = lib.location(); // C:\Windows\System32\test_lib.dll
 
 
 
+
+
 </namespace>
 </namespace>
 </header>
@@ -257,6 +276,8 @@ filesystem::path full_path = lib.location(); // C:\Windows\System32\test_lib.dll
 <function name="operator^="><type>BOOST_CXX14_CONSTEXPR type &amp;</type><parameter name="left"><paramtype>type &amp;</paramtype></parameter><parameter name="right"><paramtype>type</paramtype></parameter></function>
 <function name="operator~"><type>BOOST_CONSTEXPR type</type><parameter name="left"><paramtype>type</paramtype></parameter></function>
 </namespace>
+
+
 
 
 
@@ -447,6 +468,8 @@ get&lt;some_class, void(int)&gt;(sm, "space::class_::mem_fn"); //import a member
 </programlisting></para><para>
 </para></description></function>
 </namespace>
+
+
 
 
 

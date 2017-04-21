@@ -3015,17 +3015,15 @@
       <template-nontype-parameter name="OffsetAlignment"><type>std::size_t</type><purpose><para>Alignment of the OffsetType stored inside. In some systems might be necessary to align it to 64 bits in order to communicate 32 and 64 bit processes using 64 bit offsets.</para></purpose></template-nontype-parameter>
     </template><description><para>A smart pointer that stores the offset between between the pointer and the the object it points. This allows offset allows special properties, since the pointer is independent from the address of the pointee, if the pointer and the pointee are still separated by the same offset. This feature converts <classname alt="boost::interprocess::offset_ptr">offset_ptr</classname> in a smart pointer that can be placed in shared memory and memory mapped files mapped in different addresses in every process.</para><para>
 b&gt;Note: <classname alt="boost::interprocess::offset_ptr">offset_ptr</classname> uses implementation defined properties, present in most platforms, for performance reasons:<itemizedlist>
-<listitem><para>Assumes that uintptr_t representation of nullptr is (uintptr_t)zero.</para></listitem><listitem><para>Assumes that incrementing a uintptr_t obtained from a pointer is equivalent to incrementing the pointer and then converting it back to uintptr_t. </para></listitem></itemizedlist>
-</para></description><struct name="rebind"><template>
-      <template-type-parameter name="U"/>
-    </template><description><para>Compatibility with pointer_traits </para></description><typedef name="other"><type><classname>offset_ptr</classname>&lt; U, DifferenceType, OffsetType, OffsetAlignment &gt;</type></typedef>
-</struct><typedef name="element_type"><type>PointedType</type></typedef>
+<listitem><para>Assumes that OffsetType representation of nullptr is (OffsetType)zero.</para></listitem><listitem><para>Assumes that incrementing a OffsetType obtained from a pointer is equivalent to incrementing the pointer and then converting it back to OffsetType. </para></listitem></itemizedlist>
+</para></description><typedef name="element_type"><type>PointedType</type></typedef>
 <typedef name="pointer"><type>PointedType *</type></typedef>
 <typedef name="reference"><type><emphasis>unspecified</emphasis></type></typedef>
 <typedef name="value_type"><type><emphasis>unspecified</emphasis></type></typedef>
 <typedef name="difference_type"><type>DifferenceType</type></typedef>
 <typedef name="iterator_category"><type>std::random_access_iterator_tag</type></typedef>
 <typedef name="offset_type"><type>OffsetType</type></typedef>
+<typedef name="rebind"><description><para>Compatibility with pointer_traits </para></description><type><classname>offset_ptr</classname>&lt; U, DifferenceType, OffsetType, OffsetAlignment &gt;</type></typedef>
 <method-group name="public member functions">
 <method name="get" cv="const noexcept"><type>pointer</type><description><para>Obtains raw pointer from offset. Never throws. </para></description></method>
 <method name="get_offset" cv="const noexcept"><type>offset_type</type></method>
@@ -3049,7 +3047,10 @@ b&gt;Note: <classname alt="boost::interprocess::offset_ptr">offset_ptr</classnam
 <constructor cv="noexcept"><parameter name="ptr"><paramtype>const <classname>offset_ptr</classname> &amp;</paramtype></parameter><description><para>Constructor from other <classname alt="boost::interprocess::offset_ptr">offset_ptr</classname> Never throws. </para></description></constructor>
 <constructor cv="noexcept"><template>
           <template-type-parameter name="T2"/>
-        </template><parameter name="ptr"><paramtype>const <classname>offset_ptr</classname>&lt; T2, DifferenceType, OffsetType, OffsetAlignment &gt; &amp;</paramtype></parameter><description><para>Constructor from other <classname alt="boost::interprocess::offset_ptr">offset_ptr</classname>. If pointers of pointee types are convertible, offset_ptrs will be convertibles. Never throws. </para></description></constructor>
+        </template><parameter name="ptr"><paramtype>const <classname>offset_ptr</classname>&lt; T2, DifferenceType, OffsetType, OffsetAlignment &gt; &amp;</paramtype></parameter><description><para>Constructor from other <classname alt="boost::interprocess::offset_ptr">offset_ptr</classname>. Only takes part in overload resolution if T2* is convertible to PointedType*. Never throws. </para></description></constructor>
+<constructor specifiers="explicit" cv="noexcept"><template>
+          <template-type-parameter name="T2"/>
+        </template><parameter name="ptr"><paramtype>const <classname>offset_ptr</classname>&lt; T2, DifferenceType, OffsetType, OffsetAlignment &gt; &amp;</paramtype></parameter><description><para>Constructor from other <classname alt="boost::interprocess::offset_ptr">offset_ptr</classname>. Only takes part in overload resolution if PointedType* is constructible from T2* other than via a conversion (e.g. cast to a derived class). Never throws. </para></description></constructor>
 <constructor cv="noexcept"><template>
           <template-type-parameter name="T2"/>
           <template-type-parameter name="P2"/>
