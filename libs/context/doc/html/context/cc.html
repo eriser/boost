@@ -252,6 +252,7 @@
 <span class="identifier">c</span><span class="special">=</span><span class="identifier">c</span><span class="special">.</span><span class="identifier">resume_with</span><span class="special">([&amp;</span><span class="identifier">data</span><span class="special">](</span><span class="identifier">ctx</span><span class="special">::</span><span class="identifier">continuation</span> <span class="special">&amp;&amp;</span> <span class="identifier">c</span><span class="special">){</span>
                     <span class="identifier">std</span><span class="special">::</span><span class="identifier">cout</span> <span class="special">&lt;&lt;</span> <span class="string">"f2: entered: "</span> <span class="special">&lt;&lt;</span> <span class="identifier">data</span> <span class="special">&lt;&lt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">endl</span><span class="special">;</span>
                     <span class="identifier">data</span><span class="special">=-</span><span class="number">1</span><span class="special">;</span>
+                    <span class="keyword">return</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">move</span><span class="special">(</span> <span class="identifier">c</span><span class="special">);</span>
                 <span class="special">});</span>
 <span class="identifier">std</span><span class="special">::</span><span class="identifier">cout</span> <span class="special">&lt;&lt;</span> <span class="string">"f1: returned third time"</span> <span class="special">&lt;&lt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">endl</span><span class="special">;</span>
 
@@ -300,6 +301,7 @@
 <span class="identifier">c</span> <span class="special">=</span> <span class="identifier">c</span><span class="special">.</span><span class="identifier">resume_with</span><span class="special">(</span>
        <span class="special">[](</span><span class="identifier">ctx</span><span class="special">::</span><span class="identifier">continuation</span> <span class="special">&amp;&amp;</span> <span class="identifier">c</span><span class="special">){</span>
            <span class="keyword">throw</span> <span class="identifier">my_exception</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">move</span><span class="special">(</span><span class="identifier">c</span><span class="special">),</span><span class="string">"abc"</span><span class="special">);</span>
+           <span class="keyword">return</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">move</span><span class="special">(</span> <span class="identifier">c</span><span class="special">);</span>
        <span class="special">});</span>
 
 <span class="identifier">output</span><span class="special">:</span>
